@@ -321,6 +321,20 @@ Full-Width Styles
   text-shadow: #111 0px 0px 10px;
 }
 
+#project_tagline em {
+  font-weight: bold;
+  font-style: normal;
+  color: #0090ff;
+}
+
+#project_tagline .logo, #project_tagline .logo:visited {
+  color: #999;
+}
+#project_tagline .logo em {
+  font-weight: bolder;
+  font-style: normal;
+  color: #0090ff;
+}
 #downloads {
   position: absolute;
   width: 210px;
