@@ -1,0 +1,11 @@
+---
+layout: post
+title: "Javascript AOP"
+date: 2005-10-14
+comments: false
+categories:
+ - javascript
+---
+
+<div class='post'>
+<p>Yesterday, I had a truly mind bending experience...  </p><br /><br /><p>With all of my <a href="http://jroller.com/page/wireframe/?anchor=indicator_while_processing">recent</a> <a href="http://jroller.com/page/wireframe/?anchor=new_draggabletarget">work</a> <a href="http://jroller.com/page/wireframe/?anchor=wicket_drag_drop_components">using</a> <a href="http://jroller.com/page/wireframe/?anchor=choice_is_good">scriptaculous</a>, I never thought there would be a <i>clean</i> way to attach dynamic (AJAX, javascript) functionality to HTML components.  I just accepted that the rendered HTML would be "tagsoup" and went on my merry way.   Even general concepts like <a href="http://webtips.dan.info/graceful.html">graceful degradation</a> and accesibility didn't concern me because, "if you don't want to run a bleeding-edge browser, that's <i>your</i> problem!"  :)</p><br /><br /><p>Then, I was introduced to the <a href="http://bennolan.com/behaviour/">behavior</a> javascript library.  It's a javascript library that allows you to dynamically "attach" behavior to HTML elements based on standard CSS selectors.  If the user's browser doesn't support javascript, the behavior is simply not attached.  And all this functionality is supported without writing script blocks within the HTML body.  I <i>HIGHLY</i> encourage web 2.0 developers to check this out.  </p><br /><br /><p>I've started updating the wicket scriptaculous package to use behavior.  The non-AJAX autocomplete text field is the first component to use behavior, and I'll try to convert the other components this week.  So far, so good!</p></div>

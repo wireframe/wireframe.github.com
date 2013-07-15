@@ -1,0 +1,35 @@
+---
+layout: post
+title: "Rails "Good Touch"/"Bad Touch""
+date: 2010-03-12
+comments: false
+categories:
+ - ruby
+ - rails
+---
+
+<div class='post'>
+<img src="http://ecx.images-amazon.com/images/I/517BEfl3%2BRL._SL600_.jpg" /><br />Rails is bit like a dirty old man. <br /><br />Consider this example<br /><pre>class User &lt; ActiveRecord::Base<br />&nbsp;&nbsp;after_save :do_something_expensive<br />end<br /></pre><br />Rails makes it trivial to update timestamps, and I found out the hard way that the underlying implementation leaves a lot to be desired.<br /><pre>User.first.touch<br /></pre><br />Easy, right? But, did you know that this useful little method will fire all of your <code>after_save</code> callbacks? &nbsp;This led to some nasty performance problems recently, and now you can now stop Rails from having it's way with you! &nbsp;Bad Touch Rails!<br /><br />The <b>good_touch</b> project is now available on <a href="http://github.com/wireframe/good_touch">github</a> and <a href="http://rubygems.org/gems/good_touch">gemcutter</a> and eliminates the overhead for updating a simple timestamp attribute. &nbsp;It's as easy as using the standard/bad <code>touch</code> method without all the horseplay.<br /><pre>User.first.good_touch<br /></pre><br />Let the touching continue...</div>
+<h2>Comments</h2>
+<div class='comments'>
+<div class='comment'>
+<div class='author'>Ryan Sonnek</div>
+<div class='content'>
+A perfect example of this updating search index.  This is a very common after_save event, and triggering this when you just want to update a timestamp really sucks.<br /><br />This is the exact usecase where good_touch rocks!</div>
+</div>
+<div class='comment'>
+<div class='author'>RubyPanther</div>
+<div class='content'>
+It seems obvious to me that &quot;touch&quot; should cause the object to saved even though nothing changed. Updating the timestamps is side effect. Surely it&#39;s also a common reason to use touch, but it&#39;s not the main point or anything.<br /><br />Paring it down to not even use the save callbacks?! It seems to me the &quot;bad&quot; part isn&#39;t #touch at all, but your concept of what after_save means. Maybe you shouldn&#39;t be using after_save at all, if you&#39;re doing expensive stuff that doesn&#39;t have to do with the object being saved.<br /><br />I often see after_save used where it should have been a fancy setter that did extra work, instead. People do it because they have this newfangled idea that more magic is better than less magic. Really though magic is only good when standards, hardware, interoperability or some other demon causes a bunch of required ugly; then you want to magically hide that required ugly. Otherwise, magic is just a synonym for &quot;clever use of side effects.&quot;<br /><br />&quot;Look, it does fancy expensive stuff automagically after I save! Isn&#39;t that great?!&quot; And this is really what people are telling themselves, and even admitting out loud, after writing it. It should rather make them scream though. &quot;Do the expensive stuff explicitly, it&#39;s worth a couple bytes!&quot;<br /><br />And if you&#39;re having trouble with your expectations of #touch, maybe you were too clever after all.</div>
+</div>
+<div class='comment'>
+<div class='author'>Anonymous</div>
+<div class='content'>
+I actually really like the fact that #touch invokes callbacks.  I use it when I just want to invoke the callbacks on a record (say, in a rake task that calls it for old records that were created before you added a particular callback that does something important).  I&#39;m not sure how useful it is to just change updated_at on its own.</div>
+</div>
+<div class='comment'>
+<div class='author'>omarvelous</div>
+<div class='content'>
+I almost never use after_save, as that alone can be taxing. But I agree, touch should not invoke any callbacks.</div>
+</div>
+</div>

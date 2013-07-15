@@ -1,0 +1,26 @@
+---
+layout: post
+title: "Backgrounded 2.0 Beta"
+date: 2012-05-22
+comments: false
+categories:
+ - ruby
+ - backgrounded
+ - rails
+---
+
+<div class='post'>
+<p><a href="http://github.com/wireframe/backgrounded">Backgrounded</a> 2.0 beta is now available with some really exciting changes.  I've taken this release as an opportunity to critically evaluate the perfect API for invoking background jobs. The new API is <em>not</em> backwards compatible with previous versions, but it is SEXY as HELL!</p> <pre><code>class User<br />  # instance method to do some stuff<br />  def do_stuff<br />  end<br /><br />  # class method to do something else<br />  def self.do_something_else<br />  end<br />end<br /><br /># execute class method in background<br />User.backgrounded.do_something_else<br /><br />user = User.new<br /># execute instance method in background<br />user.backgrounded.do_stuff<br /></code></pre> <p>Oh snap...Did you see what happened there?  I just ran class and instance methods in the background with <strong>no</strong> code changes whatsoever! This new API allows for <em>any</em> method on <em>any</em> ruby object to be executed in the background.  But that's not all! The new API also simplified passing custom options into the background handlers (which is awesome for resque users).</p> <pre><code># execute instance method on a custom resque queue<br />user.backgrounded(:queue =&gt; 'custom').do_stuff<br /></code></pre> <p>It's glorious...</p>  <h2>Extension Gems</h2> <p>One of Backgrounded's core missions is to be a simple and lightweight wrapper around <em>any</em> background processing framework. With this release, I've decided to extract logic for each library into separate gems.  This helps simplify the core testsuite  and makes it more extensible in the long run to release updates to specific libraries without bumping the core library version.</p> <p>The <a href="http://github.com/wireframe/backgrounded-resque">backgrounded-resque gem is now available on github</a>.  </p> <h3>Bundler config</h3><pre><code>gem 'backgrounded-resque'<br /></code></pre> <p>If any other developers are interested in building a backgrounded wrapper, spin up a gem and drop me a line!</p>  <h2>after_commit_backgrounded Callback</h2> <p>Using ActiveRecord callbacks to perform background work is an <a href="http://blog.codecrate.com/2009/10/backgrounded-activerecord-callbacks.html">extremely  common pattern</a>. Background  jobs should only be invoked after the data has been committed to the database to  ensure that the background job will have access to the recent changes and backgrounded  now makes it even easier to do the "right thing".</p> <p>The <code>after_commit_backgrounded</code> callback is just like your standard <a href="http://api.rubyonrails.org/classes/ActiveRecord/Transactions/ClassMethods.html#method-i-after_commit">Rails <code>after_commit</code>  hook</a>  with a few minor upgrades.  It executes the referenced method in the background (duh),  and it allows for an optional <code>:backgrounded</code> option to customize the options for the <code>Backgrounded::Handler</code>.</p> <pre><code>class User &lt; ActiveRecord::Base<br />  # execute :do_something in the background<br />  after_commit_backgrounded :do_something<br /><br />  # execute :do_something_else in the background<br />  # passing custom options to the backgrounded handler<br />  after_commit_backgrounded :do_something_else, <br />    :backgrounded =&gt; {:priority =&gt; :high}<br />end<br /></code></pre> <p>Grab the latest beta version via rubygems and send any feedback my way!</p> <pre><code>gem install backgrounded --pre<br /></code></pre></div>
+<h2>Comments</h2>
+<div class='comments'>
+<div class='comment'>
+<div class='author'>Ryan Sonnek</div>
+<div class='content'>
+the after_commit_backgrounded callback accepts all options that are available to the standard after_commit callback, so IMO it is necessary to support the optional :backgrounded key to pass in the extra options.<br /><br />ex:<br />after_commit_backgrounded :do_stuff, :on =&gt; :create, :backgrounded =&gt; {:priority =&gt; :high}</div>
+</div>
+<div class='comment'>
+<div class='author'>Lars</div>
+<div class='content'>
+Is it necessary to added the :backgrounded key for passing options?  Seems like <br /><br />after_commit_backgrounded :do_something_else, {:priority =&gt; :high}<br /><br />would work</div>
+</div>
+</div>

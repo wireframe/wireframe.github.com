@@ -1,0 +1,50 @@
+---
+layout: post
+title: "Backgrounded - Background Processing Done Right"
+date: 2009-07-22
+comments: false
+categories:
+ - ruby
+ - backgrounded
+---
+
+<div class='post'>
+<img src="http://farm4.static.flickr.com/3257/2668837931_25cb90138c.jpg" /><br /><br />I'm going to come right out and say it...<br /><b>Every</b> ruby background job solution sucks.<br /><br />I've used a number of the popular libraries on various projects over the past year, and have yet to find one that "feels right".&nbsp; They took an incredibly complex problem and made and even more complex solution.&nbsp; It really shouldn't be this hard.&nbsp; All I want to do is take a unit of work from my model and kick it off into "magical background job land".&nbsp; I don't want to create separate "Worker" or "Job" classes which only exist to call back into my model object.&nbsp; If your background jobs are doing more work than that, you're doing something wrong!<br /><br />This is the API I want:<br /><pre>user = User.new<br />user.do_stuff_backgrounded<br /></pre><br />This is the contract I envision for enabling background processing:<br /><pre>class User<br />&nbsp; backgrounded :do_stuff<br />&nbsp; def do_stuff<br />&nbsp;&nbsp;&nbsp; #long running process here<br />&nbsp; end<br />end<br /></pre><br />I've released a Backgrounded on github at <a href="http://github.com/wireframe/backgrounded">http://github.com/wireframe/backgrounded</a> as a simple and concise API for invoking background jobs.&nbsp; It also provides a thin wrapper around the underlying job handler framework to support pluggable implementations.&nbsp; DelayedJob is supported out of the box, but it's trivial to drop in support for bj, workling, or any other implementation.<br /><br />Backgrounded also works great in unit tests as well by providing a "synchronous" handler so that your tests don't need to wait for the background work to complete.&nbsp; No need for Thread.sleep!<br /><br />I'm excited about this API for a number of reasons.&nbsp; The meta programming declaration doubles as documentation and makes it very clear what the developer is intending to do.&nbsp; It also allows for backgrounded internals to declaratively create the backgrounded methods ahead of time and remove the need for ugly "method_missing" handling.&nbsp; Yay for clean stacktraces and accurate listing of methods (including IRB method autocompletion)!<br /><br />DelayedJob supports a slightly similar *alternative* API (ex: User.send_later(:do_something)), but their primary usecase revolves around creating a secondary Job class to perform your work.&nbsp; I've thought about forking the delayed job project to support my syntax, but for now I'll leave it as a separate project.&nbsp; Let me know if there's any interest in having this merged into the core delayed_job project.</div>
+<h2>Comments</h2>
+<div class='comments'>
+<div class='comment'>
+<div class='author'>Marriott discount codes</div>
+<div class='content'>
+I must say, as significantly as I enjoyed reading what you had to say, I couldnt help but lose interest after a while.  Its as if you had a fantastic grasp to the subject matter, but you forgot to include your readers.  Perhaps you should think about this from a lot more than 1 angle.  Or maybe you shouldnt generalise so much.  Its better if you think about what others may have to say instead of just going for a gut reaction to the topic.  Think about adjusting your personal thought process and giving others who may read this the benefit of the doubt.</div>
+</div>
+<div class='comment'>
+<div class='author'>Anonymous</div>
+<div class='content'>
+Does it work well with JRuby and it&#39;s Ruby threads based on Java threads?</div>
+</div>
+<div class='comment'>
+<div class='author'>Marcin Kulik</div>
+<div class='content'>
+Cool stuff Ryan! <br />Keep on working on this but please don&#39;t couple it too much with some specific job handler (for specific framework). It would be cool if I could use it not only in Rails but also in Merb, Sinatra and so on.</div>
+</div>
+<div class='comment'>
+<div class='author'>Ryan Sonnek</div>
+<div class='content'>
+As I stated pretty clearly in the post, the reasons this library exists are because:<br />* the API should be clean/concise.   the alternative delayed_job API is okay, but not great.<br />* testability.  none of the libraries I&#39;ve worked with have been particularly good about working in unit tests.<br />* portability.  It&#39;s trivial to implent your own worker queue, and delayed_job is included by default just to help users get up and running.  It would be trivial for me to extract that into a separate gem and leave the core as platform agnostic.</div>
+</div>
+<div class='comment'>
+<div class='author'>Anonymous</div>
+<div class='content'>
+If the solutions all suck, why are you just slapping new code on top of them?<br /><br />Maybe state that the APIs for the solutions suck, instead of the solutions themselves.</div>
+</div>
+<div class='comment'>
+<div class='author'>laserlemon</div>
+<div class='content'>
+DelayedJob does support that kind of usage with the handle_asynchronously method.</div>
+</div>
+<div class='comment'>
+<div class='author'>Tom-Eric</div>
+<div class='content'>
+Awesome!<br /><br />I think I will be using this plugin very soon, I never liked the code required to start background processes that other solutions provide. This is excellent!</div>
+</div>
+</div>

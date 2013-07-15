@@ -1,0 +1,12 @@
+---
+layout: post
+title: "Stay Connected with the ensure_connected gem"
+date: 2011-01-31
+comments: false
+categories:
+ - backgrounded
+ - resque
+---
+
+<div class='post'>
+<img src="http://farm5.static.flickr.com/4134/4926598654_981f0fea9e.jpg" /><br /><i>This is your application when "MYSQL has gone away"</i><br /><br />Most developers working with long running background processes will eventually run into the infamous "<b>MySQL server has gone away</b>" error.  This error is thrown when the background processes are idle for an extended period of time and lose their active connection to the database.<br /><br />There are a few <a href="http://gist.github.com/238999">workarounds</a> floating around the interwebs to deal with this exception, but the <a href="https://github.com/wireframe/ensure_connected">ensure_connected gem</a> is a clean and programmatic solution to take care of this issue once and for all.<br /><br />The <a href="https://github.com/wireframe/ensure_connected">ensure_connected gem</a> wraps any method with a check to ensure that you are connected to the database before performing work.<br /><br /><pre>class Worker<br />  def do_something<br />    #do your work here.  <br />    #you're connected to the database baby!<br />  end<br />  ensure_connected :do_something<br />end</pre><br />And Resque users have it even better with the <a href="https://github.com/wireframe/resque-ensure-connected">resque-ensure-connected plugin</a>.  Simply drop this gem into your project and <b>all</b>&nbsp;of your background job invocations will be wrapped with the ensure_connected check.  This works with the Backgrounded Resque integration as well!<br /><br />As always, sourcecode is 100% opensource and available on Github.<br /><a href="https://github.com/wireframe/ensure_connected">https://github.com/wireframe/ensure_connected</a><br /><a href="https://github.com/wireframe/resque-ensure-connected">https://github.com/wireframe/resque-ensure-connected</a><br /><br />Gems are available for download through Gemcutter.</div>

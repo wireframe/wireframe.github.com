@@ -1,0 +1,12 @@
+---
+layout: post
+title: "More Javascript Helpers"
+date: 2006-10-06
+comments: false
+categories:
+ - javascript
+ - java
+---
+
+<div class='post'>
+<p>With all of the Javascript needed to work with AJAX, it gets messy pretty quickly when you're building Javascript programatically within Java.  Especially when you need to pass optional parameters as a Javascript hash to a library.  If Java had something like <a href="http://nubyonrails.com/articles/2006/02/01/rjs-and-content-type-header">Ruby's RJS</a>, that would get rid of this mess.  Until that comes around, I've enhanced my <code><a href="http://jroller.com/page/wireframe?entry=javascriptbuilder">JavascriptBuilder</a></code> to make my life a little easier with dealing with more complex Javascript API's.</p><br /><br /><p>Need to pass a hash of options to a Javascript method?  Now, you can just create a Java map of options (<code>Boolean</code>, <code>String</code>, or <code>JavascriptFunction</code> references), and it'll automatically be formatted into the correct javascript syntax!  Here's an example...</p><br /><pre><br />Map dropOptions = new HashMap() {{<br />  put("accept", draggableClass);<br />  put("onDrop", new JavascriptFunction("function(element) {new Ajax.Updater('" + getId() + "', '"+ url+ "')}"));<br />  put("hoverclass", getId() + "-active");<br />  put("revert", Boolean.TRUE);<br />}};<br /><br />JavascriptBuilder builder = new JavascriptBuilder();<br />builder.addLine("Droppables.add('" + getId() + "', ");<br />builder.addOptions(dropOptions);<br />builder.addLine(");");<br /><br />System.out.println(builder.buildScriptTag());<br /></pre><br /><br /><p>Notice the <a href="http://jroller.com/page/wireframe/?anchor=ruby_syntax_for_java_maps">abbreviated syntax for working with simple maps</a>?  =)</p><br /><br /><br /><!-- technorati tags begin --><br /><p style="font-size:10px;text-align:right;">technorati tags:<br /><a href="http://technorati.com/tag/java" rel="tag">java</a>, <br /><a href="http://technorati.com/tag/ruby" rel="tag">ruby</a>, <br /><a href="http://technorati.com/tag/javascript" rel="tag">javascript</a><br /></p><br /><!-- technorati tags end --></div>

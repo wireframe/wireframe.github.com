@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Wicketstuff-Hibernate Updates"
+date: 2007-06-28
+comments: false
+categories:
+ - java
+ - hibernate
+ - wicket
+---
+
+<div class='post'>
+<p>It's been a week since <a href=" 	  http://jroller.com/page/wireframe?entry=hibernateannotationcomponentconfigurator">the first "release" of my wicket/hibernate integration</a>, and the <a href="http://www.nabble.com/HibernateAnnotationComponentConfigurator-t3969383.html#a11266736">feedback from the wicket community</a> has been pretty amazing.  <br /></p><br /><br /><p>Short iterations are the key to software success, so I've incorporated a number of changes suggested by folks and <a href="http://www.wicketstuff.org/maven/repository/org/wicketstuff/wicketstuff-hibernate/">pushed out a new snapshot release</a>.  Changes include:</p><br /><br /><ul><br /><li>Support OGNL PropertyModel expressions for resolving annotations on models using nested properties.  This feature was suggested by Matej, and now allows for the hibernate configurator to inspect <em>any</em> <code>PropertyModel</code> that's supported by Wicket.  ex:<br /><pre><br />new PropertyModel(new MyObject(), "innerObject.name");<br /></pre><br /></li><br /><li>Prevent re-configuring a component if it has already been rendered.  A nice optimization suggested by Igor which is especially useful for ajax heavy applications using the hibernate configurator as an application listener.  This will remove any overhead for when a component is rendered multiple times.</li><br /><li>Support any model that implements <code>IPropertyReflectionAwareModel</code> interface.  This opens up the door for users to use other implementations of Model and not be limited to just using a <code>PropertyModel</code>.</li><br /></ul><br /><br /><p>The feedback has been great, and I would love to hear more from users about other areas as well.</p><br /><ul><br /><li>What can be done to allow for drop dead simple integration of this hibernate configurator with other projects?</li><br /><li>Is there anything preventing you from using this hibernate configurator with your project?</li><br /><li>What other hibernate annotations would be useful to integrate?</li><br /></ul><br /><br /></div>

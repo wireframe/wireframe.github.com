@@ -1,0 +1,11 @@
+---
+layout: post
+title: "Conventional Class Names"
+date: 2004-10-22
+comments: false
+categories:
+ - java
+---
+
+<div class='post'>
+<p>What are the most common conventions for naming Java classes?  I've been subject to several different conventions would like to hear if there are any good guidelines out there.  Here are some of the conventions I've come across and I would like to know if there is a good general pattern to follow.</p><br /><h4>Example Interface Naming Conventions</h4><br /><ul><br />  <li>Prefix classname with "I".  ex: IClassName</li><br /></ul><br /><h4>Example Implementation Naming Conventions</h4><br /><ul><br />  <li>Add Impl suffix. ex: ClassNameImpl</li><br />  <li>Put implementation in seperate package.  ex: org.myapp.impl</li><br />  <li>DefaultMyClass</li><br /></ul><br /><h4>Example Abstract Class Naming Conventions</h4><br /><ul><br />  <li>MyClassUtil or MyClassUtils</li><br />  <li>AbstractMyClass</li><br />  <li>MyClassSupport</li><br /></ul><br /><p>I've read some interesting articles on this topic and think that the best strategy is that a classname should not to not allow a caller to know if a class is an interface or concrete class.  This allows for possible later refactoring without breaking the clients.</p><br /><p>An example of this would be to start with concrete simple class called MyClass.  Once multiple implementations are available, MyClass becomes an interface and the old implementation becomes DefaultMyClass.  The caller "may" need to reference DefaultMyClass, but otherwise their code will remain the same.</p></div>

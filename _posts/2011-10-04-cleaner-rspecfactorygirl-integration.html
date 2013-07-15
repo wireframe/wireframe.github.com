@@ -1,0 +1,26 @@
+---
+layout: post
+title: "Cleaner RSpec/FactoryGirl Integration"
+date: 2011-10-04
+comments: false
+categories:
+ - ruby
+ - rspec
+ - testing
+---
+
+<div class='post'>
+<a href="http://www.flickr.com/photos/dawilson/3389046866/" title="Think Different..."><img alt="Think Different..." height="332" src="http://farm4.static.flickr.com/3593/3389046866_c642884f48.jpg" width="500" /></a><br />For the past few days, I've been re-thinking how to integrate <a href="https://github.com/thoughtbot/factory_girl">FactoryGirl</a> fixtures into my <a href="https://www.relishapp.com/rspec">RSpec</a> tests.  The transition from Test::Unit to RSpec has taken me some time and I'm still "Unlearning what I have learned" and adapting to the RSpec way of doing things. It's not that Test::Unit style tests are wrong, it just that I need to think a bit differently in order to take full advantage of the expressiveness of RSpec tests.<br /><br />One common pattern for Rails application tests is to instantiate fixture data and perform assertions on the instances:<br /><pre><code>describe User do<br />  context 'basic user' do<br />    before do<br />      @user = Factory.create :user<br />    end<br />    it { @user.should be_inactive }<br />    it { @user.should_not be_happy }<br />  end<br />end<br /></code></pre><br />According to <a href="http://blog.codecrate.com/2010/12/anatomy-of-effective-unit-test.html">The Anatomy of an Effective Unit Test</a>the <code>before</code> block in this example is playing the role of both fixture setup <em>and</em> test execution.  The ambiguous definition of the <code>before</code>method is analogous to how horrible it is to use API's with incredibly useful methods such as <code>run</code> or <code>execute</code>.  Sure, we know <em>when</em> the block is executed, but method names are key to understanding their purpose as well.<br /><br />I'm a strong proponent of <a href="http://blog.codecrate.com/2005/02/document-code-with-units-of-work.html">expressive method names</a> as a way to self document your code and that's exactly what we need in this scenario.  We need a clear and concise way to encapsulate our fixture data initialization outside of the <code>before</code> method and hook it into the RSpec test lifecycle.  This will help remove the ambiguous purpose of the <code>before</code> method in this example.<br /><br />Luckily, The RSpec DSL can be easily be extended. &nbsp;The new <a href="https://github.com/wireframe/factory_girl_rspec">factory_girl_rspec gem</a> adds the <code>with</code> method which is a seriously clean and concise DSL for initializing your fixtures:<br /><pre><code>describe User do<br />  context 'basic user' do<br />    with :user<br />    it { user.should be_inactive }<br />    it { user.should_not be_happy }<br />  end<br />end<br /></code></pre><br />The <code>with</code> method is a simple utility that maps directly to the FactoryGirl fixtures that you have defined for your test environment. Each execution of <code>with</code> will create your fixture instance and define a local method within your test context retrieve the instance.  Compare the readability of this test with the previous incarnation.  It reads like a story right?  Watch out <a href="http://cukes.info/">Cucumber</a>, who needs text processing stories when you've got human readable ruby code!<br /><br />Deviations of fixture data are extremely common in unit tests as well, and the <code>with</code> method expresses differences in an equally concise manner:<br /><pre><code>describe User do<br />  context 'user with first_name == "Jim"' do<br />    with :user, :first_name =&gt; "Jim"<br />    it { user.should be_inactive }<br />    it { user.should be_happy }<br />  end<br />end</code></pre></div>
+<h2>Comments</h2>
+<div class='comments'>
+<div class='comment'>
+<div class='author'>ZenCocoon</div>
+<div class='content'>
+Same reaction here, using `subject` will be even cleaner. You might also like to check https://github.com/ZenCocoon/rspec-subject-extensions for some extra cleanup.</div>
+</div>
+<div class='comment'>
+<div class='author'>David Chelimsky</div>
+<div class='content'>
+If you use `subject` instead of `let`, you can leave `user` out of the examples: `it { should be_inactive }`.</div>
+</div>
+</div>

@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Send Mail with Backgrounded Mail"
+date: 2011-01-18
+comments: false
+categories:
+ - ruby
+ - backgrounded
+ - email
+---
+
+<div class='post'>
+<a href="http://1.bp.blogspot.com/_yocpuDtbm4c/TTZ3K2kg0MI/AAAAAAAAABc/2qB_m-gopNE/s1600/mailroom_sendmail.jpg"><img border="0" src="http://1.bp.blogspot.com/_yocpuDtbm4c/TTZ3K2kg0MI/AAAAAAAAABc/2qB_m-gopNE/s400/mailroom_sendmail.jpg" width="500" /></a><br /><span class="Apple-style-span" style="font-size: x-small;">This is what life was like <i>before</i> backgrounded_mail...</span><br /><br />Don't tie up your precious resources blocking on a synchronous call to sendmail or SMTP! &nbsp;Use the <a href="https://github.com/wireframe/backgrounded_mail">backgrounded_mail gem</a> to make your application more responsive and deliver email using your background processing library.<br /><br />The background_mail API is very straightforward. &nbsp;Instead of invoking '<code>deliver</code>' on the mail object, simply use the '<code>deliver_backgrounded</code>' method to push the email into your background processing queue.<br />ex:<br /><pre>UserNotifier.welcome(user).deliver_backgrounded</pre><br />The backgrounded_mail gem is compatible with Rails3 or any project using the <a href="https://github.com/mikel/mail">mail gem</a>. &nbsp;It is built on the <b>world class</b>&nbsp;<a href="https://github.com/wireframe/backgrounded">backgrounded library</a> to enqueue email delivery using your background processing library of choice (ex: resque, delayed job, workling, etc). <br /><br />Sourcecode is available on Github.<br /><a href="https://github.com/wireframe/backgrounded_mail">https://github.com/wireframe/backgrounded_mail</a></div>

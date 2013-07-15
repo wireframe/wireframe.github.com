@@ -1,0 +1,29 @@
+---
+layout: post
+title: "notify_if_invalid Plugin Released"
+date: 2009-07-13
+comments: false
+categories:
+ - ruby
+---
+
+<div class='post'>
+<img src="http://img.skitch.com/20090713-fmdyk7pcfgc2b9ytyjkid42jiw.jpg" /><br /><br />Rails does a great job at making some of the headaches of building stateful webapps go away.  In particular, form validation has always been a complex area in web frameworks, and Rails handles this beautifully.  It's absolutely trivial to re-render a form and give decent feedback to the user what went wrong.<br /><pre><br />class UsersController &lt; ApplicationController<br />def create<br />  user = User.new params[:user]<br />  if user.save<br />    #looks good!<br />    redirect_to user_path(user)<br />  else<br />    #something is wrong, re-render the form<br />    render :action => :new<br />  end<br />end<br />end<br /></pre><br />This is all well and good, but there's a slight issue with this pattern.  Re-rendering the form is a great user interaction, but we've effectively <span style="font-weight: bold;">hidden</span> the fact that the user encountered an error.  The fact that the user was unable to save the form is a very important fact to record.  It could mean that:<br /><ul><li>the model object is not able to be constructed given the information on the page (ex: missing attributes)</li><li>the design is not intuitive and user's missed important information<br /></li></ul><br />Either way, it is important to record and measure these events.  In my experience, it has been applicable to consider these validation errors as important as actual application errors.  The fact that the user was able to construct an "invalid" object is just another opportunity for the user to drop out of your application, never to return.<br /><br />I've built a plugin that will assist in recording these events in <a href="http://hoptoadapp.com/">HopToad</a> (my preferred error monitoring tool). The notify_if_invalid plugin is a Rails plugin that will record a ValidationError in HopToad anytime a user creates an invalid ActiveRecord Model.  This plugin is available on github at <a href="http://github.com/wireframe/notify_if_invalid">http://github.com/wireframe/notify_if_invalid</a> and has a super simple API.<br /><pre><br />class User &lt; ActiveRecord::Base<br />notify_if_invalid<br />end<br /></pre><br />Done!<br /><br />I'm open to any suggestions for naming this plugin, and I still need to convert this to a gem.  I'm not a fan of Rails plugins, but they are so damn easy to create!  Let me know if you see opportunities for improvement!</div>
+<h2>Comments</h2>
+<div class='comments'>
+<div class='comment'>
+<div class='author'>Jaap</div>
+<div class='content'>
+Haha and now, months later, my app also fits this usecase :-D</div>
+</div>
+<div class='comment'>
+<div class='author'>Ryan Sonnek</div>
+<div class='content'>
+You&#39;re absolutely right.  In my case, I have backend processes creating objects as well, and this plugin satisfies both usecases.</div>
+</div>
+<div class='comment'>
+<div class='author'>Jaap</div>
+<div class='content'>
+Or you could just call the save method with a bang (!) catch the exception and use the standard hoptoad notifier action.<br /><br />class UsersController &lt; ApplicationController<br />def create<br />  begin<br />    user = User.new params[:user]<br />    user.save!<br />    redirect_to user_path(user)<br />  rescue ActiveRecord::RecordInvalid =&gt; e<br />    #something is wrong, re-render the form<br />    notify_hoptoad(e)<br />    render :action =&gt; :new<br />  end<br />end<br />end<br /><br />Off course this is not exactly the same as telling the model to report errors like your plugin does. It just depends on where you want the logic to live.</div>
+</div>
+</div>

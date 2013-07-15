@@ -1,0 +1,12 @@
+---
+layout: post
+title: "Backgrounded Class Methods"
+date: 2010-10-30
+comments: false
+categories:
+ - ruby
+ - backgrounded
+---
+
+<div class='post'>
+<img src="http://4.bp.blogspot.com/_j2c0QbFdzXg/SjumeWI9JHI/AAAAAAAAAPc/nPG6rdz9S7k/s320/stay_classy.jpg" /><br /><h2>Stay "Class-y" Backgrounded!</h2><br />Backgrounded was originally intended to only run ActiveRecord instance methods in the background but as the library has matured, its focus has broadened into an <strong>elegant proxy to arbitrary background processors</strong>.<br /><br />There are lots of usecases where it's necessary to run a background method on a non-ActiveRecord instance, and the latest Backgrounded release now supports running any class level method with backgrounded!  All out of the box back-ends have been updated to respect this new configuration.<br /><br />Backgrounded class methods work exactly the same as instance methods and there are no client API changes required to use them.  Just reference your class level method with a class level backgrounded declaration and you're all set.<br /><br /><pre>class User<br />  class &lt;&lt; self<br />    backgrounded :my_instance_method<br />    def my_instance_method<br />    end<br />  end<br />end<br /><br />#run the instance method in the background<br />=&gt; User.my_instance_method_backgrounded</pre><br />Sourcecode on Github.<br /><a href="http://github.com/wireframe/backgrounded">http://github.com/wireframe/backgrounded</a><br /><br />Latest gem on Gemcutter.<br /><a href="https://rubygems.org/gems/backgrounded">https://rubygems.org/gems/backgrounded</a></div>

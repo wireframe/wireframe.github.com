@@ -1,0 +1,14 @@
+---
+layout: post
+title: "Email Preview + Transactions and Factories"
+date: 2011-06-15
+comments: false
+categories:
+ - ruby
+ - email_preview
+ - rails
+ - email
+---
+
+<div class='post'>
+<a href="http://www.flickr.com/photos/pacdog/4968422200/" title="Mail by Pacdog, on Flickr"><img alt="Mail" height="349" src="http://farm5.static.flickr.com/4126/4968422200_1ab99c61ef.jpg" width="500" /></a><br /><br />The <a href="http://github.com/wireframe/email_preview">email_preview</a> gem has undergone a serious overhaul in the last week.  After some extensive real-world project use, a new version has been released with some major improvements.<br /><br /><h2> Transactional Fixtures</h2><br />At a high level, email_preview fixtures are very similar in nature to Rails test fixtures.  They are a snapshot of data with a particular configuration and are not intended to be long lived outside of the email_preview.  The setup and teardown of previewed emails should follow the same setup/teardown of fixture data used during unit testing.  Now each email_preview action is wrapped in a database transaction and rolled back after completion to avoid polluting your sandbox with unnecessary data!<br /><br /><pre class="code"># config/initializers/email_preview.rb<br />EmailPreview.register 'User activation email' do<br />  u = User.create :email =&gt; 'foo@example.com'<br />  UserMailer.activation(u)<br />end<br /></pre><br /><h2> Factories</h2><br />Why duplicate the setup of fixture data when building your email preview templates?  You already use a factory library for your unit tests right?  The email_preview gem now works great with any factory framework you choose (<a href="https://github.com/thoughtbot/factory_girl">FactoryGirl</a>, <a href="https://github.com/notahat/machinist">Machinist</a>, etc).<br /><br /><pre class="code"># config/initializers/email_preview.rb<br /># example FactoryGirl fixture<br />EmailPreview.register 'User activation email' do<br />  u = Factory.create :user<br />  UserMailer.activation u<br />end<br /></pre><br /><h2> Categories</h2><br />Email is still a critical component of most web applications, and it's very easy to rack up lots of templates when working with a large application.  To help organize your fixtures, you can now use an optional :category option to group related fixtures.<br /><br /><pre class="code"># config/initializers/email_preview.rb<br />EmailPreview.register 'User activation email', :category =&gt; :user do<br />  u = User.new :email =&gt; 'foo@example.com'<br />  UserMailer.activation(u)<br />end<br /></pre><br />The email_preview UI received a considerable overhaul as well and any suggestions are greatly welcome.  A solid update all around, and special thanks go to Lars Klevan for <a href="https://gist.github.com/1013155">inspiring</a> several of these updates!</div>

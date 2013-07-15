@@ -1,0 +1,12 @@
+---
+layout: post
+title: "Wizard Validation"
+date: 2006-10-09
+comments: false
+categories:
+ - java
+ - validation
+---
+
+<div class='post'>
+<p>How should validation frameworks integrate with "wizards"?  It may take a bit of <i>magic</i> to get these concepts to work together, but I <i>am</i> talking about <a href="http://en.wikipedia.org/wiki/Wizard_(software)">software wizards to help users get through a complex workflow</a>, and not <a href="http://en.wikipedia.org/wiki/Wizard_(fantasy)">magical sorcerers from fantasy land</a>.  <br/><br /></p><br /><br /><p/><p>Here's my issue (in a broad sense):<br/><br /></p><br /><br /><ol><li>I want to build a wizard to walk me through a complex operation (ex: <code>MyOperation</code>).  </li><br /><li>My wizard has registered a number of validators (ex: <code>NameNotNullValidator</code>).</li><br /><li>My wizard doesn't display a validated piece of data until a later step.  (ex: can't enter the <code>name</code> until step 2).</li><br /><li>How does the wizard support "delayed" validation until the user has access to the validated field?<br/><br /></li><br /></ol><br /><p/><p>I've done a lot of work over the past several monthes with Spring RCP, and it seems as if <a href="http://opensource.atlassian.com/projects/spring/browse/RCP-406">this usecase has never been addressed</a>.  I've also searched through every framework I could lay my hands on, and none seem to support this scenerio.  <br/><br /></p><br /><br /><p>This usecase seems so basic, so am I totally missing something?  Have I gone crazy, or has the rest of the world turned it's back on Wizard Frameworks?<br/><br /></p><br /><br /><!-- technorati tags begin --><br /><p style="font-size:10px;text-align:right;">technorati tags:<a href="http://technorati.com/tag/java" rel="tag">java</a>, <a href="http://technorati.com/tag/spring" rel="tag">spring</a>, <a href="http://technorati.com/tag/rcp" rel="tag">rcp</a>, <a href="http://technorati.com/tag/validation" rel="tag">validation</a></p><!-- technorati tags end --></div>

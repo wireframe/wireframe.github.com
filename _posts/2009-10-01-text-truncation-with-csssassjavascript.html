@@ -1,0 +1,32 @@
+---
+layout: post
+title: "Text Truncation With CSS/SASS/Javascript"
+date: 2009-10-01
+comments: false
+categories:
+ - javascript
+ - rails
+ - jquery
+ - css
+---
+
+<div class='post'>
+<img border="0" src="http://farm4.static.flickr.com/3390/3258971559_58df719c5d_o.jpg" /><br /><h2>Trimming Text In Style</h2><br />It's a <b>very</b>&nbsp;common request to have text elements truncated to prevent breaking your layout. &nbsp;In the past I've relied on character counting solutions, but that's about as effective as using Java to build a modern day webapp. &nbsp;Variable width fonts effectively break <i>all</i>&nbsp;character counting solutions. &nbsp;Each browser/OS has a different font rendering engine which makes truncating based on character counts a fragile and fundamentally flawed solution.<br /><br />Overflow hidden is the de-facto standard solution to prevent long text from breaking your layout, but it leaves a lot to be desired on the UI side. &nbsp;It's just not cool to chop off text in mid character.<br /><br />The text-overflow ellipsis CSS property is the <b>perfect</b>&nbsp;solution to this problem. &nbsp;It truncates your text at the correct length and inserts the standard "..." ellipsis at the end. &nbsp;Here's a simple Sass mixin that will add all of the appropriate properties necessary to trigger the text-overflow behavior.<br /><br /><pre>=truncate(!width)<br />&nbsp; :text-overflow ellipsis<br />&nbsp; :overflow hidden<br />&nbsp; :white-space nowrap<br />&nbsp;&nbsp;:display block<br />&nbsp; :width= !width<br /></pre><br />Now, you can reuse this chunk of logic in your Sass styles to truncate elements without changing any of your markup!<br /><br /><pre>//truncate this element at 160 pixels<br />.my_container<br />&nbsp;&nbsp;+truncate(160)<br /><br />//truncate at 200 pixels<br />.header<br />&nbsp;&nbsp;+truncate(200)<br /></pre><br />This solution degrades gracefully and defaults to using overflow hidden if the client does not support the text-overflow property. &nbsp;Surprisingly, Firefox is the only modern browser that still doesn't support this CSS property. &nbsp;Even more surprising is that IE was the first browser to implement this feature!<br /><br />Javascript can used to emulate the same CSS truncation for browsers that do not support the text-overflow feature. &nbsp;Here's a great jQuery plugin that does the dirty work so that all clients can see the same sexy truncation.<br /><a href="http://devongovett.wordpress.com/2009/04/06/text-overflow-ellipsis-for-firefox-via-jquery/">http://devongovett.wordpress.com/2009/04/06/text-overflow-ellipsis-for-firefox-via-jquery/</a></div>
+<h2>Comments</h2>
+<div class='comments'>
+<div class='comment'>
+<div class='author'>Trevor Gerzen</div>
+<div class='content'>
+I know this is way old but I just happened to come across it and remembered that I also used this method after you implemented it at Socialcast with percentages so it could be used with fluid layouts. Pretty snazzy</div>
+</div>
+<div class='comment'>
+<div class='author'>Ryan Sonnek</div>
+<div class='content'>
+I&#39;ve read quite a lot about the firefox &quot;hack&quot; to support the text-overflow property and have to say that javascript seems to be a much more elegant solution.  The major issues with the xml solution are:<br />* You can’t select text <br />* adding additional public resources and round trips for loading content<br />* firefox performance of this feature<br />http://mattsnider.com/css/css-string-truncation-with-ellipsis/</div>
+</div>
+<div class='comment'>
+<div class='author'>Chris Eppstein</div>
+<div class='content'>
+FYI: compass provides an elipsis mixin.<br /><br />http://github.com/chriseppstein/compass/blob/master/frameworks/compass/stylesheets/compass/utilities/text/_ellipsis.sass<br /><br />Use &quot;compass -p ellipsis&quot; to install an example sass file and an xml file that makes it work in FF2.</div>
+</div>
+</div>

@@ -1,0 +1,12 @@
+---
+layout: post
+title: "acts_as_stripped Now Available"
+date: 2009-06-27
+comments: false
+categories:
+ - ruby
+ - rails
+---
+
+<div class='post'>
+<p>In my experience, it's very common for web frameworks to automatically strip extra whitespace from posted forms.&nbsp; Wicket, for example just does the &quot;right thing&quot; by default, and it genuinely surprised me when I found out that Ruby on Rails does not do this by default.<br /><br />Rails is a wonderfully pluggable framework, and so I've published a Ruby gem which will strip out extra whitespace for any string attributes.&nbsp; It's called acts_as_stripped and can be found on github at <a href="http://github.com/wireframe/acts_as_stripped/">http://github.com/wireframe/acts_as_stripped/</a>.&nbsp; The Rails community is all about sexy project names, but I just couldn't make myself name this little plugin &quot;stripper&quot;.&nbsp; :)<br /><br />Usage of this plugin is incredibly simple:<br /><br /># strip whitespace from *all* string attributes<br />class User &lt; ActiveRecord::Base<br />&nbsp; acts_as_stripped<br />end<br /><br /># strip whitespace from *select* string attributes<br />class Post &lt; ActiveRecord::Base<br />&nbsp; acts_as_stripped :title, :summary<br />end<br /></p><p>Drop me a line if there are any questions or suggestions.&nbsp; The nice benefit of using this plugin is that it works with any ActiveRecord model object and is not directly tied to the Rails web framework.&nbsp; </p><p>This plugin was inspired by this post: <a href="http://granth.ca/2006/02/strip-whitespace">http://granth.ca/2006/02/strip-whitespace</a><br /><br /><br /></p></div>

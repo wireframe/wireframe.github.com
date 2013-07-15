@@ -1,0 +1,14 @@
+---
+layout: post
+title: "Hibernate Annotations and Wicket"
+date: 2007-05-08
+comments: false
+categories:
+ - java
+ - hibernate
+ - wicket
+ - database
+---
+
+<div class='post'>
+<p>Wow.  It's been an insane 24 hours.</p><br /><br /><p>It all started by me posting this simple question on the wicket mailing list: <br /><br /><i>Anyone have some fancy integration of hibernate and wicket?</i><br /></p><br /><br /><p>The response? <br /><br /><i>Why don't you write one?</i><br /></p><br /><br /><p>And so it began...<br /><br />After a flurry of research into this area, I've whipped together a hibernate/wicket object that reads <a href="http://www.hibernate.org/hib_docs/annotations/reference/en/html_single/">hibernate annotations</a> and configures the wicket component respectively.  </p><br /><br /><p>Essentially, right now it will auto configure a component by:<br /><ul><br /><li>set component to be "required" when using <code>NotNull</code> annotation</li><br /><li>add "maxlength" attribute when using <code>Length</code> annotation</li><br /></ul><br /><br /><p>Still lots of work to be done:<br /><ul><br /><li>attach client side javascript validation</li><br /><li>maybe integrate into the wicket validation framework?</li><br /></ul><br /><br /><p>The code is checked into wicket stuff and I'd appreciate anyone interested to take a look and let me know what they think. <br /><br /><a href="http://wicket-stuff.svn.sourceforge.net/viewvc/wicket-stuff/trunk/wicketstuff-hibernate-behavior/">http://wicket-stuff.svn.sourceforge.net/viewvc/wicket-stuff/trunk/wicketstuff-hibernate-behavior/</a><br /></p><br /></div>

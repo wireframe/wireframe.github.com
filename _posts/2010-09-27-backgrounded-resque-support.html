@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Backgrounded Resque Support"
+date: 2010-09-27
+comments: false
+categories:
+ - ruby
+ - backgrounded
+ - resque
+---
+
+<div class='post'>
+<a href="http://www.flickr.com/photos/stark23x/55575164/" title="Strongbad sings! by stark23x, on Flickr"><img alt="Strongbad sings!" height="333" src="http://farm1.static.flickr.com/33/55575164_9e602b4941.jpg" width="500" /></a><br /><br />After an extended rest, Backgrounded is back in action with support for Resque.<br /><br /><a href="http://github.com/defunkt/resque">Resque</a> is one of the newer background processing frameworks for ruby applications created by the amazing folks at Github.  A weekend of hacking with Resque easily persuaded me to add official support for Resque to the Backgrounded 0.4.1 release.  <br /><br />After getting Resque up and running, the Backgrounded configuration is simple (as always).<br /><pre>#config/initializers/backgrounded.rb<br />require 'backgrounded/handler/resque_handler'<br />Backgrounded.handler = Backgrounded::Handler::ResqueHandler.new<br /></pre><br />The benefits of Backgrounded really shine when new libraries like Resque pop up.  One of the primary goals of Backgrounded is to make it trivial to swap out different backend implementations and not change a single line of your application code.  Just update your configuration file and restart.  It's a thing of beauty...<br /><br />Sourcecode on Github.<br /><a href="http://github.com/wireframe/backgrounded">http://github.com/wireframe/backgrounded</a><br /><br />Latest gem on Gemcutter.<br /><a href="https://rubygems.org/gems/backgrounded">https://rubygems.org/gems/backgrounded</a></div>

@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Backgrounded ActiveRecord Callbacks"
+date: 2009-10-29
+comments: false
+categories:
+ - ruby
+ - backgrounded
+ - rails
+---
+
+<div class='post'>
+ActiveRecord callbacks are pretty amazing.  They are an incredibly useful way to declare specific behavior that is tied to the lifecycle of your model objects.<br /><br />One very common pattern is to perform "house keeping" activities when an object is updated.  This could mean anything from updating related model objects to logging or updating usage statistics.  Here's a simple example.<br /><br /><pre>class User &lt; ActiveRecord::Base<br />  after_create :update_stats<br /><br />  def update_stats<br />    # do your heavy lifting here<br />  end<br />end<br /></pre><br />The majority of these lifecycle callbacks are not in the critical path for saving your model object and should be pushed to the background to improve end user response times.  The backgrounded API makes transitioning ActiveRecord callbacks to the background incredibly easy:<br /><br /><pre>class User &lt; ActiveRecord::Base<br />  backgrounded :update_stats<br />  after_create :update_stats_backgrounded<br /><br />  def update_stats<br />    # do your heavy lifting here<br />  end<br />end<br /></pre><br />As a side note, <a href="http://gemcutter.org/gems/backgrounded">the backgrounded gem is now available on gemcutter</a> so that we can join the cool kids club!</div>

@@ -1,0 +1,11 @@
+---
+layout: post
+title: "No Save For You!"
+date: 2006-07-20
+comments: false
+categories:
+ - wtf
+---
+
+<div class='post'>
+<p>I love how naive some software developers are.  For some reason people just don't realize that littering your view layer with business logic is a bad idea.  Here's an example.  I just stumbled across a web application that has the amazing security feature to prevent user's from submitting a page if they don't have permission.  Now, how do you suppose they implemented that?</p><br /><br /><pre><br />&lt;!-- only display save button if user has permission --&gt;<br />&lt;c:if test="${userHasPermission}"&gt;<br />  &lt;input type="submit" name="submit" value="submit" /&gt;<br />&lt;/c:if&gt;<br /></pre><br /><br /><p>There's nothing inherintly wrong with this solution, except for the fact that this is the <strong>only</strong> place security is enforced in the application.</p><br /><br />Thank God for tools like <a href="http://greasemonkey.mozdev.org/">greasemonkey</a> and <a href="https://addons.mozilla.org/firefox/1843/">firebug </a>that allow you to execute scripts against the available DOM.  Something like this works like a champ to get around that <em>pesky</em> security.<br /><br /><pre><br />document.forms[0].submit();<br /></pre></div>

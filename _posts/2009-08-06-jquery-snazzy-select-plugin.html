@@ -1,0 +1,12 @@
+---
+layout: post
+title: "jQuery Snazzy Select Plugin"
+date: 2009-08-06
+comments: false
+categories:
+ - javascript
+ - jquery
+---
+
+<div class='post'>
+HTML Select inputs are notorious for being difficult to style.&nbsp; Every operating system/browser styles them differently, and there are no standard CSS hooks available to customize their look.&nbsp; The new jQuery Snazzy Select plugin available on github solves this problem and will turn your ugly ass select fields into sexy works of art!<br /><br /><a href="http://github.com/socialcast/jquery.snazzyselect">http://github.com/socialcast/jquery.snazzyselect</a><br /><br /><img src="http://img.skitch.com/20090807-ne4rxuyw7yihfanskutp5q7kq5.jpg" /><br /><br />Since you can't style the select input directly, you'll need to make a few markup changes to work with the Snazzy Select plugin.&nbsp; You only need to wrap your existing select input with a div and add another div as a sibling to the select input.&nbsp; Add the class of "snazzy_selected" to the sibling div and you're ready to go!<br /><br /><pre>&lt;!-- add a wrapper div around the select input --&gt;<br />&lt;div&gt;<br />  &lt;select&gt;<br />    &lt;option&gt;value 1&lt;/option&gt;<br />    &lt;option&gt;value 2&lt;/option&gt;<br />  &lt;/select&gt;<br />  &lt;!-- add a placeholder div where the selected value will be displayed --&gt;<br />  &lt;div class="snazzy_selected"&gt;placeholder&lt;/div&gt;<br />&lt;/div&gt;<br /></pre><br />Initialize the component by calling the snazzySelect() jQuery method, and you'll have some spankin' hot dropdowns!&nbsp; <br /><pre>$('select').snazzySelect();<br /></pre><br />Default CSS styling is included, but it the look is completely customizable.<br /><br />No changes are necessary for your existing serverside processing.&nbsp; The html select element will continue to post the existing form field. The Snazzy Select plugin is simply a visual wrapper around the select input.&nbsp; This also means that your existing jQuery onchange bindings will still work with no modifications.<br /><br />This marks the first of hopefully many opensource components released from our <a href="http://www.socialcast.com/">Socialcast</a> toolbox.&nbsp; The Snazzy Select plugin has been battle tested in our production application and tested in all major browsers (including IE6).&nbsp; A comprehensive test suite (using Blue Ridge and ScrewUnit) is also included.<br /><br />Enjoy your snazzy new world!</div>

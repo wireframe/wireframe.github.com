@@ -1,0 +1,11 @@
+---
+layout: post
+title: "Clear API"
+date: 2006-03-30
+comments: false
+categories:
+ - design
+---
+
+<div class='post'>
+<p>Let me start by saying that I like clear and concise code.  I promote best practices and design patterns whenever possible and use tools like <a href="http://pmd.sourceforge.net/">PMD</a> help identify code that maybe too complex for it's own good.  However, I think it's <i>more important</i>to have a clear API over a clear implementation.</p><br /><br /><p>The API is your contract to clients.  It needs to be expressive and understandable.  I can't count the number of bugs caused by developers using an existing API incorrectly and saying "I didn't know it did <i>that</i>!?".  That's why it's so important to have a strong domain model with a clean and expressive API.  This is one skill that seperates the <em>programmers</em> from the <em>architects</em>.  </p><br /><br /><p>In the end, all I care about is that your code does what it's supposed to do.  If it's implementation is ugly, but does what it's supposed to, that's okay with me.  This is easily verified using unit tests, and is yet another reason I think <a href="http://jroller.com/page/wireframe/?anchor=actions_speak_louder_than_words">reviewing test cases is more important than actually reviewing code</a>.  If you have a un-clear API with a muddled implementation <em>and</em> no unit tests, I guess you're in a <a href="http://jroller.com/page/wireframe/?anchor=untested_equals_broken">bit of trouble</a>.</p></div>

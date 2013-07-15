@@ -1,0 +1,31 @@
+---
+layout: post
+title: "Cron Backgrounded Resque Jobs"
+date: 2011-11-09
+comments: false
+categories:
+ - ruby
+ - backgrounded
+ - resque
+---
+
+<div class='post'>
+<p><a href="http://www.flickr.com/photos/jeremy-g/1512405671/" title="Analog Time Sand by Jeremy-G, on Flickr"><img src="http://farm3.static.flickr.com/2144/1512405671_efd8d1ad14.jpg" width="500" height="500" alt="Analog Time Sand"></a></p> <p><a href="http://pubs.opengroup.org/onlinepubs/9699919799/utilities/crontab.html">Cron</a>is still the de facto standard when it comes to scheduling execution of jobs.  It does one thing, and it does it well.</p> <p>Using cron to fire off heavyweight Ruby/Rails jobs is fairly trivial to get up and running.  When each cron job fires up a full Rails process, it won't be long until you accrue enough jobs that your cron server will be brought to it's knees.  Since you already have a pool of <a href="http://github.com/defunkt/resque">Resque</a> background workers running to process async jobs, why not leverage dormant workers to process jobs that are kicked off via cron?</p> <p>Here is a simple solution that can be used to have cron enqueue jobs into <a href="http://blog.codecrate.com/2010/09/backgrounded-resque-support.html">Backgrounded Resque jobs</a>without loading the entire Rails environment.<br>This is an excellent optimization to increase the availability of your cron server and avoid running out of memory when multiple jobs fire up at the same time.</p> <p>crontab invocation:</p> <pre><code>script/backgrounded enqueue Foo.bar --queue baz<br /></code></pre> <p><a href="https://gist.github.com/1351867">script/backgrounded</a>:</p> <pre><code>#!/usr/bin/env ruby<br />require 'rubygems'<br />require 'thor'<br /><br />module Backgrounded<br />  class CLI &lt; Thor<br /><br />    desc 'enqueue', 'enqueue a clazz.method invocation for resque backgrounded workers'<br />    method_option :queue, :aliases =&gt; "-q", :desc =&gt; "resque queue to enqueue the operation to", :default =&gt; 'backgrounded'<br />    method_option :rails_env, :aliases =&gt; '-e', :desc =&gt; 'control which rails env used to load the redis config', :default =&gt; 'production'<br />    # operation Clazz.method to enqueue into resque backgrounded queue (ex: Foo.bar)<br />    def enqueue(operation)<br />      require 'bundler'<br />      Bundler.setup<br />      require "thread"<br />      require "active_support/inflector"<br />      require "resque"<br />      require "yaml"<br />      clazz, method = operation.to_s.split('.')<br />      raise 'invalid operation' unless clazz &amp;&amp; method<br />      Resque.redis = YAML.load_file(File.join("config", "resque.yml"))[options[:rails_env]]<br />      Resque::Job.create(options[:queue], 'Backgrounded::Handler::ResqueHandler', clazz, -1, method)<br />    end<br />  end<br />end<br /><br />Backgrounded::CLI.start<br /></code></pre> <p>Use cron for it's excellent scheduling capabilities and take advantage of your background processing infrastructure to handle the incoming request!</p>          <div>                </div></div>
+<h2>Comments</h2>
+<div class='comments'>
+<div class='comment'>
+<div class='author'>Yoav Aner</div>
+<div class='content'>
+I found it easier to create a mini controller method that does only one thing - enqueues a resque task. In cron I simply use curl to trigger the task, e.g. `curl --interface lo http://localhost/tasks/do_something`<br /><br />The only tweak involved is checking that the request is coming from localhost, which is easily done with a before_filter.</div>
+</div>
+<div class='comment'>
+<div class='author'>Ryan Sonnek</div>
+<div class='content'>
+@gabe see bundler docs for require vs setup<br />http://anti-pattern.com/2010/12/20/bundler-setup-vs-bundler-require<br /><br />in my case i want to *avoid* loading the entire rails/gem environment and only load the gems necessary to push a job into resque.  in my app, this is a *drastic* reduction in the size of my process and startup time of the script.</div>
+</div>
+<div class='comment'>
+<div class='author'>Gabe da Silveira</div>
+<div class='content'>
+Doesn&#39;t Bundler.setup load the Rails environment?</div>
+</div>
+</div>

@@ -1,0 +1,11 @@
+---
+layout: post
+title: "Simple Themes With SASS"
+date: 2009-03-05
+comments: false
+categories:
+ - css
+---
+
+<div class='post'>
+<p><a href="http://haml.hamptoncatlin.com/docs/rdoc/classes/Sass.html">SASS</a> is an amazing library to have in your toolbox.&nbsp; Here's a simple trick to make skinning your website drop dead easy...AND MAINTAINABLE!!</p><br /><br /><p>Let's start with a simple HAML page that includes a specific stylesheet depending on the user's current theme.</p><br /><br /><p>index.html.haml</p><br /><pre><br />%html <br />&nbsp; %head<br />&nbsp;&nbsp;&nbsp; //dynamically write in whichever theme the user has configured<br />&nbsp;&nbsp;&nbsp; = stylesheet_link_tag 'theme_default.css'<br />&nbsp; %body<br />&nbsp;&nbsp;&nbsp; hello world<br />&nbsp;&nbsp;&nbsp; %p.fancy_text<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SASS is the bomb<br /></pre><br /><br /><p>Now, let's create the SASS file for the specific theme.  We'll define all of our themeable properties as SASS variables, which will be used later on.</p><br /><p>theme_default.sass</p><br /><pre><br />!textcolor = red<br />@import themable.sass<br /></pre><br /><br /><p>Can't get much simpler than that!  Now, we'll define all of our themed elements and reference the variables declared in the specific theme file.</p><br /><p>themable.sass</p><br /><pre><br />.fancy_text<br />&nbsp; :color= !textcolor<br /></pre><br /><br /><p>That's it!&nbsp; Now, anytime you want to create a new theme, simply create a new SASS file, declare your variables, and import the common include file!  Here's a quick example...</p><br /><br /><p>theme_blue.sass</p><br /><pre><br />!textcolor = blue<br />@import themable.sass<br /></pre></div>

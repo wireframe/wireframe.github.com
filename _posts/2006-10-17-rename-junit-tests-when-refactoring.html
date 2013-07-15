@@ -1,0 +1,12 @@
+---
+layout: post
+title: "Rename JUnit Tests When Refactoring"
+date: 2006-10-17
+comments: false
+categories:
+ - java
+ - testing
+---
+
+<div class='post'>
+<p>Modern IDE's have been putting a lot of effort into improving their tools to support code refactoring.  Eclipse is still the champ in my opinion, but <a href="http://refactoring.netbeans.org/">NetBeans seems to be making headway as well</a>.  One refactoring feature I have yet to see implemented that would make my life a little easier would be automatically rename JUnit test classes when the class being tested is renamed.</p><br /><br /><p>Since there is no real metadata available to map a particular JUnit test to the class being tested, this feature would rely mainly on naming conventions, but I'm willing to bet that this would still work 90% of the time.  If someone has a class named <CODE>Dog</CODE>, the unit test will nearly always be <CODE>DogTest</CODE>.  You could also infer this by checking all classes that extend from <CODE>TestCase</CODE> that reference the renamed class.  Again, this may not be perfect, but it's <i>far</i> from impossible.<br /></p><br /><br /><p>I've requested <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=136880">this feature for Eclipse</a>, but they've refused to add it (which is their right).  So, if anyone is interested in this feature, please make your voice heard by voting for this issue.  If that doesn't drum up enough support, it may be necessary to extend and replace the current refactoring plugin with a custom one.  Anyone out there an Eclipse plugin expert?  :)</p><br /><br /><!-- technorati tags begin --><p style="font-size:10px;text-align:right;">technorati tags:<a href="http://technorati.com/tag/java" rel="tag">java</a>, <a href="http://technorati.com/tag/eclipse" rel="tag">eclipse</a></p><!-- technorati tags end --></div>
