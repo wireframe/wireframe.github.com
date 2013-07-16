@@ -1,3 +1,7 @@
+# customize the post url to include date + title
+# ex: /2009-04-29-slap-chop.textile
+permalink: /:year/:month/:day/:title.html
+
 exclude:
   - README.md
   - CNAME
