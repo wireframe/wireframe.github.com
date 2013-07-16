@@ -410,6 +410,14 @@ Full-Width Styles
   margin: 0px;
 }
 
+.meta {
+  text-align: right;
+  color: #999;
+  font-style: italic;
+  font-size: 13px;
+  margin: 2px 0;
+}
+
 /*******************************************************************************
 Small Device Styles
 *******************************************************************************/
