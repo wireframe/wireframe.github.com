@@ -1,0 +1,5 @@
+# jekyll generated files
+_site
+
+# OSX files
+.DS_Store

@@ -14,9 +14,9 @@ categories:
 <h2>Comments</h2>
 <div class='comments'>
 <div class='comment'>
-<div class='author'>Yoav Aner</div>
+<div class='author'>Gabe da Silveira</div>
 <div class='content'>
-I found it easier to create a mini controller method that does only one thing - enqueues a resque task. In cron I simply use curl to trigger the task, e.g. `curl --interface lo http://localhost/tasks/do_something`<br /><br />The only tweak involved is checking that the request is coming from localhost, which is easily done with a before_filter.</div>
+Doesn&#39;t Bundler.setup load the Rails environment?</div>
 </div>
 <div class='comment'>
 <div class='author'>Ryan Sonnek</div>
@@ -24,8 +24,8 @@ I found it easier to create a mini controller method that does only one thing - 
 @gabe see bundler docs for require vs setup<br />http://anti-pattern.com/2010/12/20/bundler-setup-vs-bundler-require<br /><br />in my case i want to *avoid* loading the entire rails/gem environment and only load the gems necessary to push a job into resque.  in my app, this is a *drastic* reduction in the size of my process and startup time of the script.</div>
 </div>
 <div class='comment'>
-<div class='author'>Gabe da Silveira</div>
+<div class='author'>Yoav Aner</div>
 <div class='content'>
-Doesn&#39;t Bundler.setup load the Rails environment?</div>
+I found it easier to create a mini controller method that does only one thing - enqueues a resque task. In cron I simply use curl to trigger the task, e.g. `curl --interface lo http://localhost/tasks/do_something`<br /><br />The only tweak involved is checking that the request is coming from localhost, which is easily done with a before_filter.</div>
 </div>
 </div>

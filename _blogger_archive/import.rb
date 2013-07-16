@@ -54,7 +54,7 @@ def write(post, path='_posts')
     unless post.comments.empty?
       file.write "<h2>Comments</h2>\n"
       file.write "<div class='comments'>\n"
-      post.comments.each do |comment|
+      post.comments.reverse.each do |comment|
         file.write "<div class='comment'>\n"
         file.write "<div class='author'>"
         file.write comment.author
@@ -86,7 +86,7 @@ class Post
   end
 
   def content
-    @content ||= @node.at_css('content').content
+    @content ||= @node.at_css('content').content.gsub('{', '&#123;').gsub('}', '&#125;')
   end
 
   def creation_date
@@ -120,7 +120,7 @@ class Post
     [
       '---',
       %{layout: post},
-      %{title: "#{title}"},
+      %{title: "#{title.gsub('"', '\"')}"},
       %{date: #{creation_datetime}},
       %{comments: false},
       categories,

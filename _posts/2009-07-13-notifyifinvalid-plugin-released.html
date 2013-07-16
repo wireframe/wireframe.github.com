@@ -14,7 +14,7 @@ categories:
 <div class='comment'>
 <div class='author'>Jaap</div>
 <div class='content'>
-Haha and now, months later, my app also fits this usecase :-D</div>
+Or you could just call the save method with a bang (!) catch the exception and use the standard hoptoad notifier action.<br /><br />class UsersController &lt; ApplicationController<br />def create<br />  begin<br />    user = User.new params[:user]<br />    user.save!<br />    redirect_to user_path(user)<br />  rescue ActiveRecord::RecordInvalid =&gt; e<br />    #something is wrong, re-render the form<br />    notify_hoptoad(e)<br />    render :action =&gt; :new<br />  end<br />end<br />end<br /><br />Off course this is not exactly the same as telling the model to report errors like your plugin does. It just depends on where you want the logic to live.</div>
 </div>
 <div class='comment'>
 <div class='author'>Ryan Sonnek</div>
@@ -24,6 +24,6 @@ You&#39;re absolutely right.  In my case, I have backend processes creating obje
 <div class='comment'>
 <div class='author'>Jaap</div>
 <div class='content'>
-Or you could just call the save method with a bang (!) catch the exception and use the standard hoptoad notifier action.<br /><br />class UsersController &lt; ApplicationController<br />def create<br />  begin<br />    user = User.new params[:user]<br />    user.save!<br />    redirect_to user_path(user)<br />  rescue ActiveRecord::RecordInvalid =&gt; e<br />    #something is wrong, re-render the form<br />    notify_hoptoad(e)<br />    render :action =&gt; :new<br />  end<br />end<br />end<br /><br />Off course this is not exactly the same as telling the model to report errors like your plugin does. It just depends on where you want the logic to live.</div>
+Haha and now, months later, my app also fits this usecase :-D</div>
 </div>
 </div>
