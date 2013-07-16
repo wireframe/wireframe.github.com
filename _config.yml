@@ -1,0 +1,10 @@
+exclude:
+  - README.md
+  - CNAME
+  - params.json
+
+# Settings for analytics helper
+analytics :
+  provider : google
+  google :
+      tracking_id : 'TODO'

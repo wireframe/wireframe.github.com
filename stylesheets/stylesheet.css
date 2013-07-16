@@ -393,7 +393,22 @@ Full-Width Styles
   color: #999;
 }
 
+#sidebar {
+  float: right;
+  font-size: 14px;
+  margin-top: 10px;
+}
 
+#sidebar h4 {
+  font-size: 16px;
+  margin-bottom: 2px;
+}
+
+#sidebar li {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
 
 /*******************************************************************************
 Small Device Styles

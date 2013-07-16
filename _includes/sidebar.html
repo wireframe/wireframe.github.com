@@ -1,0 +1,15 @@
+<div id="sidebar">
+  <h4>Contact Me</h4>
+  <ul>
+    <li><a href="http://github.com/wireframe">Github</a></li>
+    <li><a href="http://twitter.com/codecrate">Twitter</a></li>
+    <li><a href="http://www.linkedin.com/in/ryansonnek">LinkedIn</a></li>
+  </ul>
+
+  <h4>Recent Posts</h4>
+  <ul>
+    {% for post in site.posts limit:3 %}
+    <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
