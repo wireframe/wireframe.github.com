@@ -12,3 +12,5 @@ analytics :
   provider : google
   google :
       tracking_id : 'TODO'
+
+markdown: redcarpet

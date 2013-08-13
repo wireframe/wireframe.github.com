@@ -4,10 +4,12 @@ require 'nokogiri'
 require 'fileutils'
 require 'date'
 require 'uri'
+require 'html2md'
 
 # usage: ruby import.rb my-blog.xml
 # my-blog.xml is a file from Settings -> Basic -> Export in blogger.
 
+EXPORT_COMMENTS = false
 data = File.read ARGV[0]
 doc = Nokogiri::XML(data)
 
@@ -27,7 +29,6 @@ def add(node)
   when 'comment'
     reply_to = node.children.find {|c| c.name == 'in-reply-to' }
     post_id = reply_to.attr('ref')
-    #post_id = node.search('thr').first.attr('ref')
     @posts[post_id].add_comment(Comment.new(node))
   when 'template', 'settings', 'page'
   else
@@ -46,12 +47,9 @@ def write(post, path='_posts')
   File.open(File.join(path, post.file_name), 'w') do |file|
     file.write post.header
     file.write "\n\n"
-    #file.write "<h1>{{ page.title }}</h1>\n"
-    file.write "<div class='post'>\n"
     file.write post.content
-    file.write "</div>\n"
 
-    unless post.comments.empty?
+    if post.comments.any? && EXPORT_COMMENTS
       file.write "<h2>Comments</h2>\n"
       file.write "<div class='comments'>\n"
       post.comments.reverse.each do |comment|
@@ -86,7 +84,11 @@ class Post
   end
 
   def content
-    @content ||= @node.at_css('content').content.gsub('{', '&#123;').gsub('}', '&#125;')
+    @content ||= begin
+      content = @node.at_css('content').content
+      content = content.gsub('{', '&#123;').gsub('}', '&#125;')
+      Html2Md.new(content).parse
+    end
   end
 
   def creation_date
@@ -113,7 +115,7 @@ class Post
   end
 
   def file_name
-    %{#{creation_date}-#{param_name}.html}
+    %{#{creation_date}-#{param_name}.md}
   end
 
   def header
