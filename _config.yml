@@ -1,4 +1,4 @@
-# customize the post url to include date + title
+# customize the post url to include date + title to mirror existing blogger urls
 # ex: /2009-04-29-slap-chop.textile
 permalink: /:year/:month/:day/:title.html
 
@@ -11,9 +11,14 @@ exclude:
 analytics :
   tracking_id : 'UA-1922195-6'
 
-# The production_url is only used when full-domain names are needed
-# such as sitemap.txt
+# The url is only used when full-domain names are needed
+# such as sitemap and atom
 # Most places will/should use BASE_PATH to make the urls
-production_url : http://codecrate.com
+url: http://codecrate.com
+
+# general author info
+author:
+  name: Ryan Sonnek
+  email: ryan@codecrate.com
 
 markdown: redcarpet

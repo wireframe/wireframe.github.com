@@ -1,8 +1,13 @@
+Personal Website built using [Jekyll](http://jekyllrb.com/)
+
 ### Installation
-* use jekyll
+
+```
+$ gem install jekyll
+```
 
 ### Running Locally
 
 ```
-$ jekyll serve
+$ jekyll serve -w
 ```
