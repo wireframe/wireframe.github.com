@@ -40,34 +40,6 @@ def published?(node)
   node.at_css('app|control app|draft', 'app' => 'http://purl.org/atom/app#').nil?
 end
 
-def write(post, path='_posts')
-  puts "Post [#{post.title}] has #{post.comments.count} comments"
-
-  puts "writing #{post.file_name}"
-  File.open(File.join(path, post.file_name), 'w') do |file|
-    file.write post.header
-    file.write "\n\n"
-    file.write post.content
-
-    if post.comments.any? && EXPORT_COMMENTS
-      file.write "<h2>Comments</h2>\n"
-      file.write "<div class='comments'>\n"
-      post.comments.reverse.each do |comment|
-        file.write "<div class='comment'>\n"
-        file.write "<div class='author'>"
-        file.write comment.author
-        file.write "</div>\n"
-        file.write "<div class='content'>\n"
-        file.write comment.content
-        file.write "</div>\n"
-        file.write "</div>\n"
-      end
-      file.write "</div>\n"
-    end
-
-  end
-end
-
 class Post
   attr_reader :comments
   def initialize(node)
@@ -139,6 +111,40 @@ class Post
       ].join("\n")
     end
   end
+
+  def write(path='_posts')
+    file_path = File.join(path, file_name)
+    puts %Q{Exporting post "#{title}" to #{file_path}...}
+
+    if File.exists?(file_path)
+      puts 'file already generated.'
+      return
+    end
+
+    File.open(file_path, 'w') do |file|
+      file.write header
+      file.write "\n\n"
+      file.write content
+
+      if comments.any? && EXPORT_COMMENTS
+        puts "Exporting #{comments.count} comments}
+        file.write "<h2>Comments</h2>\n"
+        file.write "<div class='comments'>\n"
+        comments.reverse.each do |comment|
+          file.write "<div class='comment'>\n"
+          file.write "<div class='author'>"
+          file.write comment.author
+          file.write "</div>\n"
+          file.write "<div class='content'>\n"
+          file.write comment.content
+          file.write "</div>\n"
+          file.write "</div>\n"
+        end
+        file.write "</div>\n"
+      end
+
+    end
+  end
 end
 
 class Comment
@@ -156,25 +162,19 @@ class Comment
 end
 
 entries = {}
-
 doc.search('entry').each do |entry|
   add entry
 end
 
 puts "** Writing PUBLISHED posts"
-FileUtils.rm_rf('_posts')
 Dir.mkdir("_posts") unless File.directory?("_posts")
-
 @posts.each do |id, post|
-  write post
+  post.write
 end
 
 puts "\n"
 puts "** Writing DRAFT posts"
-
-FileUtils.rm_rf('_drafts')
 Dir.mkdir("_drafts") unless File.directory?("_drafts")
-
 @drafts.each do |id, post|
-  write post, '_drafts'
+  post.write '_drafts'
 end

@@ -1,27 +1,31 @@
-### Adios Blogger...Hello Jekyll!
+---
+layout: post
+title: "Adios Blogger. Hello Jekyll!"
+---
 
 > It's been a long time coming...
 
-For a variety of reasons, both personal and professional, my ability to
-keep consistant blogs came to a halt.
+For a variety of reasons, both personal and professional, my blogging pasttime
+has pretty much come to a screeching halt.
 
-With my recent job change, this seemed like a perfect opportunity to pick
-back up blogging and revisit my workflow and toolset.
+With my [recent job change]({% post_url 2013-07-16-a-new-day %}),
+I've renewed my commitment to blog and now is a perfect opportunity to
+revisit my workflow and toolset.
 
 ### Blogger is teh suck
 
-[Blogger](http://blogger.com) had been my blog engine of choice for the past
+[Blogger](http://blogger.com) has been my blog engine of choice for the past
 few years, but the thought of jumping back into blogging with the venerable
-Blogger system didn't get me very excited for a number of reasons...
+Blogger system doesn't excite me for a number of reasons...
 
 First, I **hate** WSIWYG editors. I absolutely loathe and abhor them.
 As a writer, I need to focus on the *content*, and not be constantly fiddling
 with the *markup* generated.  As a Ruby developer writing blog
-posts that contain code snippits is absolutely *hell* when you have to
+posts, code snippits are absolutely *hell* when you have to
 fight with a WSIWYG editor.
 
 In the end, I have found it infinitely easier to just write my posts in
-[Markdown](http://daringfireball.net/projects/markdown/) and export the
+[Markdown](http://daringfireball.net/projects/markdown/) and then export the
 generated HTML and dump them into Blogger's HTML editor untouched.  So, why not
 skip all of the run around and work with a blog engine that is Markdown compatible?
 
