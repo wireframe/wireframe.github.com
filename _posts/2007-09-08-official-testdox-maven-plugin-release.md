@@ -9,7 +9,7 @@ categories:
  - maven
 ---
 
-It seems as though the [Codehaus Mojo Project](http://mojo.codehaus.org) has reached the end of the line.  After finishing up my [testdox maven plugin](http://www.jroller.com/wireframe/entry/testdox_maven_plugin), I tried to [contribute my plugin](http://jira.codehaus.org/browse/MOJO-681) to the Codehaus Project, but it has fallen on deaf ears.  I guess it's time to take things into my own hands, and so I'm happy to announce the [first official release of the testdox maven plugin](http://maven.codecrate.com/com/codecrate/maven/plugins/testdox-maven-plugin/).
+It seems as though the [Codehaus Mojo Project](http://mojo.codehaus.org) has reached the end of the line.  After finishing up my [testdox maven plugin]({% post_url 2007-03-06-testdox-maven-plugin %}), I tried to [contribute my plugin](http://jira.codehaus.org/browse/MOJO-681) to the Codehaus Project, but it has fallen on deaf ears.  I guess it's time to take things into my own hands, and so I'm happy to announce the [first official release of the testdox maven plugin](http://maven.codecrate.com/com/codecrate/maven/plugins/testdox-maven-plugin/).
 
 
 
@@ -37,7 +37,7 @@ Enabling the plugin is a snap.  Just add this xml block to your maven2 project 
 
 
 
-Just incase you've missed out on my previous [blog](http://jroller.com/wireframe/entry/running_code_doesn_t_lie)[entries](http://www.jroller.com/wireframe/entry/testdox_maven_plugin), the testdox report creates a human readable HTML report of your JUnit test suites.  Try it out today, and let me know what you think!
+Just incase you've missed out on my previous [blog]({% post_url 2006-04-25-running-code-doesn-lie %})[entries]({% post_url 2007-03-06-testdox-maven-plugin %}), the testdox report creates a human readable HTML report of your JUnit test suites.  Try it out today, and let me know what you think!
 
 
 

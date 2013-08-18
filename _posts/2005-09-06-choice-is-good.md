@@ -10,7 +10,7 @@ categories:
  - ajax
 ---
 
-I've spent the last couple weeks straining my brain to create [a slick autocomplete text field for Wicket](http://jroller.com/page/wireframe/?anchor=wicket_autocomplete_text_field). Over this time, I've come up with several different use cases for such a component. Now, instead of trying to create one uber component that can do it all, I have decided that it makes more sense to have different components for different use cases. This should make it much easier for users since each component has a very explicit and simple API.
+I've spent the last couple weeks straining my brain to create [a slick autocomplete text field for Wicket]({% post_url 2005-08-23-wicket-autocomplete-text-field %}). Over this time, I've come up with several different use cases for such a component. Now, instead of trying to create one uber component that can do it all, I have decided that it makes more sense to have different components for different use cases. This should make it much easier for users since each component has a very explicit and simple API.
 
 
 
@@ -53,7 +53,7 @@ add(new AjaxAutocompleteTextField("fruit") {
 ### CustomLayoutAjaxAutocompleteTextField
 
 
-My [previous blog entry](http://jroller.com/page/wireframe/?anchor=autocomplete_more_than_just_text) introduced how to autocomplete more than just text. I wanted to improve the API so that the html markup would be done outside the Java code.
+My [previous blog entry]({% post_url 2005-08-25-autocomplete-more-than-just-text %}) introduced how to autocomplete more than just text. I wanted to improve the API so that the html markup would be done outside the Java code.
 
 
 

@@ -104,7 +104,7 @@ public class MyObjectTestCase extends PerformanceTestCase {
 Before I finish, let me remind everyone:
 
 
-[Early optimization is the root of much evil.](http://www.jroller.com/wireframe/entry/performance_is_overrated)
+[Early optimization is the root of much evil.]({% post_url 2006-04-13-performance-is-overrated %})
 
 
 

@@ -11,7 +11,7 @@ categories:
 
 
 
-It's been an impressively difficult task to improve upon the [initial version of my Wicket/Hibernate integration](http://jroller.com/page/wireframe/?anchor=hibernate_annotations_and_wicket), but I finally hit a break through. Introducing the new HibernateAnnotationComponentConfigurator. _Long enough name for you?_=)
+It's been an impressively difficult task to improve upon the [initial version of my Wicket/Hibernate integration]({% post_url 2007-05-08-hibernate-annotations-and-wicket %}), but I finally hit a break through. Introducing the new HibernateAnnotationComponentConfigurator. _Long enough name for you?_=)
 
 
 

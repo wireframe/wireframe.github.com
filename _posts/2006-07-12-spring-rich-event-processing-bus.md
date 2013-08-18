@@ -10,7 +10,7 @@ categories:
  - springrcp
 ---
 
-For the past few weeks I've been working with spring rich to try and build a simple solution for performing units of work within the gui framework, but so far, [my solution has been anything but simple](http://jroller.com/page/wireframe/?anchor=crazy_command_composition).
+For the past few weeks I've been working with spring rich to try and build a simple solution for performing units of work within the gui framework, but so far, [my solution has been anything but simple]({% post_url 2006-07-01-crazy-command-composition %}).
 
 
 
@@ -54,7 +54,7 @@ public class MyService {
 
 
 
-Wiring this object in Spring is now _much_simpler than [my previous incarnation](http://jroller.com/page/wireframe/?anchor=crazy_command_composition). Simply wrap your business object in the EventTriggeredProgressMonitoredBackgroundCommandExecutor and tell it what method to invoke. It'll take care of the rest!
+Wiring this object in Spring is now _much_simpler than [my previous incarnation]({% post_url 2006-07-01-crazy-command-composition %}). Simply wrap your business object in the EventTriggeredProgressMonitoredBackgroundCommandExecutor and tell it what method to invoke. It'll take care of the rest!
 
 
 

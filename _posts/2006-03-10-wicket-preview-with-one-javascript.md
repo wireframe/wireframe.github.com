@@ -70,7 +70,7 @@ WicketPreview.load();
 
 
 
-The wicket-preview-behaviour.js file is the same as [my previous blog](http://jroller.com/page/wireframe?entry=auto_previewable_wicket_pages). I just had to move the code into a new file to avoid conflicting with the bootstrapping code.
+The wicket-preview-behaviour.js file is the same as [my previous blog]({% post_url 2006-03-03-auto-previewable-wicket-pages %}). I just had to move the code into a new file to avoid conflicting with the bootstrapping code.
 
 
 ```javascript

@@ -8,7 +8,7 @@ categories:
  - design
 ---
 
-Holiday time has come again, and my time available for blogging has shrunk to almost none. This little post continues my series of simple development tips, and builds on a [related post from a while back](http://jroller.com/page/wireframe/?anchor=document_code_with_units_of).
+Holiday time has come again, and my time available for blogging has shrunk to almost none. This little post continues my series of simple development tips, and builds on a [related post from a while back]({% post_url 2005-02-10-document-code-with-units-of-work %}).
 
 
 

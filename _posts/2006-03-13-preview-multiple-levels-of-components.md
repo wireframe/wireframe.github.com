@@ -9,7 +9,7 @@ categories:
  - wicket
 ---
 
-My [previous](http://jroller.com/page/wireframe?entry=wicket_preview_with_one_javascript)[incarnations](http://jroller.com/page/wireframe?entry=auto_previewable_wicket_pages) of the wicket:preview feature have fallen short when trying to preview multiple levels of components. I personally don't think it's that big of a deal for the preview to not handle this, but based on the feedback I've received, I decided to at least look into it.
+My [previous]({% post_url 2006-03-10-wicket-preview-with-one-javascript %}) [incarnations]({% post_url 2006-03-03-auto-previewable-wicket-pages %}) of the wicket:preview feature have fallen short when trying to preview multiple levels of components. I personally don't think it's that big of a deal for the preview to not handle this, but based on the feedback I've received, I decided to at least look into it.
 
 
 

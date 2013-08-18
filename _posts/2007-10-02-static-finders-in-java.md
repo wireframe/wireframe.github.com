@@ -19,7 +19,7 @@ Book.find(1);
 
 
 
-While Java API's force developers to think about Services and DAO's, Ruby/ActiveRecord focuses on the Domain Model which is all that really matters. I've [said this in the past](http://jroller.com/wireframe/entry/humane_object_iteration), it's all about context. We need to be creating expressive and simple API's that enable developers to build applications without being constrained by the underlying architecture.
+While Java API's force developers to think about Services and DAO's, Ruby/ActiveRecord focuses on the Domain Model which is all that really matters. I've [said this in the past]({% post_url 2006-07-17-humane-object-iteration %}), it's all about context. We need to be creating expressive and simple API's that enable developers to build applications without being constrained by the underlying architecture.
 
 
 

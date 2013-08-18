@@ -8,7 +8,7 @@ categories:
  - wicket
 ---
 
-I love Wicket, and I love RSS so it's only logical that I'd find a way to serve up RSS within Wicket.  There's an [example RssPage posted on the Wicket wiki](http://cwiki.apache.org/WICKET/rss-page.html), and I posted a [simple RSS solution](http://www.jroller.com/wireframe/entry/wicket_feedpage) a while back, but neither of these are really solid solutions.  For the past few weeks I've been working heavily with serving RSS feeds, and I've finally gotten to a point where I can provide something back to the Wicket community.
+I love Wicket, and I love RSS so it's only logical that I'd find a way to serve up RSS within Wicket.  There's an [example RssPage posted on the Wicket wiki](http://cwiki.apache.org/WICKET/rss-page.html), and I posted a [simple RSS solution]({% post_url 2006-12-30-wicket-feedpage %}) a while back, but neither of these are really solid solutions.  For the past few weeks I've been working heavily with serving RSS feeds, and I've finally gotten to a point where I can provide something back to the Wicket community.
 
 
 

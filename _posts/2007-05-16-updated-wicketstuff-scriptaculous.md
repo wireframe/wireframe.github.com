@@ -9,7 +9,7 @@ categories:
  - wicket
 ---
 
-Just incase anyone thought that the [wicket-contrib-scriptaculous project](http://jroller.com/page/wireframe/?anchor=wicket_scriptaculous_0_1_1) had dropped off the face of the earth, this is just a reminder that it's still going strong!
+Just incase anyone thought that the [wicket-contrib-scriptaculous project]({% post_url 2007-01-01-wicket-scriptaculous-011-release %}) had dropped off the face of the earth, this is just a reminder that it's still going strong!
 
 
 

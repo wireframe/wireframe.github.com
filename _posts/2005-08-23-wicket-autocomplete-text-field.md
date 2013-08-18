@@ -219,5 +219,5 @@ There's plenty of room for improvement, but I hope that this will serve as a spr
 
 
 
-And to all those [insightful comments on my last blog](http://jroller.com/page/wireframe/?anchor=web_development_done_right) saying that JSP was "good enough" for a web technology, let's see JSP do this! And don't you dare mention JSF...
+And to all those [insightful comments on my last blog]({% post_url 2005-08-09-web-development-done-right %}) saying that JSP was "good enough" for a web technology, let's see JSP do this! And don't you dare mention JSF...
 

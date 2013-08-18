@@ -9,7 +9,7 @@ categories:
  - springrcp
 ---
 
-After my [previous endevour integrating contextual tasks into shard](http://jroller.com/page/wireframe/?anchor=contextual_tasks), I wanted to take a step back and see if there was room for improvement.
+After my [previous endevour integrating contextual tasks into shard]({% post_url 2006-01-19-contextual-tasks %}), I wanted to take a step back and see if there was room for improvement.
 
 
 

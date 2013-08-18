@@ -74,7 +74,7 @@ for (var x = 0; i  print(x + " = " + array[x]);
 
 
 
-So, there are definitely options for getting around these issues. One is to update existing Javascript to use correct array iteration. Heck, since you're integrating prototype, might as use their [kick ass object iteration syntax](http://jroller.com/page/wireframe/?anchor=humane_object_iteration)! If updating your current scripts isn't an option, there are [wrapper scripts that will allow developers to control which Javascript functions get the special prototype syntax](http://ajaxian.com/archives/prototypify-running-prototype-code-with-legacy-code). This would allow you to add prototype without breaking existing scripts.
+So, there are definitely options for getting around these issues. One is to update existing Javascript to use correct array iteration. Heck, since you're integrating prototype, might as use their [kick ass object iteration syntax]({% post_url 2006-07-17-humane-object-iteration %})! If updating your current scripts isn't an option, there are [wrapper scripts that will allow developers to control which Javascript functions get the special prototype syntax](http://ajaxian.com/archives/prototypify-running-prototype-code-with-legacy-code). This would allow you to add prototype without breaking existing scripts.
 
 
 

@@ -12,7 +12,7 @@ Just when I think I'm a Wicket guru, I discover a new layer to this pretty amazi
 
 
 
-One of [my previous posts](http://www.jroller.com/wireframe/entry/from_components_to_behaviors), I mentioned that the three key concepts for working with Wicket were Components, Models, and Behaviors.  Well, it looks like I'm going to add Resources to that list as well.  I started uncovering the Wicket Resource after finishing up my [Wicket FeedPage contribution](http://www.jroller.com/wireframe/entry/wicket_and_rss_feeds).  I got some excellent feedback and was advised [to use a Resource instead of a WebPage](http://www.jroller.com/wireframe/entry/wicket_feedpage).
+One of [my previous posts]({% post_url 2007-05-25-from-components-to-behaviors %}), I mentioned that the three key concepts for working with Wicket were Components, Models, and Behaviors.  Well, it looks like I'm going to add Resources to that list as well.  I started uncovering the Wicket Resource after finishing up my [Wicket FeedPage contribution]({% post_url 2007-08-23-wicket-and-rss-feeds %}).  I got some excellent feedback and was advised [to use a Resource instead of a WebPage]({% post_url 2006-12-30-wicket-feedpage %}).
 
 
 

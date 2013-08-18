@@ -8,7 +8,7 @@ categories:
  - wicket
 ---
 
-In the past, I've shown how easy it is to [publish RSS/atom feeds within Wicket applications](http://www.jroller.com/wireframe/entry/wicket_feedresource), and now it is just as easy to consume external feeds. It's actually quite trivial (about 20 lines of code), but it is nice to support this out of the box so new users don't have to roll their own implementation every time.
+In the past, I've shown how easy it is to [publish RSS/atom feeds within Wicket applications]({% post_url 2007-09-12-wicket-feedresource %}), and now it is just as easy to consume external feeds. It's actually quite trivial (about 20 lines of code), but it is nice to support this out of the box so new users don't have to roll their own implementation every time.
 
 
 

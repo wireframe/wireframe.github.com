@@ -7,7 +7,7 @@ categories:
  - jsp
 ---
 
-It's been a _long_time since I've [blogged about](http://jroller.com/page/wireframe/?anchor=jsp_is_a_joke)[how much I **HATE** JSP](http://jroller.com/page/wireframe/20041022#the_two_faces_of_jsp). Today marks yet another day in the unending saga of pain and misery, and yet another reason this beast needs to be put to sleep.
+It's been a _long_time since I've [blogged about]({% post_url 2005-02-09-jsp-is-joke %}) [how much I **HATE** JSP]({% post_url 2004-10-22-two-faces-of-jsp %}). Today marks yet another day in the unending saga of pain and misery, and yet another reason this beast needs to be put to sleep.
 
 
 

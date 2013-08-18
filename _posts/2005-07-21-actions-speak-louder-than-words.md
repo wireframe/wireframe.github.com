@@ -36,7 +36,7 @@ Lately, I've been involved in some developer code inspections, and I have come t
 
 
 
-What I've come to realize is how pointless it is to review someone else's code in this way. Personally, I don't care "how" they implement it, as long as it works. And within that last statement lies the key to better code reviews. Instead of reviewing someone's code, I would much rather review their unit tests. Reading through a unit test shows you how the code works instead of the javadocs telling you how they work. This is very closely related to my previous post about [using code to document units of work](http://jroller.com/page/wireframe/?anchor=document_code_with_units_of).
+What I've come to realize is how pointless it is to review someone else's code in this way. Personally, I don't care "how" they implement it, as long as it works. And within that last statement lies the key to better code reviews. Instead of reviewing someone's code, I would much rather review their unit tests. Reading through a unit test shows you how the code works instead of the javadocs telling you how they work. This is very closely related to my previous post about [using code to document units of work]({% post_url 2005-02-10-document-code-with-units-of-work %}).
 
 
 

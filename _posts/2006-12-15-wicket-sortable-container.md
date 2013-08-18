@@ -71,7 +71,7 @@ The HTML template is nearly identical too. You just need to add a wicketId to th
 &lt;/ul&gt;
 ```
 
-Simple enough for ya? I was extremely excited to see [developers having success getting up and running with the latest snapshot release of these components](http://jroller.com/comments/wireframe?anchor=wicket_scriptaculous_snapshot_release). I'd love to hear other success (or horror) stories from anyone out there that's using these components!
+Simple enough for ya? I was extremely excited to see [developers having success getting up and running with the latest snapshot release of these components]({% post_url 2006-12-10-wicket-scriptaculous-snapshot-release %}). I'd love to hear other success (or horror) stories from anyone out there that's using these components!
 
 
 

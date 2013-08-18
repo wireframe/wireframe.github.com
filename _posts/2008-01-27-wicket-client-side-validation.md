@@ -56,7 +56,7 @@ public class MyForm extends WebPage {
 
 
 
-Boom! Just like that, you have client side validation in Wicket. In this example, the user will get an error message if they try to leave the name field blank. Seriously, can it get any easier than this? Actually it can, if you use hibernate annotations, your Wicket component can [automatically configured instead of having to manually set requiredness or add validators](http://jroller.com/wireframe/entry/wicketstuff_hibernate_updates). You could also automatically attach this Ajax behavior to all of your forms by using a ComponentInstantiationListener.
+Boom! Just like that, you have client side validation in Wicket. In this example, the user will get an error message if they try to leave the name field blank. Seriously, can it get any easier than this? Actually it can, if you use hibernate annotations, your Wicket component can [automatically configured instead of having to manually set requiredness or add validators]({% post_url 2007-06-28-wicketstuff-hibernate-updates %}). You could also automatically attach this Ajax behavior to all of your forms by using a ComponentInstantiationListener.
 
 
 
