@@ -41,9 +41,10 @@ Liquid templates are going to take some time to get used to, but the basics are 
 to grasp and there's really no need to dig in much deeper.
 
 Things I like:
+
 * Simple yet flexible
 * Full control - I own the HTML, CSS, and JS libraries and am not limited by a theme chooser.
-* Git integration - commit, push, and your content is live!
+* Git integration - offline editing, commit, push, and your content is live!
 * No ads, banners, etc polluting my site!
 
 ### The Mass Exodus
