@@ -39,15 +39,3 @@ Of course! It's a JSP problem! From this day forward, may this be a new starting
 
 
 Let this blog be a testiment to the suckyness of JSP. If you use JSP, stop using JSP. If you can't stop using JSP, consider tossing yourself from a balcony to avoid dealing with it's suckyness. If you wish to live, even though you work with JSP, make sure you set your encoding when using the JSTL import tag.
-
-
-
-
-
-technorati tags:
-
-[java](http://technorati.com/tag/java),
-
-[jsp](http://technorati.com/tag/jsp)
-
-

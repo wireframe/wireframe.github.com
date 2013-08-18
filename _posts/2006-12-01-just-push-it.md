@@ -64,10 +64,3 @@ public class MyService {
 
 
 The beauty of this refactoring tip is that it can be applied to any layer of an application. If your business layer begins pushing logic into the dao layer and that code begins to be bloated, you should push that logic out of the dao layer and into a new abstraction to keep that code concise.
-
-
-
-
-technorati tags:[java](http://technorati.com/tag/java), [development](http://technorati.com/tag/development)
-
-

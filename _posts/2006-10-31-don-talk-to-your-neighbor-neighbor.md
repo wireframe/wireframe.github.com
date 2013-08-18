@@ -58,8 +58,3 @@ Sure, this an ultra simplified example, but notice how the PetClinic is no longe
 
 
 I'm sure someone will have some comments on the DataObject pattern to refute this one. Since DataObjects are essentially bags of data with no behavior, I'd argue that the DataObject pattern is also an antipattern (although sometimes necessary).
-
-
-
-technorati tags:[java](http://technorati.com/tag/java), [antipattern](http://technorati.com/tag/antipattern)
-
