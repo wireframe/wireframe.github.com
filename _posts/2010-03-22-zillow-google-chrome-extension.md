@@ -8,7 +8,9 @@ categories:
  - zillow
 ---
 
-Incase you haven't heard, [I love](http://blog.codecrate.com/2010/02/mailinator-google-chrome-extension.html)[me some](http://blog.codecrate.com/2009/12/delicious-google-chrome-extension.html) Google Chrome extensions. And now [the Zillow Google Chrome extension](https://chrome.google.com/extensions/detail/hpfpmhoefhblnbnipeapenjojpcbifpo/) just made looking for a new house a heck of a lot easier.
+Incase you haven't heard, [I love]({% post_url 2010-02-07-mailinator-google-chrome-extension %})
+[me some]({% post_url 2009-12-16-delicious-google-chrome-extension %}) Google Chrome extensions.
+And now [the Zillow Google Chrome extension](https://chrome.google.com/extensions/detail/hpfpmhoefhblnbnipeapenjojpcbifpo/) just made looking for a new house a heck of a lot easier.
 
 Grab an address, pop open the Zillow Google Chrome extension and find the estimated property value in no time!
 

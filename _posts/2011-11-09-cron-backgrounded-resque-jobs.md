@@ -15,7 +15,7 @@ categories:
 
 Using cron to fire off heavyweight Ruby/Rails jobs is fairly trivial to get up and running. When each cron job fires up a full Rails process, it won't be long until you accrue enough jobs that your cron server will be brought to it's knees. Since you already have a pool of [Resque](http://github.com/defunkt/resque) background workers running to process async jobs, why not leverage dormant workers to process jobs that are kicked off via cron?
 
-Here is a simple solution that can be used to have cron enqueue jobs into [Backgrounded Resque jobs](http://blog.codecrate.com/2010/09/backgrounded-resque-support.html)without loading the entire Rails environment.
+Here is a simple solution that can be used to have cron enqueue jobs into [Backgrounded Resque jobs]({% post_url 2010-09-27-backgrounded-resque-support %}) without loading the entire Rails environment.
 
 This is an excellent optimization to increase the availability of your cron server and avoid running out of memory when multiple jobs fire up at the same time.
 

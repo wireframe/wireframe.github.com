@@ -20,7 +20,10 @@ As applications grow, managing your Gemfile dependencies is an ongoing issue. Th
 Enter Custom Bundler Groups!
 ----------------------------
 
-Inspired by the great article by [Iain Hecker](http://iain.nl/getting-the-most-out-of-bundler-groups), I began exploring more advanced usage of bundler groups. The [rails-console-tweaks gem](http://blog.codecrate.com/2012/03/rails-console-tweaks-gem.html) was a step in the right direction, but there's plenty more work to be done!
+Inspired by the great article by [Iain Hecker](http://iain.nl/getting-the-most-out-of-bundler-groups),
+I began exploring more advanced usage of bundler groups.
+The [rails-console-tweaks gem]({% post_url 2012-03-24-rails-console-tweaks-gem %}) was a step in the right direction,
+but there's plenty more work to be done!
 
 After launching a few Rails applications from the ground up, I found a number of reusable themes that could be expressed quite well using bundler groups.
 

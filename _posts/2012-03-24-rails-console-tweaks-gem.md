@@ -8,7 +8,15 @@ categories:
  - rails
 ---
 
-Every developer toolbox has a certain set of tweaks for use in the Rails console. There is [no](http://stackoverflow.com/questions/4774847/rails-console-tips-tricks-and-customizations)[shortage](http://rors.org/2009/12/20/10-rails-console-tricks.html)[of](http://rors.org/2011/07/17/inline-logging-in-rails-console.html)[blog](http://rbjl.net/49-railsrc-rails-console-snippets)[posts](http://drnicwilliams.com/2006/10/12/my-irbrc-for-consoleirb/)for customizing your Rails console, however, there is a considerable gap in tooling to simplify the experience. The Rails console tweaks gem is a solution to help you bootstrap a new app and get the best default console experience right out of the box.
+Every developer toolbox has a certain set of tweaks for use in the Rails console.
+There is [no](http://stackoverflow.com/questions/4774847/rails-console-tips-tricks-and-customizations)
+[shortage](http://rors.org/2009/12/20/10-rails-console-tricks.html)
+[of](http://rors.org/2011/07/17/inline-logging-in-rails-console.html)
+[blog](http://rbjl.net/49-railsrc-rails-console-snippets)
+[posts](http://drnicwilliams.com/2006/10/12/my-irbrc-for-consoleirb/) for customizing your Rails console.
+However, there is still a considerable gap in tooling to simplify the experience.
+The Rails console tweaks gem is a solution to help you bootstrap a new app and get the best
+default console experience right out of the box.
 
 Just drop this gem into your Rails application Gemfile and watch the magic happen the next time you open your Rails console!
 

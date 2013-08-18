@@ -57,7 +57,11 @@ If any other developers are interested in building a backgrounded wrapper, spin 
 after\_commit\_backgrounded Callback
 ------------------------------------
 
-Using ActiveRecord callbacks to perform background work is an [extremely common pattern](http://blog.codecrate.com/2009/10/backgrounded-activerecord-callbacks.html). Background jobs should only be invoked after the data has been committed to the database to ensure that the background job will have access to the recent changes and backgrounded now makes it even easier to do the "right thing".
+Using ActiveRecord callbacks to perform background work is an
+[extremely common pattern]({% post_url 2009-10-29-backgrounded-activerecord-callbacks %}).
+Background jobs should only be invoked after the data has been committed to the database to
+ensure that the background job will have access to the recent changes and
+backgrounded now makes it even easier to do the "right thing".
 
 The after\_commit\_backgrounded callback is just like your standard [Rails after\_commit hook](http://api.rubyonrails.org/classes/ActiveRecord/Transactions/ClassMethods.html#method-i-after_commit) with a few minor upgrades. It executes the referenced method in the background (duh), and it allows for an optional :backgrounded option to customize the options for the Backgrounded::Handler.
 

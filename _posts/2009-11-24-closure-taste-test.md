@@ -200,7 +200,14 @@ $('<div />').appendTo(document.body);
 ```
 
 
-It's not the extra line that bothers me. It's the lack of context and Context is King in my world.  I constantly found myself second guessing things like, "is the first argument to appendChild() the child or the parent element?"  Calling methods directly on the DOM element is so much more natural than using these external helper methods even if [method chaining ](http://draft.blogger.com/goog_1259040188124)[does](http://draft.blogger.com/goog_1259040188124)[ have it's own drawbacks](http://blog.codecrate.com/2009/11/jquery-dom-manipulation-performance.html).
+It's not the extra line that bothers me. It's the lack of context and Context is King in my world.  
+I constantly found myself second guessing things like,
+"is the first argument to appendChild() the child or the parent element?"  
+Calling methods directly on the DOM element is so much more natural than using
+these external helper methods even if
+[method chaining](http://draft.blogger.com/goog_1259040188124)
+[does](http://draft.blogger.com/goog_1259040188124)
+[have it's own drawbacks]({% post_url 2009-11-02-jquery-dom-manipulation-performance %}).
 
 
 Dependencies/Libraries
