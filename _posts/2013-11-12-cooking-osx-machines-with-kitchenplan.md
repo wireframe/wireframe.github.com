@@ -1,6 +1,16 @@
+---
+layout: post
+title: "Cooking OSX Machines with Kitchenplan"
+date: 2013-11-12
+categories:
+  - osx
+  - chef
+  - kitchenplan
+---
+
 > Provisioning a new OSX machine is a chore, and time is the one thing we never have enough of...
 
-Chef has made setting up production servers trivial.  Why not use Chef to automate setting up your development environment in a standard and reproducible way?  
+[Chef](http://www.opscode.com/chef/) has made setting up production servers trivial.  Why not use Chef to automate setting up your development environment in a standard and reproducible way?
 
 # Kitchenplan to the rescue
 
@@ -42,13 +52,13 @@ In general, you can group your recipes into one of these three categories:
 
 These settings range from [trivial tweaks to OSX Finder](https://github.com/thegarage/chef-osxdefaults/blob/master/recipes/finder_display_full_path.rb) to [security related settings to ensure machines prompt for passwords after idle for an extended period of time](https://github.com/thegarage/chef-osxdefaults/blob/master/recipes/set_screensaver_preferences.rb).
 
-The [chef-osxdefaults cookbook](https://github.com/kitchenplan/chef-osxdefaults) is a highly recommended starting point for these recipes (contributions welcome).  
+The [chef-osxdefaults cookbook](https://github.com/kitchenplan/chef-osxdefaults) is a highly recommended starting point for these recipes (contributions welcome).
 
 ## Application installation
 
 [Homebrew](http://brew.sh) and [homebrew cask](https://github.com/phinze/homebrew-cask) are absolutely awesome and have pretty much cornered the market for installing apps on OSX.  Luckily, the [chef-applications cookbook](https://github.com/kitchenplan/chef-applications) is smart enough to leverage homebrew and homebrew cask under the covers and delegate to those existing libraries instead of re-inventing the wheel.
 
-Pretty much every recipe I needed to get up and running was already available right out of the box (and contributions are always welcome).  
+Pretty much every recipe I needed to get up and running was already available right out of the box (and contributions are always welcome).
 
 ## User environment
 Building the perfect shell environment takes a **long** time and I've invested a ton of time in [my personal dotfiles](https://github.com/wirefarme/dotfiles
