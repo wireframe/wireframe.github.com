@@ -1,0 +1,63 @@
+> Provisioning a new OSX machine is a chore, and time is the one thing we never have enough of...
+
+Chef has made setting up production servers trivial.  Why not use Chef to automate setting up your development environment in a standard and reproducible way?  
+
+# Kitchenplan to the rescue
+
+
+[Kitchenplan](http://vanderveer.be/blog/2013/04/14/presenting-kitchenplan/) is a brilliant tool for packaging up Chef recipes to setup and configure OSX/Linux environments.  It's the perfect tool to automate building out a team's standard development environment.
+
+Creating your own stack is as simple as following a few steps:
+
+1. Fork the [kitchenplan github repo](https://github.com/thegarage/kitchenplan/)
+2. Customize your list of Chef recipes in `config/default.yml`
+3. Provision your machine using the awesome installer script (inspired by [Homebrew](https://raw.github.com/mxcl/homebrew/go) and [written by yours truly](https://github.com/kitchenplan/kitchenplan/pull/33))
+
+
+### What's awesome about Kitchenplan?
+
+The installer script takes you from zero to hero in one line.  There's literally nothing else you need to do to get up and going.  The installer script even takes care of **automatically installing Xcode Command Line Tools**!
+
+```
+    # configure location of custom kitchenplan repository
+    $ export KITCHENPLAN_REPO=https://github.com/mycompany/kitchenplan.git
+
+    # install/update kitchenplan recipes and run chef
+    $ ruby -e "$(curl -fsSL https://raw.github.com/kitchenplan/kitchenplan/master/go)"
+```
+
+### Re-runnable
+We all know that provisioning your development environment is *not* a one time ordeal.  We **constantly** tweak and change our environments as new tools/technologies become available.  Kitchenplan (and Chef) support this flow incredibly well, and you can re-run kitchen plan anytime to update your local environment with new configuration or recipes.  The installer script will actually automatically update an existing installation with the latest available configuration in the remote repository for you.
+
+### Flexibile
+per user customized attributes and recipes.  groups to centralize shared settings/recipes.
+
+[Example config for my current machine](https://github.com/thegarage/kitchenplan/blob/master/config/people/ryansonnek.yml) that adds additional recipes and customized attributes.
+
+I spent some time exploring [Pivotal sprout](https://github.com/wireframe/chef-osxbootstrap) as an alternative to kitchenplan, but it's lack of groups and limited local user customizations really make kitchen plan shine here.
+
+## Base Components
+
+There are **lots** of recipes to choose from to build your kitchen plan config, and I've found the best way to tackle things are to focus on 
+
+These cookbooks are community maintained, so please contribute your favorite tweaks to any of these repos to help improve the stack for all developers.
+
+The in the [chef-osxdefaults cookbook](https://github.com/kitchenplan/chef-osxdefaults).  
+
+### OSX system configuration
+
+These settings range from [trivial tweaks to OSX Finder](https://github.com/thegarage/chef-osxdefaults/blob/master/recipes/finder_display_full_path.rb) to [security related settings to ensure machines prompt for passwords after idle for an extended period of time](https://github.com/thegarage/chef-osxdefaults/blob/master/recipes/set_screensaver_preferences.rb).
+
+### Application installation
+https://github.com/thegarage/chef-applications
+homebrew cask
+
+homebrew + homebrew cask to the rescue.  Chef recipes delegate DMG installation and versioning to the awesomely maintained homebrew cask repository.
+
+### User environment
+https://github.com/thegarage/chef-dotfiles
+
+Building the perfect shell environment takes a **long** time and I've invested a ton of time in [my personal dotfiles](https://github.com/wirefarme/dotfiles
+).  Building out a sweet shell config with kitchen plan is completely possible, especially if you feel comfortable hopping in and creating a few simple recipes for [bash-it](https://github.com/revans/bash-it) extensions.
+
+
