@@ -32,8 +32,9 @@ end
 ```
 
 Getting up and running with bundler-organizer is as simple as:
+
 ```bash
-$ gem install bundler-organizer
+$ gem install bundler-reorganizer
 $ bundler-reorganizer path/to/Gemfile
 ```
 
