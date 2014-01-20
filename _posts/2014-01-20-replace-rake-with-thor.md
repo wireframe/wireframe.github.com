@@ -13,7 +13,7 @@ for a Rake task?  My guess is **NEVER**.
 Unit testing Rake tasks is a [pain in the ass](http://robots.thoughtbot.com/test-rake-tasks-like-a-boss) to say the least.
 Most developers "work around" unit testing Rake tasks by
 extracting logic out of the Rake task and into an actual unit testable Ruby object,
-still leaving the actual Rake task untested.  Well my friends, that's just not good enough.  [As I say...](http://codecrate.com/2011/01/3-es-of-engineering.html)
+still leaving the actual Rake task untested.  Well my friends, that's just not good enough.  [As I say...]({% post_url 2011-01-14-3-es-of-engineering %})
 > If it's not tested, it's probably broken and you just don't know it yet.
 > \#sonnekboom
 
