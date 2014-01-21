@@ -88,7 +88,7 @@ class MyCommand < Thor
 end
 ```
 
-## Extensions Library
+## Gem Extensions
 
 Rake has been around for a **long** time, and the Ruby community
 has built a **considerable** [collection of extensions and integrations](http://rubygems.org/search?query=rake).
