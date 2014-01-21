@@ -2,15 +2,15 @@
 layout: default
 ---
 <div class="page-header">
+  <p class="text-muted text-right">
+    <i class="fa fa-clock-o"></i>
+    Posted on
+    {{ page.date | date: "%Y-%m-%d" }}
+  </p>
   <h1>
     {{ page.title }}
     <small>by {{ site.author.name }}</small>
   </h1>
-  <p class="text-right">
-    <i class="fa fa-clock-o"></i>
-    Posted on
-    {{ page.date | date_to_string }}
-  </p>
 </div>
 <div class="post">
   {{ content }}
