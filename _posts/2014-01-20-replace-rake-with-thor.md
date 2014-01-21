@@ -13,19 +13,51 @@ for a Rake task?  My guess is **NEVER**.
 Unit testing Rake tasks is a [pain in the ass](http://robots.thoughtbot.com/test-rake-tasks-like-a-boss) to say the least.
 Most developers "work around" unit testing Rake tasks by
 extracting logic out of the Rake task and into an actual unit testable Ruby object,
-still leaving the actual Rake task untested.  Well my friends, that's just not good enough.  [As I say...]({% post_url 2011-01-14-3-es-of-engineering %})
-> If it's not tested, it's probably broken and you just don't know it yet.
-> \#sonnekboom
+still leaving the actual Rake task untested.  This may be acceptable for
+*some* developers, but **any technology that is prohibitively difficult to test
+should be a red flag that something is wrong**.  This also can leave
+significant coverage gaps if your Rake task is parameterized and requires
+any parsing of CLI options.
 
-There's simply no excuse to **not** write tests for your code,
-and Rake tasks **are** most definitely code.  But instead of delving into
-the depths and horrors of **how** to unit test Rake tasks,
-my answer is to simply ditch Rake and use [Thor](http://whatisthor.com) instead.
+Now, if you extract logic out of your Rake task and
+into a good old *testable* Ruby object, why is the extra boilerplate
+(and untested) Rake task even necessary?
+Let's get rid of that extra layer of indirection and complexity and simply use [Thor](http://whatisthor.com) instead.
 
-The beauty of Thor tasks is that they are Plain Old Ruby Objects and
-100% unit testable without jumping through hoops.
+The beauty of Thor tasks is that they are Plain Old Ruby Objects **and**
+a Rake-like task runner all in one.  Your tasks are now 100% unit testable
+without jumping through hoops, and your code is consolidated into one easily
+maintainable location.
 
-Life on the Thor bandwagon is great from here on out.
+Go from this...
+
+```ruby
+# Rakefile
+task :do_something do
+  MyCommand.new.run
+end
+
+# lib/my_command.rb
+class MyCommand
+  def run
+    # do something here
+  end
+end
+```
+
+To this...
+
+```ruby
+# lib/tasks/my_command.thor
+class MyCommand < Thor
+  desc 'do_something', 'do some work'
+  def do_something
+    # do something here
+  end
+end
+```
+
+Seriously, it's that easy.  Life on the Thor bandwagon is great from here on out.
 You'll never look back at Rake...until...
 
 ## Rails Environment Dependencies
@@ -85,5 +117,7 @@ adds similar exception tracking to your Thor tasks.  Just drop the
 gem into your app and you're set!  Hopefully, this feature will
 be [integrated into the core honeybadger gem sometime soon](https://twitter.com/codecrate/status/424034659228340225).
 
-The next time you have an itch to write a one-off Rake task, consider using
-Thor and leave your Rake in the yard...
+There's simply no excuse to **not** write tests for your code,
+and Rake tasks **are** most definitely code.  But instead of delving into
+the depths and horrors of **how** to unit test Rake tasks,
+my answer is to simply leave your Rake in the yard and use [Thor](http://whatisthor.com).
