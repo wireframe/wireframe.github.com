@@ -2,7 +2,7 @@
 layout: default
 ---
 
-### A Web Developer with a passion for...
+### I'm a Web Developer with a passion for...
 
 * Getting things done using Lean Startup practices
 * Writing elegantly simple code with Ruby and Javascript

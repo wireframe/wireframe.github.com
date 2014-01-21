@@ -1,6 +1,6 @@
-<div id="sidebar">
+<div class="well recent-posts col-lg-3">
   <h4>Recent Posts</h4>
-  <ul>
+  <ul class="list-unstyled">
     {% for post in site.posts limit:5 %}
     <li><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}

@@ -1,12 +1,21 @@
 ---
 layout: default
 ---
-<p class="meta">{{ page.date | date_to_string }}</p>
-<h2 class="title">{{ page.title }}</h2>
+<div class="page-header">
+  <h1>
+    {{ page.title }}
+    <small>by {{ site.author.name }}</small>
+  </h1>
+  <p class="text-right">
+    <i class="fa fa-clock-o"></i>
+    Posted on
+    {{ page.date | date_to_string }}
+  </p>
+</div>
 <div class="post">
   {{ content }}
-
-  {% include bio.html %}
-
-  {% include comments.html %}
 </div>
+{% include bio.html %}
+
+{% include comments.html %}
+

@@ -1,10 +1,13 @@
-<section class="author-bio">
-  <figure>
-    <img alt="{{ site.author.name }}" height="80" width="80" src="{{ site.author.gravatar }}" />
-  </figure>
+<div class="well well-lg author-bio">
+  <div class="panel-body">
+    <div class="col-md-2 hidden-xs">
+      <img alt="{{ site.author.name }}" height="80" width="80" src="{{ site.author.gravatar }}" />
+    </div>
 
-  <figcaption>
-    <h2>{{ site.author.name }} is...</h2>
-    <span class="bio">{{ site.author.bio }}</span>
-  </figcaption>
-</section>
+    <div class="col-xs-9">
+      <h2>{{ site.author.name }} is...</h2>
+      <span class="bio">{{ site.author.bio }}</span>
+    </div>
+    {% include contact_links.html %}
+  </div>
+</div>
