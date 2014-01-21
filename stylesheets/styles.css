@@ -35,12 +35,16 @@ a.tagline .text-primary {
 /* post body */
 .post {
   padding-bottom: 15px;
-  /*border-bottom: 2px solid #DDD;*/
 }
 
 /* author bio */
 .author-bio h2 {
   margin-top: 0;
+}
+
+/* related posts */
+.related-posts ul {
+  padding-left: 15px;
 }
 
 /* footer */
