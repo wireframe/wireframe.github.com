@@ -11,25 +11,16 @@
 
     <link rel="alternate" type="application/atom+xml" href="/atom.xml" title="Atom feed">
 
-    <title>{{ site.author.name }}</title>
+    {% if page.title %}
+      <title>{{ page.title }} - {{ site.author.name }}</title>
+    {% else %}
+      <title>{{ site.author.name }}</title>
+    {% endif %}
   </head>
 
   <body>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <h1 id="project_title">{{ site.author.name }}</h1>
-          <h2 id="project_tagline">
-            <a class="logo" href="/">
-              [<em>code</em>crate]
-            </a>
-            Building better <em>code</em>
-          </h2>
-
-          {% include contact_links.html %}
-        </header>
-    </div>
+    {% include header.html %}
 
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
@@ -40,12 +31,7 @@
       </section>
     </div>
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Copyright © 2013 {{ site.author.name }}. All Rights Reserved.</p>
-      </footer>
-    </div>
+    {% include footer.html %}
 
     {% include analytics.html %}
   </body>
