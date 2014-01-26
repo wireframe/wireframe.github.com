@@ -61,7 +61,7 @@ The [chef-osxdefaults cookbook](https://github.com/kitchenplan/chef-osxdefaults)
 Pretty much every recipe I needed to get up and running was already available right out of the box (and contributions are always welcome).
 
 ## User environment
-Building the perfect shell environment takes a **long** time and I've invested a ton of time in [my personal dotfiles](https://github.com/wirefarme/dotfiles
+Building the perfect shell environment takes a **long** time and I've invested a ton of time in [my personal dotfiles](https://github.com/wireframe/dotfiles
 ).  Building out a sweet shell config with kitchen plan is completely possible, especially if you feel comfortable hopping in and creating a few simple recipes for [bash-it](https://github.com/revans/bash-it) extensions.
 
 [the chef-dotfiles cookbook](https://github.com/thegarage/chef-dotfiles) has done a good job here as well getting a basic shell environment up to snuff and on par with my old custom dotfiles configuration (yep, contributions are encouraged).
