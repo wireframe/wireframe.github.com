@@ -3,7 +3,7 @@ layout: post
 title: "Oh JSP, How I Hate Thee"
 date: 2006-10-18
 comments: false
-categories:
+tags:
  - jsp
 ---
 

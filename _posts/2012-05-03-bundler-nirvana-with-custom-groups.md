@@ -3,7 +3,7 @@ layout: post
 title: "Bundler Nirvana With Custom Groups"
 date: 2012-05-03
 comments: false
-categories:
+tags:
  - ruby
  - rails
 ---

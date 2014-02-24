@@ -3,7 +3,7 @@ layout: post
 title: "Text Truncation With CSS/SASS/Javascript"
 date: 2009-10-01
 comments: false
-categories:
+tags:
  - javascript
  - rails
  - jquery

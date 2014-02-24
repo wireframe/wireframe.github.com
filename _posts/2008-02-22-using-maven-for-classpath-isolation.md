@@ -3,7 +3,7 @@ layout: post
 title: "Using Maven For Classpath Isolation"
 date: 2008-02-22
 comments: false
-categories:
+tags:
  - java
  - maven
 ---

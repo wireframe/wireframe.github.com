@@ -3,7 +3,7 @@ layout: post
 title: "Contextual Tasks"
 date: 2006-01-19
 comments: false
-categories:
+tags:
  - java
  - shard
  - swing

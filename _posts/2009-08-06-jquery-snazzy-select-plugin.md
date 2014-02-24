@@ -3,7 +3,7 @@ layout: post
 title: "jQuery Snazzy Select Plugin"
 date: 2009-08-06
 comments: false
-categories:
+tags:
  - javascript
  - jquery
 ---

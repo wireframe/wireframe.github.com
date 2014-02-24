@@ -3,7 +3,7 @@ layout: post
 title: "Static Finders in Java"
 date: 2007-10-02
 comments: false
-categories:
+tags:
  - java
  - database
 ---

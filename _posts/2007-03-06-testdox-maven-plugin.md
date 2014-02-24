@@ -3,7 +3,7 @@ layout: post
 title: "TestDox Maven Plugin"
 date: 2007-03-06
 comments: false
-categories:
+tags:
  - java
  - testing
 ---

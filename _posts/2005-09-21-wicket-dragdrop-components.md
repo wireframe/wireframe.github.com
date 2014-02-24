@@ -3,7 +3,7 @@ layout: post
 title: "Wicket Drag/Drop Components"
 date: 2005-09-21
 comments: false
-categories:
+tags:
  - javascript
  - java
  - scriptaculous

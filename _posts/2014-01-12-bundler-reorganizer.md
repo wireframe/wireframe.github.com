@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Bundler Reorganizer"
-categories:
+tags:
  - ruby
 ---
 

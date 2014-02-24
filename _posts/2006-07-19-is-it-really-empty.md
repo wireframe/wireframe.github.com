@@ -3,7 +3,7 @@ layout: post
 title: "Is It REALLY Empty?"
 date: 2006-07-19
 comments: false
-categories:
+tags:
  - jsp
 ---
 

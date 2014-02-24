@@ -3,7 +3,7 @@ layout: post
 title: "AIR Lightweight Windows Steal Focus By Default"
 date: 2009-12-23
 comments: false
-categories:
+tags:
  - airfail
  - air
 ---

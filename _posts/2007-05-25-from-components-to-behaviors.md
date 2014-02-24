@@ -3,7 +3,7 @@ layout: post
 title: "From Components To Behaviors"
 date: 2007-05-25
 comments: false
-categories:
+tags:
  - java
  - wicket
 ---

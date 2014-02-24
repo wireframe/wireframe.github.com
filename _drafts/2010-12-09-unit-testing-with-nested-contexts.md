@@ -3,8 +3,9 @@ layout: post
 title: "Unit Testing with Nested Contexts"
 date: 2010-12-09
 comments: false
-categories:
+tags:
  - testing
+ - ruby
 ---
 
 Nesting contexts and assertions is a more advanced and incredibly powerful aspect of several modern unit test frameworks (shoulda, jspec, etc). It is both a blessing and a curse. Using context nesting in most situations is a great way to reuse common data or environmental setup, but it must be applied judiciously to keep tests from getting out of control.

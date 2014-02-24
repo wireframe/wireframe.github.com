@@ -3,7 +3,7 @@ layout: post
 title: "HibernateAnnotationComponentConfigurator"
 date: 2007-06-22
 comments: false
-categories:
+tags:
  - java
  - hibernate
  - wicket

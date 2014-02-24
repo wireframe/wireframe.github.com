@@ -3,7 +3,7 @@ layout: post
 title: "Preview Release of Shard Minotaur"
 date: 2006-06-13
 comments: false
-categories:
+tags:
  - java
  - shard
 ---

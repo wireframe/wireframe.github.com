@@ -3,7 +3,7 @@ layout: post
 title: "Rename JUnit Tests When Refactoring"
 date: 2006-10-17
 comments: false
-categories:
+tags:
  - java
  - testing
 ---

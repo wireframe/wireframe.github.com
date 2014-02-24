@@ -3,7 +3,7 @@ layout: post
 title: "Continuous Deployment for Rails"
 date: 2009-09-15
 comments: false
-categories:
+tags:
  - ruby
  - process
  - lean_startup

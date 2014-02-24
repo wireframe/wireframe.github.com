@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "FactoryGirl RSpec Traits"
-categories:
+tags:
  - ruby
  - rspec
  - testing

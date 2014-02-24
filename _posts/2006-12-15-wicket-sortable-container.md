@@ -3,7 +3,7 @@ layout: post
 title: "Wicket Sortable Container"
 date: 2006-12-15
 comments: false
-categories:
+tags:
  - javascript
  - java
  - wicket

@@ -3,7 +3,7 @@ layout: post
 title: "FinderTemplate"
 date: 2006-08-07
 comments: false
-categories:
+tags:
  - ruby
  - java
 ---

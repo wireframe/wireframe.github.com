@@ -3,7 +3,7 @@ layout: post
 title: "Choice Is Good"
 date: 2005-09-06
 comments: false
-categories:
+tags:
  - java
  - scriptaculous
  - wicket

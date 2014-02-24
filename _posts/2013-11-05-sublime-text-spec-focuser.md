@@ -2,7 +2,7 @@
 layout: post
 title: "Sublime Text Spec Focuser Plugin"
 date: 2013-11-05
-categories:
+tags:
   - testing
   - sublimetext
 ---
@@ -15,6 +15,6 @@ For the past six months, Sublime Text has been my primary IDE, and I've released
 
 The SpecFocuser plugin adds a convenient command that will automatically tag your currently selected spec with the proper `focus: true` statement.  The plugin is also smart enough to traverse up your current scope as well to find the nearest `it`, `context` or `describe` block.  And the best part is that once you've wrapped up your testing, re-running the plugin command will strip out the `focus: true` statement and get you back to a clean, un-focused test suite!
 
-This is my first foray into the world of Sublime Text plugin development, and although I'm not a huge fan of Python, I'm impressed with the flexibility of the Sublime Text plugin system.  That's quite a statement given that after two solid years of working with VIM, I still cringe at the idea of delving into Vimscript!  
+This is my first foray into the world of Sublime Text plugin development, and although I'm not a huge fan of Python, I'm impressed with the flexibility of the Sublime Text plugin system.  That's quite a statement given that after two solid years of working with VIM, I still cringe at the idea of delving into Vimscript!
 
 I see a lot more hacking on Sublime Text plugins in my future to further optimize my development workflow...

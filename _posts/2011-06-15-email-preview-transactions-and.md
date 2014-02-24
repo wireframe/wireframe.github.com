@@ -3,7 +3,7 @@ layout: post
 title: "Email Preview + Transactions and Factories"
 date: 2011-06-15
 comments: false
-categories:
+tags:
  - ruby
  - email_preview
  - rails

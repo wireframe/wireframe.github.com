@@ -3,7 +3,7 @@ layout: post
 title: "Crazy Command Composition"
 date: 2006-07-01
 comments: false
-categories:
+tags:
  - java
  - spring
  - springrcp

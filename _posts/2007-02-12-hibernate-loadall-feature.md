@@ -3,7 +3,7 @@ layout: post
 title: "Hibernate LoadAll Feature"
 date: 2007-02-12
 comments: false
-categories:
+tags:
  - java
  - hibernate
  - database

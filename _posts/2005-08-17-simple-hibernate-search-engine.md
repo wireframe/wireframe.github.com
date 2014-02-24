@@ -3,7 +3,7 @@ layout: post
 title: "Simple Hibernate Search Engine"
 date: 2005-08-17
 comments: false
-categories:
+tags:
  - java
  - shard
  - search

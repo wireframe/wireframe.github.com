@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Jasmine Dynamic Fixtures"
-categories:
+tags:
  - testing
  - rails
  - javascript

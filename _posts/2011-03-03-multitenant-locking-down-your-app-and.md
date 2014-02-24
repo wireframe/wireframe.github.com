@@ -3,7 +3,7 @@ layout: post
 title: "Multitenant Ruby Gem"
 date: 2011-03-03
 comments: false
-categories:
+tags:
  - ruby
  - multitenant
  - security

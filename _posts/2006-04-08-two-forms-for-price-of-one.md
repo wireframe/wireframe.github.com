@@ -3,7 +3,7 @@ layout: post
 title: "Two Forms For The Price Of One"
 date: 2006-04-08
 comments: false
-categories:
+tags:
  - javascript
  - css
 ---

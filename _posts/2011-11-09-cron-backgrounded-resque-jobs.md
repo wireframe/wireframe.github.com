@@ -3,7 +3,7 @@ layout: post
 title: "Cron Backgrounded Resque Jobs"
 date: 2011-11-09
 comments: false
-categories:
+tags:
  - ruby
  - backgrounded
  - resque

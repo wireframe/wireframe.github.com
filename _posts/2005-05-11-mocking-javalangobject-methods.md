@@ -3,7 +3,7 @@ layout: post
 title: "Mocking java.lang.Object methods"
 date: 2005-05-11
 comments: false
-categories:
+tags:
  - java
  - testing
 ---

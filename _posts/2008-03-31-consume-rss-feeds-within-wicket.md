@@ -3,7 +3,7 @@ layout: post
 title: "Consume RSS Feeds Within Wicket"
 date: 2008-03-31
 comments: false
-categories:
+tags:
  - java
  - wicket
 ---

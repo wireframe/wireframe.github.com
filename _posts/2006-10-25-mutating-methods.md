@@ -3,7 +3,7 @@ layout: post
 title: "Mutating Methods"
 date: 2006-10-25
 comments: false
-categories:
+tags:
  - design
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: "Eclipse and Test Driven Development"
 date: 2004-07-10
 comments: false
-categories:
+tags:
  - java
  - testing
 ---

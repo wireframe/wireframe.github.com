@@ -3,7 +3,7 @@ layout: post
 title: "Maven2 Eclipse Plugin Tips"
 date: 2006-06-30
 comments: false
-categories:
+tags:
  - java
  - eclipse
  - maven

@@ -3,7 +3,7 @@ layout: post
 title: "Purpose Of Validation"
 date: 2006-05-09
 comments: false
-categories:
+tags:
  - java
  - validation
 ---

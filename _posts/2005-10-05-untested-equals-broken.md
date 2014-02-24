@@ -3,7 +3,7 @@ layout: post
 title: "Untested Equals Broken"
 date: 2005-10-05
 comments: false
-categories:
+tags:
  - java
  - testing
 ---

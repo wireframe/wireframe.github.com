@@ -3,7 +3,7 @@ layout: post
 title: "email_preview Rails Plugin"
 date: 2010-06-09
 comments: false
-categories:
+tags:
  - ruby
  - email_preview
  - rails

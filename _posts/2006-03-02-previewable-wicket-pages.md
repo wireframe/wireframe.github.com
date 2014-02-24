@@ -3,7 +3,7 @@ layout: post
 title: "Previewable Wicket Pages"
 date: 2006-03-02
 comments: false
-categories:
+tags:
  - javascript
  - java
  - wicket

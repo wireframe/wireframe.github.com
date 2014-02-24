@@ -3,7 +3,7 @@ layout: post
 title: "JavascriptBuilder"
 date: 2006-10-03
 comments: false
-categories:
+tags:
  - javascript
  - java
 ---

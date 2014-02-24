@@ -3,7 +3,7 @@ layout: post
 title: "JSP is a Joke"
 date: 2005-02-09
 comments: false
-categories:
+tags:
  - java
  - jsp
 ---

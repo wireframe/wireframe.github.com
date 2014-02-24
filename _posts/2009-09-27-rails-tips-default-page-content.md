@@ -3,7 +3,7 @@ layout: post
 title: "Rails Tips: Default Page Content"
 date: 2009-09-27
 comments: false
-categories:
+tags:
  - rails
 ---
 

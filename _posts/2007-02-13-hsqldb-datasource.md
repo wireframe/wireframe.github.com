@@ -3,7 +3,7 @@ layout: post
 title: "HSQLDB Datasource"
 date: 2007-02-13
 comments: false
-categories:
+tags:
  - java
  - database
 ---

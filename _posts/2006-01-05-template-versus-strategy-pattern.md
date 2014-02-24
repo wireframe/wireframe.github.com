@@ -3,7 +3,7 @@ layout: post
 title: "Template Versus Strategy Pattern"
 date: 2006-01-05
 comments: false
-categories:
+tags:
  - java
  - design
 ---

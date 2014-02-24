@@ -3,7 +3,7 @@ layout: post
 title: "Hibernate by Hand"
 date: 2005-03-07
 comments: false
-categories:
+tags:
  - java
 ---
 

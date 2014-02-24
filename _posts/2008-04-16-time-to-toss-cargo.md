@@ -3,7 +3,7 @@ layout: post
 title: "Time To Toss the Cargo"
 date: 2008-04-16
 comments: false
-categories:
+tags:
  - java
  - cargo
 ---

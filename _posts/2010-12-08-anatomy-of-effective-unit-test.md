@@ -3,7 +3,7 @@ layout: post
 title: "Anatomy of an Effective Unit Test"
 date: 2010-12-08
 comments: false
-categories:
+tags:
  - testing
 ---
 

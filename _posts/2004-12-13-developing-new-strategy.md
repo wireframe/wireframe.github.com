@@ -3,7 +3,7 @@ layout: post
 title: "Developing a New Strategy"
 date: 2004-12-13
 comments: false
-categories:
+tags:
  - process
 ---
 

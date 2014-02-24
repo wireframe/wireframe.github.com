@@ -3,7 +3,7 @@ layout: post
 title: "Wicket and RSS Feeds"
 date: 2007-08-23
 comments: false
-categories:
+tags:
  - java
  - wicket
 ---

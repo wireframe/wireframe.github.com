@@ -3,7 +3,7 @@ layout: post
 title: "Auto Previewable Wicket Pages"
 date: 2006-03-03
 comments: false
-categories:
+tags:
  - javascript
  - java
  - wicket

@@ -3,7 +3,7 @@ layout: post
 title: "Wicketstuff-Hibernate Updates"
 date: 2007-06-28
 comments: false
-categories:
+tags:
  - java
  - hibernate
  - wicket

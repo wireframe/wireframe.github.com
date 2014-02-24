@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Replace Rake with Thor"
-categories:
+tags:
  - ruby
  - testing
  - rails

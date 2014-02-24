@@ -3,7 +3,7 @@ layout: post
 title: "callback_skipper for faster factories"
 date: 2011-11-28
 comments: false
-categories:
+tags:
  - ruby
  - performance
  - rails

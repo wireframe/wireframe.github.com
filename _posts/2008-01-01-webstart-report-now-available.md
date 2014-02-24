@@ -3,7 +3,7 @@ layout: post
 title: "Webstart Report Now Available"
 date: 2008-01-01
 comments: false
-categories:
+tags:
  - java
  - webstart
  - swing

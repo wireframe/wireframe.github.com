@@ -3,7 +3,7 @@ layout: post
 title: "Spring Versus The World"
 date: 2005-05-03
 comments: false
-categories:
+tags:
  - java
  - spring
 ---

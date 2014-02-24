@@ -3,7 +3,7 @@ layout: post
 title: "Batch Javascript Execution"
 date: 2009-11-25
 comments: false
-categories:
+tags:
  - performance
  - javascript
 ---

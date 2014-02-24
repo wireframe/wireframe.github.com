@@ -3,7 +3,7 @@ layout: post
 title: "AJAX Added to Wicket-Stuff"
 date: 2005-08-23
 comments: false
-categories:
+tags:
  - javascript
  - java
  - scriptaculous

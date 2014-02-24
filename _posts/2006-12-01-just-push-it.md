@@ -3,7 +3,7 @@ layout: post
 title: "Just Push It"
 date: 2006-12-01
 comments: false
-categories:
+tags:
  - java
  - design
 ---

@@ -3,7 +3,7 @@ layout: post
 title: "Fun With Drag and Drop"
 date: 2006-01-20
 comments: false
-categories:
+tags:
  - java
  - swing
 ---

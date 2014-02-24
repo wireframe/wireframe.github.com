@@ -3,7 +3,7 @@ layout: post
 title: "Wicket Scriptaculous 0.1.1 Release"
 date: 2007-01-01
 comments: false
-categories:
+tags:
  - javascript
  - java
  - scriptaculous

@@ -3,7 +3,7 @@ layout: post
 title: "Spring-RCP Manifest Application Descriptor"
 date: 2005-08-14
 comments: false
-categories:
+tags:
  - java
  - spring
  - springrcp

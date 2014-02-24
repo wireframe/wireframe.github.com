@@ -3,7 +3,7 @@ layout: post
 title: "Simple Themes With SASS"
 date: 2009-03-05
 comments: false
-categories:
+tags:
  - css
 ---
 

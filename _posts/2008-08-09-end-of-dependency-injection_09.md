@@ -3,7 +3,7 @@ layout: post
 title: "The End Of Dependency Injection"
 date: 2008-08-09
 comments: false
-categories:
+tags:
  - ruby
  - java
  - testing

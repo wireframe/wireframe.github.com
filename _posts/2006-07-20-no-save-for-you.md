@@ -3,7 +3,7 @@ layout: post
 title: "No Save For You!"
 date: 2006-07-20
 comments: false
-categories:
+tags:
  - wtf
 ---
 

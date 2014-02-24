@@ -3,7 +3,7 @@ layout: post
 title: "The Real World"
 date: 2005-10-10
 comments: false
-categories:
+tags:
  - testing
 ---
 

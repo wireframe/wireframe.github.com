@@ -3,7 +3,7 @@ layout: post
 title: "jQuery DOM Manipulation Performance"
 date: 2009-11-02
 comments: false
-categories:
+tags:
  - performance
  - jquery
 ---

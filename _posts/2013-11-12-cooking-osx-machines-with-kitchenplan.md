@@ -2,7 +2,7 @@
 layout: post
 title: "Cooking OSX Machines with Kitchenplan"
 date: 2013-11-12
-categories:
+tags:
   - osx
   - chef
   - kitchenplan

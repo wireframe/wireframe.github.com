@@ -3,7 +3,7 @@ layout: post
 title: "Preview Multiple Levels of Components"
 date: 2006-03-13
 comments: false
-categories:
+tags:
  - javascript
  - java
  - wicket

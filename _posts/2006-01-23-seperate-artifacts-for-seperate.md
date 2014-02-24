@@ -3,7 +3,7 @@ layout: post
 title: "Seperate Artifacts For Seperate Dependencies"
 date: 2006-01-23
 comments: false
-categories:
+tags:
  - java
  - spring
  - maven

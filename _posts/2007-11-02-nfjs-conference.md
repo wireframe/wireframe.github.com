@@ -3,7 +3,7 @@ layout: post
 title: "NFJS Conference"
 date: 2007-11-02
 comments: false
-categories:
+tags:
  - performance
  - java
  - process

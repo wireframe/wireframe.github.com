@@ -3,7 +3,7 @@ layout: post
 title: "SuSE Wireless Woes"
 date: 2005-06-28
 comments: false
-categories:
+tags:
  - linux
 ---
 

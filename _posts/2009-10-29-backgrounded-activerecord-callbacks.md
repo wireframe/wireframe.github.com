@@ -3,7 +3,7 @@ layout: post
 title: "Backgrounded ActiveRecord Callbacks"
 date: 2009-10-29
 comments: false
-categories:
+tags:
  - ruby
  - backgrounded
  - rails

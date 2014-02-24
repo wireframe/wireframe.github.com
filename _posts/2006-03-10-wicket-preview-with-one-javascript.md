@@ -3,7 +3,7 @@ layout: post
 title: "Wicket Preview With One Javascript"
 date: 2006-03-10
 comments: false
-categories:
+tags:
  - javascript
  - java
  - wicket

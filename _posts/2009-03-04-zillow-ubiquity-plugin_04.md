@@ -3,7 +3,7 @@ layout: post
 title: "Zillow Ubiquity Plugin"
 date: 2009-03-04
 comments: false
-categories:
+tags:
  - zillow
  - ubiquity
 ---
@@ -22,7 +22,7 @@ Unfortunately, I don't currently have the ability to manage everything I need in
 
 3. Highlight the address that you want to inquire about.
 
-   
+
 4. Invoke the Zillow Ubiquity command.
 
  
@@ -35,4 +35,4 @@ Voila!  Now you have access to the property estimated value while keeping you i
 
 One drawback of the current implementation is that the Zillow API is very picky about passing an address with a zip code.  Ideally, I could use a mashup with google maps to decipher the zipcode without forcing the user to enter one.  Any suggestions would be helpful!
 
-   
+

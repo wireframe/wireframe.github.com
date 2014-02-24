@@ -3,7 +3,7 @@ layout: post
 title: "Wicket FeedPage"
 date: 2006-12-30
 comments: false
-categories:
+tags:
  - java
  - wicket
 ---
