@@ -48,6 +48,11 @@ a.tagline .text-primary {
   padding-left: 15px;
 }
 
+/* archive page styles */
+time:after {
+  content: " - ";
+}
+
 /* footer */
 footer {
   margin-top: 25px;
