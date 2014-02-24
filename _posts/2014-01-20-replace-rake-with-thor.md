@@ -5,6 +5,7 @@ tags:
  - ruby
  - testing
  - rails
+ - opensource
 ---
 
 Okay, let's be honest, when was the last time you actually wrote a unit test

@@ -7,6 +7,7 @@ tags:
  - ruby
  - backgrounded
  - rails
+ - opensource
 ---
 
 [Backgrounded](http://github.com/wireframe/backgrounded) 2.0 beta is now available with some really exciting changes. I've taken this release as an opportunity to critically evaluate the perfect API for invoking background jobs. The new API is _not_backwards compatible with previous versions, but it is SEXY as HELL!

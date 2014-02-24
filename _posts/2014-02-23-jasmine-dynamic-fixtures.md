@@ -5,6 +5,7 @@ tags:
  - testing
  - rails
  - javascript
+ - opensource
 ---
 
 How many times has this happened on your team...

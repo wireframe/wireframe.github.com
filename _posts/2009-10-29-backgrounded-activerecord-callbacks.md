@@ -7,6 +7,7 @@ tags:
  - ruby
  - backgrounded
  - rails
+ - opensource
 ---
 
 ActiveRecord callbacks are pretty amazing. They are an incredibly useful way to declare

@@ -7,6 +7,7 @@ tags:
  - ruby
  - rspec
  - testing
+ - opensource
 ---
 
 [](http://www.flickr.com/photos/dawilson/3389046866/)

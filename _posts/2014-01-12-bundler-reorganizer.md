@@ -3,6 +3,7 @@ layout: post
 title: "Bundler Reorganizer"
 tags:
  - ruby
+ - opensource
 ---
 
 [Bundler groups](http://bundler.io/v1.5/groups.html) are an incredibly useful feature for managing dependencies of your ruby project.

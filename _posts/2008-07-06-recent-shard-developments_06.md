@@ -5,6 +5,7 @@ date: 2008-07-06
 comments: false
 tags:
  - shard
+ - opensource
 ---
 
 It's been a busy few weeks now that [4th edition Dungeons and Dragons](http://dndinsider.com) is out the door!  I've spent the majority of my free time digging into the new rule books, and you can definitely call me a fan of the new system.  I'm very impressed by the streamlined game engine that avoids any "rule lawyering" and keeps the focus on having FUN!

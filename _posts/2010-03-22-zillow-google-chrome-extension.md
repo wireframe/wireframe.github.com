@@ -6,6 +6,7 @@ comments: false
 tags:
  - chrome
  - zillow
+ - opensource
 ---
 
 Incase you haven't heard, [I love]({% post_url 2010-02-07-mailinator-google-chrome-extension %})

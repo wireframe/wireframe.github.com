@@ -7,6 +7,7 @@ tags:
  - ruby
  - javascript
  - testing
+ - opensource
 ---
 
 [](http://4.bp.blogspot.com/-87kA7x9PKz8/TnFuNzks7jI/AAAAAAAAADA/ihGp062mQu0/s1600/HolyGrail117_edit.jpg)

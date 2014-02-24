@@ -5,6 +5,7 @@ date: 2008-11-04
 comments: false
 tags:
  - ruby
+ - opensource
 ---
 
 Consider the following class definition:

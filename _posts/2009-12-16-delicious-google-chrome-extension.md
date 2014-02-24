@@ -5,6 +5,7 @@ date: 2009-12-16
 comments: false
 tags:
  - chrome
+ - opensource
 ---
 
 I use [Delicious](http://delicious.com/). A LOT.

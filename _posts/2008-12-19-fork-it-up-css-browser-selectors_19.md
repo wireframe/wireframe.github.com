@@ -4,8 +4,9 @@ title: "Fork it up - CSS Browser Selectors"
 date: 2008-12-19
 comments: false
 tags:
- - ruby
- - css
+  - ruby
+  - css
+  - opensource
 ---
 
 If you're really passionate about designing great websites, browser specific CSS is a necessary evil.  We all wish it wasn't needed, but thanks to web browsers that suck ass *cough* IE *cough*, we need an effective way to alter our CSS styles based on browsers.

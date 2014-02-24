@@ -7,6 +7,7 @@ tags:
  - ruby
  - backgrounded
  - email
+ - opensource
 ---
 
 [](http://1.bp.blogspot.com/_yocpuDtbm4c/TTZ3K2kg0MI/AAAAAAAAABc/2qB_m-gopNE/s1600/mailroom_sendmail.jpg)

@@ -8,6 +8,7 @@ tags:
  - rails
  - jquery
  - css
+ - opensource
 ---
 
 [Twitter](http://twitter.com/) has a very elegant solution for user feedback messages.  They display the message by sliding the text down from the top of the screen in a semi-transparent block and hide the message after a few moments.  It's a very slick design and one of the more appealing solutions I've seen (and I've worked with a lot of feedback designs).

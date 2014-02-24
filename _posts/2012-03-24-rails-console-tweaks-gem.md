@@ -6,6 +6,7 @@ comments: false
 tags:
  - ruby
  - rails
+ - opensource
 ---
 
 Every developer toolbox has a certain set of tweaks for use in the Rails console.

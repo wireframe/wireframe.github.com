@@ -5,6 +5,7 @@ date: 2007-12-26
 comments: false
 tags:
  - shard
+ - opensource
 ---
 
 I thought I'd have a demo out sooner, but working with Java Webstart is quite a pain in the arse.

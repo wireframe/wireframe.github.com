@@ -8,6 +8,7 @@ tags:
  - performance
  - rails
  - testing
+ - opensource
 ---
 
 [](http://www.flickr.com/photos/brentbat/2137221211)

@@ -8,6 +8,7 @@ tags:
  - email_preview
  - rails
  - email
+ - opensource
 ---
 
 [](http://www.flickr.com/photos/pacdog/4968422200/)

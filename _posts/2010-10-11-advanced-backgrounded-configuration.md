@@ -7,6 +7,7 @@ tags:
  - ruby
  - backgrounded
  - resque
+ - opensource
 ---
 
 

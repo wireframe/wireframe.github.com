@@ -6,6 +6,7 @@ comments: false
 tags:
  - zillow
  - ubiquity
+ - opensource
 ---
 
 Let's face it.  The majority of house hunting websites out there suck.  They're slow, unusable and more often than not, make me want to put my head through a window.

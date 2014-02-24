@@ -4,7 +4,10 @@ title: "Sublime Text Spec Focuser Plugin"
 date: 2013-11-05
 tags:
   - testing
+  - ruby
+  - rspec
   - sublimetext
+  - opensource
 ---
 
 Guard has been my tool of choice for continuous testing for quite some time now, and I can not recommend it enough.  One of my only complaints with the workflow is that **Guard can be too aggressive** and run all the specs in the relevant files which creates overwhelming amount of feedback, when I actually just want to focus on a few specific tests.

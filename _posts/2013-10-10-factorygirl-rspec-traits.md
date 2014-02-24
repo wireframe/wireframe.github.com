@@ -5,6 +5,7 @@ tags:
  - ruby
  - rspec
  - testing
+ - opensource
 ---
 
 [FactoryGirl traits](http://robots.thoughtbot.com/post/23673635798/remove-duplication-with-factorygirls-traits) are a great way to encapsulate a set of properties into convenient and meaningful names.  Using traits effectively is a simple way to drastically improve the expressiveness of your specs.

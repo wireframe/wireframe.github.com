@@ -6,6 +6,7 @@ comments: false
 tags:
  - ruby
  - backgrounded
+ - opensource
 ---
 
 The [initial release of Backgrounded]({% post_url 2009-07-22-backgrounded-background-processing-done %}) seems to have struck [a chord](http://www.rubyinside.com/backgrounded-a-simple-wrapper-for-ruby-background-tasks-2100.html) with [the Ruby community](http://railsenvy.com/2009/8/5/rails-envy-podcast-episode-089-08-05-09) and it appears to be gaining momentum. The response has been very positive, but there has been some confusion on why Backgrounded exists I'd like to take a moment to clarify that.

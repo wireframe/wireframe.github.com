@@ -6,6 +6,7 @@ comments: false
 tags:
  - java
  - wicket
+ - opensource
 ---
 
 A few recent announcements within the Wicket community seem blog worthy.
