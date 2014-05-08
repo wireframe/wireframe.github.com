@@ -49,6 +49,8 @@ VCR.configure do |c|
 end
 ```
 
+## Under the Covers
+
 How does RSpec actually do it?  There's no real magic to it at all.  By default, every
 `spec_helper.rb` file is generated with this one hook that automatically loads
 all Ruby files within the `spec/support` directory.
