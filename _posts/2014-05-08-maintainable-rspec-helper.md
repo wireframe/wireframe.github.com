@@ -61,5 +61,7 @@ VCR.configure do |c|
   c.hook_into :webmock
 end
 ```
-
+Enjoy the organizational *#protip* and go forth to write *awesome* code!
+<p class="text-center">
 ![Keep Calm and Extract Code]({{ site.url }}/images/KEEP_CALM_AND_EXTRACT_CODE.png)
+</p>
