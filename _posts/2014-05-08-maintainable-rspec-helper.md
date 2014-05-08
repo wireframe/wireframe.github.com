@@ -44,7 +44,7 @@ Dir[Rails.root.join("spec/support/**/*.rb")].each { |f| require f }
 # BOOM!
 ```
 
-![Keep Calm and Extract Code](https://www.evernote.com/shard/s7/sh/1f8a1754-e34f-41d5-9411-e8f55cf72dd2/71af3705c3d02d63e3955f94566fe895/res/42a684c4-522b-4f1d-aba4-6688bc5dddaf/skitch.png?width=300)
+![Keep Calm and Extract Code]({{ site.url }}/images/KEEP_CALM_AND_EXTRACT_CODE.png)
 
 So, the next time you add a new gem to your test suite, resist the temptation
 to modify your `spec_helper.rb` and create a *new file* in `spec/support` instead!
