@@ -2,7 +2,7 @@
 layout: default
 ---
 <div class="page-header">
-  <p class="text-muted text-right">
+   <p class="text-muted text-right">
     <i class="fa fa-clock-o"></i>
     Posted on
     {{ page.date | date: "%Y-%m-%d" }}
@@ -11,6 +11,10 @@ layout: default
     {{ page.title }}
     <small>by {{ site.author.name }}</small>
   </h1>
+  <p class="text-muted">
+    <i class="fa fa-tags"></i>
+    {{ page.tags | sort | join: ', ' }}
+  </p>
 </div>
 <div class="post">
   {{ content }}
@@ -18,4 +22,3 @@ layout: default
 {% include bio.html %}
 
 {% include comments.html %}
-
