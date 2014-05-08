@@ -44,8 +44,6 @@ Dir[Rails.root.join("spec/support/**/*.rb")].each { |f| require f }
 # BOOM!
 ```
 
-![Keep Calm and Extract Code]({{ site.url }}/images/KEEP_CALM_AND_EXTRACT_CODE.png)
-
 So, the next time you add a new gem to your test suite, resist the temptation
 to modify your `spec_helper.rb` and create a *new file* in `spec/support` instead!
 Perform your standard `require` statement and any relevant configuration in it's
@@ -63,3 +61,5 @@ VCR.configure do |c|
   c.hook_into :webmock
 end
 ```
+
+![Keep Calm and Extract Code]({{ site.url }}/images/KEEP_CALM_AND_EXTRACT_CODE.png)
