@@ -27,3 +27,6 @@ tagline: "[<strong>code</strong>crate] <span class='text-primary'>Building bette
 title: "[codecrate] Building better code"
 
 markdown: redcarpet
+
+gems:
+  - jekyll-sitemap
