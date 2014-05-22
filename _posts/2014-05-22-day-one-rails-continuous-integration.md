@@ -26,13 +26,13 @@ as many checks and balances necessary to feel confident that you are releasing
 good code**.
 
 <p class="text-center">
-![Automate All the Things]({{ site.url }}/images/automate_all_the_things.jpg)
+<img src="{{ site.url }}/images/automate_all_the_things.jpg" alt="Automate all the Things"/>
 </p>
+
+## The Basics (Test suite)
 
 Here are the basic structure I've developed and use for new projects to
 kickoff their continuous integration process on the right foot...
-
-## The Basics (Test suite)
 
 First off, your continuous integration process **needs** to make sure your
 test suite passes.  Pick your framework ([RSpec](http://rspec.info/),
