@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Rails Development: Day One Continuous Integration"
+title: "Starting Rails Apps with Continuous Integration on Day One"
 tags:
  - testing
  - ruby
@@ -18,7 +18,7 @@ a continuous integration process and although it's a good start, continuous
 integration is about more than unit/integration tests.
 
 The ultimate goal of a continuous integration test suite is to **ensure the
-project is in a good state before being released to customers**.  
+project is in a good state before being released to customers**.
 
 Now, The actual definition of *“good state”* is specific to each project/team,
 but at a high level, your continuous integration process will be **automating
@@ -83,7 +83,7 @@ bigger picture issues (architecture, modeling, API design, etc).
 are two great tools to plug into your continuous integration process as an
 extra level of defense to ensure known vulnerabilities do not get released to
 production.  They both run quickly and are worthwhile investments to include
-in your continuous integration process.  
+in your continuous integration process.
 
 The goal is not to perform a full penetration test
 or security audit of the system.  It is to give you **an increased confidence**
@@ -94,7 +94,7 @@ that you are shipping "good code".
 Some teams benefit from having a standard set of reports generated
 with every continuous integration run.  These reports **should not** fail
 the build and their objective is simply to **get relevant information
-in front of developers to motivate future changes**.  
+in front of developers to motivate future changes**.
 
 Some examples of reports that might be useful for your team include:
 
