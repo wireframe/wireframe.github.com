@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Starting Rails Apps with Continuous Integration on Day One"
+title: "Continuous Integration for Rails Apps from Day One"
 tags:
  - testing
  - ruby
