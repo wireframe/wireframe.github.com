@@ -176,5 +176,7 @@ is written in Ruby.
 ## Go!
 
 With this basic framework in place, you can **start shipping good code with
-confidence** on Day One of your next Rails application.  If you have a
-continuous integration process that works for you, I'd love to hear about it!
+confidence** on Day One of your next Rails application!  
+
+If you have an interesting continuous integration process that works for you, 
+I'd love to hear about it!
