@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Toolbox Bundler Group"
+title: "The Toolbox Bundler Group"
 tags:
  - ruby
  - rails
@@ -17,7 +17,7 @@ other gems that provide functionality ranging from
 ### Installation Assistance
 
 [Bundler](http://bundler.io/) makes distribution of gems drop dead simple
-by just adding a few lines to your Gemfile.  This makes it *super* easy to ensure that your entire
+by just adding a line to your Gemfile.  It's *super* easy to ensure that your entire
 development team has access to the necessary tools and control rollout of new versions over time.
 Since these gems are primarily developer utilities, you **may** be tempted to save these
 gems in your `:development` Bundler group...but **STOP**!
@@ -33,15 +33,17 @@ group :development do
 end
 ```
 
-By default, every gem declared in the `:development` group is **automatically loaded during application initialization
-which means that all Ruby files within those gems will be included into your application**.  Not only does this bloat your
-application's runtime environment, but it also has potential for nasty and unexpected side-effects when the gem's
-CLI source code, monkeypatches, and all dependency gems are loaded into your running application.
-This is so bad that some CLI gems have started to [recommend against including the gem in your Bundler Gemfile](https://github.com/ddollar/foreman/commit/fe0d953a2858e2cddacc9a3aa54935d170caceda).
+By default, every gem declared in the `:development` group is **automatically loaded
+during application initialization which means that all Ruby files within those gems
+will be included into your application**.  Not only does this bloat your
+application's runtime environment, but it also has potential for nasty and unexpected
+side-effects when the gem's CLI source code, monkeypatches, and all dependency gems
+are loaded into your running application. This is so bad that some CLI gems have
+started to [recommend against including the gem in your Bundler Gemfile](https://github.com/ddollar/foreman/commit/fe0d953a2858e2cddacc9a3aa54935d170caceda).
 
-How can we get the benefits of simplified cross team distribution of the toolset gems provided by Bundler
-*and* avoid polluting our Ruby runtime environment with the code from these gems?  Can we have our cake
-and eat it too?
+How can we get the benefits of simplified cross team distribution of the toolset
+gems provided by Bundler *and* avoid polluting our Ruby runtime environment
+with the code from these gems?
 
 *Of course we can!*
 
@@ -85,11 +87,12 @@ NOTE: You can *actually* give your `:toolbox` group any name that you see fit as
 
 ### [optional] Exclude Gems From Production Deployments
 
-Since these toolbox gems are primarily used for development purposes, you may want to exclude these
-gems from being installed on production machines.  [Bundler makes this process very straightforward](http://bundler.io/v1.6/groups.html)
-via the `bundle install --without` command or the `BUNDLE_WITHOUT` environment variable.  Production
-deployments typically exclude the `development` and `test` groups by default, so you just need to
-add the `toolbox` group to the list as well.
+Since these toolbox gems are primarily used for development purposes, you may
+want to exclude these gems from being installed on production machines.
+[Bundler makes this process very straightforward](http://bundler.io/v1.6/groups.html)
+via the `bundle install --without` command or the `BUNDLE_WITHOUT` environment
+variable.  Production deployments typically exclude the `development` and `test`
+groups by default, so you just need to add the `toolbox` group to the list as well.
 
 ```bash
 $ export BUNDLE_WITHOUT="development:test:toolbox"
