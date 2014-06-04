@@ -16,11 +16,12 @@ other gems that provide functionality ranging from
 
 ### The Easy Button
 
-[Bundler](http://bundler.io/) makes distribution of gems drop dead simple
-by just adding a line to your Gemfile.  It's *super* easy to ensure that your entire
-development team has access to the necessary tools and control rollout of new versions over time.
-Since these gems are primarily developer utilities, you **may** be tempted to save these
-gems in your `:development` Bundler group...but **STOP**!
+[Bundler](http://bundler.io/) makes distribution of these utility gems to your entire team super easy
+by just adding a few lines to your Gemfile.  All your developers will have access to the tools they need
+right out of the box, and you have a simple way to rollout new gem versions over time as well.
+
+Since these gems are primarily developer utilities, you **may** be tempted to save these gems in
+your `:development` Bundler group...but **STOP**!
 
 **These are tools...not libraries!**
 
