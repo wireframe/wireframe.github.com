@@ -14,7 +14,7 @@ other gems that provide functionality ranging from
 [interacting with third party services](https://github.com/travis-ci/travis.rb) to
 [simplifying tedious jobs](https://github.com/copiousfreetime/launchy).
 
-### Easy Installer
+### The Easy Button
 
 [Bundler](http://bundler.io/) makes distribution of gems drop dead simple
 by just adding a line to your Gemfile.  It's *super* easy to ensure that your entire
