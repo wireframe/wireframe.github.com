@@ -2,15 +2,15 @@
 layout: default
 ---
 
-### I'm a Web Developer with a passion for...
+### I'm a web developer with a passion for...
 
 * Getting things done using Lean Startup practices
 * Writing elegantly simple code with Ruby and Javascript
-* Contributing to Opensource projects and building up developer communities
+* Contributing to opensource and building developer communities
 
 ### But that's not all!
 
-I focus on Ruby, Rails, Testing, REST API's, Chrome extensions and pretty much any new and exciting Web technology.
+My focuses also include: testing, REST API's, and pretty much any exciting web technology.
 
 ### Opensource Projects
 
