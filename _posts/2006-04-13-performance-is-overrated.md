@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Performance Is Overrated"
 date: 2006-04-13
 comments: false

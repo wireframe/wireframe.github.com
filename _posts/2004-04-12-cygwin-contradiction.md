@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Cygwin Contradiction"
 date: 2004-04-12
 comments: false

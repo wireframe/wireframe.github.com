@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Down with BI systems"
 date: 2003-12-30
 comments: false

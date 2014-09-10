@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Maven TestDox Updates"
 date: 2007-10-30
 comments: false

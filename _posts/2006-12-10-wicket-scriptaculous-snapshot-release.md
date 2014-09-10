@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Wicket Scriptaculous Snapshot Release"
 date: 2006-12-10
 comments: false

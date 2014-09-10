@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Value Beyond Being Better"
 date: 2005-12-06
 comments: false

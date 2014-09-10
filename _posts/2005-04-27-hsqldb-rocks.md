@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "HSQLDB Rocks"
 date: 2005-04-27
 comments: false

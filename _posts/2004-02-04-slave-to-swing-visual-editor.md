@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Slave to the Swing Visual Editor?"
 date: 2004-02-04
 comments: false

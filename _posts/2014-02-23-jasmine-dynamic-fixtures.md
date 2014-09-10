@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Jasmine Dynamic Fixtures"
 tags:
  - testing

@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "My first blog"
 date: 2003-12-20
 comments: false

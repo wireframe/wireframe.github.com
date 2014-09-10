@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Official Testdox Maven Plugin Release"
 date: 2007-09-08
 comments: false

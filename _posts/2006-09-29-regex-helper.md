@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "RegEx Helper"
 date: 2006-09-29
 comments: false

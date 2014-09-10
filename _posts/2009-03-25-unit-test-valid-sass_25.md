@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Unit Test Valid SASS"
 date: 2009-03-25
 comments: false

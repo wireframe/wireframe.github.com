@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "No JSR for SWT"
 date: 2004-07-27
 comments: false

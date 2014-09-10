@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Conventional Class Names"
 date: 2004-10-22
 comments: false

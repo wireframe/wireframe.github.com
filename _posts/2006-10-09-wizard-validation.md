@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Wizard Validation"
 date: 2006-10-09
 comments: false

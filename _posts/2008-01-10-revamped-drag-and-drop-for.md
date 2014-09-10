@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Revamped Drag and Drop for Scriptaculous"
 date: 2008-01-10
 comments: false

@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Adios Blogger. Hello Jekyll!"
 ---
 

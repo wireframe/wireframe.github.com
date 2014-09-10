@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Test Driven Death"
 date: 2007-02-14
 comments: false

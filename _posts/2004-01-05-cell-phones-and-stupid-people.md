@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Cell Phones and Stupid People"
 date: 2004-01-05
 comments: false

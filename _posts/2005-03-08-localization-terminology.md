@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Localization Terminology"
 date: 2005-03-08
 comments: false

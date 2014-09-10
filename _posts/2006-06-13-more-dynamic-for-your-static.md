@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "More Dynamic For Your Static"
 date: 2006-06-13
 comments: false

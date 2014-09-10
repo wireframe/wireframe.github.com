@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "IE Must DIE!"
 date: 2005-07-28
 comments: false

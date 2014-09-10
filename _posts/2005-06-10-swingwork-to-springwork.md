@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Swingwork to Springwork?"
 date: 2005-06-10
 comments: false

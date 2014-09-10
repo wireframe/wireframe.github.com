@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Toaster Notifications for AIR Apps using jQuery"
 date: 2009-12-24
 comments: false

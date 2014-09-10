@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Shard Cyclops Demo Available"
 date: 2007-12-26
 comments: false

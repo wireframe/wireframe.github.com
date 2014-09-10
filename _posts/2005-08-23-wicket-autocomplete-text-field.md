@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Wicket Autocomplete Text Field"
 date: 2005-08-23
 comments: false

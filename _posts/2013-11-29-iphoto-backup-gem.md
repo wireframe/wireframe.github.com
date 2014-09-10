@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "iPhoto Backup Gem"
 date: 2013-11-29
 tags:

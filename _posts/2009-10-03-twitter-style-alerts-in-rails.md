@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Twitter Style Alerts In Rails"
 date: 2009-10-03
 comments: false

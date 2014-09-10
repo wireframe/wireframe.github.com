@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Running Code Doesn't Lie"
 date: 2006-04-25
 comments: false

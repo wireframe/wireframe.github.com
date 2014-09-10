@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Testing Managed Objects"
 date: 2008-05-05
 comments: false

@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "JSP Late Binding"
 date: 2005-02-10
 comments: false

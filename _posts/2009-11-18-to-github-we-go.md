@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "To Github We Go!"
 date: 2009-11-18
 comments: false

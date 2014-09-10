@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Fork it up - assert valid markup"
 date: 2008-12-22
 comments: false

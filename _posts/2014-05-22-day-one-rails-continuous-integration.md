@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Continuous Integration for Rails Apps from Day One"
 tags:
  - testing

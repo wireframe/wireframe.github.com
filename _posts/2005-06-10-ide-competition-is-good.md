@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "IDE Competition is Good"
 date: 2005-06-10
 comments: false

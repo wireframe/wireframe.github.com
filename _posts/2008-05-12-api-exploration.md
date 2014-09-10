@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "API Exploration"
 date: 2008-05-12
 comments: false

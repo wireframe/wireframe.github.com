@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Web Development Done Right"
 date: 2005-08-09
 comments: false

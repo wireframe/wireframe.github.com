@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Spring Bloat"
 date: 2005-02-19
 comments: false

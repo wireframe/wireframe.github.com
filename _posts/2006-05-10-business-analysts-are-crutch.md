@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Business Analysts are a Crutch"
 date: 2006-05-10
 comments: false

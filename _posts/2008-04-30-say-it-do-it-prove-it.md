@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Say It. Do It. Prove It!"
 date: 2008-04-30
 comments: false

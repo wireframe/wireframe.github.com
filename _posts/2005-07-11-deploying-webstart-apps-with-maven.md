@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Deploying Webstart Apps with Maven"
 date: 2005-07-11
 comments: false

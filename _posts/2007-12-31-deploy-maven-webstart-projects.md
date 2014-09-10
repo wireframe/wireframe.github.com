@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Deploy Maven Webstart Projects"
 date: 2007-12-31
 comments: false

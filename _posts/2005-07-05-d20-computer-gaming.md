@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "D20 Computer Gaming"
 date: 2005-07-05
 comments: false

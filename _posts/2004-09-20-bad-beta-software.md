@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Bad Beta Software"
 date: 2004-09-20
 comments: false

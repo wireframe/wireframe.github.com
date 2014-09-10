@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Javascript AOP"
 date: 2005-10-14
 comments: false

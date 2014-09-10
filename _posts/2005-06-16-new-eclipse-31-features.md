@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "New Eclipse 3.1 Features"
 date: 2005-06-16
 comments: false

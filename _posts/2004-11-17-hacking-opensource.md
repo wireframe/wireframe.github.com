@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Hacking OpenSource"
 date: 2004-11-17
 comments: false

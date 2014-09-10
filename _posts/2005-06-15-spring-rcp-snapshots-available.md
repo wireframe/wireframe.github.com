@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Spring-RCP Snapshots Available"
 date: 2005-06-15
 comments: false

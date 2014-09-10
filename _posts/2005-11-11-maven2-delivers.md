@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Maven2 Delivers"
 date: 2005-11-11
 comments: false

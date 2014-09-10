@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Spring's Biggest Benefit"
 date: 2005-03-24
 comments: false

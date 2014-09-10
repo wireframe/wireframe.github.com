@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "How Prototype Can Break Your Site"
 date: 2006-07-28
 comments: false

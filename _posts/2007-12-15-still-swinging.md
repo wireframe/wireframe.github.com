@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Still Swinging"
 date: 2007-12-15
 comments: false

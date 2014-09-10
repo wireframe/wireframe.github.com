@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "The Curse Of Passion"
 date: 2006-03-20
 comments: false

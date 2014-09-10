@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Choosing a Java Web Framework"
 date: 2008-01-28
 comments: false

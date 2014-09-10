@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Unit Testing with Nested Contexts"
 date: 2010-12-09
 comments: false

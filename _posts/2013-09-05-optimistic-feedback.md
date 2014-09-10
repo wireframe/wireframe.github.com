@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Optimistic Feedback for Improved User Experiences"
 tags:
  - javascript

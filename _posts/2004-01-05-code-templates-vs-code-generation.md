@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Code Templates vs. Code Generation"
 date: 2004-01-05
 comments: false

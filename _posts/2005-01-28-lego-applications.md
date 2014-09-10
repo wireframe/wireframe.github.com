@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Lego Applications"
 date: 2005-01-28
 comments: false

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Replace Rake with Thor"
 tags:
  - ruby

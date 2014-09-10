@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Rails \"Good Touch\"/\"Bad Touch\""
 date: 2010-03-12
 comments: false

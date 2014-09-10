@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Spring Web Flow"
 date: 2005-03-16
 comments: false

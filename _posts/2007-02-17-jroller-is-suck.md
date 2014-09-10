@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "JRoller Is The Suck"
 date: 2007-02-17
 comments: false

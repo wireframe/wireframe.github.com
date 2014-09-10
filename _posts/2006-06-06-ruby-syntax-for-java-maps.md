@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Ruby Syntax For Java Maps"
 date: 2006-06-06
 comments: false

@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Scriptaculous 1.8 Release"
 date: 2007-11-09
 comments: false

@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Spring-RCP/JTaskPane Promoted To L2FProd"
 date: 2006-02-20
 comments: false

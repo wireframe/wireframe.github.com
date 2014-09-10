@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Life Motto"
 date: 2008-11-28
 comments: false

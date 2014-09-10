@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "The Quest for Correct Content Types"
 date: 2009-01-09
 comments: false

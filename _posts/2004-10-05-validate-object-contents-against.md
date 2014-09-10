@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Validate object contents against database structure"
 date: 2004-10-05
 comments: false

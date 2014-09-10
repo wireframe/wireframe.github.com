@@ -1,13 +1,16 @@
-Personal Website built using [Jekyll](http://jekyllrb.com/)
+[Personal blog/website](http://www.codecrate.com)
+
+Built using [Jekyll](http://jekyllrb.com/)
 
 ### Installation
 
 ```
-$ gem install jekyll
+$ bundle install
 ```
 
 ### Running Locally
 
 ```
 $ jekyll serve -w
+$ open http://localhost:4000
 ```

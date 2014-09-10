@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Personal Productivity"
 date: 2008-01-14
 comments: false

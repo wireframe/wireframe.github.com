@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Shard: A Call For Support"
 date: 2005-11-14
 comments: false

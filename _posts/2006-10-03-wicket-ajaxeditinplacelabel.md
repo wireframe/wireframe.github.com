@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Wicket AjaxEditInPlaceLabel"
 date: 2006-10-03
 comments: false

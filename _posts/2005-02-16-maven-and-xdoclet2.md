@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Maven and XDoclet2"
 date: 2005-02-16
 comments: false

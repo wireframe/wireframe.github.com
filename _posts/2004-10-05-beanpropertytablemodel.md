@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "BeanPropertyTableModel"
 date: 2004-10-05
 comments: false

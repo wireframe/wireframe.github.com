@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Security Administration Frustration"
 date: 2004-01-02
 comments: false

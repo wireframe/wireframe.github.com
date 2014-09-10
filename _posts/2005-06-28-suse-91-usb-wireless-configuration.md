@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "SuSE 9.1 USB Wireless Configuration"
 date: 2005-06-28
 comments: false

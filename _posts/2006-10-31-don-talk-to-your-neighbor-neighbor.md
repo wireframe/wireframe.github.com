@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Don't Talk To Your Neighbor's Neighbor"
 date: 2006-10-31
 comments: false

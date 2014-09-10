@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "java.net CVS problems"
 date: 2005-02-09
 comments: false

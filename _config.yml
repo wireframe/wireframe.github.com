@@ -1,3 +1,11 @@
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
 # customize the post url to include date + title to mirror existing blogger urls
 # ex: /2009-04-29-slap-chop.textile
 permalink: /:year/:month/:title.html

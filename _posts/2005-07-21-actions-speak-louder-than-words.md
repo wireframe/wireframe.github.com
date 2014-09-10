@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Actions Speak Louder Than Words"
 date: 2005-07-21
 comments: false

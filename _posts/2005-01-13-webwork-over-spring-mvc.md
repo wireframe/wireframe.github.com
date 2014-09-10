@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Webwork over Spring MVC"
 date: 2005-01-13
 comments: false

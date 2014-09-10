@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Fuel to the Fire"
 date: 2007-01-25
 comments: false

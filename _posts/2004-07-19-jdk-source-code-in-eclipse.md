@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "JDK Source Code in Eclipse"
 date: 2004-07-19
 comments: false

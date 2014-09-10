@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Startup Words of Wisdom"
 tags:
  - startup

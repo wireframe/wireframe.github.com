@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "The Science Of Random"
 date: 2009-02-12
 comments: false

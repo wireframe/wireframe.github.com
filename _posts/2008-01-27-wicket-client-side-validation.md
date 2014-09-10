@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Wicket Client Side Validation"
 date: 2008-01-27
 comments: false

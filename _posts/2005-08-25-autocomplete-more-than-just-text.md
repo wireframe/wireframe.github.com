@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Autocomplete More Than Just Text"
 date: 2005-08-25
 comments: false

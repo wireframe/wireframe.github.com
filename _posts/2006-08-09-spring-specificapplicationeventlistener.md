@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Spring SpecificApplicationEventListener"
 date: 2006-08-09
 comments: false

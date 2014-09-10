@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Bundler Reorganizer"
 tags:
  - ruby

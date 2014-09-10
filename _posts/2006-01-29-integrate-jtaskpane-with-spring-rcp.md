@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Integrate JTaskPane With Spring-RCP"
 date: 2006-01-29
 comments: false

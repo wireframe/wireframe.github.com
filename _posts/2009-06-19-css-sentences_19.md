@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "CSS Sentences"
 date: 2009-06-19
 comments: false

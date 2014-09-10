@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "More Intuitive Search"
 date: 2005-12-08
 comments: false

@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Maximized Abstraction By Dual Implementation"
 date: 2004-07-09
 comments: false

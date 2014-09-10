@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "When Will The Hurting Stop?"
 date: 2006-06-14
 comments: false

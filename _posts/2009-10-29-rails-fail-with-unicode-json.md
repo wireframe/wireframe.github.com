@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Rails Fail with Unicode JSON"
 date: 2009-10-29
 comments: false

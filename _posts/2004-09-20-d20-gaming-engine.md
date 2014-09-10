@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "d20 gaming engine"
 date: 2004-09-20
 comments: false

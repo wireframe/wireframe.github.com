@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Storing JARS in CVS"
 date: 2004-07-09
 comments: false

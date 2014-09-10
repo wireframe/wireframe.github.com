@@ -3,3 +3,6 @@ _site
 
 # OSX files
 .DS_Store
+
+# Bundler files
+Gemfile.lock

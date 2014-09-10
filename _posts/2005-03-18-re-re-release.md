@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "The Re-Re-Release"
 date: 2005-03-18
 comments: false

@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Live Income"
 date: 2004-02-13
 comments: false

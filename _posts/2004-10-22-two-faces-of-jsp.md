@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "The Two Faces of JSP"
 date: 2004-10-22
 comments: false

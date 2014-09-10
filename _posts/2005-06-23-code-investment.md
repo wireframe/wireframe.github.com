@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Code Investment"
 date: 2005-06-23
 comments: false

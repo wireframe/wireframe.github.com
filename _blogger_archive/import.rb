@@ -93,7 +93,7 @@ class Post
   def header
     [
       '---',
-      %{layout: post},
+      %{},
       %{title: "#{title.gsub('"', '\"')}"},
       %{date: #{creation_datetime}},
       %{comments: false},

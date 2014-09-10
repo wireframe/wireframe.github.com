@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Ubiquity is Like Crack"
 date: 2008-08-26
 comments: false

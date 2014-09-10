@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Font Chooser for Swing"
 date: 2005-01-19
 comments: false

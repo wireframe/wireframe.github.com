@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Wicket FeedResource"
 date: 2007-09-12
 comments: false

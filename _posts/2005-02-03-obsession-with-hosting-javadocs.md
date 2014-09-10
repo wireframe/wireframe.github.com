@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Obsession with Hosting Javadocs"
 date: 2005-02-03
 comments: false

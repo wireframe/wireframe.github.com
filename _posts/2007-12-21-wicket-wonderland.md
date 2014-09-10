@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Wicket Wonderland"
 date: 2007-12-21
 comments: false

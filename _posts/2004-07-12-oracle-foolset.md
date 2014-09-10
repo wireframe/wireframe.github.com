@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "The Oracle Foolset"
 date: 2004-07-12
 comments: false

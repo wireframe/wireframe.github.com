@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "SwingWork: XWork integrated with Swing"
 date: 2004-06-29
 comments: false

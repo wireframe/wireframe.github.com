@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Updated Wicketstuff-Scriptaculous Project"
 date: 2007-05-16
 comments: false

@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "XDoclet2 Downfall"
 date: 2005-03-05
 comments: false

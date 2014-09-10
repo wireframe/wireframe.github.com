@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "JSLint Rails Javascript Responses"
 date: 2011-06-27
 comments: false

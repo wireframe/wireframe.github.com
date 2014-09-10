@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Intrusive Frameworks"
 date: 2004-11-11
 comments: false

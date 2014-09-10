@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "More Javascript Helpers"
 date: 2006-10-06
 comments: false

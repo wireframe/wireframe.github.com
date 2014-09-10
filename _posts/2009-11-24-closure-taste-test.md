@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "The Closure Taste Test"
 date: 2009-11-24
 comments: false

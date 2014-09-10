@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "FactoryGirl RSpec Traits"
 tags:
  - ruby

@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "JDirectoryChooser Binding for Spring Richclient"
 date: 2006-06-28
 comments: false

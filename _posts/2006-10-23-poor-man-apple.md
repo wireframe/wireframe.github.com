@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "The Poor Man's Apple"
 date: 2006-10-23
 comments: false

@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Every Choice is the Culmination of Your Life"
 date: 2009-01-04
 comments: false

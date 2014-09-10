@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "The Toolbox Bundler Group"
 tags:
  - ruby

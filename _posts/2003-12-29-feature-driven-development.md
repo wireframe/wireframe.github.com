@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Feature Driven Development"
 date: 2003-12-29
 comments: false

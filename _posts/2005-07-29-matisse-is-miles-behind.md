@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Matisse Is Miles Behind"
 date: 2005-07-29
 comments: false

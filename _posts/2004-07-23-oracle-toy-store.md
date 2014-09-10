@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Oracle Toy Store"
 date: 2004-07-23
 comments: false

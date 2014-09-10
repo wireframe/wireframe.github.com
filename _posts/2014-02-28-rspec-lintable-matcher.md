@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Rspec Lintable Matcher"
 tags:
  - testing

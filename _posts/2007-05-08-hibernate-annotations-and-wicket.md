@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Hibernate Annotations and Wicket"
 date: 2007-05-08
 comments: false

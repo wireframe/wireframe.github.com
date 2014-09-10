@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Eclipse Visual Editor"
 date: 2004-02-24
 comments: false

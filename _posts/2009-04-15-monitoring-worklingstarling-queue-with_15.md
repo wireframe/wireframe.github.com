@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Monitoring workling/starling queue with GOD"
 date: 2009-04-15
 comments: false

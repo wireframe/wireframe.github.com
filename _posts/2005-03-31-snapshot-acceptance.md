@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "SNAPSHOT acceptance"
 date: 2005-03-31
 comments: false

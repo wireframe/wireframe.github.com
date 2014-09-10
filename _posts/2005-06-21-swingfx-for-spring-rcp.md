@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "SwingFX for Spring-RCP"
 date: 2005-06-21
 comments: false

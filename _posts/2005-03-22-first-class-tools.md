@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "First Class Tools"
 date: 2005-03-22
 comments: false

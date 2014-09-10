@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Scarab Squashed?"
 date: 2004-12-14
 comments: false

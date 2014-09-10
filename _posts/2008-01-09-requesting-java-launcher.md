@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Requesting Java Launcher"
 date: 2008-01-09
 comments: false

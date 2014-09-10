@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Words of Wisdom"
 date: 2005-09-27
 comments: false

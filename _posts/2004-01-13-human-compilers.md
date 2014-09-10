@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Human Compilers"
 date: 2004-01-13
 comments: false

@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "JRoller Issues"
 date: 2006-06-05
 comments: false

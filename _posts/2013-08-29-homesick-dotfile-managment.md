@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Homesick for Managing Dotfiles"
 ---
 

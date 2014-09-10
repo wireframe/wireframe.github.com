@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Website Design Guide"
 date: 2006-01-04
 comments: false

@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Combining Project Support Tools"
 date: 2005-05-02
 comments: false

@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Backgrounded 2.0 Beta"
 date: 2012-05-22
 comments: false

@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Prevent Caching of Javascript Files"
 date: 2006-05-11
 comments: false

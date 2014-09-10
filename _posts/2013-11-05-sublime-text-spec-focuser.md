@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Sublime Text Spec Focuser Plugin"
 date: 2013-11-05
 tags:

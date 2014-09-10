@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "The End of Adobe AIR"
 date: 2009-08-03
 comments: false

@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Send Mail with Backgrounded Mail"
 date: 2011-01-18
 comments: false

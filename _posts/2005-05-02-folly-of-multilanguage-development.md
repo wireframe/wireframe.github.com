@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "The Folly of Multilanguage Development"
 date: 2005-05-02
 comments: false

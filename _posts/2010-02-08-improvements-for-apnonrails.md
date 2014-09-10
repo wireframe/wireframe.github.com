@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Improvements for apn_on_rails"
 date: 2010-02-08
 comments: false

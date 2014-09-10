@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "fedora core 2 network issues"
 date: 2004-10-07
 comments: false

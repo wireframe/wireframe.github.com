@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "New Maven Webstart Plugin"
 date: 2007-12-27
 comments: false

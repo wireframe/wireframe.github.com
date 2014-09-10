@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Clearing JBoss' Authentication Cache"
 date: 2004-03-21
 comments: false

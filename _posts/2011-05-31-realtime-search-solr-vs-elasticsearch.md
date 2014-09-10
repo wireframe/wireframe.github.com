@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Realtime Search: Solr vs Elasticsearch"
 date: 2011-05-31
 comments: false

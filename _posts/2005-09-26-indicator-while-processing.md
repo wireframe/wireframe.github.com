@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Indicator While Processing"
 date: 2005-09-26
 comments: false

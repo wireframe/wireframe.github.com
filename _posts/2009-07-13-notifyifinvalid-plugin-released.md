@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "notify_if_invalid Plugin Released"
 date: 2009-07-13
 comments: false

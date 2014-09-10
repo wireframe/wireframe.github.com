@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Next Generation Reporting System"
 date: 2004-02-21
 comments: false

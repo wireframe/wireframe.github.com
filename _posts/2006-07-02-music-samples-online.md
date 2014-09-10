@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Music Samples Online"
 date: 2006-07-02
 comments: false

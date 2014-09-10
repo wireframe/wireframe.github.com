@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Simple CSS Builder"
 date: 2006-05-15
 comments: false

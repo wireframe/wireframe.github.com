@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Humane Object Iteration"
 date: 2006-07-17
 comments: false

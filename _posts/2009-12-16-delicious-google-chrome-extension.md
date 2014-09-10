@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Delicious Google Chrome Extension"
 date: 2009-12-16
 comments: false
