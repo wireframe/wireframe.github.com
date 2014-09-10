@@ -5,10 +5,9 @@ tags:
  - development
 ---
 
-Over the past several years, I have worked to define and refine a software
+Over the years, I have worked to define and refine a software
 development process that worked for me and my teams.  It needed to be simple,
-flexible and agile to accomodate various usecases yet uncompromising in a set of
-fundamental principles.
+flexible and agile yet uncompromising in a set of fundamental principles.
 
 I started off using [the Git Flow process](http://nvie.com/posts/a-successful-git-branching-model/)
 but it didn't take long to realize that the Git Flow process was not meant for
@@ -53,7 +52,8 @@ better designed code as a result (ex: using small config/initializers instead
 of lumping all configuration into application.rb)
 
 And if the staging branch gets into a bad state, no worries.  We have a simple
-way to reset it back to a known good tag which was built via continuous integration.
+way to `nuke` any aggregate branch back to a known good state using git tags
+that are created via continuous integration.
 
 #### Peer Review with Pull Requests
 
