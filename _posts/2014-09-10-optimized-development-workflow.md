@@ -19,7 +19,7 @@ I wanted something *similar* to Git Flow, but *simpler*.  I wanted a process
 that accurately modeled how we were using continuous integration and continuous
 deployment methodologies.
 
-## The Basic Tenants
+## The Basic Building Blocks
 
 #### Master branch == Production environment
 
@@ -101,7 +101,7 @@ And here is [a presentation to help visualize the whole process](https://docs.go
 Optimizing the command line experience for developers (and designers) has been
 critical to the success of this workflow.  We built [TheGarage-GitX Ruby gem](https://github.com/thegarage/thegarage-gitx)
 to inject custom commands into the Git namespace and streamline the process
-as much as possible.  
+as much as possible.
 
 The beauty of this approach is that there is absolutely **no magic**.
 TheGarage-GitX gem is nothing more than a set of helpful git aliases that
@@ -117,7 +117,7 @@ automatically see the document [any time they create a pull request](https://git
 Github makes the lives of developers oh-so-nice.
 
 I've found the CONTRIBUTING.md file to be a great place to document the
-entire development workflow and walk developers through the process step by step.  
+entire development workflow and walk developers through the process step by step.
 
 Here is the [CONTRIBUTING.md template](https://github.com/thegarage/thegarage-template/blob/master/files/CONTRIBUTING.md)
 I use by default for all new projects.
