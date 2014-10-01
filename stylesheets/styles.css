@@ -37,6 +37,10 @@ a.tagline .text-primary {
 .post {
   padding-bottom: 15px;
 }
+.post p {
+  margin-bottom: 15px;
+  line-height: 1.7em;
+}
 
 /* author bio */
 .author-bio h2 {
