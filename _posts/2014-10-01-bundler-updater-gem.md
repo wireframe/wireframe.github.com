@@ -26,7 +26,7 @@ The bundler-updater gem will examine your Gemfile for all outdated dependencies 
 you would like to update.  It's simple and huge a timesaver compared to manually running `bundle update my_gem` over and over again.
 Drop me a line if you find it useful or if you have any suggestions!
 
-NOTE: It's usually quite safe to bulk update non-production/test dependencies.  It would be a nice enhancement for the bundler-updater
+NOTE: It's usually quite safe to bulk update non-production/test dependencies and it would be a nice enhancement for the bundler-updater
 gem to support updating all gems a specified bundler group.
 
-<span class="text-muted">#pullrequestswelcome</span>
+<span class="text-muted">#patcheswelcome</span>
