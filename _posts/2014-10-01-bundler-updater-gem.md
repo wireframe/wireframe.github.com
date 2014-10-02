@@ -20,10 +20,18 @@ With this script, I can cherrypick a few related gems and release them in a smal
 what changed and what needs to be tested.
 
 After using this script over the past year, I finally decided to wrap this utility into a reusable gem.  Now, introducing the
-*cleverly named* [bundler-updater gem](https://github.com/wireframe/bundler-updater)!
+*cleverly named* [bundler-updater gem](https://github.com/wireframe/bundler-updater)!  The bundler-updater gem will examine your
+Gemfile for all outdated dependencies and then interactively prompt you for which gems you would like to update.
 
-The bundler-updater gem will examine your Gemfile for all outdated dependencies and then interactively prompt you for which gems
-you would like to update.  It's simple and huge a timesaver compared to manually running `bundle update my_gem` over and over again.
+```bash
+$ bundler-updater
+> Update my_gem from 0.0.1 to 0.0.2? (y/n) y
+> Update another_gem from 1.0.0 to 2.0.0? (y/n) n
+>
+> Updating my_gem...
+```
+
+It's simple and a *huge* timesaver compared to manually running `bundle update each_individual_gem` over and over again.
 Drop me a line if you find it useful or if you have any suggestions!
 
 NOTE: It's usually quite safe to bulk update non-production/test dependencies and it would be a nice enhancement for the bundler-updater
