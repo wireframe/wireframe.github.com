@@ -82,6 +82,7 @@ def UpdateInvalidUsers < ActiveRecord::Migration
 
     say_with_time "Updating invalid users..." do
       count = 0
+      # NOTE: only lookup invalid records that have *not* been migrated
       User.where(status: 'invalid').find_each do |user|
         say "Updating user: #{user.id}"
         user.update!(status: 'valid')
