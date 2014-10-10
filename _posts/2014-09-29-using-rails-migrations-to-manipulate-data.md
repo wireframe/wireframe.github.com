@@ -22,7 +22,7 @@ Here's a simple example that highlights using the [`say_with_time` helper](http:
 
 
 ```ruby
-def UpdateInvalidUsers < ActiveRecord::Migration
+class UpdateInvalidUsers < ActiveRecord::Migration
   def up
     say_with_time "Updating invalid users..." do
       count = 0
@@ -47,7 +47,7 @@ Taking our previous example, here is an expanded version that adds in simple pre
 
 
 ```ruby
-def UpdateInvalidUsers < ActiveRecord::Migration
+class UpdateInvalidUsers < ActiveRecord::Migration
   def up
     say "Found #{User.where(status: 'invalid').count} invalid records"
 
@@ -76,7 +76,7 @@ It's also a good idea to [define inner classes within your migration that shadow
 Let's take one last look at this example and make sure that the migration is re-runnable and doesn't update records that have already been fixed.
 
 ```ruby
-def UpdateInvalidUsers < ActiveRecord::Migration
+class UpdateInvalidUsers < ActiveRecord::Migration
   def up
     say "Found #{User.where(status: 'invalid').count} invalid records"
 
