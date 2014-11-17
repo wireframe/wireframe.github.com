@@ -1,9 +1,10 @@
 ---
-title: "Best Practices for testing Rails controllers with RSpec"
+title: "Best Practices: Testing Rails controllers with RSpec"
 tags:
- - rails
- - testing
- - protip
+  - ruby
+  - rails
+  - testing
+  - protip
 ---
 
 Rails is primarily a web development framework and so it is natural that controllers are an integral aspect of your application.  Controllers in Rails typically accept HTTP requests as their input and deliver back and HTTP response as output.  This is a pretty important part of building web applications, and so unit testing your controllers should be one of the most fundamental parts of your testsuite.  I'm a huge fan for RSpec for testing Rails applications, and I've found that although the rspec-rails gem is a great starting point, there is a general lack of best practices for how to properly unit test controllers.
