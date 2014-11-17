@@ -45,7 +45,7 @@ end
 
 #### Valid vs invalid params
 
-Same principle as the previous tip, but worth calling out again with more direct mention since it is such a common usecase.
+Same premise as the previous tip, but worth calling out since it is such a common usecase.
 
 ```ruby
 describe 'POST #create' do
