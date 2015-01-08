@@ -41,7 +41,7 @@ side-effects when the gem's CLI source code, monkeypatches, and all dependency g
 are loaded into your running application. This is so bad that some CLI gems have
 started to [recommend against including the gem in your Bundler Gemfile](https://github.com/ddollar/foreman/commit/fe0d953a2858e2cddacc9a3aa54935d170caceda).
 
-How can we get the benefits of simplified cross team distribution of the toolset
+Can we get the benefits of simplified cross team distribution of the toolset
 gems provided by Bundler *and* avoid polluting our Ruby runtime environment
 with the code from these gems?
 
