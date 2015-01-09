@@ -1,3 +1,33 @@
+# Site configuration
+title: "[codecrate]"
+description: Building better code
+# customize the post url to include date + title to mirror existing blogger urls
+# example /2009-04-29-slap-chop.textile
+permalink: /:year/:month/:title.html
+search: true
+# The url is only used when full-domain names are needed
+# such as sitemap and atom
+# Most places will/should use BASE_PATH to make the urls
+url: http://codecrate.com
+image:
+  feature: background.jpg
+
+# Site owner/author info
+owner:
+  name: Ryan Sonnek
+  avatar: avatar.jpg
+  email: ryan@codecrate.com
+  twitter: codecrate
+  github: wireframe
+  linkedin: ryansonnek
+  disqus-shortname: codecrate
+  google:
+    analytics: 'UA-1922195-6'
+
+author:
+  bio: "A passionate web developer focused on launching Lean startups using Ruby and Javascript technologies."
+
+# Jekyll Configuration
 defaults:
   -
     scope:
@@ -5,36 +35,12 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-
-# customize the post url to include date + title to mirror existing blogger urls
-# ex: /2009-04-29-slap-chop.textile
-permalink: /:year/:month/:title.html
-
+markdown: redcarpet
 exclude:
+  - bin
   - README.md
   - CNAME
   - params.json
-
-# Settings for analytics helper
-analytics :
-  tracking_id : 'UA-1922195-6'
-
-# The url is only used when full-domain names are needed
-# such as sitemap and atom
-# Most places will/should use BASE_PATH to make the urls
-url: http://codecrate.com
-
-# general author info
-author:
-  name: Ryan Sonnek
-  email: ryan@codecrate.com
-  gravatar: "http://www.gravatar.com/avatar/9732ed3804c9044c1d1fadff327cce28.png"
-  bio: "A passionate web developer focused on launching Lean startups using Ruby and Javascript technologies."
-
-tagline: "[<strong>code</strong>crate] <span class='text-primary'>Building better</text-primary> <strong>code</strong>"
-title: "[codecrate] Building better code"
-
-markdown: redcarpet
-
 gems:
   - jekyll-sitemap
+

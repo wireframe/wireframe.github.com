@@ -1,0 +1,7 @@
+<ul class="entry-tags">
+  {% for tag in page.tags %}
+    <li>
+      <a href="{{ site.url }}/tags/#{{ tag }}" title="Pages tagged {{ tag }}">#{{ tag }}</a>
+    </li>
+  {% endfor %}
+</ul>
