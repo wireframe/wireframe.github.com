@@ -23,8 +23,6 @@ owner:
   disqus-shortname: codecrate
   google:
     analytics: 'UA-1922195-6'
-
-author:
   bio: "A passionate web developer focused on launching Lean startups using Ruby and Javascript technologies."
 
 # Jekyll Configuration
