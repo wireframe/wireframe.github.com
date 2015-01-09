@@ -19,9 +19,9 @@ For example:
 [MyApp STAGING] Forgot Password
 ```
 
-This has been a huge boon to help manage email overload.  It is now
+This has been a huge boon to help manage email overload.  It is
 *exponentially* easier to visually scan incoming emails and
-also simplifies setting up effective email filters.
+much simpler to setup effective email filters.
 
 ### ActionMailer::Interceptor to the rescue
 
@@ -39,7 +39,7 @@ Literally `bundle install` and your done.
 
 ### Customizing the application name
 
-The `email_prefixer` automatically infers the application name from the
+The `email_prefixer` gem automatically infers the application name from the
 Rails application class name, but this can be changed using a standard Rails config initializer.
 
 For example:
