@@ -8,4 +8,4 @@ _site
 Gemfile.lock
 
 # Sass files
-#.sass-cache
+.sass-cache
