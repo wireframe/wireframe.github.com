@@ -6,3 +6,6 @@ _site
 
 # Bundler files
 Gemfile.lock
+
+# Sass files
+#.sass-cache
