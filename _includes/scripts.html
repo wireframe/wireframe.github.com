@@ -61,3 +61,7 @@
 {% if site.comments or page.comments != false %}
   {% include disqus_comments.html %}
 {% endif %}
+
+{% if page.github_script %}
+  <script src="{{ site.url }}/javascripts/github.js"></script>
+{% endif %}

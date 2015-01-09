@@ -1,6 +1,6 @@
 # Site configuration
-tagline: "[<strong>code</strong>crate] <span class='text-primary'>Building better</text-primary> <strong>code</strong>"
-title: "[codecrate] Building better code"
+title: "[codecrate]"
+description: Building better code
 # customize the post url to include date + title to mirror existing blogger urls
 # example /2009-04-29-slap-chop.textile
 permalink: /:year/:month/:title.html
@@ -9,6 +9,8 @@ search: true
 # such as sitemap and atom
 # Most places will/should use BASE_PATH to make the urls
 url: http://codecrate.com
+image:
+  feature: background.jpg
 
 # Site owner/author info
 owner:
