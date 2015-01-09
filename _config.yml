@@ -35,6 +35,7 @@ defaults:
       layout: "post"
 markdown: redcarpet
 exclude:
+  - bin
   - README.md
   - CNAME
   - params.json
