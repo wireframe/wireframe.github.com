@@ -58,6 +58,6 @@
 </script>
 {% endif %}
 
-{% if page.comments or site.comments %}
+{% if site.comments or page.comments != false %}
   {% include disqus_comments.html %}
 {% endif %}

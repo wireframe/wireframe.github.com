@@ -2,7 +2,7 @@
 tagline: "[<strong>code</strong>crate] <span class='text-primary'>Building better</text-primary> <strong>code</strong>"
 title: "[codecrate] Building better code"
 # customize the post url to include date + title to mirror existing blogger urls
-# ex: /2009-04-29-slap-chop.textile
+# example /2009-04-29-slap-chop.textile
 permalink: /:year/:month/:title.html
 search: true
 # The url is only used when full-domain names are needed
@@ -18,7 +18,7 @@ owner:
   twitter: codecrate
   github: wireframe
   linkedin: ryansonnek
-  disqus-shortname: ryansonnek
+  disqus-shortname: codecrate
   google:
     analytics: 'UA-1922195-6'
 
