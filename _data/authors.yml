@@ -1,4 +1,6 @@
 # Authors
+# configured by setting page.author on a specific blog post
+# if post does not specify author, defaults to site.owner
 
 billy_rick:
   name: Billy Rick
