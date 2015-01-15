@@ -10,18 +10,22 @@ tags:
 One trick I've used across multiple projects to help manage
 email overload is to add a standard subject prefix to all outgoing
 emails that contains the specific application/service along with the
-environment (ex: staging, demo, etc).
+Rails env for non-production environments (ex: staging, demo, etc).
 
 For example:
 
 ```
-[MyApp] Forgot Password
+# subject for MyApp from staging
 [MyApp STAGING] Forgot Password
+
+# subject for MyApp from production
+# Rails.env omitted to keep emails pretty for users
+[MyApp] Forgot Password
 ```
 
-This has been a huge boon to help manage email overload.  It is
-*exponentially* easier to visually scan incoming emails and
-much simpler to setup effective email filters.
+This simple change makes it much easier easier to visually scan incoming
+emails and even simpler to setup effective email filters.  All good
+things to reduce email overload.
 
 ### ActionMailer::Interceptor to the rescue
 
