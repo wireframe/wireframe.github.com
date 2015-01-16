@@ -456,11 +456,20 @@ span + .entry-title {
 
 // Social Icons
 // --------------------------------------------------
-
 .social-icons {
   margin: 1em 0 2em;
-  a {
+  padding: 0;
+  li {
+    list-style: none;
     padding: 4px 8px;
+    display: inline;
+  }
+  a {
+    color: lighten($text-color,20);
+    &:visited {
+      color: lighten($text-color,20);
+    }
+    border: none !important;
     &:hover {
       color: $black;
     }
