@@ -2,4 +2,4 @@
 source "https://rubygems.org"
 
 gem 'github-pages'
-# gem 'jekyll-sitemap'
+gem 'octopress', '3.0.0.rc.30' # NOTE: 3.0.0.rc.31 is broken
