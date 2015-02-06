@@ -2,20 +2,15 @@
 layout: default
 title: The Archives
 ---
-{% capture pdate %}empty{% endcapture %}
+
+<ul class="posts">
 {%for post in site.posts %}
-  {% capture cdate %}{{ post.date | date: '%Y' }}{% endcapture %}
-  {% if cdate != pdate %}
-    {% if pdate != 'empty' %}
-      </ul>
-    {% endif %}
-    <h3>{{ post.date | date: '%Y' }}</h3>
-    <ul>
-  {% endif %}
   <li>
-    <time>{{ post.date | date: "%B %d" }}</time>
-    <a href="{{ post.url }}">{{ post.title }}</a>
+    <h4 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h4>
+    <div class="post-metadata">
+      <time>{{ post.date | date: "%Y-%m-%d" }}</time>
+      {% include "tags.html %}
+    </div>
   </li>
-  {% capture pdate %}{{ cdate }}{% endcapture %}
 {% endfor %}
 </ul>
