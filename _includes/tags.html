@@ -1,9 +1,13 @@
-{% assign tags = page.tags | sort %}
-{% if post %}
-  {% assign tags = post.tags | sort %}
+{% assign tags = [] %}
+{% if page.tags %}
+  {% assign tags = page.tags %}
 {% endif %}
+{% if post %}
+  {% assign tags = post.tags %}
+{% endif %}
+{% assign sorted_tags = tags | sort %}
 <ul class="entry-tags">
-  {% for tag in tags %}
+  {% for tag in sorted_tags %}
     <li>
       <a href="{{ site.url }}/tags/#{{ tag }}" title="Pages tagged {{ tag }}">#{{ tag }}</a>
     </li>
