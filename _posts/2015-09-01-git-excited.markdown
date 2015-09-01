@@ -13,10 +13,10 @@ frequently used pieces of software used during your work day (second only to
 your IDE), and incremental gains have huge long term pay off.
 
 I have developed custom git extensions and workflows for a **long** time, and
-it is amazing to see how much the gitx project has evolved with literally
-**years** of refinements.  At it's heart, the gitx project offers a set of
-utility git scripts (packaged within the git namespace) to simplify and
-optimize common workflows such as:
+it is amazing to see how much [the gitx project](https://github.com/wireframe/gitx)
+has evolved with literally **years** of refinements.  At it's heart, the gitx
+project offers a set of utility git scripts (packaged within the git namespace)
+to simplify and optimize common workflows such as:
 
 * starting a new feature branch with latest version of master updating a
 * feature branch with the latest code that has been released to master
