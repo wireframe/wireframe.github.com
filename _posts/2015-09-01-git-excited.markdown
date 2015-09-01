@@ -4,6 +4,11 @@ title: "Git eXcited"
 date: 2015-09-01T09:21:40-05:00
 ---
 
+As a developer, one of the **most valuable productivity improvements you can
+make is optimizing your version control workflow**.  It is one of the most
+frequently used pieces of software used through your work day (second only to
+your IDE), and incremental gains have huge long term pay off.
+
 I have developed custom git extensions and workflows for a **long** time, and
 it is amazing to see how much the gitx project has evolved with literally
 **years** of refinements.  At it's heart, the gitx project offers a set of
