@@ -4,9 +4,9 @@ title: "Git eXcited"
 date: 2015-09-01T09:21:40-05:00
 ---
 
-As a developer, one of the **most valuable productivity improvements you can
-make is optimizing your version control workflow**.  It is one of the most
-frequently used pieces of software used through your work day (second only to
+As a developer, **optimizing your version control workflow is one of most valuable
+productivity improvements you can make**.  It is one of the most
+frequently used pieces of software used during your work day (second only to
 your IDE), and incremental gains have huge long term pay off.
 
 I have developed custom git extensions and workflows for a **long** time, and
