@@ -33,7 +33,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-markdown: redcarpet
+markdown: kramdown
 exclude:
   - bin
   - README.md

@@ -5,7 +5,10 @@ _site
 .DS_Store
 
 # Bundler files
-Gemfile.lock
+# Gemfile.lock
 
 # Sass files
 .sass-cache
+
+# Jekyll files
+.jekyll-cache
