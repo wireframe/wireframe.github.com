@@ -20,7 +20,7 @@ owner:
   twitter: codecrate
   github: wireframe
   linkedin: ryansonnek
-  disqus-shortname: codecrate
+  comment-address: comments@codecrate.com
   google:
     analytics: 'UA-1922195-6'
   bio: "A passionate web developer focused on launching Lean startups using Ruby and Javascript technologies."
