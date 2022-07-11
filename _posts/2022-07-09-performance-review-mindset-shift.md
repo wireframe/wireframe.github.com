@@ -20,9 +20,7 @@ Was my goal even realistic?  I was lacking a benchmark for how long each review 
 
 Two pomodoro cycles later, my first review was complete.  Woah!  The rush of dopamine for moving my first review into "Done" was incredible!  Now I had a benchmark of what I could accomplish, and reevaluated my plan.  Approximately 1 hour per review was definately viable.  Twelve more reviews over two days was within reach.  Now, I could restructure my goal from "Do all the reviews right now" to: "Complete half of them today, and half of them tomorrow".  And even better: "finish 3 more this morning and then go across the street for some __INCREDIBLE__ ramen!  :)
 
-The morning __flew__ by.  Three more reviews complete, lunch devoured, but my energy level was __really__ low.  I decided the best course of action was to take a quick power nap (shoutout to incredible office design with built in nap stations!), and then I did a bit of reflection before diving back into the work:  What was my __real__ goal?  
-
-The productivity hacks I used in the morning were definitely __effective__, but what was the intended purpose of these actions?  I wrote down my __real__ goal as a **BIG BOLD** heading at the top of my project document: 
+The morning __flew__ by.  Three more reviews complete, lunch devoured, but my energy level was __really__ low and the only antidote was a power-nap in the **incredible** built-in nap stations in the office.  After waking up, I paused before diving back into the work and asked myself: What was my __real__ goal?  The productivity hacks from the morning were definitely __effective__, but what was the intended purpose of all this activity?  I wrote out a **BIG BOLD** heading at the top of my document... 
 
 ## My objective is to help my team __grow__.
 
