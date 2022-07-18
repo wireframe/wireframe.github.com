@@ -68,5 +68,5 @@ and perform your standard `require` statement and any relevant configuration the
 
 Enjoy the organizational *#protip* and drop me a line if you have any other tricks!
 <p class="text-center">
-![Keep Calm and Extract Code]({{ site.url }}/images/KEEP_CALM_AND_EXTRACT_CODE.png)
+![Keep Calm and Extract Code](/images/KEEP_CALM_AND_EXTRACT_CODE.png)
 </p>

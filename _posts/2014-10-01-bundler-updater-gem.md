@@ -6,7 +6,7 @@ tags:
 ---
 
 <p class="text-center">
-<img alt="If you bundle update your entire Gemfile, you're going to have a bad time." src="{{ site.url }}/images/bundle_update_bad_time.jpg" />
+<img alt="If you bundle update your entire Gemfile, you're going to have a bad time." src="/images/bundle_update_bad_time.jpg" />
 </p>
 
 On any reasonably sized production project, you should **absolutely never** update all outdated gems at once.

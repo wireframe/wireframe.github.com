@@ -25,7 +25,7 @@ as many checks and balances necessary to feel confident that you are releasing
 good code**.
 
 <p class="text-center">
-<img src="{{ site.url }}/images/automate_all_the_things.jpg" alt="Automate all the Things"/>
+<img src="/images/automate_all_the_things.jpg" alt="Automate all the Things"/>
 </p>
 
 ## The Basics (Test suite)
