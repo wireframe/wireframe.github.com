@@ -1,7 +1,5 @@
 ---
-layout: post
 title: "My innerwork journey with performance reviews"
-date: 2022-07-09T09:21:40-05:00
 tags:
 - leadership
 - innerwork

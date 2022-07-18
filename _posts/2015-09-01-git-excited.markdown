@@ -1,7 +1,5 @@
 ---
-layout: post
 title: "Git eXcited"
-date: 2015-09-01T09:21:40-05:00
 tags:
 - ruby
 - git
