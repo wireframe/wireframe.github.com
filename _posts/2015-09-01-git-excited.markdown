@@ -3,6 +3,7 @@ title: "Git eXcited"
 tags:
 - ruby
 - git
+- opensource
 ---
 
 As a developer, **optimizing your version control workflow is one of most valuable
