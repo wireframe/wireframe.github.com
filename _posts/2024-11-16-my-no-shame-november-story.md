@@ -18,8 +18,8 @@ After multiple rapid-fire back-and-forth emails to try and resolve this issue as
 
 ![no shame](/images/2024-11-16.png)
 
-A few minutes later, I had my "oh shit" realization. This wasn't user error. It was a legit bug that I wasn't reproducing locally. I can remember sinking down into my cubicle in shame realizing that this was 100% my fault. Fixing the bug took minutes, and I honestly can't remember if I ever responded back to that member owning up to my mistake.
+A few minutes later, I had my "oh shit" realization. This *wasn't* user error. It was a legit bug that I wasn't reproducing locally. I can remember sinking down into my cubicle in shame realizing that this was 100% my fault. Fixing the bug took minutes, and I honestly can't remember if I ever responded back to that member owning up to my mistake.
 
 Talk about passive-aggressive. I could have picked up the phone. I could have walked over to her office to observe the behavior on her computer and not just assume it "Works for me"!
 
-Although I'm not proud of my behavior, I am grateful for this experience; it taught me a great lesson in humility, and I believe it has made me a better developer. Passing unit tests doesn't mean that there aren't bugs. It just means that I have not yet caught the behavior.  This experience tought me to be much more curious to my customers' feedback, and much more skeptical that "I got it right".
+Although I'm not proud of my behavior, I am grateful for this experience; it taught me a great lesson in humility, and I believe it made me a better developer. Passing unit tests doesn't mean that there aren't bugs. It just means that I have not yet caught the behavior.  This experience tought me to be much more curious to my customers' feedback, and much more skeptical that "I got it right".
