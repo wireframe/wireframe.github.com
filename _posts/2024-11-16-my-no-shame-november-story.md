@@ -10,7 +10,7 @@ A long time ago, in a company far far away...I was an early developer at a *very
 
 I loved being heads down...cranking out code and features. It was a flow that I tried to stay in as much as possible, and everything else was viewed as a "distraction" or waste.
 
-I was developing a custom intranet web app, and supporting a very diverse set of users, and a non-zero percentage of them were non-technical.
+I was developing a custom intranet web app supporting a very diverse, and mostly non-technical, set of users.
 
 I had one particular user who was vocal when things came up. In one particular instance, there was an issue that she raised up that I was absolutely confident was "User Error" (PEBCAK was my term of choice to talk down on others who didn't understand the elegance of systems I was building).
 
