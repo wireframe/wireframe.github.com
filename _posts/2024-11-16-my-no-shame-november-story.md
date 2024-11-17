@@ -12,7 +12,7 @@ I loved being heads down...cranking out code and features. It was a flow that I 
 
 I was developing a custom intranet web app supporting a very diverse, and mostly non-technical, set of users.
 
-I had one particular user who was vocal when things came up. In one particular instance, there was an issue that she raised up that I was absolutely confident was "User Error" (PEBCAK was my term of choice to talk down on others who didn't understand the elegance of systems I was building).
+There was one user who was *particularly* vocal when things came up. One day, she raised an issue that I was *absolutely* confident was **yet another** "User Error" (PEBCAK was my term of choice to talk down on others who didn't understand the elegance of systems I was building).
 
 After multiple rapid-fire back-and-forth emails to try and resolve this issue as quickly as possible and get back to "cranking out L33T code", I took a screenshot of the screen that she was referring to, imported it into Microsoft Paint, and using a bright red pencil, circled the part of the page that had the feature she needed, and sent my last email to her with no text. Just the image. It looked like a six-year-old had scribbled on the page to highlight the area.  A bit like this…
 
