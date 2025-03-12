@@ -21,4 +21,4 @@ After some ideation and experimentation, I found visualization via a graph netwo
 
 <img src="/images/2025-03-12-graph.png">
 
-With just an hour hacking away (thanks to rapid prototyping support via [Cursor](https://www.cursor.com/), I was able to whip up a proof of concept app that "scratched my itch" and is extensible to support any permutation of teams via a simple JSON configuration. [The code is 100% opensource](https://github.com/wireframe/team-topology-graph), and if you're interested to give it a run, I welcome any feedback for improvements!
+With just an hour hacking away (thanks to rapid prototyping support via [Cursor](https://www.cursor.com/)), I was able to whip up a proof of concept app that "scratched my itch" and is extensible to support any permutation of teams via a simple JSON configuration. [The code is 100% opensource](https://github.com/wireframe/team-topology-graph), and if you're interested to give it a run, I welcome any feedback for improvements!
