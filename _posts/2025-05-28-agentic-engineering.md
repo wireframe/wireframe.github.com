@@ -34,7 +34,7 @@ From there, the actual implementation can be taken on by the agent to (hopefully
 
 ## Agents as Interns
 
-The best model I've seen is to **think of an agent as an intern**.  Given clear enough instructions, they are capable of autonomous execution, yet require *thorough* inspection to ensure the work is done correctly and meets the desired quality. 
+The best model I've seen is to **think of an agent as an intern**.  Ask an agent to ‘optimize the UI’ and you’ll get spaghetti.  But provide clear instructions, performance metrics, and design constraints, and you get actionable iteration. 
 
 LLMs are confident, but not always correct.  Today’s agents can be powerful, but they’re fragile and they need support. When collaborating with an agent, a good litmus test question to ask yourself is:
 
@@ -44,7 +44,7 @@ This framing helps helpful to ensure I'm providing enough context for prompts, a
 
 (Side note: It is absolutely *bonkers* that **today is the worst these agents will *ever* be**.  What a wild thought to consider what things will look like just a few short years from now!)
 
-## Better DX = Better Agents
+## Agent Ready DX
 
 If your systems are hard for a human to navigate, they’re worse for a machine.  Reusing the intern analogy, the easier it is for an intern to get up an running, the more successful they will be. 
 
