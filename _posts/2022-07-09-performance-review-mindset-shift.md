@@ -1,5 +1,5 @@
 ---
-title: "My innerwork journey with performance reviews"
+title: "My Innerwork Journey With Performance Reviews"
 tags:
 - leadership
 - innerwork
