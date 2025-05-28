@@ -96,10 +96,8 @@ You may not need agents across all use cases.  My recommendation is to: Start sm
 
 ## The Future is Now...
 
-Agentic engineering isn’t a shortcut. It’s a discipline—a mindset of treating systems as collaborators, not just tools.
+Agentic engineering isn’t a shortcut. It’s a discipline and a mindset of treating systems as collaborators, not just tools.
 
-The teams that will thrive in this new era won’t just be the ones who adopt agents first, but the ones who integrate them thoughtfully. Who tune their environments, groom their codebases, and keep humans in the loop from planning to landing.
+The teams that will thrive in this new era won’t just be the ones who adopt agents first, but the ones who integrate them thoughtfully. Who tune their environments, groom their codebases, keep humans in the loop from planning to landing, and invest in the conditions that make it safe to experiment and easy to adapt.
 
-The goal isn’t perfection—it’s progress. Design your systems to help agents try, learn, and improve. Invest in the conditions that make it safe to experiment and easy to adapt.
-
-We don't need agents that execute blindly. We need ones that act with intent, backed by context, and supported by humans who care about the outcome. In this rapidly evolving landscape, one thing is clear: **Pilots ~~wanted~~ required.**
+In this rapidly evolving landscape, one thing is clear: **Pilots ~~wanted~~ required.**
