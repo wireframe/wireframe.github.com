@@ -1,3 +1,5 @@
+@use "sass:math";
+
 // UTILITY MIXINS
 // --------------------------------------------------
 
@@ -95,7 +97,7 @@ white-space: nowrap; }
   // normal $line-height
   // if the line-height is left.
   @else {
-    line-height: ceil($size / $doc-line-height) * ($doc-line-height / $size);
+    line-height: ceil(math.div($size, $doc-line-height)) * math.div($doc-line-height, $size);
   }
 
   // margin-bottom functions
