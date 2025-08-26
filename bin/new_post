@@ -1,7 +1,0 @@
-#!/usr/bin/env bash
-
-# create a new post using octopress cli
-# example:
-#   bin/new_post new blog post
-#   => _posts/2015-01-29-new-blog-post.markdown created
-bin/octopress new post "$@"
