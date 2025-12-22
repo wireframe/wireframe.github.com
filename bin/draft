@@ -1,0 +1,30 @@
+#!/usr/bin/env bash
+
+set -e
+
+if [ -z "$1" ]; then
+  echo "Usage: bin/draft \"Post Title\""
+  echo "Example: bin/draft \"My New Blog Post\""
+  exit 1
+fi
+
+TITLE="$1"
+DATE=$(date +%Y-%m-%d)
+SLUG=$(echo "$TITLE" | tr '[:upper:]' '[:lower:]' | tr ' ' '-' | tr -cd '[:alnum:]-')
+FILENAME="_drafts/${DATE}-${SLUG}.md"
+
+if [ -f "$FILENAME" ]; then
+  echo "Error: $FILENAME already exists"
+  exit 1
+fi
+
+cat > "$FILENAME" << EOF
+---
+
+title: "${TITLE}"
+tags:
+---
+
+EOF
+
+echo "Created draft: $FILENAME"
