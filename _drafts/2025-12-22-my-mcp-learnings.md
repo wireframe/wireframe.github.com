@@ -16,29 +16,15 @@ When you're building a mobile app, you can inspect execution paths on both the c
 
 That lack of observability runs through nearly every lesson I learned. Here's what I wish I'd known going in.
 
-## The Spec Moves Faster Than Your Implementation
+## You're Building on Shifting Sand
 
 MCP is a moving target. What works today may break tomorrow. Sometimes literally.
 
-Case in point: Claude broke OAuth support for web-based MCP connections just last week (Claude Code was unaffected). OAuth wasn't even part of the original MCP specification. It was added later as the ecosystem matured. Now we're seeing "MCP apps" emerge as a new pattern, and the spec itself has transitioned to the AI Foundation, which may actually *slow* the pace of change due to the foundation's governance structure.
+Case in point: Claude's web client shipped a regression last week that broke OAuth for MCP connections. Their client stopped using dynamic client registration, and our server's OAuth discovery metadata needed updating. The same code worked fine in Claude Code and ChatGPT. Tracking down the issue was pure trial and error—Claude surfaced no error messages, just silent failure.
 
-The takeaway: build with flexibility in mind, and don't get too attached to any single implementation detail.
+Now we're seeing ["MCP apps"](https://blog.modelcontextprotocol.io/posts/2025-11-21-mcp-apps/) emerge as a new pattern, and the spec itself has transitioned to the AI Foundation, which may actually *slow* the pace of change due to the foundation's governance structure.
 
-## Tool Selection Is Out of Your Hands
-
-This was humbling to learn. When a user says "help me improve as a manager," whether that invokes your MCP tool is entirely up to the client. LLMs are inherently non-deterministic, and tool selection is no exception.
-
-You can influence the odds through thoughtful tool metadata. Clear names, descriptive summaries, well-defined input schemas. But you can't guarantee your tool gets called. You're providing capabilities, not controlling the conversation.
-
-And when your tool *doesn't* get selected? Good luck figuring out why. Was the metadata unclear? Did another tool seem more relevant? Did the model just... not feel like it? The black box offers no answers.
-
-## Context Window Management Is an Evolving Art
-
-MCP tool metadata is loaded into the client's default context window. That sounds straightforward until you realize every token counts.
-
-The new [deferred tool loading](https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-search-tool) spec changes this model, deferring tool metadata loading until needed. It's a reasonable trade-off, but it comes with its own cost: tool selection may suffer if the model doesn't "see" your tool's description upfront.
-
-Tool responses also consume context (though this may change). Keeping your response payloads high-signal and low-noise isn't optional. It's essential.
+This is the new frontier for AI agentic integration, and we're rediscovering observability pains that echo the early days of mobile development. Invest in observability. Smoke test across multiple clients. And be prepared to adopt new practices as fast as this space evolves.
 
 ## Tool Chaining Is Magic (When It Works)
 
@@ -48,25 +34,45 @@ Example: a user asks for their list of coaches. Then they ask to see availabilit
 
 When it doesn't work, you're back to staring at the black box, wondering what broke.
 
+## Tool Selection Is Out of Your Hands
+
+When a user asks to "help me improve as a manager," whether that invokes your MCP tool is entirely up to the client. LLMs are inherently non-deterministic, and tool selection is no exception.
+
+You can influence the odds through thoughtful tool metadata. Clear names, descriptive summaries, well-defined input schemas. But you can't guarantee your tool gets called. You're a tool in the toolbelt—you don't get to decide when the carpenter reaches for you.
+
+## Context Window Management Is an Evolving Art
+
+MCP tool metadata is loaded into the client's default context window. That sounds straightforward until you realize every token counts.
+
+The new [deferred tool loading](https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-search-tool) spec changes this model, deferring tool metadata loading until needed. It's a reasonable trade-off, but it comes with its own cost: tool selection may suffer if the model doesn't "see" your tool's description upfront.
+
+Tool responses also consume context—and context fills up fast. A single GitHub MCP server exposes [90+ tools, consuming 50,000+ tokens](https://www.anthropic.com/engineering/code-execution-with-mcp) before your prompt even runs. Some providers are shipping [advanced context management](https://anthropic.com/news/context-management) that automatically clears stale tool results, but adoption isn't universal. This space will keep evolving. For now, keeping your response payloads high-signal and low-noise isn't optional—it's essential.
+
 ## You Don't Control the Final Output
 
 MCP responses are *interpreted* by the client, not passed verbatim to the user. This is by design. The agent has a toolbelt, but the tool isn't driving the conversation.
 
-This may evolve as the "MCP apps" spec matures, potentially allowing more direct integration that bypasses the chat interpretation layer. For now, you can nudge the client through instructions embedded in your tool metadata and response bodies, but the final presentation isn't yours to dictate.
+You can *request* that the model behave a certain way—embed instructions in your tool metadata, add guidance in your response body—but none of it is binding. The client decides how to present your data. It might summarize. It might rephrase. It might ignore your instructions entirely. You're making suggestions, not giving orders.
 
-## Model Variability Is Real
-
-Different foundation models behave differently. Sometimes dramatically so.
-
-GPT-5, for instance, doesn't consistently follow instructions we embed in tool responses asking it to relay information without "massaging" the message. Context chaining behavior also varies across models. What works flawlessly on Claude may behave unexpectedly elsewhere.
-
-MCP Inspector is invaluable for verifying your implementation meets the spec. But passing the spec doesn't guarantee consistent behavior across actual clients and models. You're testing against a protocol, not against the unpredictable inference engines that will actually run your tools.
+This may evolve as the ["MCP apps"](https://blog.modelcontextprotocol.io/posts/2025-11-21-mcp-apps/) spec matures, potentially allowing more direct integration that bypasses the chat interpretation layer. For now, the final presentation isn't yours to dictate.
 
 ## OAuth Is Complex and Opaque
 
-The OAuth dance in MCP is non-trivial. It's largely hidden inside the black box of MCP clients, which means debugging authentication issues can feel like archaeology.
+[OAuth was a recent addition to the MCP spec](https://modelcontextprotocol.io/specification/draft/basic/authorization)—it wasn't part of the original protocol. The dance is non-trivial. Here's what happens when a user connects:
 
-Not all providers support dynamic client registration. Some implement token handling differently. We've built to OAuth 2.1 and modern RFC standards, but the client-side variability keeps things interesting.
+1. Client hits your server, gets a 401
+2. Client discovers your OAuth metadata via `/.well-known/oauth-authorization-server`
+3. Client dynamically registers itself (RFC 7591)
+4. Client kicks off OAuth 2.1 with PKCE
+5. User authorizes in a browser
+6. Authorization code comes back
+7. Client exchanges code for token
+8. Bearer token goes in the header
+9. Repeat for every. single. request.
+
+That's nine steps before your tool does anything useful—and most of it is hidden inside the black box of MCP clients. When something breaks, you're reverse-engineering which step failed with no error messages to guide you.
+
+Not all providers support dynamic client registration. Some skip metadata discovery entirely. We've built to OAuth 2.1 and modern RFC standards, but the client-side variability keeps things interesting.
 
 ## The Observability Gap
 
@@ -74,7 +80,9 @@ If there's a thread running through all of these lessons, it's this: **MCP devel
 
 Traditional client-server development gives you tools. Logs. Traces. Debuggers. Reproducible test environments. MCP gives you a protocol spec and a prayer.
 
-You can verify your server implementation is correct. You can confirm your responses are well-formed. But once your payload disappears into an MCP client, you lose visibility. The model's reasoning, the tool selection logic, the context management... it's all opaque. When things break in production, root cause analysis often comes down to educated guessing and incremental experimentation.
+You can verify your server implementation is correct. You can confirm your responses are well-formed. [MCP Inspector](https://github.com/modelcontextprotocol/inspector) is invaluable for verifying your implementation meets the spec. But passing the spec doesn't guarantee consistent behavior across actual clients and models. You're testing against a protocol, not against the unpredictable inference engines that will actually run your tools.
+
+Once your payload disappears into an MCP client, you lose visibility. The model's reasoning, the tool selection logic, the context management... it's all opaque. When things break in production, root cause analysis often comes down to educated guessing and incremental experimentation.
 
 This will improve as the ecosystem matures. But right now, building production MCP integrations requires a higher tolerance for ambiguity than most engineering projects.
 
@@ -84,7 +92,7 @@ Where does MCP go from here? Honestly, I'm less certain than usual. And that's s
 
 **50/50 odds MCP doesn't exist a year from now.** That's not pessimism. It's realism about how quickly this space is moving.  LLMs are getting *remarkably* good at generating their own tool integrations. Give a capable model access to a CLI, and decent API documentation, and it can often bootstrap its own "MCP-like" capabilities on the fly with existing tooling (curl, Typescript, etc).
 
-That said, MCP's current value proposition is clear: it provides human and machine-readable metadata about tools in a standardized way. OpenAPI offers similar functionality, as do well-designed API documentation sites. Whether MCP's specific approach wins out or gets absorbed into something else remains to be seen.
+The value proposition is clear: standardized, machine-readable metadata about tools. But OpenAPI already does this. So do well-designed API docs. Give a capable model a CLI and decent documentation, and it can bootstrap the same capabilities without MCP. The protocol may survive. Or it may get absorbed into something else. Either way, we'll keep integrating agentic capabilities into our workflows—with or without MCP.
 
 ## What I Know For Sure
 
