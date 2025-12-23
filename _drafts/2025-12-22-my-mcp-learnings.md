@@ -58,21 +58,19 @@ This may evolve as the ["MCP apps"](https://blog.modelcontextprotocol.io/posts/2
 
 ## OAuth Is Complex and Opaque
 
-[OAuth was a recent addition to the MCP spec](https://modelcontextprotocol.io/specification/draft/basic/authorization)—it wasn't part of the original protocol. The dance is non-trivial. Here's what happens when a user connects:
+[OAuth is a fairly recent addition to the MCP spec](https://modelcontextprotocol.io/specification/draft/basic/authorization), and a massive unlock for building secure end-to-end tool execution.  But, it also has introduced non-trivial amount of complexity as MCP clients implement the OAuth dance with...
 
-1. Client hits your server, gets a 401
-2. Client discovers your OAuth metadata via `/.well-known/oauth-authorization-server`
+1. Dynamic client discovery of OAuth well-known metadata
 3. Client dynamically registers itself (RFC 7591)
 4. Client kicks off OAuth 2.1 with PKCE
 5. User authorizes in a browser
 6. Authorization code comes back
 7. Client exchanges code for token
-8. Bearer token goes in the header
-9. Repeat for every. single. request.
+8. Bearer token goes in the header for subsequent calls
 
-That's nine steps before your tool does anything useful—and most of it is hidden inside the black box of MCP clients. When something breaks, you're reverse-engineering which step failed with no error messages to guide you.
+That's a whole lot of steps before your tool does anything useful—and most of it is hidden inside the black box of MCP clients. And when something breaks, you're reverse-engineering which step failed with no error messages to guide you.
 
-Not all providers support dynamic client registration. Some skip metadata discovery entirely. We've built to OAuth 2.1 and modern RFC standards, but the client-side variability keeps things interesting.
+On top of that, the client-side variability keeps things interesting.  Not all providers support dynamic client registration. Some skip metadata discovery entirely. We've built to OAuth 2.1 standards, but every MCP client requires significant end-to-end testing to ensure they work as expected.
 
 ## The Observability Gap
 
@@ -88,19 +86,16 @@ This will improve as the ecosystem matures. But right now, building production M
 
 ## My Crystal Ball (It's Hazy)
 
-Where does MCP go from here? Honestly, I'm less certain than usual. And that's saying something given the pace of AI infrastructure changes.
-
-**50/50 odds MCP doesn't exist a year from now.** That's not pessimism. It's realism about how quickly this space is moving.  LLMs are getting *remarkably* good at generating their own tool integrations. Give a capable model access to a CLI, and decent API documentation, and it can often bootstrap its own "MCP-like" capabilities on the fly with existing tooling (curl, Typescript, etc).
-
-The value proposition is clear: standardized, machine-readable metadata about tools. But OpenAPI already does this. So do well-designed API docs. Give a capable model a CLI and decent documentation, and it can bootstrap the same capabilities without MCP. The protocol may survive. Or it may get absorbed into something else. Either way, we'll keep integrating agentic capabilities into our workflows—with or without MCP.
-
-## What I Know For Sure
-
 Building the BetterUp MCP server was a lesson in shipping on shifting ground. The protocol is young, the ecosystem is fragmented, best practices are still being written, and the debugging experience is genuinely humbling.
 
-But the core bet feels right: AI assistants will increasingly need structured access to the specialized platforms we use every day. Coaching in the flow of work isn't a gimmick. It's where things are headed.
+So, where does MCP go from here? Honestly, I'm less certain than usual. The pace of change in this space continues to accelerate and make things less predictable.
 
-We're just getting started.
+**50/50 odds MCP doesn't exist a year from now.** That's not pessimism. It's realism about how quickly this space is moving. LLMs are getting *remarkably* good at generating their own tool integrations. Give a capable model a CLI and decent API documentation, and it can bootstrap "MCP-like" capabilities on the fly with existing tooling (curl, TypeScript, etc).
+
+The value proposition is clear: standardized, machine-readable metadata about tools. But OpenAPI already does this. So do well-designed API docs. The protocol may survive. Or it may get absorbed into something else. Either way, we'll keep integrating agentic capabilities into our workflows—with or without MCP.
+
+
+But the core bet feels right: AI assistants will increasingly need structured access to the specialized platforms we use every day. It's where things are headed, and we're just getting started.
 
 ---
 
