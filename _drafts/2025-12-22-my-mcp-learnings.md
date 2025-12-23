@@ -1,6 +1,6 @@
 ---
 
-title: "What I Learned Building BetterUp's MCP Server (And Where This Is All Heading)"
+title: "Lessons Learned From Building BetterUp's MCP Server (And Where This Is All Heading)"
 tags:
 - mcp
 - learnings
@@ -12,19 +12,20 @@ We recently shipped the [BetterUp MCP Server](https://www.betterup.com/blog/bett
 
 That might sound surprising. MCP is "just" a protocol, right? But the complexity isn't in any single component. It's in the opacity of the entire system.
 
-When you're building a mobile app, you can inspect execution paths on both the client and the backend. You can set breakpoints, trace requests, examine state. MCP development offers none of that comfort. The clients are complete black boxes. You ship a tool, and then you *hope* it gets selected. You *hope* the context threads correctly. You *hope* the response gets interpreted the way you intended. When something goes wrong, you're often left guessing.
+When you're building a mobile app, you can inspect execution paths on both the client and the backend. You can set breakpoints, trace requests, examine state. MCP development offers none of that comfort. The clients are complete black boxes. You ship a tool, and then you *hope* it gets selected. You *hope* the response gets interpreted the way you intended. When something goes wrong, you're often left guessing.
 
-That lack of observability runs through nearly every lesson I learned. Here's what I wish I'd known going in.
+Here are a few of the lessons I learned.
 
 ## You're Building on Shifting Sand
 
 MCP is a moving target. What works today may break tomorrow. Sometimes literally.
 
-Case in point: Claude's web client shipped a regression last week that broke OAuth for MCP connections. Their client stopped using dynamic client registration, and our server's OAuth discovery metadata needed updating. The same code worked fine in Claude Code and ChatGPT. Tracking down the issue was pure trial and error—Claude surfaced no error messages, just silent failure.
+Case in point: Claude's web client shipped a regression last week that broke OAuth for MCP connections. Their client changed implementation that broke dynamic client registration. The same code worked fine in Claude Code and ChatGPT. Tracking down the issue, and making the changes to our OAuth discovery metatdata, was pure trial and error—Claude surfaced no error messages, just silent failure.
 
-Now we're seeing ["MCP apps"](https://blog.modelcontextprotocol.io/posts/2025-11-21-mcp-apps/) emerge as a new pattern, and the spec itself has transitioned to the AI Foundation, which may actually *slow* the pace of change due to the foundation's governance structure.
+It feels like we're rediscovering observability pains that echo the early days of mobile development.  The pace of change in the MCP spec has been incredibly high, and with the recent transition of the spec to the [Agentic AI Foundation](https://aaif.io/), it is an open question whether or not the foundation's governance may start to *slow* the pace of change.
 
-This is the new frontier for AI agentic integration, and we're rediscovering observability pains that echo the early days of mobile development. Invest in observability. Smoke test across multiple clients. And be prepared to adopt new practices as fast as this space evolves.
+Regardless, the investments in observability pay off dividends as client implementations continue to iterate. Smoke test across multiple clients. And be prepared to adopt new practices as fast as this space evolves.
+
 
 ## Tool Chaining Is Magic (When It Works)
 
@@ -58,15 +59,15 @@ This may evolve as the ["MCP apps"](https://blog.modelcontextprotocol.io/posts/2
 
 ## OAuth Is Complex and Opaque
 
-[OAuth is a fairly recent addition to the MCP spec](https://modelcontextprotocol.io/specification/draft/basic/authorization), and a massive unlock for building secure end-to-end tool execution.  But, it also has introduced non-trivial amount of complexity as MCP clients implement the OAuth dance with...
+[OAuth is a fairly recent addition to the MCP spec](https://modelcontextprotocol.io/specification/draft/basic/authorization), and a massive unlock for building secure end-to-end tool execution. But it also has introduced a non-trivial amount of complexity as MCP clients implement the OAuth dance with...
 
 1. Dynamic client discovery of OAuth well-known metadata
-3. Client dynamically registers itself (RFC 7591)
-4. Client kicks off OAuth 2.1 with PKCE
-5. User authorizes in a browser
-6. Authorization code comes back
-7. Client exchanges code for token
-8. Bearer token goes in the header for subsequent calls
+2. Client dynamically registers itself (RFC 7591)
+3. Client kicks off OAuth 2.1 with PKCE
+4. User authorizes in a browser
+5. Authorization code comes back
+6. Client exchanges code for token
+7. Bearer token goes in the header for subsequent calls
 
 That's a whole lot of steps before your tool does anything useful—and most of it is hidden inside the black box of MCP clients. And when something breaks, you're reverse-engineering which step failed with no error messages to guide you.
 
@@ -93,7 +94,6 @@ So, where does MCP go from here? Honestly, I'm less certain than usual. The pace
 **50/50 odds MCP doesn't exist a year from now.** That's not pessimism. It's realism about how quickly this space is moving. LLMs are getting *remarkably* good at generating their own tool integrations. Give a capable model a CLI and decent API documentation, and it can bootstrap "MCP-like" capabilities on the fly with existing tooling (curl, TypeScript, etc).
 
 The value proposition is clear: standardized, machine-readable metadata about tools. But OpenAPI already does this. So do well-designed API docs. The protocol may survive. Or it may get absorbed into something else. Either way, we'll keep integrating agentic capabilities into our workflows—with or without MCP.
-
 
 But the core bet feels right: AI assistants will increasingly need structured access to the specialized platforms we use every day. It's where things are headed, and we're just getting started.
 
