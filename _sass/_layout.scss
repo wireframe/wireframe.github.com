@@ -259,17 +259,6 @@ body {
 .bio-section {
   margin-bottom: 3em;
 
-  h3 {
-    font-family: $base-font;
-    font-weight: 700;
-    font-style: normal;
-    @include font-size(20);
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    color: lighten($black, 30);
-    margin-bottom: 1.25em;
-  }
-
   p {
     line-height: 1.85;
     @include font-size(17);
