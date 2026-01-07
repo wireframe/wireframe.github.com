@@ -3,39 +3,52 @@ layout: default
 github_script: true
 ---
 
-<div class="bio site-logo">
-  <img alt="{{ site.owner.name }}" src="/images/{{ site.owner.avatar }}" class="animated fadeInUp" />
-  <h2>Hi!  I'm Ryan.</h2>
-  {% include social.html %}
+<div class="bio">
+  <div class="bio-header">
+    <div class="bio-photo-wrapper site-logo">
+      <img alt="{{ site.owner.name }}" src="/images/{{ site.owner.avatar }}" class="animated fadeInUp" />
+    </div>
+    <div class="bio-intro">
+      <h2>Hi! I'm Ryan.</h2>
+      <p class="tagline">Building stuff that matters.</p>
+      <p class="summary">Engineering leader. Building teams and platforms with impact.</p>
+      {% include social.html %}
+    </div>
+  </div>
 
-  <h3>I'm a technical leader with a passion for...</h3>
-  <ul>
-    <li>Getting things done using Lean Startup and Agile software development principles.</li>
-    <li>Building composable systems with REST API's, and Domain Driven Design.</li>
-    <li>Crafting elegant and simply testable code with Ruby and Javascript</li>
-  </ul>
+  <section class="bio-section">
+    <h3>TL;DR</h3>
+    <ul>
+      <li>Solving problems is the goal. Writing code is occasionally the solution.</li>
+      <li>Teams beat heroes. Culture beats strategy.</li>
+      <li>Ship fast, learn faster. Lean startup principles in practice.</li>
+      <li>Build composable systems. Domain-driven design over monoliths.</li>
+      <li>Stay hands-on. A CTO who still codes is a CTO who still learns.</li>
+    </ul>
+  </section>
 
-  <h3>Opensource collaborator</h3>
-  <p>
-    I have a long history of contributing to opensource projects and leading open development communities.
-    The majority of my work can be found on <a href="https://github.com/wireframe">Github</a>.
-    Some of my projects include:
-  </p>
-  <ul>
-      <li>
-          <a href="https://github.com/wireframe/gitx">gitx</a> - Git eXtensions for improved development workflows.
-      </li>
-      <li>
-          <a href="https://github.com/wireframe/multitenant">multitenant</a> - making cross tenant data leaks a thing of the past.
-      </li>
-      <li>
-          <a href="https://github.com/wireframe/backgrounded">backgrounded</a> - simple background execution of model methods.
-      </li>
-      <li>
-          <a href="https://github.com/wireframe/email_prefixer">email_prefixer</a> - Automatically prefix all delivered emails with the application name and Rails environment.
-      </li>
-      <li>
-          <a href="https://github.com/wireframe/elastic_searchable">elastic_searchable</a> - Integrate elasticsearch realtime indexing into your rails application.
-      </li>
-  </ul>
+  <section class="bio-section">
+    <h3>The Path So Far</h3>
+    <p>
+      20+ years building software and teams that matter. Started as an engineer
+      scaling e-commerce at Digital River, then joined Socialcast from product inception
+      through acquisition by VMware. Led innovation at UnitedHealth Group's startup
+      incubator "The Garage." For the past 11 years at BetterUp, I've grown from CTO
+      to CIO to Chief Technical Architect, building transformational products with
+      world-class teams. Along the way, I've earned 2 patents in AI and coaching technology.
+    </p>
+  </section>
+
+  <section class="bio-section">
+    <h3>Open Source</h3>
+    <p>
+      Long history contributing to open source and leading open development communities.
+      Find my work on <a href="https://github.com/wireframe">GitHub</a>:
+    </p>
+    <ul class="project-list">
+      <li><a href="https://github.com/wireframe/gitx">gitx</a> - Git eXtensions for improved workflows</li>
+      <li><a href="https://github.com/wireframe/multitenant">multitenant</a> - preventing cross-tenant data leaks</li>
+      <li><a href="https://github.com/wireframe/backgrounded">backgrounded</a> - async background processing for Ruby</li>
+    </ul>
+  </section>
 </div>
