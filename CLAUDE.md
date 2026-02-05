@@ -50,6 +50,10 @@ When writing or editing blog content, actively avoid these patterns:
 - Keep introductions short; get to the insight quickly
 - End with actionable takeaways or a provocative question, not generic summaries
 
+## Workflow
+
+- Use `bin/draft "Post Title"` to create new draft posts (handles date prefix and slug generation)
+
 ## File Structure
 
 ```
