@@ -16,17 +16,27 @@ I've watched this pattern repeat across multiple organizations. A promising init
 
 "Necessity is the mother of invention," Plato wrote. What happens when necessity disappears? You have to manufacture it by creating a *greenhouse* for incubating your innovation initiatives.
 
-## What Greenhouses Actually Do
+## From the Lab to the Greenhouse
 
-When most people think about greenhouses, they think about protection. Keeping the cold out. Sheltering delicate seedlings.
+The typical corporate response to the urgency problem is an innovation lab. Separate the disruptors from the operators. Give them bean bags and foosball. Let them move fast while everyone else keeps the lights on.
 
-Real greenhouses do protect plants from harsh conditions. But they also *create* artificial conditions, controlling temperature, light, water, humidity. They manufacture growing seasons. A tomato plant doesn't know it's February in Minnesota. The greenhouse creates summer.
+I've seen this model up close. It fails in predictable ways.
+
+The "incubate and hand off" model destroys knowledge. One team builds the prototype, another team inherits it for production. The production team resents code they didn't write and don't understand. The innovation team resents being treated as a prototype factory. Critical context evaporates in the handoff.
+
+Permanent separation creates class warfare. The cool kids get to innovate while everyone else maintains the legacy. Resentment builds. Morale suffers across both groups.
+
+No real constraints means no real accountability. Without pressure to ship, scope expands. Without deadlines, decisions drift. Without clear success criteria, projects become permanent. The innovation lab becomes a fiefdom where activity masquerades as progress.
+
+The greenhouse offers a different model.
+
+When most people think about greenhouses, they think about protection. Keeping the cold out. Sheltering delicate seedlings. Real greenhouses do protect plants from harsh conditions. But they also *create* artificial conditions, controlling temperature, light, water, humidity. They manufacture growing seasons. A tomato plant doesn't know it's February in Minnesota. The greenhouse creates summer.
 
 The same principle applies to innovation inside established companies. Protection from the corporate immune system matters. But the real power is manufacturing the constraints that force growth.
 
 "Creativity doesn't just love constraints; it thrives in them," writes David Burkus. Orson Welles put it more bluntly: "The enemy of art is the absence of limitations."
 
-This is what separates a greenhouse from the typical corporate innovation lab. Innovation labs isolate people permanently, creating a two-tiered class system of "innovators" and everyone else. Greenhouses impose real constraints with real consequences. The isolation is temporary. Failure is visible. Teams earn their right to continue or get composted. No one gets a permanent pass to the cool kids table.
+Greenhouses impose real constraints with real consequences. The isolation is temporary. Failure is visible. Teams earn their right to continue or get composted. No one gets a permanent pass to the cool kids table.
 
 ## The Manufactured Constraints
 
