@@ -38,7 +38,7 @@ The same principle applies to innovation inside established companies. Protectio
 
 Greenhouses impose real constraints with real consequences. The isolation is temporary. Failure is visible. Teams earn their right to continue or get composted. No one gets a permanent pass to the cool kids table.
 
-## The Manufactured Constraints
+## Controlling the Climate with Manufactured Constraints
 
 An internal board of directors can act as venture capital, placing bets on teams with explicit constraints:
 
@@ -80,9 +80,9 @@ Minimal management oversight. Define explicit touchpoints (weekly demos, monthly
 
 ## The Greenhouse Lifecycle
 
-Every greenhouse project ends one of two ways: graduation or composting.
+Every greenhouse project ends one of two ways: transplanting or composting.
 
-**Graduation** means the experiment proved out. The product found traction. The walls come down and the team transitions into normal operations, hardening the prototype for production. The same people who built it are the ones who scale it. No handoff. No knowledge lost.
+**Transplanting** means the experiment proved out. The product found traction. The walls come down and the team begins hardening the seedling for the outside world. (Gardeners call this "hardening off" - acclimating plants to outdoor conditions before moving them outside.) The same people who built it are the ones who scale it. No handoff. No knowledge lost.
 
 **Composting** means the experiment died. And most will. During my time at a healthtech startup incubator inside one of the largest healthcare companies in the country, ninety percent of initiatives didn't reach product-market fit. But the speed to learning was extraordinary. Decisions to spin down happened fast, driven by clear signals about talent, product, or market fit.
 
