@@ -17,9 +17,9 @@ Then you survive, and you grow. One product team becomes four. An initiative get
 
 ## From the Lab to the Greenhouse
 
-The typical corporate response to the urgency problem is an innovation lab. I've seen this model up close. It creates a permanent class of innovators who build prototypes and hand them off to production teams. Context evaporates. The org splits into haves and have-nots. Without real constraints, the lab becomes a fiefdom where activity masquerades as progress.
+The typical corporate response to the urgency problem is an innovation lab. I've seen this model up close. It creates a permanent class of innovators who build prototypes and hand them off to production teams. Context evaporates, the org splits into haves and have-nots, and without real constraints the lab becomes a fiefdom where activity masquerades as progress.
 
-The greenhouse offers a different model. Most people think greenhouses are about protection. But real greenhouses don't just protect. They manufacture growing seasons. A tomato plant doesn't know it's February in Minnesota. As Orson Welles put it, "The enemy of art is the absence of limitations." Greenhouses impose real constraints with real consequences. The isolation is temporary. Teams earn their right to continue or get composted.
+The greenhouse offers a different model. Most people think greenhouses are about protection. But real greenhouses don't just protect. They manufacture growing seasons. As Orson Welles put it, "The enemy of art is the absence of limitations." Greenhouses impose real constraints with real consequences, and the isolation is temporary. Teams earn their right to continue or get composted.
 
 ## Controlling the Climate with Manufactured Constraints
 
@@ -27,7 +27,7 @@ An internal board of directors can act as venture capital, placing bets on teams
 
 **Limited time.** Think of timeboxing as creating an artificial season. Plants don't have unlimited time to grow. Winter is coming. That pressure drives them to flower and fruit.
 
-Your greenhouse teams need the same pressure. A clear timeline with clear success criteria. Miss your targets and you're "off track." Repeatedly off track without a credible path forward? The initiative gets composted. This is the model adopted by many startup incubators. The pressure is the point.
+Your greenhouse teams need the same pressure. A clear timeline with clear success criteria. Miss your targets and you're "off track." Repeatedly off track without a credible path forward? The initiative gets composted. This is the model adopted by many startup incubators, and the pressure is the point.
 
 **Limited resources.** Hard caps on team size, budget, and headcount. A squad of five to seven engineers costs roughly a million dollars per quarter. Make that number visible. When you can't throw money at problems, you solve them differently, or you learn the initiative isn't worth the investment.
 
@@ -52,17 +52,15 @@ Constraints only work with the right people inside the greenhouse.
 
 You need a small, focused group of generalists willing to do whatever it takes. Backend, frontend, user research, sales calls. Everyone does everything, with *minimal* support from specialists outside the greenhouse. This stretching may be uncomfortable for some. That discomfort is a feature, and most closely resembles the DNA of early-startup talent.
 
-**One master gardener.**
-One Directly Responsible Individual owns it. Not a committee. Someone who makes fast decisions without consensus-building. Someone obsessed with this one thing.
+**One master gardener.** Someone who owns the whole thing, makes fast decisions without waiting for consensus, and won't shut up about it. Not a committee. One person.
 
-**The team stays with the plant.**
-The team follows their plant, not the greenhouse. They go in together and come out together, whether that means transplanting into the main organization or composting and returning to other work. There is no permanent class of greenhouse innovators. That's the innovation lab trap. The greenhouse is temporary by design.
+**The team stays with the plant** not the greenhouse. They go in together and come out together, whether that means transplanting into the main organization or composting and returning to other work. There is no permanent class of greenhouse innovators. That's the innovation lab trap, and the greenhouse is temporary by design.
 
 ## The Greenhouse Lifecycle
 
 Every greenhouse project ends one of two ways: transplanting or composting.
 
-When an experiment proves out, **transplant** it. The walls come down and the team begins hardening the seedling for the outside world. (Gardeners call this "hardening off" - acclimating plants to outdoor conditions before moving them outside.) The same people who built it are the ones who scale it. No handoff. No knowledge lost.
+When an experiment proves out, **transplant** it. The walls come down and the team begins hardening the seedling for the outside world. (Gardeners call this "hardening off" - acclimating plants to outdoor conditions before moving them outside.) The same people who built it are the ones who scale it. No handoff, no knowledge lost.
 
 When an experiment doesn't get traction, **compost** it. Nine out of ten startups fail, and internal innovation initiatives are no different. But the speed to learning is what matters.  When a project gets composted, the learnings don't die with it. In nature, nothing is wasted. Dead plants decompose into nutrients for the next generation. Deliberate "composting" means extracting what you learned about the market, the technology, the approach, and distributing that knowledge back into the organization. Active fertilization, not a post-mortem that gets filed and forgotten.
 
