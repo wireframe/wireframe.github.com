@@ -1,8 +1,10 @@
+---
 title: "The Greenhouse Innovation Incubator"
 tags:
 - engineering
 - product development
 - leadership
+- innovation
 ---
 
 ## Overgrown
@@ -19,7 +21,7 @@ The typical corporate response to the urgency problem is an innovation lab. Sepa
 
 I've seen this model up close. It fails in predictable ways.
 
-The "incubate and hand off" model destroys knowledge. One team builds the prototype, another team inherits it for production. The production team resents code they didn't write and don't understand. The innovation team resents being treated as a prototype factory. Critical context evaporates in the handoff.
+The innovation lab creates a permanent class of innovators. One team builds prototypes, another team inherits them for production. The production team resents code they didn't write and don't understand. The innovation team resents being treated as a prototype factory. Critical context evaporates in the handoff.
 
 Permanent separation creates class warfare. The cool kids get to innovate while everyone else maintains the legacy. Resentment builds. Morale suffers across both groups.
 
@@ -41,9 +43,9 @@ An internal board of directors can act as venture capital, placing bets on teams
 
 **Limited time.** Think of timeboxing as creating an artificial season. Plants don't have unlimited time to grow. Winter is coming. That pressure drives them to flower and fruit.
 
-Your greenhouse teams need the same pressure. A clear timeline with clear success criteria. Miss your targets and you're "off track." Repeatedly off track without a credible path forward? The initiative gets composted. This is how Y Combinator operates. Batch constraints. Demo day deadlines. The pressure is the point.
+Your greenhouse teams need the same pressure. A clear timeline with clear success criteria. Miss your targets and you're "off track." Repeatedly off track without a credible path forward? The initiative gets composted. This is the model adopted by many startup incubators. The pressure is the point.
 
-**Limited resources.** Hard caps on team size, budget, and headcount. A squad of five to seven engineers costs roughly a million dollars per quarter. Make that number visible. When you can't throw money at problems, you solve them differently.
+**Limited resources.** Hard caps on team size, budget, and headcount. A squad of five to seven engineers costs roughly a million dollars per quarter. Make that number visible. When you can't throw money at problems, you solve them differently, or you learn the initiative isn't worth the investment.
 
 ## Incubation Creates Insulation
 
@@ -53,22 +55,24 @@ Ed Catmull nailed this in *Creativity, Inc.*: "Part of our job is to protect the
 
 For innovation teams, the greenhouse walls provide insulation from these organizational processes. Architecture review. Sprint ceremonies. SLAs. Code coverage requirements. Documentation standards. These processes exist for good reasons in the main organization. Inside the greenhouse, they're noise. The walls keep them out and the team decides what is "good enough" for their customers.
 
-TODO: Like a bio-dome, the insulate project should have limited contact with the outside world.  Create a *minimal* set of explicit touchpoints (weekly demos, monthly board reviews) and then get out of the way. The constraints do the managing from there.  
-
-The only thing that penetrates the barrier is security. Branch protection, basic code review, not introducing vulnerabilities into the broader ecosystem. That's the floor that can't be negotiated away. Everything else? The team decides what "good enough" looks like for a prototype.
-
 Build the right thing first. Build it right second.
+
+Like a bio-dome, contact with the outside world should be minimal. Create a small set of explicit touchpoints (weekly demos, monthly board reviews) and then get out of the way. The constraints do the managing from there.
+
+Before the walls go up, align on the minimum bar for viability inside the greenhouse. Security is a common one. Even a prototype needs guardrails that protect the broader ecosystem. Agree on the floor early so the team can move fast on everything else.
 
 
 ## The Gardeners
 
 Constraints only work with the right people inside the greenhouse.
 
-You need a small, focused group of generalists willing to do whatever it takes. Backend, frontend, user research, sales calls. Everyone does everything, with *minimal* support from outside the greenhouse. This is uncomfortable for specialists. That discomfort is a feature.
+You need a small, focused group of generalists willing to do whatever it takes. Backend, frontend, user research, sales calls. Everyone does everything, with *minimal* support from specialists outside the greenhouse. This stretching may be uncomfortable for some. That discomfort is a feature, and most closely resembles the DNA of early-startup talent.
 
+**One master gardener.**
 One Directly Responsible Individual owns it. Not a committee. Someone who makes fast decisions without consensus-building. Someone obsessed with this one thing.
 
-The team that goes into the greenhouse stays with the plant through the end.  There is no permanent class of innovators that stay in the greenhouse.
+**The team stays with the plant.**
+The team follows their plant, not the greenhouse. They go in together and come out together, whether that means transplanting into the main organization or composting and returning to other work. There is no permanent class of greenhouse innovators. That's the innovation lab trap. The greenhouse is temporary by design.
 
 ## The Greenhouse Lifecycle
 
