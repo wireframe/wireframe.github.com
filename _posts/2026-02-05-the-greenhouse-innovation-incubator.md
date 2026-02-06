@@ -37,7 +37,7 @@ Organizations will try to kill new ideas. Not maliciously. Just people doing the
 
 Ed Catmull nailed this in *Creativity, Inc.*: "Part of our job is to protect the new from people who don't understand that, in order for greatness to emerge, there must be phases of not-so-greatness."
 
-For innovation teams, the greenhouse walls provide insulation from these organizational processes. Architecture review. Sprint ceremonies. SLAs. Code coverage requirements. Documentation standards. These processes exist for good reasons in the main organization. Inside the greenhouse, they're noise. The walls keep them out and the team decides what is "good enough" for their customers.
+For innovation teams, the greenhouse walls provide insulation from these organizational processes. Architecture review. Sprint ceremonies. SLAs. Code coverage requirements. Documentation standards. These processes exist for good reasons in the main organization. Inside the greenhouse, they're waste. The walls keep them out and the team decides what is "good enough" for their customers.
 
 Build the right thing first. Build it right second.
 
