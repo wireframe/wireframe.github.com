@@ -17,25 +17,9 @@ Then you survive, and you grow. One product team becomes four. An initiative get
 
 ## From the Lab to the Greenhouse
 
-The typical corporate response to the urgency problem is an innovation lab. Separate the disruptors from the operators. Give them bean bags and foosball. Let them move fast while everyone else keeps the lights on.
+The typical corporate response to the urgency problem is an innovation lab. I've seen this model up close. It creates a permanent class of innovators who build prototypes and hand them off to production teams. Context evaporates. The org splits into haves and have-nots. Without real constraints, the lab becomes a fiefdom where activity masquerades as progress.
 
-I've seen this model up close. It fails in predictable ways.
-
-The innovation lab creates a permanent class of innovators. One team builds prototypes, another team inherits them for production. The production team resents code they didn't write and don't understand. The innovation team resents being treated as a prototype factory. Critical context evaporates in the handoff.
-
-Permanent separation creates class warfare. The cool kids get to innovate while everyone else maintains the legacy. Resentment builds. Morale suffers across both groups.
-
-No real constraints means no real accountability. Without pressure to ship, scope expands. Without deadlines, decisions drift. Without clear success criteria, projects become permanent. The innovation lab becomes a fiefdom where activity masquerades as progress.
-
-The greenhouse offers a different model.
-
-When most people think about greenhouses, they think about protection. Keeping the cold out. Sheltering delicate seedlings. But real greenhouses don't just protect. They manufacture growing seasons. A tomato plant doesn't know it's February in Minnesota.
-
-The same principle applies to innovation inside established companies. Protection from the corporate immune system matters. But the real power is manufacturing the constraints that force growth.
-
-As Orson Welles put it, "The enemy of art is the absence of limitations."
-
-Greenhouses impose real constraints with real consequences. The isolation is temporary. Failure is visible. Teams earn their right to continue or get composted. No one gets a permanent pass to the cool kids table.
+The greenhouse offers a different model. Most people think greenhouses are about protection. But real greenhouses don't just protect. They manufacture growing seasons. A tomato plant doesn't know it's February in Minnesota. As Orson Welles put it, "The enemy of art is the absence of limitations." Greenhouses impose real constraints with real consequences. The isolation is temporary. Teams earn their right to continue or get composted.
 
 ## Controlling the Climate with Manufactured Constraints
 
