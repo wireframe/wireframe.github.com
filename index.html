@@ -30,7 +30,7 @@ github_script: true
   <section class="bio-section">
     <h2>Where I've been</h2>
     <p>
-      I've spent 20+ years building products and engineering teams across ecommerce, social networking, and health tech. I built new products inside a Fortune 5 startup incubator, then did it again as the founding technology leader at <a href="https://www.betterup.com">BetterUp</a> from inception 140+ person org with hundreds of millions in revenue.
+      I've spent 20+ years building products and engineering teams across ecommerce, social networking, and health tech. I built new products inside a Fortune 5 startup incubator, then did it again as the founding technology leader at <a href="https://www.betterup.com">BetterUp</a> from inception to 140+ person org with hundreds of millions in revenue.
     </p>
     <p>
       I've learned a <i>lot</i> along the way, and have a whole lot <i>more</i> learning yet to do.
@@ -40,9 +40,10 @@ github_script: true
   <section class="bio-section">
     <h2>What I'm thinking about</h2>
     <ul>
-      <li>How growth-stage companies can <a href="/2026/02/the-greenhouse-innovation-incubator.html">maintain innovation velocity</a> without building an ivory tower</li>
-      <li>What <a href="/2025/05/agentic-engineering.html">agentic engineering</a> looks like in practice, not in pitch decks</li>
-      <li>Why the best part of your product roadmap is <a href="/2025/04/the-most-powerful-part-of-your-product-roadmap.html">what you're <em>not</em> doing</a></li>
+      {% assign featured_posts = site.posts | where_exp: "post", "post.featured_description" %}
+      {% for post in featured_posts %}
+      <li><a href="{{ post.url }}">{{ post.featured_description }}</a></li>
+      {% endfor %}
     </ul>
     <p><a href="/archive.html">Read more...</a></p>
   </section>

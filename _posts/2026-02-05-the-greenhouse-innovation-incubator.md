@@ -5,6 +5,8 @@ tags:
 - product development
 - leadership
 - innovation
+featured_description: >
+  How growth-stage companies can maintain innovation velocity without building an ivory tower
 ---
 
 ## Overgrown
