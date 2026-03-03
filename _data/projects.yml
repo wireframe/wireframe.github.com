@@ -1,0 +1,11 @@
+- name: multitenant
+  url: https://github.com/wireframe/multitenant
+  description: preventing cross-tenant data leaks
+
+- name: backgrounded
+  url: https://github.com/wireframe/backgrounded
+  description: async background processing for Ruby
+
+- name: gitx
+  url: https://github.com/wireframe/gitx
+  description: Git eXtensions for improved workflows

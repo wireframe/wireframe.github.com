@@ -53,9 +53,9 @@ github_script: true
       I've been shipping open source since 2005. The majority of my work is on <a href="https://github.com/wireframe">GitHub</a>. Some highlights:
     </p>
     <ul class="project-list">
-      <li><a href="https://github.com/wireframe/multitenant">multitenant</a> - preventing cross-tenant data leaks</li>
-      <li><a href="https://github.com/wireframe/backgrounded">backgrounded</a> - async background processing for Ruby</li>
-      <li><a href="https://github.com/wireframe/gitx">gitx</a> - Git eXtensions for improved workflows</li>
+      {% for project in site.data.projects %}
+      <li><a href="{{ project.url }}">{{ project.name }}</a> - {{ project.description }}</li>
+      {% endfor %}
     </ul>
   </section>
 </div>
