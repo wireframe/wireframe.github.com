@@ -15,17 +15,11 @@ And when ownership is unclear, you get the bystander effect. Technical debt pile
 
 ## Every Org Design Is Wrong -- And That's Ok
 
-If you've spent time agonizing over the right way to structure your engineering organization, I have good news and bad news. The bad news: there's never a perfect way to carve up the pie. The good news: that's not actually the point.
+If you've spent time agonizing over the right way to structure your engineering organization, I have good news and bad news. The bad news: there's never a perfect way to carve up the pie. Every org design is wrong. The good news: that's not actually the point. **The point is to create clarity.** 
 
-The point is clarity.
+It doesn't matter whether a system lands in Team A or Team B, as long as there is a team that owns it. There will always be messy boundaries that could reasonably go either way, systems that don't fit neatly into any box. That's fine. What isn't fine is leaving it ambiguous. Every day without clear ownership is another day of delays. So, draw those first lines and move forward.  This is a reversible decision and you can redistribute ownership of systems over time as you learn more about what works. 
 
-It doesn't matter whether a system lands in Team A or Team B, as long as there IS a team that owns it. There's always a messy middle: boundaries that could reasonably go either way, people who straddle two domains, systems that don't fit neatly into any box. That's fine. What isn't fine is leaving it ambiguous.
-
-Every org design is wrong. Just give every team member clarity of who's got the ball for a certain area. That's what creates acceleration. When an engineer knows "this is mine," they move differently. They go deeper. They make decisions faster. They don't wait for permission or spend a week figuring out who to ask.
-
-The other thing that makes this less scary: architecture ownership is not an immutable decision. You can redistribute ownership of systems over time as you learn more about what works. This is a reversible decision. Treat it like one. The cost of making an imperfect call and adjusting later is almost always lower than the cost of leaving ownership ambiguous while you search for the perfect answer.
-
-Leaders get paralyzed here. They see the complexity, they see the tradeoffs, and they freeze. But ambiguity is more expensive than any wrong boundary. Draw the line. Make it clear. Adjust when you learn something new.
+Ownership lives at the team level, not the individual. People come and go, but a team's [collective ownership](https://build.betterup.com/extreme-ownership-at-betterup/) of a domain persists. When a team knows "this is ours," they move differently. They go deeper. They make decisions faster. They don't wait for permission or spend a week figuring out who to ask.
 
 ## Design Your Org for the Architecture You Want
 
