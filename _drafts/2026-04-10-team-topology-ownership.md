@@ -52,7 +52,7 @@ Clear ownership boundaries are necessary but not sufficient. Without deliberate 
 
 Stanley McChrystal learned this the hard way in *Team of Teams*: "By focusing on the component parts rather than the overall process, we were missing the fundamental problem. Speeding up the individual elements of the system did nothing to eliminate the blinks between them that most stymied our efforts." The same applies to engineering orgs. Optimizing individual teams while ignoring the seams between them just moves the bottleneck.
 
-The goal is clear domains with porous edges. Each team knows what they own and can go deep in their area, but they also invest in the connections between teams. Guilds give engineers across teams a shared space to align on practices and cross-cutting concerns. Architecture reviews make system-level tradeoffs visible before they become surprises.
+**The goal is clear domains with porous edges.** Each team knows what they own and can go deep in their area, but they also invest in the connections between teams. Guilds give engineers across teams a shared space to align on practices and cross-cutting concerns. Architecture reviews make system-level tradeoffs visible before they become surprises.
 
 ---
 
