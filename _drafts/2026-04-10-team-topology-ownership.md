@@ -1,0 +1,87 @@
+---
+title: "Who's Got the Ball? Team Topology and Ownership Clarity"
+tags:
+- engineering
+- product development
+---
+
+In the early days of a startup, every engineer knows the whole system. You wrote half of it. You reviewed the other half. When something breaks at 2am, you have a reasonable mental model of where to look.
+
+This doesn't survive growth.
+
+As the organization scales and the platform surface area increases, the architecture outgrows any single team's ability to deeply understand it all. Teams develop pockets of expertise in certain systems -- they know their corner well -- but they're spread thin across the rest. Nobody decided to let expertise get shallow. It just happened. The system grew faster than the team's capacity to hold it all in their heads.
+
+This is a cognitive load problem. John Sweller's research on cognitive load theory -- later adapted by Skelton and Pais in *Team Topologies* -- distinguishes between the inherent complexity of your domain and the accidental complexity imposed by your environment. When teams are responsible for too much surface area, both types compound. Engineers spend their days context-switching across systems they half-understand rather than going deep on the systems they own.
+
+The symptoms show up everywhere. Quality degrades in the areas where expertise is thin. Technical debt accumulates where no one feels confident enough to refactor. Velocity drops -- not because people are slow, but because every change requires coordinating with three other teams who each own a piece of the puzzle. Handoffs introduce latency, create blinks in the system, and increase the risk of things falling through the cracks.
+
+And when ownership is unclear, you get the bystander effect. Everyone assumes someone else will fix it. The tragedy of the commons plays out in your codebase. When everyone owns it, no one owns it.
+
+## Every Org Design Is Wrong -- And That's Ok
+
+If you've spent time agonizing over the right way to structure your engineering organization, I have good news and bad news. The bad news: there's never a perfect way to carve up the pie. The good news: that's not actually the point.
+
+The point is clarity.
+
+It doesn't matter whether a system lands in Team A or Team B, as long as there IS a team that owns it. There's always a messy middle -- boundaries that could reasonably go either way, people who straddle two domains, systems that don't fit neatly into any box. That's fine. What isn't fine is leaving it ambiguous.
+
+Every org design is wrong. Just give every team member clarity of who's got the ball for a certain area. That's what creates acceleration. When an engineer knows "this is mine," they move differently. They go deeper. They make decisions faster. They don't wait for permission or spend a week figuring out who to ask.
+
+The other thing that makes this less scary: architecture ownership is not an immutable decision. You can redistribute ownership of systems over time as you learn more about what works. This is a reversible decision. Treat it like one. The cost of making an imperfect call and adjusting later is almost always lower than the cost of leaving ownership ambiguous while you search for the perfect answer.
+
+Leaders get paralyzed here. They see the complexity, they see the tradeoffs, and they freeze. But ambiguity is more expensive than any wrong boundary. Draw the line. Make it clear. Adjust when you learn something new.
+
+## Design Your Org for the Architecture You Want
+
+Conway's Law -- "any organization that designs a system will produce a design whose structure is a copy of the organization's communication structure" -- is one of those observations that sounds obvious until you realize how few organizations actually act on it. Your org structure will mirror your system architecture whether you plan for it or not. Ruth Malan put it sharply: "If the architecture of the system and the architecture of the organization are at odds, the architecture of the organization wins."
+
+The Reverse Conway Maneuver flips this from an observation into a strategy: deliberately structure your teams to produce the architecture you want. If you want loosely coupled services organized around business domains, organize your teams that way first. The architecture will follow.
+
+But where do you draw the lines? This is where Team Topologies' concept of "fracture planes" is useful. A fracture plane is a natural seam in the software system where it can be split cleanly. The most common ones:
+
+- **Business domain / bounded context** -- This should be your primary dimension. Organize teams around customers and business outcomes when possible, not around technical layers.
+- **Change cadence** -- Parts of the system that change at different speeds often belong in different teams. Splitting them lets each part move at its natural pace.
+- **Risk profile** -- High-risk regulatory systems might need different ownership than fast-moving product features.
+- **Technology** -- The most common split, and often the wrong one. Front-end/back-end/data splits create handoffs by design. Use this dimension sparingly.
+
+One important principle: co-create your topology with both product and engineering leadership. The appropriate team structure balances engineering and architecture needs with customer and business objectives. When just one side drives the topology, you get blind spots.
+
+Start with stream-aligned teams -- teams organized around a flow of business value, owning their domain end-to-end. These are the foundation. Platform teams, enabling teams, and complicated-subsystem teams (the other three types in Team Topologies) are layers you add once stream-aligned ownership is solid and you can clearly see what shared capabilities to extract. Get the fundamentals right first.
+
+And on the topic of end-to-end ownership: keep maintenance and innovation together. I've seen organizations split teams into "build the new thing" and "keep the lights on," and it creates a two-tiered class system of innovators and maintainers. The team that builds a system should own it through its full lifecycle -- building, running, and improving it. I wrote about this in my [Greenhouse post](https://www.codecrate.com/2026/02/the-greenhouse-innovation-incubator.html), specifically about the anti-pattern of incubating in one team and handing off to another for "productionization." The context loss from that handoff is enormous. You can't outsource expertise. No one will know your customer, your data, or your activation funnels better than the team that built it.
+
+## Constantly Reorganize to Win -- But Thoughtfully
+
+Your north-star architecture will evolve. Your business will evolve. Your teams need to evolve with them. Reorganization is not a one-time event -- it's a continuous process of aligning your team structure to the architecture and business outcomes you're pursuing. It's never done.
+
+But there's a critical distinction between two types of reorganization:
+
+**Planned evolution** moves you toward your north-star architecture. It's deliberate, informed by what you've learned, and gives teams time to adjust. This is the Reverse Conway Maneuver in practice -- you're intentionally reshaping the org to produce the system you want.
+
+**Reactive reshuffling** dissolves existing teams to chase unplanned work. A firedrill lands, and the instinct is to assemble an Avengers team -- pull the best people from across the org, form a new squad with theoretically perfect skillsets, and throw them at the problem.
+
+This is almost always a mistake, and the reason is Tuckman.
+
+Bruce Tuckman's stages of group development -- Forming, Storming, Norming, Performing -- describe what every team goes through before it hits its stride. Forming is the polite phase where people figure out how to work together. Storming is where conflicts surface and working styles collide. Norming is where the team finds its rhythm. Only then does Performing happen -- the state where the team actually delivers at the level you expected when you drew the org chart.
+
+Every reorg resets this clock. Leaders mentally skip straight to Performing when they reorganize, but the team starts back at Forming. The months of reduced velocity during Forming and Storming are real and compounding. This cost is chronically underestimated.
+
+The discipline is knowing the difference. When an unplanned project or firedrill lands, route the problem to the team whose ownership boundary is closest -- even if it's not a perfect fit. A team with established trust, shared context, and a working rhythm will outperform a freshly assembled group of "perfect" individuals nearly every time. The cost of imperfect fit is almost always lower than the cost of team dissolution and reformation.
+
+Save your reorgs for intentional moves toward your architectural north star. Don't spend them on firedrills.
+
+## Boundaries Without Bridges Create Dysfunction
+
+If you've followed the argument this far, you might be thinking: "Great, I'll draw hard lines around everything and let teams operate independently." That's half the answer.
+
+Clear ownership boundaries are necessary but not sufficient. Without deliberate investment in cross-boundary collaboration and knowledge sharing, boundaries harden into silos. You trade the tragedy of the commons for a different failure mode: isolated teams optimizing locally, unaware of (or indifferent to) the impact on the broader system. "Not my problem" becomes the culture.
+
+The goal is clear domains with porous edges. Each team knows what they own and can go deep in their area. But they also have regular, structured opportunities to share knowledge across boundaries, align on cross-cutting concerns, and build relationships with the teams whose systems interact with theirs.
+
+How you create that connective tissue will depend on your organization. Stanley McChrystal's *Team of Teams* describes how the Joint Special Operations Task Force moved from rigid command hierarchies to a "shared consciousness" model -- teams that maintained clear missions but invested heavily in inter-team awareness. The specifics of his military context don't translate directly, but the principle does: you need both autonomy and connection.
+
+Too little structure and no one owns anything. Too much structure and you've built walls instead of boundaries. The right answer lives in the tension between those two failure modes, and it shifts over time as your organization grows. Like everything else in org design, it's never done. But if you're investing in both clarity of ownership and deliberate cross-boundary connection, you're pointed in the right direction.
+
+---
+
+*Org design is never finished. But the goal was never a perfect org chart. The goal is acceleration -- give every team member clarity of who's got the ball, then let them run.*
