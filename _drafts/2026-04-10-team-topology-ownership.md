@@ -56,4 +56,4 @@ The goal is clear domains with porous edges. Each team knows what they own and c
 
 ---
 
-*Org design is never finished. Give every team member clarity of who's got the ball, then let them run.*
+*The best org design isn't the right one. It's the clear one.*
