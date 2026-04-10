@@ -45,15 +45,14 @@ When an unplanned project lands, route it to the team whose ownership boundary i
 
 ## Boundaries Without Bridges Create Dysfunction
 
-If you've followed the argument this far, you might be thinking: "Great, I'll draw hard lines around everything and let teams operate independently." That's half the answer.
+Now, you might be thinking: "Great, I'll draw hard lines around everything and let teams operate independently." That's half the answer.
 
 Clear ownership boundaries are necessary but not sufficient. Without deliberate investment in cross-boundary collaboration and knowledge sharing, boundaries harden into silos. You trade the tragedy of the commons for a different failure mode: isolated teams optimizing locally, unaware of (or indifferent to) the impact on the broader system. "Not my problem" becomes the culture.
 
-The goal is clear domains with porous edges. Each team knows what they own and can go deep in their area. But they also have regular, structured opportunities to share knowledge across boundaries, align on cross-cutting concerns, and build relationships with the teams whose systems interact with theirs.
 
-How you create that connective tissue will depend on your organization. Stanley McChrystal's *Team of Teams* describes how the Joint Special Operations Task Force moved from rigid command hierarchies to a "shared consciousness" model: teams that maintained clear missions but invested heavily in inter-team awareness. The specifics of his military context don't translate directly, but the principle does: you need both autonomy and connection.
+Stanley McChrystal learned this the hard way in *Team of Teams*: "By focusing on the component parts rather than the overall process, we were missing the fundamental problem. Speeding up the individual elements of the system did nothing to eliminate the blinks between them that most stymied our efforts." The same applies to engineering orgs. Optimizing individual teams while ignoring the seams between them just moves the bottleneck.
 
-Too little structure and no one owns anything. Too much structure and you've built walls instead of boundaries. The right answer lives in the tension between those two failure modes, and it shifts over time as your organization grows. Like everything else in org design, it's never done. But if you're investing in both clarity of ownership and deliberate cross-boundary connection, you're pointed in the right direction.
+The goal is clear domains with porous edges. Each team knows what they own and can go deep in their area, but they also invest in the connections between teams. Guilds give engineers across teams a shared space to align on practices and cross-cutting concerns. Architecture reviews make system-level tradeoffs visible before they become surprises.
 
 ---
 
