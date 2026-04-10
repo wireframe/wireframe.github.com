@@ -1,8 +1,10 @@
 ---
-title: "Who's Got the Ball? Team Topology and Ownership Clarity"
+title: "Outgrowing the Org Chart: Team Topology for Scaling Teams"
 tags:
 - engineering
 - product development
+featured_description: >
+  Why ownership clarity matters more than the perfect org chart
 ---
 
 In the early days of a startup, every engineer knows the whole system. You wrote half of it. You reviewed the other half. When something breaks at 2am, you have a reasonable mental model of where to look.
