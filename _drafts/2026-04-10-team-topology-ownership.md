@@ -25,18 +25,13 @@ Conway's Law ("any organization that designs a system will produce a design whos
 
 The Reverse Conway Maneuver flips this from an observation into a strategy: deliberately structure your teams to produce the architecture you want. If you want loosely coupled services organized around business domains, organize your teams that way first. The architecture will follow.
 
-But where do you draw the lines? This is where Team Topologies' concept of "fracture planes" is useful. A fracture plane is a natural seam in the software system where it can be split cleanly. The most common ones:
+But where do you draw the lines? This is a great opportunity to partner with product and design leadership, because the right team structure balances engineering needs with customer and business objectives. When engineering draws the lines alone, you get blind spots. Skelton and Pais explore this in depth in *Team Topologies*, and a few guiding principles stand out:
 
-- **Business domain / bounded context:** This should be your primary dimension. Organize teams around customers and business outcomes when possible, not around technical layers.
-- **Change cadence:** Parts of the system that change at different speeds often belong in different teams. Splitting them lets each part move at its natural pace.
-- **Risk profile:** High-risk regulatory systems might need different ownership than fast-moving product features.
-- **Technology:** The most common split, and often the wrong one. Front-end/back-end/data splits create handoffs by design. Use this dimension sparingly.
+**Organize around business domains, not technical layers.** Teams that own a customer-facing domain end-to-end can ship without waiting on other teams. Splitting by technology (front-end/back-end/data) creates handoffs by design. It's the most common split, and often the wrong one.
 
-Co-create your topology with both product and engineering leadership. The appropriate team structure balances engineering and architecture needs with customer and business objectives. When just one side drives the topology, you get blind spots.
+**Split systems that move at different speeds.** Parts of the system that change weekly don't belong in the same team as parts that change quarterly. Splitting by change cadence lets each part move at its natural pace.
 
-Start with stream-aligned teams: teams organized around a flow of business value, owning their domain end-to-end. These are the foundation. Platform teams, enabling teams, and complicated-subsystem teams (the other three types in Team Topologies) are layers you add once stream-aligned ownership is solid and you can clearly see what shared capabilities to extract. Get the fundamentals right first.
-
-And on the topic of end-to-end ownership: keep maintenance and innovation together. I've seen organizations split teams into "build the new thing" and "keep the lights on," and it creates a two-tiered class system of innovators and maintainers. The team that builds a system should own it through its full lifecycle: building, running, and improving it. I wrote about this in my [Greenhouse post](https://www.codecrate.com/2026/02/the-greenhouse-innovation-incubator.html), specifically about the anti-pattern of incubating in one team and handing off to another for "productionization." The context loss from that handoff is enormous. You can't outsource expertise. No one will know your customer, your data, or your activation funnels better than the team that built it.
+**Keep maintenance and innovation together.** I've seen organizations split teams into "build the new thing" and "keep the lights on," and it creates a two-tiered class system of innovators and maintainers. The team that builds a system should own it through its full lifecycle: building, running, and improving it. I wrote about this in my [Greenhouse post](https://www.codecrate.com/2026/02/the-greenhouse-innovation-incubator.html), specifically about the anti-pattern of incubating in one team and handing off to another for "productionization." You can't outsource expertise. No one will know your customer, your data, or your activation funnels better than the team that built it.
 
 ## Constantly Reorganize to Win -- But Thoughtfully
 
