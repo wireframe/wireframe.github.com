@@ -37,21 +37,11 @@ But where do you draw the lines? This is a great opportunity to partner with pro
 
 Your north-star architecture will evolve. Your business will evolve. Your teams need to evolve with them. It's never done.
 
-But there are two types of reorganization:
+**Planned evolution** is healthy. As you learn more about your domain and your customers, you reshape team boundaries to match. This is the Reverse Conway Maneuver as an ongoing practice, not a one-time event.
 
-**Planned evolution** moves you toward your north-star architecture. It's deliberate, informed by what you've learned, and gives teams time to adjust. This is the Reverse Conway Maneuver in practice: you're intentionally reshaping the org to produce the system you want.
+**Reactive reshuffling** is the trap. A firedrill lands, and the instinct is to assemble an Avengers team: pull the best people from across the org, form a new squad with theoretically perfect skillsets, and throw them at the problem. This is almost always a mistake. Every team goes through Tuckman's stages (Forming, Storming, Norming, Performing) before it hits its stride. Every reorg resets that clock. Leaders expect that when they form a team, they are immediately Performing, but the team starts back at Forming. The reduced velocity is real, compounding, and chronically underestimated.
 
-**Reactive reshuffling** dissolves existing teams to chase unplanned work. A firedrill lands, and the instinct is to assemble an Avengers team: pull the best people from across the org, form a new squad with theoretically perfect skillsets, and throw them at the problem.
-
-This is almost always a mistake, and the reason is Tuckman.
-
-Bruce Tuckman's stages of group development (Forming, Storming, Norming, Performing) describe what every team goes through before it hits its stride. Forming is the polite phase where people figure out how to work together. Storming is where conflicts surface and working styles collide. Norming is where the team finds its rhythm. Only then does Performing happen, the state where the team actually delivers at the level you expected when you drew the org chart.
-
-Every reorg resets this clock. Leaders mentally skip straight to Performing when they reorganize, but the team starts back at Forming. The months of reduced velocity during Forming and Storming are real and compounding. This cost is chronically underestimated.
-
-The discipline is knowing the difference. When an unplanned project or firedrill lands, route the problem to the team whose ownership boundary is closest, even if it's not a perfect fit. A team with established trust, shared context, and a working rhythm will outperform a freshly assembled group of "perfect" individuals nearly every time. The cost of imperfect fit is almost always lower than the cost of team dissolution and reformation.
-
-Save your reorgs for intentional moves toward your architectural north star. Don't spend them on firedrills.
+When an unplanned project lands, route it to the team whose ownership boundary is closest, even if it's not a perfect fit. A team with established trust and a working rhythm will outperform a freshly assembled group of "perfect" individuals nearly every time. Save your reorgs for intentional moves toward your architectural north star. Don't spend them on firedrills.
 
 ## Boundaries Without Bridges Create Dysfunction
 
