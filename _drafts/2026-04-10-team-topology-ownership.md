@@ -15,11 +15,9 @@ And when ownership is unclear, you get the bystander effect. Technical debt pile
 
 ## Every Org Design Is Wrong -- And That's Ok
 
-If you've spent time agonizing over the right way to structure your engineering organization, I have good news and bad news. The bad news: there's never a perfect way to carve up the pie. Every org design is wrong. The good news: that's not actually the point. **The point is to create clarity.** 
+If you've spent time agonizing over the right way to structure your engineering organization, I have good news and bad news. The bad news: there's never a perfect way to carve up the pie. Every org design is wrong. The good news: that's not actually the point. **The point is to create clarity.**  When a team knows that they have [collective ownership](https://build.betterup.com/extreme-ownership-at-betterup/) of a domain, they operate differently. They go deeper, they make decisions faster, and they build better.
 
 It doesn't matter whether a system lands in Team A or Team B, as long as there is a team that owns it. There will always be messy boundaries that could reasonably go either way, systems that don't fit neatly into any box. That's fine. What isn't fine is leaving it ambiguous. Every day without clear ownership is another day of delays. So, draw those first lines and move forward.  This is a reversible decision and you can redistribute ownership of systems over time as you learn more about what works. 
-
-Ownership lives at the team level, not the individual. People come and go, but a team's [collective ownership](https://build.betterup.com/extreme-ownership-at-betterup/) of a domain persists. When a team knows "this is ours," they move differently. They go deeper. They make decisions faster. They don't wait for permission or spend a week figuring out who to ask.
 
 ## Design Your Org for the Architecture You Want
 
