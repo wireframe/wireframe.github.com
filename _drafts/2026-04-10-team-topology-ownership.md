@@ -2,22 +2,16 @@
 title: "Outgrowing the Org Chart: Team Topology for Scaling Teams"
 tags:
 - engineering
-- product development
+- leadership
 featured_description: >
   Why ownership clarity matters more than the perfect org chart
 ---
 
-In the early days of a startup, every engineer knows the whole system. You wrote half of it. You reviewed the other half. When something breaks at 2am, you have a reasonable mental model of where to look.
+In the early days of a startup, every engineer knows the whole system. You wrote half of it, and probably reviewed the other half. When something breaks at 2am, you have a reasonable mental model of where to look. **This doesn't survive growth.**
 
-This doesn't survive growth.
+The system grows faster than the team's capacity to hold it all in their heads. Engineers end up context-switching across systems they half-understand rather than going deep on the systems they own. Every change turns into a scavenger hunt for who to talk to.
 
-As the organization scales and the platform surface area increases, the architecture outgrows any single team's ability to deeply understand it all. Teams develop pockets of expertise in certain systems (they know their corner well) but they're spread thin across the rest. Nobody decided to let expertise get shallow. It just happened. The system grew faster than the team's capacity to hold it all in their heads.
-
-This is a cognitive load problem. John Sweller's research on cognitive load theory (later adapted by Skelton and Pais in *Team Topologies*) distinguishes between the inherent complexity of your domain and the accidental complexity imposed by your environment. When teams are responsible for too much surface area, both types compound. Engineers spend their days context-switching across systems they half-understand rather than going deep on the systems they own.
-
-The symptoms show up everywhere. Quality degrades in the areas where expertise is thin. Technical debt accumulates where no one feels confident enough to refactor. Velocity drops, not because people are slow, but because every change requires coordinating with three other teams who each own a piece of the puzzle. Handoffs introduce latency and create blinks in the system.
-
-And when ownership is unclear, you get the bystander effect. Everyone assumes someone else will fix it. The tragedy of the commons plays out in your codebase. When everyone owns it, no one owns it.
+And when ownership is unclear, you get the bystander effect. Technical debt piles up because everyone assumes someone else will fix it. Issues languish in the backlog because no one feels responsible enough to prioritize them. When everyone owns everything, no one owns anything.
 
 ## Every Org Design Is Wrong -- And That's Ok
 
