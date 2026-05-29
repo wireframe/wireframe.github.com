@@ -53,7 +53,7 @@ Miss any of these and the whole thing wobbles. Get all three right and you build
 
 ## Systems — Make the Right Thing the Easy Thing
 
-**Make the right thing the cheapest thing.** Choice architecture (Thaler and Sunstein, *Nudge*): design defaults so the right behavior is the cheap one. Knowledge management is the floor: a handbook as source of truth, an ADR/RFC template for decisions, a discoverable repo where choices outlive the people who made them. That's table stakes. The work that matters is the layer above.
+**Make the right thing the cheapest thing.** Choice architecture (Thaler and Sunstein, *Nudge*): design defaults so the right behavior is the cheap one.
 
 **Remote teams need mature systems earlier.** Co-located teams can run on tribal knowledge and lean-over-the-desk help for years. Remote teams can't. The scaffolding has to be in place from day one.
 
