@@ -49,10 +49,7 @@ Miss any of these and the whole thing wobbles. Get all three right and you build
 
 **The office is the worst place to do deep work.** Focus is the asset everything else converts into output, and modern offices are structurally hostile to it. Open floor plans actually reduce face-to-face interaction (Bernstein & Turban, 2018). Claustrophobic phone booths are a draining and demoralizing employee experience. Endless "got a sec?" interruptions destroy concentration. Remote-first flips all of those issues on their heads. You can protect uninterrupted blocks of focus in ways offices structurally can't. Performance directly increases as a consequence: workers in Bloom's Ctrip study posted a ~13% performance gain.
 
-**Written narrative is the operating discipline.** When you can't lean over a desk or grab someone in the hallway, the document has to carry the discussion. Amazon's 6-pager is the canonical version: read the doc, then debate the doc, in that order. The artifact outlasts the conversation. Done right, written discipline builds deeper trust than co-located teams have. Trust is the consistent pairing of what you say with what happens (Aubrey Daniels), and a written record is a track of those pairings. Remote teams who get this right have receipts. Office teams who skip the discipline don't.
-
-
-TODO: research potential quotes to add
+**Docs over decks.** A written narrative is a concrete artifact: anyone can read it, push back on it, or reference it, regardless of whether they were in the room when it was discussed. Async means ten people can engage in parallel instead of serial. Reading is roughly twice as fast as listening anyway. Writing also forces clearer thinking. Bezos's anti-PowerPoint memo at Amazon argued that "the narrative structure of a good memo forces better thought." Steve Jobs ran Apple the same way: "I hate the way people use slide presentations instead of thinking." Both knew the medium shapes the quality of the decision. For remote teams, this is how the team thinks together at all.
 
 ## Systems — Make the Right Thing the Easy Thing
 
