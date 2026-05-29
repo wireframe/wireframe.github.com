@@ -41,16 +41,11 @@ Remote-first is a hiring play. You fish the global pond instead of the thirty-mi
 
 Teams are the atomic unit of performance, and isolation is the natural default of remote work. Co-located teams have to be designed against the open-plan failure mode where everyone retreats into headphones (Bernstein & Turban). Remote teams have to be designed against an even stronger pull, because isolation is the default state, not a failure mode. Either way, collaboration is built deliberately, not by seating chart.
 
-A few specifics worth naming:
+Two operating constraints worth naming up front. Timezone overlap is non-negotiable: flexible hours are a perk, core hours are a requirement. And remote competes harder for your team's attention. Aubrey Daniels' matching law says behavior flows to the most reinforcing part of the environment, and at home that's social media, hobbies, and family, not the work. Remote leaders have to *increase* on-the-job positive reinforcement just to hold even.
 
-- **Hire almost anywhere. Timezone overlap is non-negotiable.** Flexible hours are a perk; core hours are a requirement.
-- **The senior-to-junior ratio is a leadership lever.** Remote pushes it from roughly 1:5 toward 1:10.
-- **Early-career growth doesn't happen by osmosis remote.** Mentorship and exposure have to be deliberately scheduled.
-- **Remote competes harder for your team's attention.** Aubrey Daniels' matching law says behavior flows to the most reinforcing part of the environment. At home that's social media, hobbies, and family, not the work. Remote leaders have to *increase* on-the-job positive reinforcement just to hold even.
+Early-career growth is the hardest part of remote-first to get right. In an office, juniors learn by osmosis: overhearing a debate, watching a senior debug, leaning over to ask the person next to them. Remote kills that channel. Mentorship has to be deliberately scheduled, each junior costs more senior hours, and the senior-to-junior ratio that worked at 1:5 in-office stretches to about 1:10 remote. Brooks named the underlying mechanism fifty years ago (*The Mythical Man-Month*, 1975): adding people diverts existing engineers to educate them, and communication paths grow faster than headcount.
 
-Onboarding is a tax on the whole team, and remote raises the rate. Every hire, especially early-career, costs ramp time plus the senior hours pulled into mentorship. The informal "ask the person next to you" channel is gone, so the investment has to be deliberate and scheduled. Brooks called this out fifty years ago (*The Mythical Man-Month*, 1975): adding people to a project carries ramp-up cost and diverts existing engineers to educate the newcomer. Output dips before it rises; communication paths grow faster than headcount.
-
-Netflix is the extreme case. For ~25 years they hired only senior engineers, buying fully-formed talent rather than growing it (≈0% junior vs. 30–50% at peers), sidestepping the early-career tax entirely. The caveat: they reversed it in 2023, so the senior-only model has real limits.
+Netflix took the extreme path. For ~25 years they hired only senior engineers (≈0% junior vs. 30–50% at peers), sidestepping the tax entirely. They reversed it in 2023, so the senior-only model has real limits.
 
 ## Process — Focus Doesn't Happen by Accident
 
