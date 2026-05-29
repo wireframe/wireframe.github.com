@@ -53,7 +53,7 @@ Miss any of these and the whole thing wobbles. Get all three right and you build
 
 ## Systems — Make the Right Thing the Easy Thing
 
-**Paved roads pay dividends.** When the right path is the cheapest path, teams take it without thinking. Thaler and Sunstein call this choice architecture (*Nudge*). Platform engineering investements into self-service tooling removes friction from doing it the "right way" and yields ~5% productivity gains at both individual and team levels (DORA 2024). The system measuring your platform quality [across security, maintainability, and operational dimensions](/2024/03/scaling-platform-quality.html) will directly influence your future investments: where you shine the light, the work follows.
+**Paved roads pay dividends.** When the right path is the cheapest path, teams take it without thinking. Thaler and Sunstein call this choice architecture (*Nudge*). Investments in self-service tooling remove friction and yield ~5% productivity gains at both individual and team levels (DORA 2024). Measuring platform quality [across security, maintainability, and operational dimensions](/2024/03/scaling-platform-quality.html) shapes future investments: where you shine the light, the work follows.
 
 **Remote teams need mature systems earlier.** Co-located teams can run on tribal knowledge and lean-over-the-desk help for years. Remote teams can't. The scaffolding has to be in place from day one.
 
