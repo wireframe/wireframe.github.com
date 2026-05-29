@@ -53,16 +53,15 @@ Miss any of these and the whole thing wobbles. Get all three right and you build
 
 ## Systems — Make the Right Thing the Easy Thing
 
-**Remote teams need mature systems earlier.** They end up in the same place as co-located teams eventually, but where an in-office team can run on tribal knowledge and lean-over-the-desk help for years, a remote team can't. The scaffolding has to be in place from day one. 
+**Make the right thing the cheapest thing.** Choice architecture (Thaler and Sunstein, *Nudge*): design defaults so the right behavior is the cheap one. Knowledge management is the floor: a handbook as source of truth, an ADR/RFC template for decisions, a discoverable repo where choices outlive the people who made them. That's table stakes. The work that matters is the layer above.
 
-**Make the right thing the cheapest thing.** When you can't lean over a desk for help, the system has to make the correct path the easy path. A few pieces carry the weight:
+**Remote teams need mature systems earlier.** Co-located teams can run on tribal knowledge and lean-over-the-desk help for years. Remote teams can't. The scaffolding has to be in place from day one.
 
-- **The handbook is the source of truth.** A single durable, searchable home for how the company works. Slack is ephemeral; the docs are durable; the handbook outranks both.
-- **Decisions need a durable home.** An ADR/RFC template and a discoverable repo where architectural choices live. Async by construction, and they outlive the people who wrote them.
-- **Recreate ambient collaboration intentionally.** An open-hangout video space for "drop in and pair" moments, not for meetings.
-- **Recognition needs a surface.** A visible, low-friction channel where peers can reinforce peers. Daniels argues peers are the most effective and most underused source of positive reinforcement; managers can't observe enough behavior to be the primary source, and remote only widens the gap. Build the surface so peers can do the work.
+**Organizational health must be measured, not guessed.** In an office, you can read the room. Tense standups, hallway grumbling, who's eating lunch alone. Remote, those signals are invisible. You have to instrument the team explicitly: psychological safety surveys, Developer eXperience metrics, SPACE and DORA frameworks for engineering velocity. These measure things you'd otherwise miss until they became crises. Project Aristotle confirmed psychological safety is the top team performance factor. Remote just means you can't read it off the room.
 
-Platform engineering is a remote-first force multiplier. When nobody can lean over a desk, self-service tooling has to carry the load. Pave the roads. DORA 2024 found internal developer platforms improve individual productivity, team performance, and organizational performance, with developer independence driving roughly a 5% productivity gain at both individual and team levels. The same DORA data shows platforms can *slow* delivery throughput and stability even while individual productivity rises, the "platform paradox." Worth naming so the claim reads rigorous rather than boosterish.
+**Platform engineering is the force multiplier.** Pave the roads. DORA 2024 found internal developer platforms drive ~5% productivity gains at both individual and team levels. The same data shows platforms can slow throughput at the system level (the "platform paradox"), so measure platform health, not just platform usage.
+
+**Codify the behaviors you want repeated.** Vague culture statements drift. Concrete behavioral language scales. Amazon's Leadership Principles and BetterUp's High Impact Behaviors both name specific behaviors and make recognition concrete. Peers are the most effective and most underused source of reinforcement (Daniels). Managers can't observe enough behavior to be the primary signal, and remote widens the gap. Build the surface that lets peers do the work: a visible, low-friction channel for calling out specific behaviors.
 
 ## It Was Never About Location
 
