@@ -51,6 +51,9 @@ Miss any of these and the whole thing wobbles. Get all three right and you build
 
 **Written narrative is the operating discipline.** When you can't lean over a desk or grab someone in the hallway, the document has to carry the discussion. Amazon's 6-pager is the canonical version: read the doc, then debate the doc, in that order. The artifact outlasts the conversation. Done right, written discipline builds deeper trust than co-located teams have. Trust is the consistent pairing of what you say with what happens (Aubrey Daniels), and a written record is a track of those pairings. Remote teams who get this right have receipts. Office teams who skip the discipline don't.
 
+
+TODO: research potential quotes to add
+
 ## Systems — Make the Right Thing the Easy Thing
 
 Remote teams need mature systems earlier than co-located ones. They end up in the same place eventually, but where an in-office team can run on tribal knowledge and lean-over-the-desk help for years, a remote team can't. The scaffolding has to be in place from day one. Investing late in systems is how remote teams quietly fail.
