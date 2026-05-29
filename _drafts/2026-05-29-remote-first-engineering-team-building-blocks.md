@@ -35,7 +35,9 @@ Miss any of these and the whole thing wobbles. Get all three right and you build
 
 ## People — Talent Lives Everywhere
 
-A bigger candidate pool raises both the ceiling and the floor of who you hire. More candidates means stronger hires *and* faster hires. Screening is still hard, but that part doesn't change with the geography.
+Anyone who's tried to staff a senior team out of a single zip code knows the squeeze. The Bay Area is the extreme. Every strong engineer is already employed, the comp ladder is brutal, and the same fifteen candidates are interviewing at the same fifteen companies. The geographic filter does most of the rejection for you, and not in the direction you want.
+
+Remote-first is a hiring play. You fish the global pond instead of the thirty-mile one. Engineers who were previously off-limits because of where they happened to live are suddenly hireable, and the candidate pool opens up by something close to an order of magnitude in most roles. Screening is still hard. Probably harder, since you're now competing globally for the top of every market at once. The constraint becomes your hiring bar, not your zip code.
 
 Teams are the atomic unit of performance, and isolation is the natural default of remote work. Co-located teams have to be designed against the open-plan failure mode where everyone retreats into headphones (Bernstein & Turban). Remote teams have to be designed against an even stronger pull, because isolation is the default state, not a failure mode. Either way, collaboration is built deliberately, not by seating chart.
 
