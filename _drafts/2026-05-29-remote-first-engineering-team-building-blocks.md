@@ -53,13 +53,11 @@ Miss any of these and the whole thing wobbles. Get all three right and you build
 
 ## Systems — Make the Right Thing the Easy Thing
 
-**Make the right thing the cheapest thing.** Choice architecture (Thaler and Sunstein, *Nudge*): design defaults so the right behavior is the cheap one.
+**Paved roads pay dividends.** When the right path is the cheapest path, teams take it without thinking. Thaler and Sunstein call this choice architecture (*Nudge*). Platform engineering is how this ships. Self-service tooling removes the friction from doing it right. DORA 2024 found internal developer platforms drive ~5% productivity gains at both individual and team levels. The same study flagged a "platform paradox" where system-level throughput can slow even as individual productivity rises. Measure both.
 
 **Remote teams need mature systems earlier.** Co-located teams can run on tribal knowledge and lean-over-the-desk help for years. Remote teams can't. The scaffolding has to be in place from day one.
 
 **Organizational health must be measured, not guessed.** In an office, you can read the room. Tense standups, hallway grumbling, who's eating lunch alone. Remote, those signals are invisible. You have to instrument the team explicitly: psychological safety surveys, Developer eXperience metrics, SPACE and DORA frameworks for engineering velocity. These measure things you'd otherwise miss until they became crises. Project Aristotle confirmed psychological safety is the top team performance factor. Remote just means you can't read it off the room.
-
-**Platform engineering is the force multiplier.** Pave the roads. DORA 2024 found internal developer platforms drive ~5% productivity gains at both individual and team levels. The same data shows platforms can slow throughput at the system level (the "platform paradox"), so measure platform health, not just platform usage.
 
 **Codify the behaviors you want repeated.** Vague culture statements drift. Concrete behavioral language scales. Amazon's Leadership Principles and BetterUp's High Impact Behaviors both name specific behaviors and make recognition concrete. Peers are the most effective and most underused source of reinforcement (Daniels). Managers can't observe enough behavior to be the primary signal, and remote widens the gap. Build the surface that lets peers do the work: a visible, low-friction channel for calling out specific behaviors.
 
