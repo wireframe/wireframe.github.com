@@ -53,11 +53,9 @@ Miss any of these and the whole thing wobbles. Get all three right and you build
 
 ## Systems — Make the Right Thing the Easy Thing
 
-Remote teams need mature systems earlier than co-located ones. They end up in the same place eventually, but where an in-office team can run on tribal knowledge and lean-over-the-desk help for years, a remote team can't. The scaffolding has to be in place from day one. Investing late in systems is how remote teams quietly fail.
+**Remote teams need mature systems earlier.** They end up in the same place as co-located teams eventually, but where an in-office team can run on tribal knowledge and lean-over-the-desk help for years, a remote team can't. The scaffolding has to be in place from day one. 
 
-This is choice architecture in the Thaler & Sunstein sense (*Nudge*): libertarian paternalism applied to engineering work. You don't remove anyone's options; you design the defaults so the right behavior is the cheap one.
-
-The pieces that carry the weight:
+**Make the right thing the cheapest thing.** When you can't lean over a desk for help, the system has to make the correct path the easy path. A few pieces carry the weight:
 
 - **The handbook is the source of truth.** A single durable, searchable home for how the company works. Slack is ephemeral; the docs are durable; the handbook outranks both.
 - **Decisions need a durable home.** An ADR/RFC template and a discoverable repo where architectural choices live. Async by construction, and they outlive the people who wrote them.
