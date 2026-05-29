@@ -45,22 +45,11 @@ Miss any of these and the whole thing wobbles. Get all three right and you build
 
 ## Process — Focus Doesn't Happen by Accident
 
-AND, not OR. Time together for collaboration *and* time apart for deep work. Both designed, neither free.
+**Remote-first doesn't mean remote-only.** I require in-person working sessions, treated as a high-leverage investment in specific kinds of work. Quarterly planning brings the team into alignment on strategy. Team-level off-sites are concentrated time for design sprints, product discovery, and the conceptual work that benefits most from proximity. Code ships fine over a wire; figuring out what to build doesn't. Lin, Frey & Wu (*Nature*, 2023) found conceptual integration benefits from concentration. That's the case for deliberate off-sites, and the case against blanket RTO mandates.
 
-Flow needs uninterrupted blocks of focus, and offices are structurally hostile to those blocks. Cadence design is focus protection: sync time for collaboration, async time defended for deep work. Fragmenting focus is measurably costly. Every switch leaves *attention residue* that degrades the next block of work (Sophie Leroy, 2009). Bloom's Stanford study put the value at roughly 8% salary equivalent, with small meetings as efficient over video.
+**The office is the worst place to do deep work.** Focus is the asset everything else converts into output, and modern offices are structurally hostile to it. Open floor plans are the default. Cramped phone booths host hours of video calls. Drop-ins and "got a sec?" interruptions shred concentration. Bernstein & Turban (Harvard, 2018) tracked the move to open plan at two Fortune 500 HQs: face-to-face interaction dropped ~70% while email rose 56% and IM 67%. Open architecture produced exhaustion, not collaboration. Remote inverts the default. Every switch leaves *attention residue* that degrades the next block of work (Sophie Leroy, 2009), and remote-first lets you protect uninterrupted blocks in a way offices structurally can't. Bloom's Stanford study put the gain at roughly 8% salary equivalent. The hybrid trap is recreating the office's worst defaults in fewer days a week. If your in-office days are still distraction-saturated, you've built the worst of both worlds.
 
-The shape of in-person time matters more than the percentage. Quarterly planning is one high-leverage mode. Team design-sprint off-sites are another: occasional, concentrated, high-ROI for the conceptual product discovery work that benefits most from proximity. The point isn't *more* in-person, it's *purpose-built* in-person.
-
-The work that benefits most from being in the room is product-level: discovery, strategy, design. Not engineering execution. Code ships fine over a wire. Figuring out what to build doesn't. Lin, Frey & Wu (*Nature*, 2023) showed conceptual integration benefits from concentration; the practical takeaway is deliberately bringing people together for those moments rather than mandating presence for execution work that doesn't need it. That's the difference between an intentional off-site and an RTO mandate.
-
-A few operating practices that hold the rest together:
-
-- **Written narrative is the operating discipline.** The Amazon 6-pager replaces the status meeting, and the doc *is* the discussion.
-- **Keep decision latency low.** When sync is needed, be available and unblock fast.
-- **Retros explicitly ask: "would this be faster in person?"** Treat the answer as a signal, not a verdict.
-- **Product discovery is genuinely harder remote.** Prototype-gravity replaces conversation. Plan for it; don't pretend it away.
-
-Trust is the consistent pairing of what you say with what happens (Aubrey Daniels). Written commitments aren't bureaucratic overhead; they create a *documented track record* of antecedent-consequence pairings. Done right, remote teams build *deeper* trust than co-located ones, because the discipline is in the artifacts.
+**Written narrative is the operating discipline.** When you can't lean over a desk or grab someone in the hallway, the document has to carry the discussion. Amazon's 6-pager is the canonical version: read the doc, then debate the doc, in that order. The artifact outlasts the conversation. Done right, written discipline builds deeper trust than co-located teams have. Trust is the consistent pairing of what you say with what happens (Aubrey Daniels), and a written record is a track of those pairings. Remote teams who get this right have receipts. Office teams who skip the discipline don't.
 
 ## Systems — Make the Right Thing the Easy Thing
 
@@ -76,8 +65,6 @@ The pieces that carry the weight:
 - **Recognition needs a surface.** A visible, low-friction channel where peers can reinforce peers. Daniels argues peers are the most effective and most underused source of positive reinforcement; managers can't observe enough behavior to be the primary source, and remote only widens the gap. Build the surface so peers can do the work.
 
 Platform engineering is a remote-first force multiplier. When nobody can lean over a desk, self-service tooling has to carry the load. Pave the roads. DORA 2024 found internal developer platforms improve individual productivity, team performance, and organizational performance, with developer independence driving roughly a 5% productivity gain at both individual and team levels. The same DORA data shows platforms can *slow* delivery throughput and stability even while individual productivity rises, the "platform paradox." Worth naming so the claim reads rigorous rather than boosterish.
-
-One more thing, and it's the one most hybrid setups get wrong: no open floor plans. The hybrid failure mode is recreating the worst of the office in fewer days a week. Open plans destroy focus, "the most endangered mental factor in the modern world" (Newport). If your in-office days are still distraction-saturated, you've built the worst of both worlds. Bernstein & Turban (Harvard, 2018) tracked two Fortune 500 HQs moving from cubicles to open plan: face-to-face interaction fell ~70% while email rose 56% and IM 67%. Open architecture triggered social withdrawal, not collaboration.
 
 ## It Was Never About Location
 
