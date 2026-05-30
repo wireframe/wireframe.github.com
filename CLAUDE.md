@@ -53,6 +53,7 @@ When writing or editing blog content, actively avoid these patterns:
 ## Workflow
 
 - Use `bin/draft "Post Title"` to create new draft posts (handles date prefix and slug generation)
+- Use `bin/promote <draft>` to publish a draft to `_posts/` (re-stamps the date, moves with `git mv` to preserve history; pass a `YYYY-MM-DD` second arg to override the date)
 
 ## File Structure
 
