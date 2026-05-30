@@ -1,6 +1,6 @@
 ---
 tags:
-title: "The Building Blocks of High-performing Remote-first Engineering Teams"
+title: "Engineering Your Remote Engineering Team"
 categories: [engineering-leadership]
 tags: 
   - engineering
@@ -51,9 +51,9 @@ Miss any of these and the whole thing wobbles. Get all three right and you build
 > Focus is one of the most endangered mental factors in the modern world. There's nothing more fatal to an organization's ability to get things done than a team that can't focus on its goal.
 > — *Flow Engineering: From Value Stream Mapping to Effective Action*
 
-**Intentional in-person investments pay off.** Some work is high-bandwidth by nature, and remote tools don't replicate it well. Quarterly planning brings the team into alignment on strategy. Team off-sites are concentrated time for design sprints, product discovery, and the kind of work that benefits from a shared whiteboard. Fast, in-the-room ideation is structurally harder over a wire. That's exactly why you schedule the off-site, not why you mandate the office.
-
 **The office is the worst place to do deep work.** Focus is the asset everything else converts into output, and modern offices are structurally hostile to it. Open floor plans actually reduce face-to-face interaction (Bernstein & Turban, 2018). Claustrophobic phone booths are a draining and demoralizing employee experience. Endless "got a sec?" interruptions destroy concentration. Remote-first flips all of those issues on their heads. You can protect uninterrupted blocks of focus in ways offices structurally can't. Performance directly increases as a consequence: workers in Bloom's Ctrip study posted a ~13% performance gain.
+
+**Intentional in-person investments pay off.** Some work is high-bandwidth by nature, and remote tools don't replicate it well. Quarterly planning brings the team into alignment on strategy. Team off-sites are concentrated time for design sprints, product discovery, and the kind of work that benefits from a shared whiteboard. Fast, in-the-room ideation is structurally harder over a wire. That's exactly why you schedule the off-site, not why you mandate the office.
 
 **Docs over decks.** A written narrative is a concrete artifact: anyone can read it, push back on it, or reference it, regardless of whether they were in the room when it was discussed. Reading is roughly twice as fast as listening anyway. Writing also forces clearer thinking. Bezos's anti-PowerPoint memo at Amazon argued that "the narrative structure of a good memo forces better thought." Steve Jobs ran Apple the same way: "I hate the way people use slide presentations instead of thinking."
 
