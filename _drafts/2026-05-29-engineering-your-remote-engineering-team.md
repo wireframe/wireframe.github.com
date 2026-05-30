@@ -66,7 +66,7 @@ Miss any of these and the whole thing wobbles. Get all three right and you build
 
 **Teams play to the score.** Team health and platform health both need instruments to set a baseline and track progress. Psychological safety, Developer eXperience, and SPACE or DORA frameworks measure team performance. [Scorecards across security, maintainability, and observability](/2024/03/scaling-platform-quality.html) measure platform quality. Project Aristotle put psychological safety at the top of team performance factors. What gets measured gets managed (Drucker).
 
-**Create cultural amplifiers.** Lightweight systems that reinforce the behaviors you want to see create a snowball effect. A Slack channel for shoutouts. A monthly recognition callout. None of these cost much. They make great work visible, and new team members copy what they see. Peers are the most effective and most underused source of reinforcement (Daniels). Culture replicates through the surfaces you give it. Build them.
+**Create cultural amplifiers.** Culture eats strategy for breakfast. Name the behaviors you want and celebrate them publicly when they happen. From Amazon's Leadership Principles to a Slack shoutout channel, the consistency matters more than the format. Peers see more behavior than managers ever could, which makes them the most effective and most underused source of reinforcement (Daniels), a gap that remote only widens. Give them the surfaces, and culture replicates from there.
 
 ## It Was Never About Location
 
