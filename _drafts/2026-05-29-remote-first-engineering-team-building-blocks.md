@@ -55,11 +55,11 @@ Miss any of these and the whole thing wobbles. Get all three right and you build
 
 **Paved roads pay dividends.** When the right path is the cheapest path, teams take it without thinking. Thaler and Sunstein call this choice architecture (*Nudge*). Investments in self-service tooling remove friction and yield ~5% productivity gains at both individual and team levels (DORA 2024). The same study flagged a "platform paradox" where individual gains can mask system-level slowdowns.
 
+**Teams play to the score.** Team health and platform health both need instruments to objectively baseline where you are today, and progress over time.  Team performance leverages research on Psychological safety, and Developer eXperience metrics (Project Aristotle, DORA). Platform quality leverages [scorecards across security, maintainability, and observability](/2024/03/scaling-platform-quality.html). What gets measured gets managed (Drucker).
+
+**Create cultural amplifiers.** Lightweight systems that reinforce the behaviors you want to see create a snowball effect. A Slack channel for shoutouts. A monthly recognition callout. None of these cost much. They make great work visible, and new team members copy what they see. Peers are the most effective and most underused source of reinforcement (Daniels). Build the surface that supports self-replicating the most important asset of an organization...it's culture.
+
 **Remote skips the duct-tape phase.** Co-located teams can run on tribal knowledge, post-it notes on the wall, and lean-over-the-desk help for years before they need to invest in mature systems. Remote teams can't. Every team that survives to scale-up ends up with the same infrastructure. Remote-first just pays the cost on day one.
-
-**Teams play to the score.** Team health and platform health both need instruments. Psychological safety surveys, Developer eXperience metrics, and SPACE or DORA frameworks score the team. Scorecards across security, maintainability, and operational quality score the platform. I've [written about that approach](/2024/03/scaling-platform-quality.html). Project Aristotle put psychological safety at the top of team performance factors. What gets measured gets managed (Drucker).
-
-**Cultural amplifiers compound.** Lightweight systems that reinforce the behaviors you want to see create a snowball effect. A Slack channel for shoutouts. A monthly recognition callout. None of these cost much. They make great work visible, and new team members copy what they see. Peers are the most effective and most underused source of reinforcement (Daniels). Managers can't observe enough behavior to be the primary signal, and remote widens the gap. Build the surface that lets peers do the work.
 
 ## It Was Never About Location
 
