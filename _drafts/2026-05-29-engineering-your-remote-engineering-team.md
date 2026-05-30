@@ -72,14 +72,14 @@ Miss any of these and the whole thing wobbles. Get all three right and you build
 > If employees are not engaged, it is a leadership problem. Nothing more, nothing less.
 > — Aubrey Daniels
 
-All three buckets (people, process, systems) are leadership problems, not location problems. Transformational leadership and stable priorities drive performance (DORA 2024). Rigid location mandates dampen productivity (Great Place to Work, 4-year study). Engagement reflects management's behaviors, decisions, and policies.
+**All three buckets (people, process, systems) are leadership problems, not location problems.** Transformational leadership and stable priorities drive performance (DORA 2024). Rigid location mandates dampen productivity (Great Place to Work, 4-year study). Engagement reflects management's behaviors, decisions, and policies.
 
 The office treats collaboration as the default unit of work; remote-first treats focused deep work as the default. The default is what you optimize for. **RTO mandates aren't choosing collaboration over isolation; they're choosing distraction over focus.** The 2026 RTO mandate wave (TikTok 5d, Meta 5d, NBCU 4d) is treating the symptom: leadership avoiding the harder work of building the three disciplines.
 
-The strongest counter-argument deserves a fair hearing. Learning, innovation, and peak performance can accelerate in-person. Remote teams were consistently less likely to make breakthrough discoveries across 20M papers and 4M patents over 50 years, drifting toward execution over conceptual work (Lin, Frey & Wu, *Nature*, 2023). But proximity alone doesn't produce collaboration; it can suppress it (Bernstein & Turban, Harvard 2018). Collaboration is a design problem, not a real estate one. How a team interacts matters far more than where they sit (Google Project Aristotle).
+The strongest counter-argument deserves a fair hearing. Learning, innovation, and peak performance can accelerate in-person. Remote teams were consistently less likely to make breakthrough discoveries across 20M papers and 4M patents over 50 years, drifting toward execution over conceptual work (Lin, Frey & Wu, *Nature*, 2023). But proximity alone doesn't produce collaboration; it can suppress it (Bernstein & Turban, Harvard 2018). **Collaboration is a design problem, not a real estate one.** How a team interacts matters far more than where they sit (Google Project Aristotle).
 
 ## Built Intentionally
 
-The kind of company this builds: globally-sourced talent doing their best work in flow, protected by designed cadence and durable written-narrative systems. The defaults are focus, ownership, and async excellence. In-person moments are reserved for the work that genuinely needs them.
+The team you've built: globally-sourced talent doing their best work in flow, scaffolded by paved roads and scoreboards, reinforced by cultural amplifiers, with leadership that owns the conditions. Location stops being the variable.
 
 Remote-first, intentional.
