@@ -15,17 +15,17 @@ tags:
 
 A high-performing culture isn't something you declare. It's the *output* of three things you build: the people on the team, the processes they run, and the systems underneath them. Get those right and the culture follows. Get them wrong and no amount of values-on-the-wall will save you.
 
-Here's what the return-to-office fight keeps missing: none of that depends on a shared zip code. Talent, focus, trust. You can build all of it without an office. Often better.
+Here's what the return-to-office fight keeps missing: none of that depends on a shared zip code. Talent, focus, leverage. You can build all of it without an office. Often better.
 
 The argument I keep hearing from CEOs walking back remote-first is that culture is fragile, collaboration is dying, innovation needs proximity. They're not wrong about the *symptoms*. Teams are disconnected. Junior engineers are stalling. Decisions are slow. But the diagnosis is wrong. **The problem isn't that people are working from home. It's that nobody designed the conditions for them to do good work when they got there.**
 
 Three things make the difference, and you have to get all of them.
 
-**People.** Remote-first raises both the ceiling and the floor of who you hire. The candidate pool widens; stronger hires arrive faster, because you're not waiting for the right engineer to happen to live near your office. Screening is still hard. That part doesn't change with the geography.
+**People.** Remote-first raises both the ceiling and the floor of who you hire. But hiring is just the first move. You'll screen harder for remote-fit, invest more in early-career engineers, and design team identity that an office gives away for free.
 
 **Process.** Focus doesn't happen by accident. The highest-leverage hours an engineering team has are the concentrated, conceptual ones, and your cadences, rituals, and meeting culture either protect those hours or shred them. The office shreds them by default. Remote-first lets you build the defense in.
 
-**Systems.** Make the right thing the easy thing. Co-located teams can survive on tribal knowledge and lean-over-the-desk help for a while. Remote teams can't. Your handbook, your platform, your written discipline carry the weight that proximity used to.
+**Systems.** Make the right thing the easy thing. Co-located teams can survive on tribal knowledge and lean-over-the-desk help for a while. Remote teams can't. Your paved roads, your scoreboards, your cultural amplifiers carry the weight that proximity used to.
 
 Miss any of these and the whole thing wobbles. Get all three right and you build something most office-bound teams can't match.
 
@@ -45,7 +45,7 @@ Miss any of these and the whole thing wobbles. Get all three right and you build
 
 ## Process — Focus Doesn't Happen by Accident
 
-**Remote-first doesn't mean remote-only.** In-person working sessions are a high-leverage investment for specific kinds of work. Quarterly planning brings the team into alignment on strategy. Team off-sites are concentrated time for design sprints, product discovery, and the kind of work that benefits most from co-location (and usually a whiteboard).
+**Intentional in-person investments pay off.** Quarterly planning brings the team into alignment on strategy. Team off-sites are concentrated time for design sprints, product discovery, and the kind of work that benefits most from co-location (and usually a whiteboard).
 
 **The office is the worst place to do deep work.** Focus is the asset everything else converts into output, and modern offices are structurally hostile to it. Open floor plans actually reduce face-to-face interaction (Bernstein & Turban, 2018). Claustrophobic phone booths are a draining and demoralizing employee experience. Endless "got a sec?" interruptions destroy concentration. Remote-first flips all of those issues on their heads. You can protect uninterrupted blocks of focus in ways offices structurally can't. Performance directly increases as a consequence: workers in Bloom's Ctrip study posted a ~13% performance gain.
 
