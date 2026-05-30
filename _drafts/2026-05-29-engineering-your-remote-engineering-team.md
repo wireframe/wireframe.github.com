@@ -11,11 +11,7 @@ tags:
 
 A high-performing culture is the *output* of three things you build: the people on the team, the processes they run, and the systems underneath them. Get those right and the culture follows. Get them wrong and no amount of values-on-the-wall will save you.
 
-Here's what the return-to-office fight keeps missing: none of that depends on a shared zip code. Talent, focus, leverage. You can build all of it without an office. Often better.
-
-The case against remote-first is familiar: culture is fragile, collaboration is dying, innovation needs proximity. They're not wrong about the *symptoms*. Teams are disconnected. Early-career engineers are stalling. Decisions are slow. But the diagnosis is wrong. **The problem isn't that people are working from home. It's that nobody designed the conditions for them to do good work when they got there.**
-
-Three things make the difference, and you have to get all of them.
+The conversation against remote-first is familiar: culture is fragile, collaboration is dying, innovation needs proximity. They're not wrong about the *symptoms*. Teams are disconnected. Early-career engineers are stalling. Decisions are slow. But the diagnosis is wrong. **The problem isn't that people are working from home. It's that nobody designed the conditions for them to do good work when they got there.**  None of that depends on a shared zip code. Talent, focus, leverage. You can build all of it without an office. Often better. Three things make the difference, and you have to get all of them.
 1. **People.** Remote-first raises both the ceiling and the floor of who you hire. But hiring is just the first move. You'll screen harder for remote-fit, invest more in early-career engineers, and design team identity that an office gives away for free.
 2. **Process.** Focus doesn't happen by accident. The highest-leverage hours an engineering team has are the concentrated, conceptual ones, and your cadences, rituals, and meeting culture either protect those hours or shred them. The office shreds them by default. Remote-first lets you build the defense in.
 3. **Systems.** Make the right thing the easy thing. Co-located teams can survive on tribal knowledge and hallway conversations for a while. Remote teams can't. Your paved roads, your scoreboards, your cultural amplifiers carry the weight that proximity used to.
