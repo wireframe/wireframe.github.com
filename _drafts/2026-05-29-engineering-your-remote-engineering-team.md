@@ -1,5 +1,4 @@
 ---
-tags:
 title: "Engineering Your Remote Engineering Team"
 tags: 
   - engineering
@@ -14,7 +13,7 @@ A high-performing culture is the *output* of three things you build: the people 
 
 Here's what the return-to-office fight keeps missing: none of that depends on a shared zip code. Talent, focus, leverage. You can build all of it without an office. Often better.
 
-The case against remote-first is familiar: culture is fragile, collaboration is dying, innovation needs proximity. They're not wrong about the *symptoms*. Teams are disconnected. Junior engineers are stalling. Decisions are slow. But the diagnosis is wrong. **The problem isn't that people are working from home. It's that nobody designed the conditions for them to do good work when they got there.**
+The case against remote-first is familiar: culture is fragile, collaboration is dying, innovation needs proximity. They're not wrong about the *symptoms*. Teams are disconnected. Early-career engineers are stalling. Decisions are slow. But the diagnosis is wrong. **The problem isn't that people are working from home. It's that nobody designed the conditions for them to do good work when they got there.**
 
 Three things make the difference, and you have to get all of them.
 
@@ -22,11 +21,9 @@ Three things make the difference, and you have to get all of them.
 
 **Process.** Focus doesn't happen by accident. The highest-leverage hours an engineering team has are the concentrated, conceptual ones, and your cadences, rituals, and meeting culture either protect those hours or shred them. The office shreds them by default. Remote-first lets you build the defense in.
 
-**Systems.** Make the right thing the easy thing. Co-located teams can survive on tribal knowledge and lean-over-the-desk help for a while. Remote teams can't. Your paved roads, your scoreboards, your cultural amplifiers carry the weight that proximity used to.
+**Systems.** Make the right thing the easy thing. Co-located teams can survive on tribal knowledge and hallway conversations for a while. Remote teams can't. Your paved roads, your scoreboards, your cultural amplifiers carry the weight that proximity used to.
 
-Miss any of these and the whole thing wobbles. Get all three right and you build something most office-bound teams can't match.
-
-*Remote-first isn't a compromise. It's the intentional version of engineering culture.*
+Miss any of these and the whole thing wobbles. Get all three right and you've built the intentional version of engineering culture, something most office-bound teams can't match.
 
 ---
 
@@ -59,7 +56,7 @@ Miss any of these and the whole thing wobbles. Get all three right and you build
 > You do not rise to the level of your goals. You fall to the level of your systems.
 > — James Clear, *Atomic Habits*
 
-**Remote skips the duct-tape phase.** Co-located teams can run on tribal knowledge, post-it notes on the wall, and lean-over-the-desk help for years before they need to invest in mature systems. Remote teams can't. Every team that survives to scale-up ends up with the same infrastructure. Remote-first just pays the cost on day one.
+**Remote skips the duct-tape phase.** Co-located teams can run on tribal knowledge, post-it notes on the wall, and hallway conversations for years before they need to invest in mature systems. Remote teams can't. Every team that survives to scale-up ends up with the same infrastructure. Remote-first just pays the cost on day one.
 
 **Paved roads pay dividends.** When the right path is the cheapest path, teams take it without thinking. Thaler and Sunstein call this choice architecture (*Nudge*). Investments in self-service tooling remove friction and yield ~5% productivity gains at both individual and team levels (DORA 2024). The same study flagged a "platform paradox" where individual gains can mask system-level slowdowns.
 
