@@ -10,7 +10,7 @@ tags:
 
 ## You Don't Declare a Culture — You Engineer One
 
-A high-performing culture isn't something you declare. It's the *output* of three things you build: the people on the team, the processes they run, and the systems underneath them. Get those right and the culture follows. Get them wrong and no amount of values-on-the-wall will save you.
+A high-performing culture is the *output* of three things you build: the people on the team, the processes they run, and the systems underneath them. Get those right and the culture follows. Get them wrong and no amount of values-on-the-wall will save you.
 
 Here's what the return-to-office fight keeps missing: none of that depends on a shared zip code. Talent, focus, leverage. You can build all of it without an office. Often better.
 
