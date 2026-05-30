@@ -1,7 +1,6 @@
 ---
 tags:
 title: "Engineering Your Remote Engineering Team"
-categories: [engineering-leadership]
 tags: 
   - engineering
   - remote-work
