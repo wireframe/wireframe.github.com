@@ -32,8 +32,8 @@ Miss any of these and the whole thing wobbles. Get all three right and you build
 
 ## People — Talent Lives Everywhere
 
-> For top performers, a great workplace isn't about a lavish office, a beautiful gym, or a free sushi lunch. It's about the joy of being surrounded by people who are both talented and collaborative. People who can help you be better.
-> — Reed Hastings & Erin Meyer, *No Rules Rules*
+> Talent is equally distributed. Opportunity is not.
+> — Leila Janah
 
 **Your best hire isn't in the zip code you're searching.** I've tried to staff engineering teams in saturated markets like the Bay Area, and the math gets brutal fast. Every strong engineer is already employed, comp is punishing, and the same fifteen candidates are interviewing at the same fifteen companies. Meanwhile, one of the best engineers I ever hired lived in rural Missouri. They would never have shown up in a geographically locked search, and I never would have known what I was missing. Remote-first lets you fish the global pond instead of the thirty-mile one, and the candidate pool grows by roughly an order of magnitude. The practical limit isn't geography anymore, it's timezone overlap: flexible hours are a perk, core hours are a requirement. Screening gets harder, not easier, since you're now competing globally for the top of every market.
 
