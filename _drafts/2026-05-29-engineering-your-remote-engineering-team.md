@@ -69,17 +69,14 @@ Miss any of these and the whole thing wobbles. Get all three right and you build
 
 ## It Was Never About Location
 
-All three buckets, people, process, systems, are leadership problems, not location problems.
+> If employees are not engaged, it is a leadership problem. Nothing more, nothing less.
+> — Aubrey Daniels
 
-DORA 2024 found transformational leadership and stable priorities drive performance. The Great Place to Work 4-year study found mandating location dampens productivity either way; 97 of 100 Best Companies support remote/hybrid. Engagement, as Daniels puts it, reflects the aggregate of management's behaviors, decisions, and policies. Not the employees. Not the location.
+All three buckets (people, process, systems) are leadership problems, not location problems. Transformational leadership and stable priorities drive performance (DORA 2024). Rigid location mandates dampen productivity (Great Place to Work, 4-year study). Engagement reflects management's behaviors, decisions, and policies.
 
 The office treats collaboration as the default unit of work; remote-first treats focused deep work as the default. The default is what you optimize for. **RTO mandates aren't choosing collaboration over isolation; they're choosing distraction over focus.** The 2026 RTO mandate wave (TikTok 5d, Meta 5d, NBCU 4d) is treating the symptom: leadership avoiding the harder work of building the three disciplines.
 
-The strongest counter-argument deserves a fair hearing. Learning, innovation, and peak performance accelerate in-person. Proximity *can* aid the conceptual integration behind breakthroughs, so it's not nothing. But it isn't sufficient, and it isn't the cause. The conditions for collaboration and innovation are designed (psychological safety, interaction norms), not seated.
-
-- Lin, Frey & Wu (*Nature*, 2023): 20M papers and 4M patents across 50 years; remote teams consistently less likely to make breakthrough discoveries, drifting toward execution over conceptual work. Proximity aids conceptual integration: an opportunity, not a guarantee.
-- Bernstein & Turban (Harvard, 2018): open-plan redesign cut face-to-face interaction ~70%. Proximity alone doesn't produce collaboration; it can suppress it.
-- Google Project Aristotle: 180+ teams over 2 years. How a team interacts matters far more than who is on it or where they sit. Psychological safety was the top factor. Location was collected as a variable, and it wasn't the differentiator.
+The strongest counter-argument deserves a fair hearing. Learning, innovation, and peak performance can accelerate in-person. Remote teams were consistently less likely to make breakthrough discoveries across 20M papers and 4M patents over 50 years, drifting toward execution over conceptual work (Lin, Frey & Wu, *Nature*, 2023). But proximity alone doesn't produce collaboration; it can suppress it (Bernstein & Turban, Harvard 2018). Collaboration is a design problem, not a real estate one. How a team interacts matters far more than where they sit (Google Project Aristotle).
 
 ## Built Intentionally
 
