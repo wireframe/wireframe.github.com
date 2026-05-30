@@ -9,8 +9,6 @@ tags:
   - culture
 ---
 
-> Remote teams can beat co-located performance with focus, flow, and talent that lives everywhere.
-
 ## You Don't Declare a Culture — You Engineer One
 
 A high-performing culture isn't something you declare. It's the *output* of three things you build: the people on the team, the processes they run, and the systems underneath them. Get those right and the culture follows. Get them wrong and no amount of values-on-the-wall will save you.
