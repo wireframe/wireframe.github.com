@@ -18,7 +18,7 @@ Those conditions don't require a shared zip code. Talent, focus, leverage. You c
 2. **Process.** Focus doesn't happen by accident. The highest-leverage hours an engineering team has are the concentrated, conceptual ones, and your cadences, rituals, and meeting culture either protect those hours or shred them. The office shreds them by default. Remote-first lets you build the defense in.
 3. **Systems.** Make the right thing the easy thing. Co-located teams can survive on tribal knowledge and hallway conversations for a while. Remote teams can't. Your paved roads, your scoreboards, your cultural amplifiers carry the weight that proximity used to.
 
-Miss any of these and the whole thing falls apart. Get all three right and you've built the intentional version of engineering culture that scales as you grow.
+Miss any of these and the whole thing falls apart. Get all three right and you've built the intentional engineering culture that scales as you grow.
 
 ---
 
