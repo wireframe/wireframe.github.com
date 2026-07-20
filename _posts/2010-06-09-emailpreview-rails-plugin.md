@@ -22,9 +22,8 @@ The email\_preview engine is a new Rails 3 plugin I've released to help develope
 The developer API is extremely simple. You can use the standard Rails ActionMailer interface to configure each instance, or manually configure each email using the excellent [mail library](http://github.com/mikel/mail).
 
 
-#config/email\_preview.rb
-
 ```ruby
+# config/email_preview.rb
 EmailPreview.register 'user activation email' do
   u = User.new :email => 'foo@example.com'
   UserNotifier.activation

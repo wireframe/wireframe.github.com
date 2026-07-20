@@ -50,8 +50,7 @@ with the code from these gems?
 ### Bundler :require Flag
 
 Bundler actually supports the ability to opt-out of the auto-loading behavior by passing
-[an optional `require: false` flag for any gem in your Gemfile](http://bundler.io/v1.6/gemfile.html
-).
+[an optional `require: false` flag for any gem in your Gemfile](http://bundler.io/v1.6/gemfile.html).
 
 ```ruby
 group :development do

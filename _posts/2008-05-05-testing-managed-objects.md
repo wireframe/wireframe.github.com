@@ -38,7 +38,7 @@ To actually unit test your managed objects, it is very important to test them wi
 
 
 
-Some libraries provide lightweight stubs of their container in order to facilitate these kinds of integration tests. Spring has a whole suite of [abstract JUnit TestCase classes](http://www.infoq.com/articles/testing-in-spring) to make in-container testing a breeze. Wicket provides an excellent [WicketTester class]() to stub out the wicket runtime to execute your managed object in isolation without firing up an entire application. Maven has a [few competing options](http://maven.apache.org/plugin-developers/plugin-testing.html) and they all suck pretty bad (but at least they're trying). Anyone here remember the supposed ["holy grail" of in-container testing](http://jakarta.apache.org/cactus/)? Wow, that brings back bad memories...
+Some libraries provide lightweight stubs of their container in order to facilitate these kinds of integration tests. Spring has a whole suite of [abstract JUnit TestCase classes](http://www.infoq.com/articles/testing-in-spring) to make in-container testing a breeze. Wicket provides an excellent WicketTester class to stub out the wicket runtime to execute your managed object in isolation without firing up an entire application. Maven has a [few competing options](http://maven.apache.org/plugin-developers/plugin-testing.html) and they all suck pretty bad (but at least they're trying). Anyone here remember the supposed ["holy grail" of in-container testing](http://jakarta.apache.org/cactus/)? Wow, that brings back bad memories...
 
 
 
