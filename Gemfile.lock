@@ -5,7 +5,7 @@ GEM
     addressable (2.9.0)
       public_suffix (>= 2.0.2, < 8.0)
     afm (1.0.0)
-    async (2.42.0)
+    async (2.41.0)
       console (~> 1.29)
       fiber-annotation
       io-event (~> 1.11)
@@ -133,6 +133,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  async (= 2.41.0)
   html-proofer (~> 5.0)
   jekyll
 
