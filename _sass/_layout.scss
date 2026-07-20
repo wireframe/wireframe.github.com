@@ -301,24 +301,14 @@ body {
     }
   }
 
-  .cta-button {
-    display: inline-flex;
-    align-items: center;
-    line-height: 1;
-    padding: 0.7em 1.1em;
-    border: 1px solid $text-color;
-    color: $text-color;
-    font-family: $alt-font;
-    @include font-size(14, no);
-    text-transform: uppercase;
-    letter-spacing: 0.08em;
-    text-decoration: none;
-    transition: background-color 0.2s ease, color 0.2s ease;
+  .bio-chat {
+    white-space: nowrap;
+    text-decoration: underline;
+    text-underline-offset: 0.15em;
 
     &:hover,
     &:focus {
-      background-color: $text-color;
-      color: $body-color;
+      color: $accent-color;
     }
   }
 }
