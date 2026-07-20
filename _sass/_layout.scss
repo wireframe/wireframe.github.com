@@ -523,7 +523,7 @@ span + .entry-title {
 }
 .entry-content {
   @include span-columns(12);
-  p:first-child {
+  > :first-child {
     margin-top: 0;
   }
   @include media($large) {
