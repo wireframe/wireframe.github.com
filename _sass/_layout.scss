@@ -395,6 +395,36 @@ body {
   }
 }
 
+// Post sidebar tags: quiet, muted, stacked under a "Tagged" label
+.entry-tags-wrap {
+  margin-top: 16px;
+}
+.entry-tags-heading {
+  @include font-size(11, no, 1);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 700;
+  color: lighten($black, 60%);
+  margin: 0 0 6px;
+}
+.entry-meta .entry-tags {
+  letter-spacing: 0.03em;
+  font-weight: 400;
+  margin-bottom: 0;
+  li {
+    @include font-size(12, no, 1);
+    display: block;
+    margin: 0;
+    padding: 6px 0;
+  }
+  a {
+    color: lighten($black, 50%);
+    .tag-hash {
+      color: lighten($black, 68%);
+    }
+  }
+}
+
 ul.posts {
   li {
     list-style: none;

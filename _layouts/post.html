@@ -21,7 +21,6 @@
         {% else %}
           <h1 class="entry-title">{% if page.headline %}{{ page.headline }}{% else %}{{ page.title }}{% endif %}</h1>
         {% endif %}
-        {% include tags.html %}
       </header>
       <footer class="entry-meta">
         {% if page.author %}
@@ -36,6 +35,12 @@
         <span class="entry-date date published"><time datetime="{{ page.date | date_to_xmlschema }}"><i class="fa fa-calendar-o"></i> {{ page.date | date: "%B %d, %Y" }}</time></span>
         {% if page.modified %}<span class="entry-date date modified"><time datetime="{{ page.modified }}"><i class="fa fa-pencil"></i> {{ page.modified | date: "%B %d, %Y" }}</time></span>{% endif %}
         {% if site.owner.comment-address and page.comments != false %}<span class="entry-comments"><i class="fa fa-comment-o"></i> <a href="mailto:{{site.owner.comment-address}}">Comment</a></span>{% endif %}
+        {% if page.tags %}
+          <div class="entry-tags-wrap">
+            <p class="entry-tags-heading">Tagged</p>
+            {% include tags.html %}
+          </div>
+        {% endif %}
         {% if page.ads == true %}{% include ad-sidebar.html %}<!-- /.google-ads -->{% endif %}
       </footer>
       <div class="entry-content">
