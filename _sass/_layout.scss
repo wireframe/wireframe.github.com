@@ -219,6 +219,19 @@ body {
 
 .bio-photo-wrapper {
   flex-shrink: 0;
+
+  &.site-logo img {
+    @include media($medium) {
+      width: 150px;
+      height: 150px;
+      @include rounded(150px);
+    }
+    @include media($large) {
+      width: 160px;
+      height: 160px;
+      @include rounded(160px);
+    }
+  }
 }
 
 .bio-intro {
@@ -228,30 +241,84 @@ body {
     text-align: left;
   }
 
-  h2 {
-    margin-top: 0;
-    margin-bottom: 0.25em;
+  .bio-namerow {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75em 1em;
+    margin-bottom: 0.5em;
+
+    @include media($medium) {
+      justify-content: space-between;
+    }
+
+    h2 {
+      margin: 0;
+    }
   }
 
-  .tagline {
-    @include font-size(24);
+  .bio-statement {
     font-family: $alt-font;
-    font-style: italic;
-    margin-bottom: 0.25em;
-    color: lighten($text-color, 20);
+    @include font-size(26);
+    line-height: 1.2;
+    color: $text-color;
+    margin: 0 0 0.6em;
   }
 
-  .summary {
-    @include font-size(18);
-    margin-bottom: 1em;
+  .bio-role {
+    font-family: $base-font;
+    @include font-size(13);
+    font-weight: 600;
+    letter-spacing: 0.11em;
+    text-transform: uppercase;
+    color: lighten($text-color, 40);
+    margin: 0;
+  }
+
+  .bio-roleline {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em 1em;
+
+    @include media($medium) {
+      justify-content: space-between;
+    }
   }
 
   .social-icons {
+    display: flex;
+    align-items: center;
+    gap: 0.75em;
     margin: 0;
     padding: 0;
 
-    @include media($medium) {
-      text-align: left;
+    li {
+      padding: 0;
+      line-height: 1;
+    }
+  }
+
+  .cta-button {
+    display: inline-flex;
+    align-items: center;
+    line-height: 1;
+    padding: 0.7em 1.1em;
+    border: 1px solid $text-color;
+    color: $text-color;
+    font-family: $alt-font;
+    @include font-size(14);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    text-decoration: none;
+    transition: background-color 0.2s ease, color 0.2s ease;
+
+    &:hover,
+    &:focus {
+      background-color: $text-color;
+      color: $body-color;
     }
   }
 }
