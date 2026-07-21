@@ -465,12 +465,11 @@ span + .entry-title {
 }
 .entry-title {
   margin-top: 10px;
-  font-family: $alt-font;
-  font-style: italic;
-  @include font-size(44,yes,44);
-  font-weight: 400;
-  line-height: 1;
-  letter-spacing: -0.04em;
+  font-family: $heading-font;
+  @include font-size(44,yes,46);
+  font-weight: 300;
+  line-height: 1.03;
+  letter-spacing: -0.03em;
   a {
     color: $black;
     text-decoration: underline;
@@ -479,7 +478,7 @@ span + .entry-title {
     @include font-size(52,yes,54);
   }
   @include media($large) {
-    @include font-size(68,yes,72);
+    @include font-size(64,yes,66);
   }
 }
 .entry-wrapper {

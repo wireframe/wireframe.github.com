@@ -1,6 +1,7 @@
 // TYPOGRAPHY ================================================
+$system-font: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Roboto, sans-serif;
 $base-font: 'source-sans-pro', sans-serif;
-$heading-font: $base-font;
+$heading-font: $system-font;
 $caption-font: $base-font;
 $code-font: 'source-code-pro', monospace;
 $alt-font: 'volkhov', serif;
