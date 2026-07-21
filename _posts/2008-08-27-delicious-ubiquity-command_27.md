@@ -22,7 +22,7 @@ I've published my Ubiquity command on [github](http://www.github.com), and hopef
 
 
 
-You can download the command directly from github at [http://gist.github.com/7516](http://gist.github.com/7516%20) or just copy this command into your command editor. Ubiquity can also auto-detect changes to the latest version if you subscribe to the command using [this link](http://gist.github.com/7516.txt).
+You can download the command directly from github at [http://gist.github.com/7516](http://gist.github.com/7516) or just copy this command into your command editor. Ubiquity can also auto-detect changes to the latest version if you subscribe to the command using [this link](http://gist.github.com/7516.txt).
 
 
 

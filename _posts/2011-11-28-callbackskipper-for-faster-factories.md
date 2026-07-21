@@ -53,7 +53,7 @@ end
 
 Oh yes, we _can_ have our cake and eat it too...
 
-The callback\_skipper gem is equivalent to the core [ActiveRecord.skip\_callback](https://github.com/wireframe/callback_skipperhttp://api.rubyonrails.org/classes/ActiveSupport/Callbacks/ClassMethods.html#method-i-skip_callback) method with the added benefit of only skipping the callback for a specific instance instead of globally for all invocations.
+The callback\_skipper gem is equivalent to the core [ActiveRecord.skip\_callback](http://api.rubyonrails.org/classes/ActiveSupport/Callbacks/ClassMethods.html#method-i-skip_callback) method with the added benefit of only skipping the callback for a specific instance instead of globally for all invocations.
 
 As always, the gem is 100% opensource and suggestions are welcome!
 
