@@ -28,39 +28,10 @@ In order for the searcher to be smart enough to know what type of objects to sea
 
 
 
-<table>
-
-<tr>
-
-<th>Object</th>
-
-<th>Id</th>
-
-<th>Text</th>
-
-</tr><tr>
-
-</tr><tr>
-
-<td>foo.bar.MyObject</td>
-
-<td>123</td>
-
-<td>Happy Dog</td>
-
-</tr>
-
-<tr>
-
-<td>foo.bar.YourObject</td>
-
-<td>456</td>
-
-<td>Yellow Puppy</td>
-
-</tr>
-
-</table>
+| Object | Id | Text |
+|--------|-----|-------------|
+| foo.bar.MyObject | 123 | Happy Dog |
+| foo.bar.YourObject | 456 | Yellow Puppy |
 
 
 The first piece of the puzzle was to figure out how to create an index with my persistent objects. I found that the Hibernate Interceptor provided an excellent entry point for indexing my objects. It was actually pretty simple to implement.
