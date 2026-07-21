@@ -4,8 +4,8 @@ title: "To Github We Go!"
 date: 2009-11-18
 comments: false
 tags:
- - scm
- - opensource
+- scm
+- open-source
 ---
 
 Over the years, I've used a number of source repositories for my published projects.  For a time, I hosted a public personal SVN repo, but the server upkeep was a major turnoff.  Then, there was an extended period where my projects lived within the shell of a parent opensource project (wicketstuff) which was great until the repo structure became unwieldy.

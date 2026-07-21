@@ -1,10 +1,10 @@
 ---
 title: "Automatically prefix email subject with Rails env"
 tags:
-  - ruby
-  - rails
-  - opensource
-  - protip
+- ruby
+- rails
+- open-source
+- protip
 ---
 
 One trick I've used across multiple projects to help manage

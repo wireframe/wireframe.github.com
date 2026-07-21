@@ -1,6 +1,8 @@
 ---
 
 title: "Adios Blogger. Hello Jekyll!"
+tags:
+- blog
 ---
 
 > It's been a long time coming...

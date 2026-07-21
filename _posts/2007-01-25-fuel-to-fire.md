@@ -4,7 +4,7 @@ title: "Fuel to the Fire"
 date: 2007-01-25
 comments: false
 tags:
- - lifemotto
+- life-motto
 ---
 
 It's funny...There are days when I enjoy my current place of work, and there are days that I'm literally a few seconds away from losing it.

@@ -4,8 +4,8 @@ title: "Mailinator Google Chrome Extension"
 date: 2010-02-07
 comments: false
 tags:
- - chrome
- - opensource
+- chrome
+- open-source
 ---
 
 

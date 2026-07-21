@@ -4,8 +4,8 @@ title: "Fork it up - acts_as_state_machine"
 date: 2008-11-04
 comments: false
 tags:
- - ruby
- - opensource
+- ruby
+- open-source
 ---
 
 Consider the following class definition:

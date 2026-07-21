@@ -4,10 +4,10 @@ title: "Backgrounded ActiveRecord Callbacks"
 date: 2009-10-29
 comments: false
 tags:
- - ruby
- - backgrounded
- - rails
- - opensource
+- ruby
+- backgrounded
+- rails
+- open-source
 ---
 
 ActiveRecord callbacks are pretty amazing. They are an incredibly useful way to declare

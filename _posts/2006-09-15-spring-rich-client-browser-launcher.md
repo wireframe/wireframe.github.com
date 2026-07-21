@@ -4,9 +4,9 @@ title: "Spring Rich Client Browser Launcher"
 date: 2006-09-15
 comments: false
 tags:
- - java
- - spring
- - springrcp
+- java
+- spring
+- spring-rcp
 ---
 
 I've been debating the best avenue for client apps to present help information to users. The client applications I've written for [shard](http://shard.codecrate.com) are built on [Spring Rich Client](http://spring-rich-c.sf.net), which has built in support for [JHelp](http://java.sun.com/products/javahelp/) resources. Now, maybe I'm missing something, but working with JHelp has been anything but helpful. That's why I've decided to take a new direction to leverage the [shard project wiki for user help documentation](http://wiki.codecrate.com/display/SHA/User+Guide). This feels like a perfect use of a wiki, and users never have to worry about "out of date" documentation.

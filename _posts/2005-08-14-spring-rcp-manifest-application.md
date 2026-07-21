@@ -4,9 +4,9 @@ title: "Spring-RCP Manifest Application Descriptor"
 date: 2005-08-14
 comments: false
 tags:
- - java
- - spring
- - springrcp
+- java
+- spring
+- spring-rcp
 ---
 
 One of my [first patches to spring-rcp](http://opensource.atlassian.com/projects/spring/browse/RCP-113) was just applied (partially). My goal was to enhance the ApplicationDescriptor object to pull the version information from a manifest instead of being hardcoded in a spring xml file. This makes sense for me since I package my application using maven, and maven automatically puts the version information directly into the manifest. The patch that was applied creates the ApplicationDescriptor interface, but there's still no concrete implementation to extract the version from the manifest in spring-rcp.

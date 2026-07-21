@@ -4,9 +4,9 @@ title: "Backgrounded - Background Processing Done Right"
 date: 2009-07-22
 comments: false
 tags:
- - ruby
- - backgrounded
- - opensource
+- ruby
+- backgrounded
+- open-source
 ---
 
 

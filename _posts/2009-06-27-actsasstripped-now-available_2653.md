@@ -3,9 +3,9 @@ title: "acts_as_stripped Now Available"
 date: 2009-06-27
 comments: false
 tags:
- - ruby
- - rails
- - opensource
+- ruby
+- rails
+- open-source
 ---
 
 In my experience, it's very common for web frameworks to automatically strip extra whitespace from posted forms.  Wicket, for example just does the "right thing" by default, and it genuinely surprised me when I found out that Ruby on Rails does not do this by default.

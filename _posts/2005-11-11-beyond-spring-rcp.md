@@ -4,9 +4,9 @@ title: "Beyond Spring RCP"
 date: 2005-11-11
 comments: false
 tags:
- - java
- - spring
- - springrcp
+- java
+- spring
+- spring-rcp
 ---
 
 Good bye Spring RCP. It's been nice knowing you, and maybe I'll run into you again sometime later in life...

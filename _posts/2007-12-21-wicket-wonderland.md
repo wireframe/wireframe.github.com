@@ -4,9 +4,9 @@ title: "Wicket Wonderland"
 date: 2007-12-21
 comments: false
 tags:
- - java
- - wicket
- - opensource
+- java
+- wicket
+- open-source
 ---
 
 A few recent announcements within the Wicket community seem blog worthy.

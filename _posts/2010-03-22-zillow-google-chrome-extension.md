@@ -4,9 +4,9 @@ title: "Zillow Google Chrome Extension"
 date: 2010-03-22
 comments: false
 tags:
- - chrome
- - zillow
- - opensource
+- chrome
+- zillow
+- open-source
 ---
 
 Incase you haven't heard, [I love]({% post_url 2010-02-07-mailinator-google-chrome-extension %})

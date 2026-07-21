@@ -3,7 +3,7 @@ title: "My #NoShameNovember Story"
 tags:
 - leadership
 - innerwork
-- no shame november
+- no-shame-november
 ---
 
 A long time ago, in a company far far away...I was an early developer at a __non__-tech company supporting internal business systems.

@@ -1,6 +1,9 @@
 ---
 
 title: "Homesick for Managing Dotfiles"
+tags:
+- open-source
+- productivity
 ---
 
 > I'm homesick to-night, just homesick,

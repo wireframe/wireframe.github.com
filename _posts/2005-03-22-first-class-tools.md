@@ -4,8 +4,8 @@ title: "First Class Tools"
 date: 2005-03-22
 comments: false
 tags:
- - java
- - opensource
+- java
+- open-source
 ---
 
 Here's a word of wisdom to all prospective open source projects, "Consider integration with other tools a first-class priority". It's so refreshing to see a project like spring take this approach by actively developing a [Spring Eclipse Plugin](http://springide-eclip.sourceforge.net/).

@@ -1,12 +1,12 @@
 ---
 title: "The Greenhouse Innovation Incubator"
-tags:
-- engineering
-- product development
-- leadership
-- innovation
 featured_description: >
   How growth-stage companies can maintain innovation velocity without building an ivory tower
+tags:
+- engineering
+- product-development
+- leadership
+- innovation
 ---
 
 ## Overgrown

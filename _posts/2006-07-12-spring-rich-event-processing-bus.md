@@ -4,10 +4,10 @@ title: "Spring Rich Event Processing Bus"
 date: 2006-07-12
 comments: false
 tags:
- - performance
- - java
- - spring
- - springrcp
+- performance
+- java
+- spring
+- spring-rcp
 ---
 
 For the past few weeks I've been working with spring rich to try and build a simple solution for performing units of work within the gui framework, but so far, [my solution has been anything but simple]({% post_url 2006-07-01-crazy-command-composition %}).

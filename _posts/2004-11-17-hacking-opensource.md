@@ -4,7 +4,7 @@ title: "Hacking OpenSource"
 date: 2004-11-17
 comments: false
 tags:
- - opensource
+- open-source
 ---
 
 I find it interesting when I hear that the only reason Linux is more secure than Windows is because it's used by fewer people. The argument is that software that doesn't hold vast marketshare has "Security from Obscurity". Now, with the 1.0 release of Firefox, I hear people say that it will be exploited in the same way that people have hacked Internet Explorer as it keeps stealing marketshare away from IE. Do people really believe this?

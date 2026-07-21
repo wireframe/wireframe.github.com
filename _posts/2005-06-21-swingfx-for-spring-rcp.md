@@ -4,10 +4,10 @@ title: "SwingFX for Spring-RCP"
 date: 2005-06-21
 comments: false
 tags:
- - java
- - swing
- - spring
- - springrcp
+- java
+- swing
+- spring
+- spring-rcp
 ---
 
 I've been continually impressed by the Swing tricks that [Romain Guy has published on his blog](http://www.jroller.com/page/gfx). I'm convinced that Swing applications don't need to look as crappy as they commonly do. Since I've been digging into [Spring-RCP](http://www.springframework.org/spring-rcp) lately, I decided to try and bring some of Romain's innovations over to Spring. This would allow for simple applications to get going quickly and look great without having to re-implement all the nice to have features.

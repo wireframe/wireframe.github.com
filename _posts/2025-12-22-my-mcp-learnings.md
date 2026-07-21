@@ -3,7 +3,7 @@
 title: "Lessons Learned From Building BetterUp's MCP Server (And Where This Is All Heading)"
 tags:
 - mcp
-- learnings
+- ai
 ---
 
 We recently shipped the [BetterUp MCP Server](https://www.betterup.com/blog/betterup-mcp-server), one of the first to bring human and AI coaching into the MCP ecosystem. The official announcement covers the *what* and *why*. This post is about the scars I picked up along the way.

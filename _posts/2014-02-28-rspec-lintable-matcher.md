@@ -1,10 +1,10 @@
 ---
 title: "Rspec Lintable Matcher"
 tags:
- - testing
- - opensource
- - rails
- - javascript
+- testing
+- open-source
+- rails
+- javascript
 ---
 
 Awhile back, I [released an Rspec matcher that validated controller responses returned linkable Javascript]({% post_url 2011-06-27-jslint-rails-javascript-responses %})

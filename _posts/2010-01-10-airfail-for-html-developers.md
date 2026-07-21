@@ -4,8 +4,7 @@ title: "#airfail for HTML Developers"
 date: 2010-01-10
 comments: false
 tags:
- - airfail
- - air
+- adobe-air
 ---
 
 [Opinions on ADOBE AIR](http://amplicate.com/sucks/adobe-air)

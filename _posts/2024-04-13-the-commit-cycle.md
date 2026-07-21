@@ -1,7 +1,8 @@
 ---
 title: "The Commit Cycle"
 tags:
-- product development
+- product-development
+- engineering
 ---
 
 Many years ago, I attended the very first Lean startup workshop hosted by Eric Ries. We were his guinea pigs in a *true* MVP (Minimal Viable Product) experience.  It was an amazing event that shaped my mental model of building startups and pursuing Product/Market Fit.

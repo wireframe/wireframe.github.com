@@ -1,8 +1,8 @@
 ---
 title: "Optimized Development Workflow"
 tags:
- - opensource
- - development
+- open-source
+- process
 ---
 
 Over the years, I have worked to define and refine a software

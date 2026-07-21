@@ -4,8 +4,7 @@ title: "AIR Lightweight Windows Steal Focus By Default"
 date: 2009-12-23
 comments: false
 tags:
- - airfail
- - air
+- adobe-air
 ---
 
 Lightweight windows are intended for AIR applications to show simple popup windows and notifications (like my [emulated growl notification system](http://github.com/wireframe/growl-air)).  This is pretty standard stuff and there are a number of [documented tutorials](http://articles.sitepoint.com/article/html-based-adobe-air) and examples that go over this.

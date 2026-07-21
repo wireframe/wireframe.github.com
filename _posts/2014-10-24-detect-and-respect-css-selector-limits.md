@@ -1,12 +1,12 @@
 ---
 title: "Detect and Respect CSS Selector Limits"
 tags:
- - opensource
- - ruby
- - rails
- - css
- - testing
- - protip
+- open-source
+- ruby
+- rails
+- css
+- testing
+- protip
 ---
 
 > Old IE continues to cause the world pain...

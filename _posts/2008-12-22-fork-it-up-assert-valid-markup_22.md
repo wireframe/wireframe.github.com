@@ -4,9 +4,9 @@ title: "Fork it up - assert valid markup"
 date: 2008-12-22
 comments: false
 tags:
- - ruby
- - testing
- - opensource
+- ruby
+- testing
+- open-source
 ---
 
 Unit testing view layers has always been a difficult problem for me.  I haven't run across a lot of libraries that I've found valuable, mainly because they're too slow.  I've found that no matter how good the tests are, if they're slow, they don't get run.

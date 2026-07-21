@@ -3,6 +3,9 @@
 title: "My Strongest Strength"
 date: 2008-11-28
 comments: false
+tags:
+- innerwork
+- life-motto
 ---
 
 Today I took a personality survey called "[The Strengh Finder](https://www.strengthsfinder.com/)", and it got me thinking. The test rated my top five strengths as:

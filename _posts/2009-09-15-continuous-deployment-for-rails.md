@@ -4,11 +4,11 @@ title: "Continuous Deployment for Rails"
 date: 2009-09-15
 comments: false
 tags:
- - ruby
- - process
- - lean_startup
- - rails
- - testing
+- ruby
+- process
+- lean-startup
+- rails
+- testing
 ---
 
 It's literally been months since I've manually typed "cap production deploy". For the past several months, we've been implementing a [lean startup process](http://www.startuplessonslearned.com/) and using continuous deployment to push code to production. Continuous deployment's core premise is to deploy code to production with every commit. From my standpoint, it's been a dream come true.

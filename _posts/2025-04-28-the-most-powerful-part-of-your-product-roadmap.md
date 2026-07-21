@@ -1,10 +1,10 @@
 ---
 title: "The Most Powerful Part of Your Product Roadmap...is what you are not doing"
-tags:
-- product development
-- product strategy
 featured_description: >
   Why the best part of your product roadmap is what you're not doing
+tags:
+- product-development
+- product-strategy
 ---
 
 I came away with a new insight after a cross-functional review of my team's strategy and roadmap last week.  The most valuable discussion and debate wasn't focused on what we **were** doing — they revolved around what we **weren’t**.  Specifically, the items were consciously choosing **not** to work on.

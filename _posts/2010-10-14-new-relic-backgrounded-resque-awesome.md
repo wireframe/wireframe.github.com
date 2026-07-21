@@ -4,11 +4,11 @@ title: "New Relic + Backgrounded + Resque = Awesome"
 date: 2010-10-14
 comments: false
 tags:
- - ruby
- - performance
- - backgrounded
- - resque
- - opensource
+- ruby
+- performance
+- backgrounded
+- resque
+- open-source
 ---
 
 If you're writing a rails app, you're already using new relic to monitor your app right? Wouldn't it be great to get the same performance monitoring of your Backgrounded operations as well?

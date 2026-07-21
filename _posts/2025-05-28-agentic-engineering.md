@@ -1,10 +1,11 @@
 ---
 title: "Agentic Engineering: Pilots Wanted"
-tags:
-- engineering
-- product development
 featured_description: >
   What agentic engineering looks like in practice, not in pitch decks
+tags:
+- engineering
+- product-development
+- ai
 ---
 
 *Practical steps for integrating agents into your team, your stack, and your culture—without the hype*

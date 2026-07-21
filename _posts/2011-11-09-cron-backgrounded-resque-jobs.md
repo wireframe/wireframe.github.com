@@ -4,10 +4,10 @@ title: "Cron Backgrounded Resque Jobs"
 date: 2011-11-09
 comments: false
 tags:
- - ruby
- - backgrounded
- - resque
- - opensource
+- ruby
+- backgrounded
+- resque
+- open-source
 ---
 
 [](http://www.flickr.com/photos/jeremy-g/1512405671/)

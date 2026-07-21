@@ -3,6 +3,8 @@
 title: "Why Opensource Exists"
 date: 2004-03-20
 comments: false
+tags:
+- open-source
 ---
 
 I was recently in an interview where the topic of software engineers came up. We were discussing how software development is still in its infancy and that a day will come when our jobs will be replaced by automated systems that will automagically create the powerful, scalable, dynamic applications that we develop today. This process of "evolution" from artform to science can be compared to other industries that have gone through a similar process. Agriculture and psychology are two areas that at one time were a unique and unrefined field relying on superstition, luck, and common knowledge. Now, technology and science have generated information and standards that have replaced the majority of highly skilled positions and most work is now done according to formulas.

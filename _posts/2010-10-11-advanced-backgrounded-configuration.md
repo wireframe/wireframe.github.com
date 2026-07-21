@@ -4,10 +4,10 @@ title: "Advanced Backgrounded Configuration"
 date: 2010-10-11
 comments: false
 tags:
- - ruby
- - backgrounded
- - resque
- - opensource
+- ruby
+- backgrounded
+- resque
+- open-source
 ---
 
 

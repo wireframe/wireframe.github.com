@@ -2,7 +2,7 @@
 title: "A Hacker Renaissance"
 tags:
 - engineering
-- product development
+- product-development
 - ai
 ---
 

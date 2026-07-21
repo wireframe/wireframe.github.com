@@ -4,9 +4,9 @@ title: "Spring-RCP/JTaskPane Promoted To L2FProd"
 date: 2006-02-20
 comments: false
 tags:
- - java
- - spring
- - springrcp
+- java
+- spring
+- spring-rcp
 ---
 
 The common Swing components created by [l2fprod.com](http://common.l2fprod.com) just accepted the code I wrote recently to [integrate Spring-RCP with JTaskPane]({% post_url 2006-01-29-integrate-jtaskpane-with-spring-rcp %}).

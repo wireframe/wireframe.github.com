@@ -4,9 +4,9 @@ title: "Zillow Ubiquity Plugin"
 date: 2009-03-04
 comments: false
 tags:
- - zillow
- - ubiquity
- - opensource
+- zillow
+- ubiquity
+- open-source
 ---
 
 Let's face it.  The majority of house hunting websites out there suck.  They're slow, unusable and more often than not, make me want to put my head through a window.

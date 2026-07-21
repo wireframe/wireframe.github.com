@@ -1,8 +1,8 @@
 ---
 title: "Graph Visualizer of Team Topology"
 tags:
-- team topology
-- open source
+- team-topology
+- open-source
 ---
 
 Over the past 10 years of scaling engineering teams, one of the most critical time intensive and important topics has been formation of our teams, and I've found the ability to visualize team formations and interactions incredibly powerful for identifying opportunities for improvement, dependencies, etc.

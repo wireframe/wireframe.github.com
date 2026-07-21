@@ -4,9 +4,9 @@ title: "Rails console tweaks gem"
 date: 2012-03-24
 comments: false
 tags:
- - ruby
- - rails
- - opensource
+- ruby
+- rails
+- open-source
 ---
 
 Every developer toolbox has a certain set of tweaks for use in the Rails console.

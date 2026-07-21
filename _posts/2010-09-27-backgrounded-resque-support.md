@@ -4,10 +4,10 @@ title: "Backgrounded Resque Support"
 date: 2010-09-27
 comments: false
 tags:
- - ruby
- - backgrounded
- - resque
- - opensource
+- ruby
+- backgrounded
+- resque
+- open-source
 ---
 
 [](http://www.flickr.com/photos/stark23x/55575164/)

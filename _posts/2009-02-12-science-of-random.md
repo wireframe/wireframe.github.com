@@ -3,6 +3,8 @@
 title: "The Science Of Random"
 date: 2009-02-12
 comments: false
+tags:
+- life-motto
 ---
 
 How Darwinistic Evolution has survived any amount of scientific scrutiny is beyond me.  At its core, any scientific theory based on randomness (ie: random genetic mutations), is no theory at all.  In order to prove the theory, you would need to assert that randomness is indeed true and since randomness is equivalent to chaos, it is neither true nor false and can never be proven.

@@ -4,7 +4,7 @@ title: "No Save For You!"
 date: 2006-07-20
 comments: false
 tags:
- - wtf
+- humor
 ---
 
 I love how naive some software developers are. For some reason people just don't realize that littering your view layer with business logic is a bad idea. Here's an example. I just stumbled across a web application that has the amazing security feature to prevent user's from submitting a page if they don't have permission. Now, how do you suppose they implemented that?

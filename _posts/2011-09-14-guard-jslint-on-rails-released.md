@@ -4,10 +4,10 @@ title: "Guard JSLint on Rails Released!"
 date: 2011-09-14
 comments: false
 tags:
- - ruby
- - javascript
- - testing
- - opensource
+- ruby
+- javascript
+- testing
+- open-source
 ---
 
 [](http://4.bp.blogspot.com/-87kA7x9PKz8/TnFuNzks7jI/AAAAAAAAADA/ihGp062mQu0/s1600/HolyGrail117_edit.jpg)

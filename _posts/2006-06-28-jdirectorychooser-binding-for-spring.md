@@ -4,10 +4,10 @@ title: "JDirectoryChooser Binding for Spring Richclient"
 date: 2006-06-28
 comments: false
 tags:
- - java
- - swing
- - spring
- - springrcp
+- java
+- swing
+- spring
+- spring-rcp
 ---
 
 I've been continuing work on [shard](http://shard.codecrate.com), and one aspect that's been bothering me is how we handle importing of datasets. I **really** dislike the current implementation using a Swing JFileChooser. It doesn't give the user enough context to know that they've selected a valid dataset. So, I decided to check out the JDirectoryChooser from the [common l2fprod project](http://common.l2fprod.com).

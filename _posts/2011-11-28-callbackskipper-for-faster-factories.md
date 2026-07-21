@@ -4,11 +4,11 @@ title: "callback_skipper for faster factories"
 date: 2011-11-28
 comments: false
 tags:
- - ruby
- - performance
- - rails
- - testing
- - opensource
+- ruby
+- performance
+- rails
+- testing
+- open-source
 ---
 
 [](http://www.flickr.com/photos/brentbat/2137221211)

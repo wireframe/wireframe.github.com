@@ -4,9 +4,9 @@ title: "Rails \"Good Touch\"/\"Bad Touch\""
 date: 2010-03-12
 comments: false
 tags:
- - ruby
- - rails
- - opensource
+- ruby
+- rails
+- open-source
 ---
 
 

@@ -3,6 +3,9 @@
 title: "Adios JRoller"
 date: 2009-07-12
 comments: false
+tags:
+- blog
+- jroller
 ---
 
 I've talked about migrating off of JRoller for a long time, and the time has finally come.  The new home for this blog is officially at:

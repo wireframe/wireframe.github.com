@@ -1,10 +1,10 @@
 ---
 title: "Replace Rake with Thor"
 tags:
- - ruby
- - testing
- - rails
- - opensource
+- ruby
+- testing
+- rails
+- open-source
 ---
 
 Okay, let's be honest, when was the last time you actually wrote a unit test

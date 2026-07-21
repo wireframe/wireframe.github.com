@@ -4,11 +4,11 @@ title: "Twitter Style Alerts In Rails"
 date: 2009-10-03
 comments: false
 tags:
- - javascript
- - rails
- - jquery
- - css
- - opensource
+- javascript
+- rails
+- jquery
+- css
+- open-source
 ---
 
 [Twitter](http://twitter.com/) has a very elegant solution for user feedback messages.  They display the message by sliding the text down from the top of the screen in a semi-transparent block and hide the message after a few moments.  It's a very slick design and one of the more appealing solutions I've seen (and I've worked with a lot of feedback designs).

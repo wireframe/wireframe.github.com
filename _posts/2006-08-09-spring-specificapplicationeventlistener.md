@@ -4,9 +4,9 @@ title: "Spring SpecificApplicationEventListener"
 date: 2006-08-09
 comments: false
 tags:
- - java
- - spring
- - springrcp
+- java
+- spring
+- spring-rcp
 ---
 
 I often hear complaints from users of the [springframework event listener API](http://www.springframework.org/docs/reference/beans.html#context-functionality-events). It seems that the vast majority of user's end up littering their code with **instanceof** checks to only perform work for specific events. Something like this:

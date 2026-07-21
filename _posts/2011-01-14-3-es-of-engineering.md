@@ -4,8 +4,7 @@ title: "The 3 E's of Engineering"
 date: 2011-01-14
 comments: false
 tags:
- - process
- - development
+- process
 ---
 
 

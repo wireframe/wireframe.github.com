@@ -3,6 +3,8 @@
 title: "IE Must DIE!"
 date: 2005-07-28
 comments: false
+tags:
+- javascript
 ---
 
 Why, oh why, are people still using Internet Explorer? Won't someone please think of the children! I just spent half of my day troubleshooting a problem that ended up only being reproducable on Windows XP using Internet Explorer. What sucks is that I'm still running Windows 2000, so it was not exactly trivial to figure out where the problem was.

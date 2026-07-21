@@ -4,9 +4,9 @@ title: "Improvements for apn_on_rails"
 date: 2010-02-08
 comments: false
 tags:
- - rails
- - apple
- - opensource
+- rails
+- apple
+- open-source
 ---
 
 

@@ -4,11 +4,11 @@ title: "Email Preview + Transactions and Factories"
 date: 2011-06-15
 comments: false
 tags:
- - ruby
- - email_preview
- - rails
- - email
- - opensource
+- ruby
+- email-preview
+- rails
+- email
+- open-source
 ---
 
 [](http://www.flickr.com/photos/pacdog/4968422200/)

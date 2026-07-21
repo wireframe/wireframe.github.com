@@ -4,9 +4,9 @@ title: "Crazy Command Composition"
 date: 2006-07-01
 comments: false
 tags:
- - java
- - spring
- - springrcp
+- java
+- spring
+- spring-rcp
 ---
 
 I'll send out a bright shiny new nickel to whoever can guess what this spring xml file is actually accomplishing. :)

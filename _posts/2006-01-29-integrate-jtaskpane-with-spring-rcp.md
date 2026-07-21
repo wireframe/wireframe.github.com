@@ -4,9 +4,9 @@ title: "Integrate JTaskPane With Spring-RCP"
 date: 2006-01-29
 comments: false
 tags:
- - java
- - spring
- - springrcp
+- java
+- spring
+- spring-rcp
 ---
 
 After my [previous endevour integrating contextual tasks into shard]({% post_url 2006-01-19-contextual-tasks %}), I wanted to take a step back and see if there was room for improvement.

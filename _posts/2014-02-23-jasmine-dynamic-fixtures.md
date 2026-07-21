@@ -1,10 +1,10 @@
 ---
 title: "Jasmine Dynamic Fixtures"
 tags:
- - testing
- - rails
- - javascript
- - opensource
+- testing
+- rails
+- javascript
+- open-source
 ---
 
 How many times has this happened on your team...
