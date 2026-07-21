@@ -1,6 +1,3 @@
 # Backlog
 
 - fix broken markdwon underline syntax.  e.g. Performance is overrated
-- use markdown image syntax to get alt text.  is there a jekyll plugin i should use instead?
-- cleanup any unnecessary html content in posts.
-- are there any links to posts that i should be using jekyll for?

@@ -32,7 +32,7 @@ But where do you draw the lines? This is a great opportunity to partner with pro
 
 **Split systems that move at different speeds.** Parts of the system that change weekly don't belong in the same team as parts that change quarterly. Splitting by change cadence lets each part move at its natural pace.
 
-**Keep maintenance and innovation together.** I've seen organizations split teams into "build the new thing" and "keep the lights on," and it creates a two-tiered class system of innovators and maintainers. The team that builds a system should own it through its full lifecycle: building, running, and improving it. I wrote about this in my [Greenhouse post](https://www.codecrate.com/2026/02/the-greenhouse-innovation-incubator.html), specifically about the anti-pattern of incubating in one team and handing off to another for "productionization." You can't outsource expertise. No one will know your customer, your data, or your activation funnels better than the team that built it.
+**Keep maintenance and innovation together.** I've seen organizations split teams into "build the new thing" and "keep the lights on," and it creates a two-tiered class system of innovators and maintainers. The team that builds a system should own it through its full lifecycle: building, running, and improving it. I wrote about this in my [Greenhouse post]({% post_url 2026-02-05-the-greenhouse-innovation-incubator %}), specifically about the anti-pattern of incubating in one team and handing off to another for "productionization." You can't outsource expertise. No one will know your customer, your data, or your activation funnels better than the team that built it.
 
 ## Constantly Reorganize to Win -- But Thoughtfully
 
