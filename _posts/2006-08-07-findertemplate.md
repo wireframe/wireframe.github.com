@@ -57,7 +57,7 @@ public abstract class FinderTemplate {
 
 
 
-What I think is very cool is how this FinderTemplate can be extended ever so slightly to add a findAll method. So, instead of just finding _one_object, you can find _all_ objects that meet your criteria.
+What I think is very cool is how this FinderTemplate can be extended ever so slightly to add a findAll method. So, instead of just finding _one_ object, you can find _all_ objects that meet your criteria.
 
 
 

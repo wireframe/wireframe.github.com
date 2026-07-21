@@ -14,7 +14,7 @@ It's been an impressively difficult task to improve upon the [initial version of
 
 
 
-This object is used to configure a Wicket Component based on Hibernate annotations. It inspects the Model of a FormComponent and configures the Component according to the declared Hibernate Annotations used on the Model object. This means the Component's Model_must_be known when configuring a Component.
+This object is used to configure a Wicket Component based on Hibernate annotations. It inspects the Model of a FormComponent and configures the Component according to the declared Hibernate Annotations used on the Model object. This means the Component's Model _must_ be known when configuring a Component.
 
 
 
@@ -36,7 +36,7 @@ This object can be used as a Behavior to configure a single Component. NOTE: Thi
 
 
 
-This object can also be used as a component listener that will automatically configure _all_FormComponents based on Hibernate annotations. This ensures that an entire application respects annotations without adding custom Validators or Behaviors to each FormComponent.
+This object can also be used as a component listener that will automatically configure _all_ FormComponents based on Hibernate annotations. This ensures that an entire application respects annotations without adding custom Validators or Behaviors to each FormComponent.
 
 
 

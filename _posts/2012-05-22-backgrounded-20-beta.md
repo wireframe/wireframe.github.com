@@ -8,7 +8,7 @@ tags:
 - open-source
 ---
 
-[Backgrounded](http://github.com/wireframe/backgrounded) 2.0 beta is now available with some really exciting changes. I've taken this release as an opportunity to critically evaluate the perfect API for invoking background jobs. The new API is _not_backwards compatible with previous versions, but it is SEXY as HELL!
+[Backgrounded](http://github.com/wireframe/backgrounded) 2.0 beta is now available with some really exciting changes. I've taken this release as an opportunity to critically evaluate the perfect API for invoking background jobs. The new API is _not_ backwards compatible with previous versions, but it is SEXY as HELL!
 
 ```ruby
 class User
@@ -29,7 +29,7 @@ user = User.new
 user.backgrounded.do_stuff
 ```
 
-Oh snap...Did you see what happened there? I just ran class and instance methods in the background with **no** code changes whatsoever! This new API allows for _any_method on _any_ruby object to be executed in the background. But that's not all! The new API also simplified passing custom options into the background handlers (which is awesome for resque users).
+Oh snap...Did you see what happened there? I just ran class and instance methods in the background with **no** code changes whatsoever! This new API allows for _any_ method on _any_ ruby object to be executed in the background. But that's not all! The new API also simplified passing custom options into the background handlers (which is awesome for resque users).
 
 ```ruby
 # execute instance method on a custom resque queue

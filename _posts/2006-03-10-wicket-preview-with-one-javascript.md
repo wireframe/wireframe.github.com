@@ -30,11 +30,11 @@ Here's an example of the new page with only one javascript include.
 &lt;/html&gt;
 ```
 
-The wicket-preview.js file has changed quite a bit. It is now essentially just a "bootstrapping" script, to load all the other javascript files. It is _heavily_influenced by the [scriptaculous](http://script.aculo.us/) bootstrapping code, but I had to change a few things here and there to make it more understandable for me. I'm not a big fan of the excessive method chaining that they were using, and I'm not too familiar with some of the prototype syntax either. All of the other work has been pushed to wicket-preview-behaviour.js
+The wicket-preview.js file has changed quite a bit. It is now essentially just a "bootstrapping" script, to load all the other javascript files. It is _heavily_ influenced by the [scriptaculous](http://script.aculo.us/) bootstrapping code, but I had to change a few things here and there to make it more understandable for me. I'm not a big fan of the excessive method chaining that they were using, and I'm not too familiar with some of the prototype syntax either. All of the other work has been pushed to wicket-preview-behaviour.js
 
 
 
-One _very_important thing to remember, is that the bootstrapping javascript cannot reference any of the included functions. I got stuck on this for a couple hours by trying to bootstrap _and_ reference the Behaviour objects in the same place. Oh well, I guess you live and learn...
+One _very_ important thing to remember, is that the bootstrapping javascript cannot reference any of the included functions. I got stuck on this for a couple hours by trying to bootstrap _and_ reference the Behaviour objects in the same place. Oh well, I guess you live and learn...
 
 
 

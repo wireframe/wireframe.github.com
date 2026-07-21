@@ -12,7 +12,7 @@ Now with 100% more AJAX!
 
 I couldn't resist spending some more time with Ubiquity after yesterdays exciting release.  My [first version of a delicious bookmarking command]({% post_url 2008-08-26-ubiquity-is-like-crack_26 %}) worked, but it definitely wasn't flashy.  This was a perfect opportunity to learn the [JQuery javascript library](http://jquery.com/) for AJAX interactions.  I'm quite pleased with how it's turned out.
 
-The new version posts the current page to delicious using ajax and posts whatever tags you type into the preview panel.  Feedback and error handling is _much_improved, and it will automatically prompt you for your delicious username/password on first use (just like the twitter integration).  I've already been using it personally for posting my bookmarks and it's amazing how intuitive this tool is.  I don't think I'll ever go back.  The official delicous bookmarklet and even the slick delicous firefox extension pale in comparison since it requires _evil_ mouse interaction! 
+The new version posts the current page to delicious using ajax and posts whatever tags you type into the preview panel.  Feedback and error handling is _much_ improved, and it will automatically prompt you for your delicious username/password on first use (just like the twitter integration).  I've already been using it personally for posting my bookmarks and it's amazing how intuitive this tool is.  I don't think I'll ever go back.  The official delicous bookmarklet and even the slick delicous firefox extension pale in comparison since it requires _evil_ mouse interaction! 
 
 
 

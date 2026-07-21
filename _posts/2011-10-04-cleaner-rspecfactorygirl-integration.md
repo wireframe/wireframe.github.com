@@ -29,7 +29,7 @@ end
 ```
 
 
-According to [The Anatomy of an Effective Unit Test]({% post_url 2010-12-08-anatomy-of-effective-unit-test %})the before block in this example is playing the role of both fixture setup _and_test execution. The ambiguous definition of the beforemethod is analogous to how horrible it is to use API's with incredibly useful methods such as run or execute. Sure, we know _when_ the block is executed, but method names are key to understanding their purpose as well.
+According to [The Anatomy of an Effective Unit Test]({% post_url 2010-12-08-anatomy-of-effective-unit-test %})the before block in this example is playing the role of both fixture setup _and_ test execution. The ambiguous definition of the beforemethod is analogous to how horrible it is to use API's with incredibly useful methods such as run or execute. Sure, we know _when_ the block is executed, but method names are key to understanding their purpose as well.
 
 
 I'm a strong proponent of [expressive method names]({% post_url 2005-02-10-document-code-with-units-of-work %}) as a way to self document your code and that's exactly what we need in this scenario. We need a clear and concise way to encapsulate our fixture data initialization outside of the before method and hook it into the RSpec test lifecycle. This will help remove the ambiguous purpose of the before method in this example.

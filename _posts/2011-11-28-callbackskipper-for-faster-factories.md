@@ -34,7 +34,7 @@ Sending email with after\_save callback is another great usecase. How can we get
 
 Since 99% of our testcases rely on the basic factory instance and are not dependent upon the expensive callback being fired, it would be ideal to skip the expensive callback for most of your testcases and only fire it for testscases that are explicitly asserting it's behavior.
 
-The newly released [callback\_skipper gem](https://github.com/wireframe/callback_skipper) fulfills this exact usecase. The goal is to make it trivial to skip a particular model callback for a specific instance. This is a homerun for test factories to setup a default factory which skip non-critical callbacks and still have the flexibility to create a factory that _does_fire the slow-ass callbacks for specific tests.
+The newly released [callback\_skipper gem](https://github.com/wireframe/callback_skipper) fulfills this exact usecase. The goal is to make it trivial to skip a particular model callback for a specific instance. This is a homerun for test factories to setup a default factory which skip non-critical callbacks and still have the flexibility to create a factory that _does_ fire the slow-ass callbacks for specific tests.
 
 ```ruby
 # spec/factories/foo_factory.rb

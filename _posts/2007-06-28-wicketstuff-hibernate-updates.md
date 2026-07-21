@@ -16,7 +16,7 @@ Short iterations are the key to software success, so I've incorporated a number 
 
 
 
-  - Support OGNL PropertyModel expressions for resolving annotations on models using nested properties. This feature was suggested by Matej, and now allows for the hibernate configurator to inspect _any_PropertyModelthat's supported by Wicket. ex:
+  - Support OGNL PropertyModel expressions for resolving annotations on models using nested properties. This feature was suggested by Matej, and now allows for the hibernate configurator to inspect _any_ PropertyModelthat's supported by Wicket. ex:
 
 ```java
 new PropertyModel(new MyObject(), "innerObject.name");
