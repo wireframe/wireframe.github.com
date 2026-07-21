@@ -93,109 +93,17 @@ Now, if your application needs allPermissions, you just need to add information 
 Pretty much every part of the JNLP file is customizable through this plugin, but the key is that there are sensible defaults so you shouldn't need to tweak anything else. But if you need to, here are some of the available switches:
 
 
-<table>
-
-<tr>
-
-<th>Parameter</th>
-
-<th>Description</th>
-
-<th>Default Value</th>
-
-</tr>
-
-<tr>
-
-<td>title</td>
-
-<td>Name of application</td>
-
-<td>project.name</td>
-
-</tr>
-
-<tr>
-
-<td>description</td>
-
-<td>Description displayed when launching application</td>
-
-<td>project.description</td>
-
-</tr>
-
-<tr>
-
-<td>homepage</td>
-
-<td>URL for the project homepage</td>
-
-<td>project.url</td>
-
-</tr>
-
-<tr>
-
-<td>vendor</td>
-
-<td>Company publishing the application</td>
-
-<td>project.organization.name</td>
-
-</tr>
-
-<tr>
-
-<td>codebase</td>
-
-<td>Base URL for JNLP resources</td>
-
-<td>project.url</td>
-
-</tr>
-
-<tr>
-
-<td>jnlpFile</td>
-
-<td>Filename of the generated JNLP file</td>
-
-<td>launch.jnlp</td>
-
-</tr>
-
-<tr>
-
-<td>spec</td>
-
-<td>JNLP spec version</td>
-
-<td>1.0+</td>
-
-</tr>
-
-<tr>
-
-<td>offlineAllowed</td>
-
-<td>Configure whether the application can be run offline</td>
-
-<td>false</td>
-
-</tr>
-
-<tr>
-
-<td>j2seVersion</td>
-
-<td>Version of Java required to run the application</td>
-
-<td>1.5+</td>
-
-</tr>
-
-</table>
+| Parameter | Description | Default Value |
+|-----------|-------------|---------------|
+| title | Name of application | project.name |
+| description | Description displayed when launching application | project.description |
+| homepage | URL for the project homepage | project.url |
+| vendor | Company publishing the application | project.organization.name |
+| codebase | Base URL for JNLP resources | project.url |
+| jnlpFile | Filename of the generated JNLP file | launch.jnlp |
+| spec | JNLP spec version | 1.0+ |
+| offlineAllowed | Configure whether the application can be run offline | false |
+| j2seVersion | Version of Java required to run the application | 1.5+ |
 
 
 You'll also need to add the codecrate repository to have access to the plugin:

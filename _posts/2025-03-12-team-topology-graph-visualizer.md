@@ -9,7 +9,7 @@ Over the past 10 years of scaling engineering teams, one of the most critical ti
 
 The framework introduced in [Team Topologies: Organizing Business and Technology Teams for Fast Flow](https://www.amazon.com/Team-Topologies-Organizing-Business-Technology-ebook/dp/B09JWT9S4D) does a fantastic job of capturing these essential elements of team formations and has been my go-to book recommendation for other engineering leaders over the years.
 
-<img src="/images/2025-03-12-legend.png">
+![Team Topologies legend showing the four team types and three interaction modes](/images/2025-03-12-legend.png)
 
 The visualization format used in the book is fairly effective for laying out the team formations, but after putting it into real-world usage with a fairly large organization (100+ engineers and 15+ teams), I ran into a few specific shortcomings:
 
@@ -19,6 +19,6 @@ The visualization format used in the book is fairly effective for laying out the
 
 After some ideation and experimentation, I found visualization via a graph network to hit the sweet spot to showcase the full spectrum of teams + interactions + amount of investment in each team.
 
-<img src="/images/2025-03-12-graph.png">
+![Team topology rendered as a network graph, with nodes colored by team type and sized by headcount, connected by labeled interaction edges](/images/2025-03-12-graph.png)
 
 With just an hour hacking away (thanks to rapid prototyping support via [Cursor](https://www.cursor.com/)), I was able to whip up a proof of concept app that "scratched my itch" and is extensible to support any permutation of teams via a simple JSON configuration. [The code is 100% opensource](https://github.com/wireframe/team-topology-graph), and if you're interested to give it a run, I welcome any feedback for improvements!
