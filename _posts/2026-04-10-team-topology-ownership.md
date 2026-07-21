@@ -2,6 +2,7 @@
 title: "Outgrowing the Org Chart: Team Topology for Scaling Teams"
 tags:
 - engineering
+- team-topology
 - leadership
 featured_description: >
   Why ownership clarity matters more than the perfect org chart
