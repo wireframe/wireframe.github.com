@@ -1,0 +1,29 @@
+#!/usr/bin/env bash
+#
+# Build the site and validate its links and images with html-proofer.
+#
+# Usage:
+#   bin/check-links              # internal links + images only (fast)
+#   bin/check-links --external   # also validate outbound URLs (slow, flaky on old posts)
+#
+# HTTPS is not enforced and missing alt text is ignored on purpose: this blog
+# has 20 years of legacy http:// links, and the goal here is finding links and
+# images that are actually broken, not modernizing every historical URL.
+
+set -e
+
+EXTERNAL="--disable-external"
+if [ "$1" = "--external" ]; then
+  # Old posts point at plenty of sites that now rate-limit or block bots.
+  # Ignore the status codes those return rather than the links themselves.
+  EXTERNAL="--ignore-status-codes 0,403,429,500,503,999"
+fi
+
+bundle exec jekyll build --trace
+
+bundle exec htmlproofer ./_site \
+  --checks Links,Images \
+  --no-enforce-https \
+  --ignore-missing-alt \
+  --ignore-empty-alt \
+  $EXTERNAL
