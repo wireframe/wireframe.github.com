@@ -11,7 +11,7 @@ I came away with a new insight after a cross-functional review of my team's stra
 
 While I’m a big believer in outcome-based roadmaps, output-based roadmaps have an important place, especially when it comes to sequencing work across cross-functional teams.  To help increase the level of clarity and alignment across teams, I added an **explicit** section to my [team's V2OOO strategy]({% post_url 2025-02-04-v2ooo %}) for what we are not doing (ie: "The Not Doing List").
 
-<img src="/images/2025-04-28.png" width="50%" />
+<img src="/images/2025-04-28.png" width="50%" alt="A handwritten product roadmap listing planned features above a separate Not Doing List" />
 
 Why was this so effective?  I believe there are three distinct reasons.
 
