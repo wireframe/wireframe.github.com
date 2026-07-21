@@ -16,7 +16,7 @@ I had one particular user who was vocal when things came up. In one particular i
 
 After multiple rapid-fire back-and-forth emails to try and resolve this issue as quickly as possible and get back to "cranking out __L33T__ code", I took a screenshot of the screen that she was referring to, imported it into Microsoft Paint, and using a bright red pencil, circled the part of the page that had the feature she needed, and sent my last email to her with no text. Just the image. It looked like a six-year-old had scribbled on the page to highlight the area.  A bit like this...
 
-<img src="/images/2023-11-23.png" alt="Oh the humanity..."/>
+![Oh the humanity...](/images/2023-11-23.png)
 
 A few minutes later, I had my "oh shit" realization. This wasn't user error. It was a legit bug that I wasn't reproducing locally. I can remember sinking down into my cubicle in shame realizing that this was 100% my fault. Fixing the bug took minutes, and I honestly can't remember if I ever responded back to that member owning up to my mistake.
 
