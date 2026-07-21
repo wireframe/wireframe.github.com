@@ -1,11 +1,9 @@
 ---
 
 title: "Untested Equals Broken"
-date: 2005-10-05
-comments: false
 tags:
- - java
- - testing
+- java
+- testing
 ---
 
 This is an actual email conversation I had today with SomeDeveloper. Am I the only one that finds this ridiculous?

@@ -1,11 +1,9 @@
 ---
 
 title: "Time To Toss the Cargo"
-date: 2008-04-16
-comments: false
 tags:
- - java
- - cargo
+- java
+- cargo
 ---
 
 Over the past year and a half, I've been heavily involved in migrating a large size application from OC4J appserver to tomcat. At the time, it seemed both logical and relatively smart to choose [cargo](http://cargo.codehaus.org) for launching our application with a more application server neutral configuration. I now regret that I made the jump to use cargo so naively.

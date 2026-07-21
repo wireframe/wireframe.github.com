@@ -1,10 +1,8 @@
 ---
 
 title: "Conventional Class Names"
-date: 2004-10-22
-comments: false
 tags:
- - java
+- java
 ---
 
 What are the most common conventions for naming Java classes? I've been subject to several different conventions would like to hear if there are any good guidelines out there. Here are some of the conventions I've come across and I would like to know if there is a good general pattern to follow.

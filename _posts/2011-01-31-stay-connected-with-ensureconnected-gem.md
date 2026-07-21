@@ -1,8 +1,6 @@
 ---
 
 title: "Stay Connected with the ensure_connected gem"
-date: 2011-01-31
-comments: false
 tags:
 - backgrounded
 - resque

@@ -1,11 +1,9 @@
 ---
 
 title: "The Oracle Foolset"
-date: 2004-07-12
-comments: false
 tags:
- - java
- - oracle
+- java
+- oracle
 ---
 
 I've got issues with Oracle's J2EE Toolset (aka: Foolset). I've spent 3 years building infrastructure and applications using the best open source tools and design practices available. The result was a very flexible and scalable system that used EJB session facades to access database resources (cached with EJB entity beans for heavy load areas). Recently, management decided to go with Oracle's attempt at a J2EE solution. Throw out those standards like EJB, Swing and haul in a load of proprietary tools like BC4J, Oracle Forms!

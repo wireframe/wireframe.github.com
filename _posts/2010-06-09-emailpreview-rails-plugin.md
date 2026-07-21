@@ -1,8 +1,6 @@
 ---
 
 title: "email_preview Rails Plugin"
-date: 2010-06-09
-comments: false
 tags:
 - ruby
 - email-preview

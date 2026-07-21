@@ -1,13 +1,11 @@
 ---
 
 title: "Wicket Scriptaculous 0.1.1 Release"
-date: 2007-01-01
-comments: false
 tags:
- - javascript
- - java
- - scriptaculous
- - wicket
+- javascript
+- java
+- scriptaculous
+- wicket
 ---
 
 I just published [an updated version of the Wicket/Scriptaculous Project](http://maven.codecrate.com/wicket-stuff/wicket-contrib-scriptaculous/0.1.1/wicket-contrib-scriptaculous-0.1.1.jar). This release is mainly a bugfix release, but there are a few notable changes.

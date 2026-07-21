@@ -1,10 +1,8 @@
 ---
 
 title: "Music Samples Online"
-date: 2006-07-02
-comments: false
 tags:
- - music
+- music
 ---
 
 I finished adding two new pieces to [my website](http://ryan.codecrate.com) this weekend.

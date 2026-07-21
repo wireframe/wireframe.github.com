@@ -1,10 +1,8 @@
 ---
 
 title: "Bad Beta Software"
-date: 2004-09-20
-comments: false
 tags:
- - java
+- java
 ---
 
 I think the term BETA has got a bad rap. Microsoft has tainted the term so that when people hear the word "BETA" they think it is software that will crash their computer with a nasty "blue screen of death" and corrupt their filesystem, leaving them penniless and without friends. Okay, maybe that's a bit extreme, but the general consensus is that BETA software has no place in a production environment. No matter the tool, I have felt considerable pressure against using beta software in my environments.

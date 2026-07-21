@@ -1,10 +1,8 @@
 ---
 
 title: "Rails Tips: Default Page Content"
-date: 2009-09-27
-comments: false
 tags:
- - rails
+- rails
 ---
 
 Using Rails layouts is a great way to abstract away commonly rendered elements. Over the past year, I have found myself creating multiple layouts which were essentially the same, and just needed to customize a portion of the content. It's an expensive process to maintain multiple layouts, so I decided to find a more DRY approach.

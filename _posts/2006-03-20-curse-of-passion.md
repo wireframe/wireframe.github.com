@@ -1,10 +1,8 @@
 ---
 
 title: "The Curse Of Passion"
-date: 2006-03-20
-comments: false
 tags:
-- life-motto
+- innerwork
 ---
 
 For the most part, _passion_is a great thing. It's a word associated with [fervor, fire and zeal](http://dictionary.reference.com/search?q=passion). As a software developer, passion is what keeps me going. It's what pushes me to innovate, invent and create the best possible solution for the problem at hand. If I were forced to describe myself, I think I would choose, _A Passionate Opensource Software Developer_.

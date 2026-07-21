@@ -1,10 +1,8 @@
 ---
 
 title: "Down with BI systems"
-date: 2003-12-30
-comments: false
 tags:
- - java
+- java
 ---
 
 What the heck is the obsession with overpriced fancy toys called Business Information Systems? In the most general sense, they are reporting engines. Some have admiditly nice features, but none that I can justify 10,000 bucks for. Case and point is Oracle's Reporting engine. I've sat through enough demo's to see the thing in action and see my colleague's jaws drop to the floor, regardless of the price tag. It doesn't take a genius to realize that a "comparable" solution could be written from scratch in about a month without the feature bloat. I have done so myself, but without the little extras that the big names throw in, it turns no heads.

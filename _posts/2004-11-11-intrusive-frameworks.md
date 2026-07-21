@@ -1,10 +1,8 @@
 ---
 
 title: "Intrusive Frameworks"
-date: 2004-11-11
-comments: false
 tags:
- - java
+- java
 ---
 
 The sad state of most development frameworks out there today (struts, webwork), is that they force you to code to a particular design. I'm not talking about extending their classes or implementing particular interfaces. I'm talking about how the frameworks' objects are constructed and populated.

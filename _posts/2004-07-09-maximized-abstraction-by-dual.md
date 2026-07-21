@@ -1,10 +1,8 @@
 ---
 
 title: "Maximized Abstraction By Dual Implementation"
-date: 2004-07-09
-comments: false
 tags:
- - java
+- java
 ---
 
 How can developing the same thing twice lead to a better design? I thought it sounded a bit crazy myself until I started on a project that did just that.

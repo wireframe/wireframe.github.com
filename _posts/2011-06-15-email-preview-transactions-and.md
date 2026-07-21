@@ -1,8 +1,6 @@
 ---
 
 title: "Email Preview + Transactions and Factories"
-date: 2011-06-15
-comments: false
 tags:
 - ruby
 - email-preview

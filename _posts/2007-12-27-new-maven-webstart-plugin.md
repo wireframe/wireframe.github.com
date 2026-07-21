@@ -1,11 +1,9 @@
 ---
 
 title: "New Maven Webstart Plugin"
-date: 2007-12-27
-comments: false
 tags:
- - swing
- - maven
+- swing
+- maven
 ---
 
 After [uncovering the horrible state of affairs for Java Webstart developers]({% post_url 2007-12-26-shard-cyclops-demo-available %}), I spent some time trying to figure out where to go next. The current [codehaus plugin for webstart projects](http://mojo.codehaus.org/webstart-maven-plugin-parent/webstart-maven-plugin/) just doesn't cut it.

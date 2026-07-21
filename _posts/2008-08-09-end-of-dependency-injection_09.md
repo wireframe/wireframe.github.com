@@ -1,12 +1,10 @@
 ---
 
 title: "The End Of Dependency Injection"
-date: 2008-08-09
-comments: false
 tags:
- - ruby
- - java
- - testing
+- ruby
+- java
+- testing
 ---
 
 Dependency Injection is a common technique in Java applications.  I have a long history of Java development in a Test Driven Development environment so Dependency Injection has been a way of life for a long time.  It's a tried and true practice and is an absolute requirement when developing Java software, but it's simply not needed when working with a dynamic language like Ruby.  Why?

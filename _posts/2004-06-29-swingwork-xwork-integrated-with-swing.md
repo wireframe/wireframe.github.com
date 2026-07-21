@@ -1,11 +1,9 @@
 ---
 
 title: "SwingWork: XWork integrated with Swing"
-date: 2004-06-29
-comments: false
 tags:
- - java
- - swingwork
+- java
+- swingwork
 ---
 
 [XWork](http://xwork.dev.java.net) is the extremely powerful action processing framework that serves as the foundation for popular projects like [WebWork](http://webwork.dev.java.net). I have recently started a new project [SwingWork](http://swingwork.dev.java.net) attempting to integrate XWork and Swing in a clean and consise way.

@@ -1,8 +1,6 @@
 ---
 
 title: "Wicket Wonderland"
-date: 2007-12-21
-comments: false
 tags:
 - java
 - wicket

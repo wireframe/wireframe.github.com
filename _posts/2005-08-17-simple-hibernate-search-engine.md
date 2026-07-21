@@ -1,13 +1,11 @@
 ---
 
 title: "Simple Hibernate Search Engine"
-date: 2005-08-17
-comments: false
 tags:
- - java
- - shard
- - search
- - database
+- java
+- shard
+- search
+- database
 ---
 
 Wouldn't it be great to be able to use a powerful search engine on your business objects? Searching is becoming THE preferred way for user's to find their data. Emerging applications like [Google Desktop](http://desktop.google.com) and [Beagle](http://beaglewiki.org/Main_Page) have embraced the new mantra of user's to "Search, Don't Sort". User's don't want to be forced to organize their data into limiting categories or folders, or to scroll around applications to find the data they are looking for. Even common GUI practices like table sorting are considered an eye sore compared to a snappy search box.

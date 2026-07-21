@@ -1,10 +1,8 @@
 ---
 
 title: "Slave to the Swing Visual Editor?"
-date: 2004-02-04
-comments: false
 tags:
- - java
+- java
 ---
 
 Swing is a difficult platform with a high learning curve. It is also extremely flexible and powerful, but scares away it's fare share of developers with it's immense API. On top the core API, getting a handle on the Swing layout managers can be a nightmare for beginners. Thus, the market was opened for helpful editor's to visually layout a Swing application for you (note the sarcasm). Many IDE's (Netbeans, JDeveloper, JBuilder) played up the visual editor as the best thing since static methods. In a perfect world, these editors would allow you to layout your application and code buisness logic in perfect harmony allowing for such an increase in productivity that I could actually take a vacation here and there. Unfortunately, this is not so and never will be.

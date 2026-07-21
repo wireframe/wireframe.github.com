@@ -1,8 +1,6 @@
 ---
 
 title: "Multitenant Ruby Gem"
-date: 2011-03-03
-comments: false
 tags:
 - ruby
 - multitenant

@@ -1,11 +1,9 @@
 ---
 
 title: "From Components To Behaviors"
-date: 2007-05-25
-comments: false
 tags:
- - java
- - wicket
+- java
+- wicket
 ---
 
 In my opinion, there are three very key concepts to Wicket's architecture. Luckily, these concepts are easy enough to grasp to get up and running quickly, but they also have a lot of depth if you want to dig in to them. The high level concepts are:

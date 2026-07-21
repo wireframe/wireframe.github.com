@@ -1,10 +1,8 @@
 ---
 
 title: "When Will The Hurting Stop?"
-date: 2006-06-14
-comments: false
 tags:
- - jsp
+- jsp
 ---
 
 It's been a _long_time since I've [blogged about]({% post_url 2005-02-09-jsp-is-joke %}) [how much I **HATE** JSP]({% post_url 2004-10-22-two-faces-of-jsp %}). Today marks yet another day in the unending saga of pain and misery, and yet another reason this beast needs to be put to sleep.

@@ -1,12 +1,10 @@
 ---
 
 title: "Humane Object Iteration"
-date: 2006-07-17
-comments: false
 tags:
- - ruby
- - javascript
- - java
+- ruby
+- javascript
+- java
 ---
 
 Over the past several months, I've been exposed to more language features than ever before. I've been working with Javascript, Java, and I'm starting to be exposed to Ruby as well.

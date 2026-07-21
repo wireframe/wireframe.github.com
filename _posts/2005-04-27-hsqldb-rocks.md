@@ -1,11 +1,9 @@
 ---
 
 title: "HSQLDB Rocks"
-date: 2005-04-27
-comments: false
 tags:
- - java
- - database
+- java
+- database
 ---
 
 After walking down the Test Driven Development path for the past year or so, I adopted the usual philosophy that unit tests should not interact with any external systems (webservices, databases, etc). This was all well and good for unit tests, but I have come across a number of instances where unit tests fall short of full code coverage. I have recently found a HUGE amout of value in other forms of software testing. Specifically, I have been implementing acceptance tests using the [FIT framework](http://fit.c2.com/), and these tests run with a full blown application instance (database, application server, etc).

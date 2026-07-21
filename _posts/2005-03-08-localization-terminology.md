@@ -1,10 +1,8 @@
 ---
 
 title: "Localization Terminology"
-date: 2005-03-08
-comments: false
 tags:
- - java
+- java
 ---
 
 I ran into some confusing terminology while examining localization code; i18n and l10n. After some Googling, I found that they refer to INTERNATIONALIZATION and LOCALIZATION respectively. These acronyms are actually just abbreviations of the words using this form:

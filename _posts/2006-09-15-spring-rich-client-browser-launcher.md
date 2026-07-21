@@ -1,8 +1,6 @@
 ---
 
 title: "Spring Rich Client Browser Launcher"
-date: 2006-09-15
-comments: false
 tags:
 - java
 - spring

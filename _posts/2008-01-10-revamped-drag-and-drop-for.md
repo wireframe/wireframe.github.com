@@ -1,14 +1,12 @@
 ---
 
 title: "Revamped Drag and Drop for Scriptaculous"
-date: 2008-01-10
-comments: false
 tags:
- - javascript
- - java
- - scriptaculous
- - wicket
- - ajax
+- javascript
+- java
+- scriptaculous
+- wicket
+- ajax
 ---
 
 Drag and drop support in wicketstuff-scriptaculous project has undergone some major changes over the past few days.

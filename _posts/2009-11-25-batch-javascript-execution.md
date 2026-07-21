@@ -1,11 +1,9 @@
 ---
 
 title: "Batch Javascript Execution"
-date: 2009-11-25
-comments: false
 tags:
- - performance
- - javascript
+- performance
+- javascript
 ---
 
 Let's say you're in a bit of a mess with the performance of your fancy web application's Javascript. Your application needs to do a lot of work on the front end. I'm talking a lot of repetitive work that takes a long time. Since Javascript is single threaded the end user's experience is pretty horrible. Their web browser essentially "locks up" while you do all of your work and Firefox users will even be prompted with "Unresponsive script" alerts. How are you going to optimize this?

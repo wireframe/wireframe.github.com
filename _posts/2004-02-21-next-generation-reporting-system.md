@@ -1,10 +1,8 @@
 ---
 
 title: "Next Generation Reporting System"
-date: 2004-02-21
-comments: false
 tags:
- - java
+- java
 ---
 
 Although I am a big fan of the [openreports](http://oreports.sf.net) project and their goals, I think their design is slightly flawed and could use some improvement. One flaw is the reliance on database storage. If a report is uploaded, it should be available without further configuration. Another problem is it's webcentric nature. It is impossible to embed reports deployed on the application server into client side apps.

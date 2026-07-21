@@ -1,11 +1,9 @@
 ---
 
 title: "Value Beyond Being Better"
-date: 2005-12-06
-comments: false
 tags:
- - java
- - shard
+- java
+- shard
 ---
 
 Here's the scenario: project foo is a widely used program that has been around for quite a while.  It's starting to show it's age, yet people still use it because it's the unofficial standard (ex: struts, pcgen).  A new application, project new,solves many of the shortcomings of project foo (ex: webwork, shard).  Why hasn't project newachieved the sucess of project foo if it's better than project foo?

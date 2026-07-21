@@ -1,11 +1,9 @@
 ---
 
 title: "Two Forms For The Price Of One"
-date: 2006-04-08
-comments: false
 tags:
- - javascript
- - css
+- javascript
+- css
 ---
 
 For the most part, I'm a Javascript hack, but I keep getting pulled into doing more of it. Here's a little trick I learned recently.

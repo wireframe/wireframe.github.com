@@ -1,10 +1,8 @@
 ---
 
 title: "More Dynamic For Your Static"
-date: 2006-06-13
-comments: false
 tags:
- - javascript
+- javascript
 ---
 
 I've been undergoing an experiment to build [my own website](http://ryan.codecrate.com), and I've come to realize the importance of Javascript for next generation websites. I'm predicting that there will be a significant paradigm shift where websites will move away from using dynamic content hosted on Java application servers and instead use remote services exposed through Javascript API's (which might in turn be hosted on Java app servers).

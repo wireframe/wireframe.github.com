@@ -1,8 +1,6 @@
 ---
 
 title: "Spring Rich Event Processing Bus"
-date: 2006-07-12
-comments: false
 tags:
 - performance
 - java

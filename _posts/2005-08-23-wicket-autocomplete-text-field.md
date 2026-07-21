@@ -1,14 +1,12 @@
 ---
 
 title: "Wicket Autocomplete Text Field"
-date: 2005-08-23
-comments: false
 tags:
- - javascript
- - java
- - scriptaculous
- - wicket
- - ajax
+- javascript
+- java
+- scriptaculous
+- wicket
+- ajax
 ---
 
 Hold onto your seats boys and girls, this one entry you won't want to miss.

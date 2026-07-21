@@ -1,10 +1,8 @@
 ---
 
 title: "Giving is a gift"
-date: 2009-01-04
-comments: false
 tags:
-- life-motto
+- innerwork
 ---
 
 NOT an obligation.

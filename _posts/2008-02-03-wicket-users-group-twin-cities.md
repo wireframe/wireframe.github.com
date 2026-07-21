@@ -1,11 +1,9 @@
 ---
 
 title: "Wicket Users Group Twin Cities"
-date: 2008-02-03
-comments: false
 tags:
- - java
- - wicket
+- java
+- wicket
 ---
 
 Alright Folks!

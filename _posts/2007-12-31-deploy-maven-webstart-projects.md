@@ -1,12 +1,10 @@
 ---
 
 title: "Deploy Maven Webstart Projects"
-date: 2007-12-31
-comments: false
 tags:
- - java
- - webstart
- - maven
+- java
+- webstart
+- maven
 ---
 
 I've continued to work on shard-cyclops this last week and just pushed out a new release that has a few updates including:

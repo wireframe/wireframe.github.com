@@ -1,11 +1,9 @@
 ---
 
 title: "No JSR for SWT"
-date: 2004-07-27
-comments: false
 tags:
- - java
- - swt
+- java
+- swt
 ---
 
 I don't believe that SWT will ever make it as a JSR. It is a very good library and has done the Eclipse project well, but it should not become a Java standard. SWT libraries have only been ported to a few operating systems, and they have only been ported "well" to Windows. The reason SWT came around was because Eclipse ran into issues with Swing and decided to roll their own windowing toolkit to do what they needed to do. More power to them for doing that, but acceptance as a JSR means that SWT must be available for every platform that runs Java, otherwise what good is it to the Java "community"?

@@ -1,12 +1,10 @@
 ---
 
 title: "Running Code Doesn't Lie"
-date: 2006-04-25
-comments: false
 tags:
- - java
- - documentation
- - testing
+- java
+- documentation
+- testing
 ---
 
 My reading group recently finished [Head First Design Patterns](http://www.oreilly.com/catalog/hfdesignpat/) and is now diving into [Domain-Driven Design](http://domaindrivendesign.org/book/).  So far, it has really opened my eyes to a new approach to software development.  I'm not going to review the book here, but there's one statement that really caught my eye.

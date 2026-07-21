@@ -1,10 +1,8 @@
 ---
 
 title: "Things I Don't Appreciate"
-date: 2005-10-08
-comments: false
 tags:
- - process
+- process
 ---
 
 I just made it through one of the worst weeks of my professional career. It's too bad really. I finished giving a presentation on [FIT](http://fit.c2.com/) that went extremely well, but this success was overshadowed by all the other crap going on. I will hopefully post the FIT presentation online sometime soon, once I strip out the company specific material.

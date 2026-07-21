@@ -1,12 +1,10 @@
 ---
 
 title: "More Intuitive Search"
-date: 2005-12-08
-comments: false
 tags:
- - java
- - shard
- - search
+- java
+- shard
+- search
 ---
 
 One of the coolest features in [shard-phoenix](http://shard.codecrate.com) is the quick search.  My first version of the quick search was a "Search when you type" implementation where every keypress fired off a search and updated the GUI.  Although impressive, it was not exactly usable.  Performing a search for every single keypress is simply too expensive, especially on slower PC's.

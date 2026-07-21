@@ -1,14 +1,12 @@
 ---
 
 title: "AJAX Added to Wicket-Stuff"
-date: 2005-08-23
-comments: false
 tags:
- - javascript
- - java
- - scriptaculous
- - wicket
- - ajax
+- javascript
+- java
+- scriptaculous
+- wicket
+- ajax
 ---
 
 There was quite a flurry of activity after my [blog post yesterday]({% post_url 2005-08-23-wicket-autocomplete-text-field %}).

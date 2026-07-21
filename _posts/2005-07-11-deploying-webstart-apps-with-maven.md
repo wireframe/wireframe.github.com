@@ -1,10 +1,8 @@
 ---
 
 title: "Deploying Webstart Apps with Maven"
-date: 2005-07-11
-comments: false
 tags:
- - java
+- java
 ---
 
 First, let me describe my goal. I would like to be able to deploy my current [webstart applications](http://shard.codecrate.com) using maven. In the past, I've deployed internal corporate applications using webstart, but deploying a public customer application is quite different. With an internal application, you can dicate or force all users to be running the most current (SNAPSHOT) version. This is not the case when you are dealing with a public app. For example, I would like to allow users running version 0.3 of my application to continue using that version until they decide to run version 0.4. This would also allow for early adopters to run the next SNAPSHOT version while maintaining their current stable installation.

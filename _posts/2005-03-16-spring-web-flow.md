@@ -1,11 +1,9 @@
 ---
 
 title: "Spring Web Flow"
-date: 2005-03-16
-comments: false
 tags:
- - java
- - spring
+- java
+- spring
 ---
 
 It looks like there's yet another web framework to check out. The [Spring Web Flow](http://opensource.atlassian.com/confluence/spring/display/WEBFLOW/Home) framework appears to have taken a very similar approach to actions and their results as [WebWork2](http://www.opensymphony.com/webwork), yet I hope that this new project will prove to be more useful than the over engineered, hyper flexible Spring MVC framework. From my experience, these command pattern frameworks are by far the best development strategy for web applications, and should be a welcome addition to the Spring library. Hopefully it will replace the existing MVC framework altogether, since it certainly won't be difficult to be better than what's currently offered.

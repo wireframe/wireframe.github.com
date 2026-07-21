@@ -1,12 +1,10 @@
 ---
 
 title: "Wicket Preview With One Javascript"
-date: 2006-03-10
-comments: false
 tags:
- - javascript
- - java
- - wicket
+- javascript
+- java
+- wicket
 ---
 
 Third times the charm, right? There's still a few improvements I would like to make to the wicket:preview feature, but here's how I got it to work with a single javascript include.

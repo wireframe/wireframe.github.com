@@ -1,11 +1,9 @@
 ---
 
 title: "Wicket FeedPage"
-date: 2006-12-30
-comments: false
 tags:
- - java
- - wicket
+- java
+- wicket
 ---
 
 Merry Christmas and a Happy New Year to all you folks out there. Here's a belated Christmas gift for all you Wicket developers out there.

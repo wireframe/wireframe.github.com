@@ -1,11 +1,9 @@
 ---
 
 title: "Wicket FeedResource"
-date: 2007-09-12
-comments: false
 tags:
- - java
- - wicket
+- java
+- wicket
 ---
 
 Just when I think I'm a Wicket guru, I discover a new layer to this pretty amazing framework.

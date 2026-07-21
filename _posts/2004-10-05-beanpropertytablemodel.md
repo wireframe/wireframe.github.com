@@ -1,10 +1,8 @@
 ---
 
 title: "BeanPropertyTableModel"
-date: 2004-10-05
-comments: false
 tags:
- - java
+- java
 ---
 
 I finally have seen the light for how powerful reflection can be. I used to painstakingly create a seperate table model for each of my java objects that I wanted to display in a table. Each class had a custom case/switch statement to return the correct value for the requested column.

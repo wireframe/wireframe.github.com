@@ -1,11 +1,9 @@
 ---
 
 title: "Maven2 Delivers"
-date: 2005-11-11
-comments: false
 tags:
- - java
- - maven
+- java
+- maven
 ---
 
 First of all, I need to compliment the [Maven2](http://maven.apache.org) developers for delivering an amazing plugin architecture. I have recently been spending a good deal of time migrating our current Ant build to Maven2. We have a good deal of custom work done in our current build, so it's no trivial task. WSDL2Java and JDO bytecode enhancement are two major pieces that we need to support with Maven2, and it only took a couple hours to get these features working. Building custom Mojos was very straightforward, and I welcome the ability to program a plugin in straight Java. No XML or Jelly scripting required. Not bad!

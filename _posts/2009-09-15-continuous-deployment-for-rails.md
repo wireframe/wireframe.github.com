@@ -1,12 +1,10 @@
 ---
 
 title: "Continuous Deployment for Rails"
-date: 2009-09-15
-comments: false
 tags:
 - ruby
 - process
-- lean-startup
+- startup
 - rails
 - testing
 ---

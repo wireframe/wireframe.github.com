@@ -1,10 +1,8 @@
 ---
 
 title: "New Eclipse 3.1 Features"
-date: 2005-06-16
-comments: false
 tags:
- - eclipse
+- eclipse
 ---
 
 Wow, I just installed eclipse 3.1 RC2 and there are a few new features that I think are pretty impressive. Performance is definately better than 3.0.x, but that is really just an improvement and not a new feature.

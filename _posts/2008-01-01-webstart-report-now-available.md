@@ -1,12 +1,10 @@
 ---
 
 title: "Webstart Report Now Available"
-date: 2008-01-01
-comments: false
 tags:
- - java
- - webstart
- - swing
+- java
+- webstart
+- swing
 ---
 
 Happy New Year everyone!

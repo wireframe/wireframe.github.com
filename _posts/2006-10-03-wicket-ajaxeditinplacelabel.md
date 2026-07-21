@@ -1,14 +1,12 @@
 ---
 
 title: "Wicket AjaxEditInPlaceLabel"
-date: 2006-10-03
-comments: false
 tags:
- - javascript
- - java
- - scriptaculous
- - wicket
- - ajax
+- javascript
+- java
+- scriptaculous
+- wicket
+- ajax
 ---
 
 I think it's time to put back on my Wicket hat, and start kicking ass again. It's been a while since I've worked with Wicket, and I've picked it back up for a new project I'm working on. It's an AJAX heavy application, and that's where Wicket (and scriptaculous) really shine.

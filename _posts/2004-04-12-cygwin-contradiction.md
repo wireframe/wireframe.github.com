@@ -1,10 +1,8 @@
 ---
 
 title: "Cygwin Contradiction"
-date: 2004-04-12
-comments: false
 tags:
- - java
+- java
 ---
 
 Java is used as a crossplatform programming language and Ant is the defacto standard build tool for Java projects. So, why are there so many Java projects out there that use Ant, yet still require a Unix like environment to build? Since I currently run Windows due to requirements within my business, I am baffled why I NEED Cygwin to emulate a Unix envirnoment to work with a Java project?

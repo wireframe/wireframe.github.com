@@ -1,12 +1,10 @@
 ---
 
 title: "HibernateAnnotationComponentConfigurator"
-date: 2007-06-22
-comments: false
 tags:
- - java
- - hibernate
- - wicket
+- java
+- hibernate
+- wicket
 ---
 
 

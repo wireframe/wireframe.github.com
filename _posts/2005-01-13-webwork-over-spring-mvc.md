@@ -1,11 +1,9 @@
 ---
 
 title: "Webwork over Spring MVC"
-date: 2005-01-13
-comments: false
 tags:
- - java
- - spring
+- java
+- spring
 ---
 
 I've been exposed to [spring](http://springframework.org) recently and have been impressed with it's flexibility and power. Today, I took a look at spring MVC, and I must say that I'm not very impressed. I've worked with Webwork2 over the past year and find it to be a much better solution. Granted, this was just a first impression, but from what I've seen, the Spring MVC makes you jump through a lot more hoops, while Webwork "Just Works".

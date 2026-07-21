@@ -1,12 +1,10 @@
 ---
 
 title: "Swingwork to Springwork?"
-date: 2005-06-10
-comments: false
 tags:
- - java
- - swingwork
- - spring
+- java
+- swingwork
+- spring
 ---
 
 It seems that my early adoption of [nanocontainer](http://www.nanocontainer.org) may not have been the best move for [swingwork](http://swingwork.codecrate.com). There's very little development being done on nanocontainer and extremely poor community support. It's basically vaporware. I was orignally impressed with their [webwork2 integration](http://www.nanocontainer.org/NanoWar+WebWork) and thought it would be fairly trivial to port the functionality to xwork/swingwork. This was obviously a mistake...

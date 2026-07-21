@@ -1,11 +1,9 @@
 ---
 
 title: "TestDox Maven Plugin"
-date: 2007-03-06
-comments: false
 tags:
- - java
- - testing
+- java
+- testing
 ---
 
 You may see a new maven2 plugin showing up soon at the [Codehaus Mojo project sandbox](http://mojo.codehaus.org/). I just submitted a new maven2 plugin for generating an HTML report using [TestDox](http://agiledox.sourceforge.net/). This should make a great accessory report to the existing maven junit reports, and should be more usable by non-techie folks.

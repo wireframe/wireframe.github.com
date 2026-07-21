@@ -1,11 +1,9 @@
 ---
 
 title: "Template Versus Strategy Pattern"
-date: 2006-01-05
-comments: false
 tags:
- - java
- - design
+- java
+- design
 ---
 
 Are you ready for a design pattern throw down?

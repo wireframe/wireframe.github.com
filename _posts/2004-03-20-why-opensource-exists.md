@@ -1,8 +1,6 @@
 ---
 
 title: "Why Opensource Exists"
-date: 2004-03-20
-comments: false
 tags:
 - open-source
 ---

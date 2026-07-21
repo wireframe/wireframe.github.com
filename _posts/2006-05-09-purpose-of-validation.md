@@ -1,11 +1,9 @@
 ---
 
 title: "Purpose Of Validation"
-date: 2006-05-09
-comments: false
 tags:
- - java
- - validation
+- java
+- validation
 ---
 
 There are more than a few validation frameworks out there. Pretty much [every](http://jakarta.apache.org/commons/validator/)[single](http://www.onjava.com/pub/a/onjava/2002/12/11/jakartastruts.html)[application](http://www.springframework.org/docs/reference/validation.html)[framework](http://www.hibernate.org/hib_docs/annotations/reference/en/html/validator.html) out there has rolled their own implementation, and there's no chance of this stopping soon. Sure, each of these frameworks has their own use case, but why does this pattern continue?

@@ -1,11 +1,9 @@
 ---
 
 title: "d20 gaming engine"
-date: 2004-09-20
-comments: false
 tags:
- - java
- - shard
+- java
+- shard
 ---
 
 I have just launched a new project on java.net called [shard](https://shard.dev.java.net). It's goal is to be an opensource d20 gaming engine that is small, lightweight and embeddable. There are several d20 applications and tools, but none that can be embedded into other applications or used as a core for pc gaming. In particular, my interest in starting an embeddable d20 engine began when I tried adapting another application to be used as a web based utility application. I won't mention the project that was being used, but the issues were great enough that I decided that the d20 community needed a better option.

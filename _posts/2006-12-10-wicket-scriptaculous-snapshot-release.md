@@ -1,11 +1,9 @@
 ---
 
 title: "Wicket Scriptaculous Snapshot Release"
-date: 2006-12-10
-comments: false
 tags:
- - java
- - wicket
+- java
+- wicket
 ---
 
 

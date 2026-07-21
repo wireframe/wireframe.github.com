@@ -1,14 +1,12 @@
 ---
 
 title: "Wicket Drag/Drop Components"
-date: 2005-09-21
-comments: false
 tags:
- - javascript
- - java
- - scriptaculous
- - wicket
- - ajax
+- javascript
+- java
+- scriptaculous
+- wicket
+- ajax
 ---
 
 After finishing up work on the [autocomplete text field]({% post_url 2005-09-06-choice-is-good %}), I've spent the last few weeks trying to figure out what AJAX component to implement in Wicket next. Scriptaculous has some great demos of drag/drop and it definately has some cool use cases, so I think I'll delve into this area next.

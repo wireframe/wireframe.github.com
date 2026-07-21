@@ -1,13 +1,11 @@
 ---
 
 title: "IDE Competition is Good"
-date: 2005-06-10
-comments: false
 tags:
- - java
- - swing
- - eclipse
- - swt
+- java
+- swing
+- eclipse
+- swt
 ---
 
 I've gone through my share of development IDE's. First it was JBuilder, then NetBeans, now Eclipse. There have been many reasons over the years for me to switch IDE's (price, features, speed), and I have stuck with Eclipse for the past two years because it "just works". At least it did work until I [migrated my development environment from Windows to Linux](http://www.jroller.com/page/wireframe/20050113#legal_beagle), and noticed that the performance of Eclipse went down the toilet. Seriously, I'm working with 1GB of RAM, SATA hard drive and a 2.4 Ghz P4. I just can't excuse the kind of performance I'm seeing.

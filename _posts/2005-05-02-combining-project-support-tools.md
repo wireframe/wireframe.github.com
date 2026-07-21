@@ -1,10 +1,8 @@
 ---
 
 title: "Combining Project Support Tools"
-date: 2005-05-02
-comments: false
 tags:
- - java
+- java
 ---
 
 There are a variety of tools out there that can be used to provide project support. I feel like these different tools need to converge somewhere to allow for users/developers easier access to information and feedback. Here are the current tools in use by projects today. All of them have their advantages and disadvantages, but the one thing they all have in common is that noone has found a way to combine and leverage all of these tools together.

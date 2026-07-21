@@ -1,10 +1,8 @@
 ---
 
 title: "Flock Rocks"
-date: 2005-11-30
-comments: false
 tags:
- - flock
+- flock
 ---
 
 [Flock](http://www.flock.com) has the potential to be one of the coolest applications of 2006.  This is assuming, of course, a final release gets out the door next year.  I tried out their [first developer preview release](http://downloads.flock.com/?product=flock-0.4.10&os=win), but some major issues left it pretty useless to me.

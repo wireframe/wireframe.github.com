@@ -1,11 +1,9 @@
 ---
 
 title: "Shard: A Call For Support"
-date: 2005-11-14
-comments: false
 tags:
- - java
- - shard
+- java
+- shard
 ---
 
 I recently received some very critical, yet crucial, feedback on my managing of [the shard project](http://shard.codecrate.com). I'd like to take the time to try and respond to that criticism, and it's probably a good thing for me to justify my decisions.

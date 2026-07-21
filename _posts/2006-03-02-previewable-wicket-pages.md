@@ -1,12 +1,10 @@
 ---
 
 title: "Previewable Wicket Pages"
-date: 2006-03-02
-comments: false
 tags:
- - javascript
- - java
- - wicket
+- javascript
+- java
+- wicket
 ---
 
 One of my favorite features of [Wicket](http://wicketframework.org) is the ability to preview a dynamic page without nasty embedded scriptlets or JSP custom tags. I believe [Tapestry](http://jakarta.apache.org/tapestry/) also has previewable pages since it works quite similar to Wicket.

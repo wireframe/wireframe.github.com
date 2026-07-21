@@ -1,11 +1,9 @@
 ---
 
 title: "Spring's Biggest Benefit"
-date: 2005-03-24
-comments: false
 tags:
- - java
- - spring
+- java
+- spring
 ---
 
 Here's a word of warning for all those developers out there that haven't used spring yet, be careful because spring is contagious. I've been working with spring for a couple weeks now and decided to try and integrate it into shard to help out with the management of my hibernate configuration. It worked extremely well. Indeed, it worked so well, I decided to expand my scope and use spring to wire up and manage my velocity configurations as well.

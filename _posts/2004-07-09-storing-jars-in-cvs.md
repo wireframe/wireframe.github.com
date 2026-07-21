@@ -1,10 +1,8 @@
 ---
 
 title: "Storing JARS in CVS"
-date: 2004-07-09
-comments: false
 tags:
- - java
+- java
 ---
 
 I'm an avid user of Maven, and I've been baffled lately about the problems people have with pulling jars out of CVS and putting them into a maven repository. Maven gives us developers an elegant way of handling dependencies, and I keep hearing whining about "why change it if it isn't broken". The remote repository makes it extremely easy to share dependencies between projects without needing 4 copies on the filesystem. I have yet to see a single Ant build system do that (I should know since I spent over a year maintaining our old Ant build system). It's really no different than the common practice of high traffic websites splitting thier images onto a different server to allow their codebase to change without re-releasing images.

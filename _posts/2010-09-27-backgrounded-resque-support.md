@@ -1,8 +1,6 @@
 ---
 
 title: "Backgrounded Resque Support"
-date: 2010-09-27
-comments: false
 tags:
 - ruby
 - backgrounded

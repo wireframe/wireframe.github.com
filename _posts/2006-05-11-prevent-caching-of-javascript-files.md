@@ -1,12 +1,10 @@
 ---
 
 title: "Prevent Caching of Javascript Files"
-date: 2006-05-11
-comments: false
 tags:
- - performance
- - javascript
- - java
+- performance
+- javascript
+- java
 ---
 
 I spend the majority of my "real" work on a webapp that goes through weekly releases. The majority of javascript for the app was written inline, until recent UI designers started extracting javascript into external .js files. The rational for moving the javascript to separate files is to avoid pushing excess bytes across the wire with every request and allow for browsers to cache files.

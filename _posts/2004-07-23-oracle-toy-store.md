@@ -1,11 +1,9 @@
 ---
 
 title: "Oracle Toy Store"
-date: 2004-07-23
-comments: false
 tags:
- - java
- - oracle
+- java
+- oracle
 ---
 
 I found it somewhat ironic that the same day I posted my blog somewhat blasting Oracle's J2EE offerings, TheServerSide posted an [announcement](http://theserverside.com/news/thread.tss?thread_id=27179) that Oracle has released a new demo application called "Toy Store". There were quite a few very critical and insightful comments made by developers, and it seems that I am not alone in my frustration with Oracle's Toolset!

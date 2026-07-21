@@ -1,10 +1,8 @@
 ---
 
 title: "Monitoring workling/starling queue with GOD"
-date: 2009-04-15
-comments: false
 tags:
- - ruby
+- ruby
 ---
 
 _Everyone_ knows that there's no decent ruby solution for monitoring server side processes.

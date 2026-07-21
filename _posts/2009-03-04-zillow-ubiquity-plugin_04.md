@@ -1,8 +1,6 @@
 ---
 
 title: "Zillow Ubiquity Plugin"
-date: 2009-03-04
-comments: false
 tags:
 - zillow
 - ubiquity

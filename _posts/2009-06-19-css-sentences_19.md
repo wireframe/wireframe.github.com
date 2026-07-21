@@ -1,9 +1,7 @@
 ---
 title: "CSS Sentences"
-date: 2009-06-19
-comments: false
 tags:
- - css
+- css
 ---
 
 CSS psuedo selectors are pretty awesome and on my current project I've been able to take advantage of them for a fairly complex task, creating a humane sentence out of a list of items.

@@ -1,11 +1,9 @@
 ---
 
 title: "jQuery Snazzy Select Plugin"
-date: 2009-08-06
-comments: false
 tags:
- - javascript
- - jquery
+- javascript
+- jquery
 ---
 
 HTML Select inputs are notorious for being difficult to style.  Every operating system/browser styles them differently, and there are no standard CSS hooks available to customize their look.  The new jQuery Snazzy Select plugin available on github solves this problem and will turn your ugly ass select fields into sexy works of art!

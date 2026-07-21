@@ -1,12 +1,10 @@
 ---
 
 title: "Contextual Tasks"
-date: 2006-01-19
-comments: false
 tags:
- - java
- - shard
- - swing
+- java
+- shard
+- swing
 ---
 
 Admit it, whether you're building a web based or a client application, building good GUI's is hard. I don't care if you're using a visual tool, or building them by hand, it's hard to build a user interface that is "user friendly". I haven't delved too much into the area of Application Usability, but I have picked up a few tricks here to help me build usable UI's.

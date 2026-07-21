@@ -1,11 +1,9 @@
 ---
 
 title: "Spring Versus The World"
-date: 2005-05-03
-comments: false
 tags:
- - java
- - spring
+- java
+- spring
 ---
 
 I sometimes find it hard to make it through some of the postings on [The Server Side](http://www.theserverside.com). So many of the articles spiral into some kind of religious debate over .NET versus J2EE, or Tapestry versus JSF. It's as bad as trying to read something on [Slashdot](http://www.slashdot.org).

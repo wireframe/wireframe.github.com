@@ -1,11 +1,9 @@
 ---
 
 title: "Ruby Syntax For Java Maps"
-date: 2006-06-06
-comments: false
 tags:
- - ruby
- - java
+- ruby
+- java
 ---
 
 Ruby's got a lot of momentum going for it right now. One of the syntax sugars that has gotten a lot of attention is for [creation of maps](http://www.ruby-doc.org/docs/ruby-doc-bundle/Manual/man-1.4/syntax.html#hash). Compare the typical Java code to create a map with the Ruby equivilent, and you'll see why it's getting so much attention.

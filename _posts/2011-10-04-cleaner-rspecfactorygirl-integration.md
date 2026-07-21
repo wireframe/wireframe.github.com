@@ -1,8 +1,6 @@
 ---
 
 title: "Cleaner RSpec/FactoryGirl Integration"
-date: 2011-10-04
-comments: false
 tags:
 - ruby
 - rspec

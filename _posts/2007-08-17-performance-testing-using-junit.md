@@ -1,12 +1,10 @@
 ---
 
 title: "Performance Testing using JUnit"
-date: 2007-08-17
-comments: false
 tags:
- - performance
- - java
- - testing
+- performance
+- java
+- testing
 ---
 
 I've been heavily involved with a major performance initiative for the past several months. One thing I have constantly found frustrating is how few good tools exist for this type of work. Specifically, I have yet to run across a good Java library for programatically measuring performance metrics.

@@ -1,8 +1,6 @@
 ---
 
 title: "Beyond Spring RCP"
-date: 2005-11-11
-comments: false
 tags:
 - java
 - spring

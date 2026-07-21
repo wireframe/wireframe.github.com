@@ -1,10 +1,8 @@
 ---
 
 title: "Live Income"
-date: 2004-02-13
-comments: false
 tags:
- - music
+- music
 ---
 
 The recording industry has long held musicians in the palm of their hands, and have succeeded in making millions upon millions from other people's talent. With the advent of the internet and more specifically Peer to Peer networks, the recording industry's precious business model has been threatened. One way for bands to break out of the recording industry and still keep their heads above water is to offer something different. CD sales has never been where musicians were able to make money, since the recording's were mainly owned by the recording companies. Instead, touring and ticket sales is where the real money is found.

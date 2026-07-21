@@ -1,11 +1,9 @@
 ---
 
 title: "Mocking java.lang.Object methods"
-date: 2005-05-11
-comments: false
 tags:
- - java
- - testing
+- java
+- testing
 ---
 
 I've run into an issue with mock frameworks not being able to mock out methods from java.lang.Object (hashCode, equals, toString). Here's a simple usecase:

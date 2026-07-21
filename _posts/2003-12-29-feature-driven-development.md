@@ -1,10 +1,8 @@
 ---
 
 title: "Feature Driven Development"
-date: 2003-12-29
-comments: false
 tags:
- - process
+- process
 ---
 
 There are many complex facets of software development, and in many ways, I think the open source world has adopted them quicker and better than the corporate world. There are many reasons for this, but I think the main factor is that since open source projects have developers not confined to the same office (or office hours for that matter), there must be an organized development environment and communication structure.

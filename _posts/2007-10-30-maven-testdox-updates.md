@@ -1,12 +1,10 @@
 ---
 
 title: "Maven TestDox Updates"
-date: 2007-10-30
-comments: false
 tags:
- - java
- - testing
- - maven
+- java
+- testing
+- maven
 ---
 
 Based on some recent [user suggestions](http://jira.codehaus.org/browse/MOJO-681),

@@ -1,8 +1,6 @@
 ---
 
 title: "SwingFX for Spring-RCP"
-date: 2005-06-21
-comments: false
 tags:
 - java
 - swing

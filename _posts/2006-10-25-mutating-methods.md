@@ -1,10 +1,8 @@
 ---
 
 title: "Mutating Methods"
-date: 2006-10-25
-comments: false
 tags:
- - design
+- design
 ---
 
 Today marks the start of a new series of blog entries that identify common patterns (and antipatterns) that can be applied to everyday programming. It's nothing ground breaking, and is simlar to other sites like [Martin Fowler's blog](http://www.martinfowler.com/bliki/). First up, Mutating Methods.

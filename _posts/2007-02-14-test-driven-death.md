@@ -1,11 +1,9 @@
 ---
 
 title: "Test Driven Death"
-date: 2007-02-14
-comments: false
 tags:
- - java
- - testing
+- java
+- testing
 ---
 
 It's just another form of TDD...

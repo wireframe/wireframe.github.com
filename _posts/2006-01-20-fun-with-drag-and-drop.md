@@ -1,11 +1,9 @@
 ---
 
 title: "Fun With Drag and Drop"
-date: 2006-01-20
-comments: false
 tags:
- - java
- - swing
+- java
+- swing
 ---
 
 It's amazing how the little things can really make a difference for an application. I found myself becoming annoyed when I had to import a PCGen dataset because the Java file chooser would forget the directory location after every restart of the application. I usually have a file browser open with the PCGen files anyways, and that's when the lightbulb came on. Now, instead of having to continually navigate with the crappy Java file chooser, I can just drag and drop the PCGen dataset I'm working with right into shard. The implementation was pretty easy, and it adds an extra bit of polish to the application.

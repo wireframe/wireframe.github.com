@@ -1,10 +1,8 @@
 ---
 
 title: "Code Templates vs. Code Generation"
-date: 2004-01-05
-comments: false
 tags:
- - java
+- java
 ---
 
 How does code templating compare to code generation? What are the benifits/drawbacks, and what should you use? Code templating is a common feature of IDE's like netbeans and eclipse. Basically, it's a wizard to write code for you. Code templates range in simplicity from if/else code blocks to basic Java beans and GUI design, to complex J2EE objects like EJB's. Oracle's JDeveloper has a template that will generate EJB interfaces (home/remote), deployment descriptor, and the implementation class. Code generation is done by a variety of tools like [XDoclet](http://xdoclet.sf.net). Using a design pattern very similar to MVC, the source code is only the model for of the overall application. The code generating tool will take the source code at compile time and generate files/code from some form of metadata. Code generation at runtime would be an amazing feat, and maybe AOP will address this somehow?

@@ -1,11 +1,9 @@
 ---
 
 title: "More Javascript Helpers"
-date: 2006-10-06
-comments: false
 tags:
- - javascript
- - java
+- javascript
+- java
 ---
 
 With all of the Javascript needed to work with AJAX, it gets messy pretty quickly when you're building Javascript programatically within Java. Especially when you need to pass optional parameters as a Javascript hash to a library. If Java had something like [Ruby's RJS](http://nubyonrails.com/articles/2006/02/01/rjs-and-content-type-header), that would get rid of this mess. Until that comes around, I've enhanced my [JavascriptBuilder]({% post_url 2006-10-03-javascriptbuilder %}) to make my life a little easier with dealing with more complex Javascript API's.

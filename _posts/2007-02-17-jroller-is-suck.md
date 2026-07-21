@@ -1,11 +1,9 @@
 ---
 
 title: "JRoller Is The Suck"
-date: 2007-02-17
-comments: false
 tags:
- - blog
- - jroller
+- blog
+- jroller
 ---
 
 I haven't been the biggest fan of JRoller, and now they've sunk to a new low, adding spam to my RSS feed. This comes at a time when JRoller might finally be getting some good press for [breaking 10,000 users](http://www.javalobby.org/java/forums/t59326.html).

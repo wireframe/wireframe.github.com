@@ -1,11 +1,9 @@
 ---
 
 title: "Bundler Nirvana With Custom Groups"
-date: 2012-05-03
-comments: false
 tags:
- - ruby
- - rails
+- ruby
+- rails
 ---
 
 Managing gem dependencies in Rails applications has been an ongoing struggle over the years. Anyone out there still remember vendoring and freezing gems/plugins into their application? Ah yes, the good old days. Thank goodness for [bundler](http://gembundler.com/). For all of it's warts, it's an exceptional piece of software and has made my life _infinitely_ better.

@@ -1,10 +1,9 @@
 ---
 title: "Cooking OSX Machines with Kitchenplan"
-date: 2013-11-12
 tags:
-  - osx
-  - chef
-  - kitchenplan
+- osx
+- chef
+- kitchenplan
 ---
 
 > Provisioning a new OSX machine is a chore, and time is the one thing we never have enough of...

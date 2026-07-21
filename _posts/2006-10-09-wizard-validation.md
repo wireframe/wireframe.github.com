@@ -1,11 +1,9 @@
 ---
 
 title: "Wizard Validation"
-date: 2006-10-09
-comments: false
 tags:
- - java
- - validation
+- java
+- validation
 ---
 
 How should validation frameworks integrate with "wizards"? It may take a bit of magic to get these concepts to work together, but I am talking about [software wizards to help users get through a complex workflow](http://en.wikipedia.org/wiki/Wizard_(software)), and not [magical sorcerers from fantasy land](http://en.wikipedia.org/wiki/Wizard_(fantasy)).

@@ -1,10 +1,8 @@
 ---
 
 title: "Eclipse Visual Editor"
-date: 2004-02-24
-comments: false
 tags:
- - java
+- java
 ---
 
 It takes a lot for an IDE to catch my interest. I have been working with the Eclipse Visual Editor, and have been completely blown away. Even in it's prerelease state, it is one of the finest GUI designer's I have used.

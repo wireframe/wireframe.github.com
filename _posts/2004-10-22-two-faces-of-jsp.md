@@ -1,11 +1,9 @@
 ---
 
 title: "The Two Faces of JSP"
-date: 2004-10-22
-comments: false
 tags:
- - java
- - jsp
+- java
+- jsp
 ---
 
 The same reason I have come to hate JSP is the same reason many other developers love it; it's super flexible and has a wide range of functionality. Well, I think that JSP's are TOO flexible for their own good. I'll go out on a limb and state that, "Using JSP's inherently leads to poor application design". This is a bold statement, and I realize that it is not true 100% of the time. Here's my rationale:

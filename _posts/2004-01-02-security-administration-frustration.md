@@ -1,9 +1,7 @@
 ---
 title: "Security Administration Frustration"
-date: 2004-01-02
-comments: false
 tags:
- - security
+- security
 ---
 
 Let me just say that I'm frustrated at the plethora of different security infrastructures that exist in my environment and their apparent lack of interoperability. For starters, I'll list the number of different accounts I have to deal with on a daily basis:

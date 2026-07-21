@@ -1,12 +1,10 @@
 ---
 
 title: "Preview Multiple Levels of Components"
-date: 2006-03-13
-comments: false
 tags:
- - javascript
- - java
- - wicket
+- javascript
+- java
+- wicket
 ---
 
 My [previous]({% post_url 2006-03-10-wicket-preview-with-one-javascript %}) [incarnations]({% post_url 2006-03-03-auto-previewable-wicket-pages %}) of the wicket:preview feature have fallen short when trying to preview multiple levels of components. I personally don't think it's that big of a deal for the preview to not handle this, but based on the feedback I've received, I decided to at least look into it.

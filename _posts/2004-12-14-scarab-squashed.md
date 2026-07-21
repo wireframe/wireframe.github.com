@@ -1,10 +1,8 @@
 ---
 
 title: "Scarab Squashed?"
-date: 2004-12-14
-comments: false
 tags:
- - java
+- java
 ---
 
 At my last job, I was a strong supporter of using an issue tracking system to help coordinate bug fixes and features. The projects were internal only, and since I'm a big opensource nut, I pushed to use [scarab](http://scarab.tigris.org) as our issue tracking server. The supported features were adequate, and the speed wasn't horrible, so life was good.

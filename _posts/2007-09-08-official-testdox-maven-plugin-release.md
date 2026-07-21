@@ -1,12 +1,10 @@
 ---
 
 title: "Official Testdox Maven Plugin Release"
-date: 2007-09-08
-comments: false
 tags:
- - java
- - testing
- - maven
+- java
+- testing
+- maven
 ---
 
 It seems as though the [Codehaus Mojo Project](http://mojo.codehaus.org) has reached the end of the line.  After finishing up my [testdox maven plugin]({% post_url 2007-03-06-testdox-maven-plugin %}), I tried to [contribute my plugin](http://jira.codehaus.org/browse/MOJO-681) to the Codehaus Project, but it has fallen on deaf ears.  I guess it's time to take things into my own hands, and so I'm happy to announce the [first official release of the testdox maven plugin](http://maven.codecrate.com/com/codecrate/maven/plugins/testdox-maven-plugin/).

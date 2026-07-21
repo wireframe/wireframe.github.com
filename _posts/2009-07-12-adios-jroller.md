@@ -1,8 +1,6 @@
 ---
 
 title: "Adios JRoller"
-date: 2009-07-12
-comments: false
 tags:
 - blog
 - jroller

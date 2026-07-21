@@ -1,11 +1,9 @@
 ---
 
 title: "Matisse Is Miles Behind"
-date: 2005-07-29
-comments: false
 tags:
- - java
- - swing
+- java
+- swing
 ---
 
 I'm sick and tired of hearing how [project Matisse](http://www.netbeans.org/kb/articles/matisse.html) is the best thing since sliced bread. What is really so new and innovative about it? It's just another GUI designer with a new layout manager, nothing more. I find it increasingly frustrating to see blogs, [like this one at java.net](http://weblogs.java.net/blog/gsporar/archive/2005/07/project_matisse_1.html), attempt to hype a broken development model.

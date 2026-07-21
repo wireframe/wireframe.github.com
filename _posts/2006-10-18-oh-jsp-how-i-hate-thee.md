@@ -1,10 +1,8 @@
 ---
 
 title: "Oh JSP, How I Hate Thee"
-date: 2006-10-18
-comments: false
 tags:
- - jsp
+- jsp
 ---
 
 The title says it all. It's poetry, and I'm the **code\_poet** right?

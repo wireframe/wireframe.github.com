@@ -1,10 +1,8 @@
 ---
 
 title: "The Folly of Multilanguage Development"
-date: 2005-05-02
-comments: false
 tags:
- - java
+- java
 ---
 
 Let me state outright that cohesion between desperate development environments is overhyped. I fail to see how .NET can promote multilanguage development as an asset, since a fragmented development environment is anything but desirable. For example, if you're developing an application with two people in two languages, what happens if one person leaves? That's a simplified scenario of a major problem.

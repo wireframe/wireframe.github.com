@@ -1,13 +1,11 @@
 ---
 
 title: "NFJS Conference"
-date: 2007-11-02
-comments: false
 tags:
- - performance
- - java
- - process
- - nfjs
+- performance
+- java
+- process
+- nfjs
 ---
 
 It's been a long time coming, but I'm finally posting about my recent experience at the [No Fluff, Just Stuff conference](http://www.nofluffjuststuff.com/show_view.jsp?showId=106).This was my first time at an NFJS conference, and overall it was well worth the weekend.

@@ -1,10 +1,8 @@
 ---
 
 title: "How Prototype Can Break Your Site"
-date: 2006-07-28
-comments: false
 tags:
- - javascript
+- javascript
 ---
 
 I have really grown to like [prototype](http://prototype.conio.net/) and all of the extensions it brings to Javascript. The more I use it, the harder it is for me to use standard Javascript for certain operations (ajax, looping, etc).

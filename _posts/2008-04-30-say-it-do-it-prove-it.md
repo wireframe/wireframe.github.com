@@ -1,12 +1,10 @@
 ---
 
 title: "Say It. Do It. Prove It!"
-date: 2008-04-30
-comments: false
 tags:
- - process
- - documentation
- - testing
+- process
+- documentation
+- testing
 ---
 
 There are lots of software development methodologies. I've voiced my opinions over the years on how to create great software, and these three small statements sum up a pretty large part of my software development philosophy.

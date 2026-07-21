@@ -1,11 +1,9 @@
 ---
 
 title: "Indicator While Processing"
-date: 2005-09-26
-comments: false
 tags:
- - java
- - wicket
+- java
+- wicket
 ---
 
 Most users rely on the broswer's "spinner" to know when the server is processing and when it has completed, but with AJAX applications, all bets are off. There's no way for a user to know if clicking a button will take them to a new page, or swap dynamic HTML into the existing page.

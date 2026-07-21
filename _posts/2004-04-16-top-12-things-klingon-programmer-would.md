@@ -1,8 +1,6 @@
 ---
 title: "Top 12 Things A Klingon Programmer Would Say"
-date: 2004-04-16
-comments: false
-tags: 
+tags:
 - humor
 ---
 

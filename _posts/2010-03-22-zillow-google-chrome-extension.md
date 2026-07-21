@@ -1,8 +1,6 @@
 ---
 
 title: "Zillow Google Chrome Extension"
-date: 2010-03-22
-comments: false
 tags:
 - chrome
 - zillow

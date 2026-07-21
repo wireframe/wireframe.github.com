@@ -1,12 +1,10 @@
 ---
 
 title: "API Exploration"
-date: 2008-05-12
-comments: false
 tags:
- - ruby
- - java
- - testing
+- ruby
+- java
+- testing
 ---
 
 For the past several years, my standard workflow for investigating new Java tools and technologies relied on writing a series of "bare bones" unit tests to explore functionality. These unit tests were absolutely vital for me to get up to speed quickly on new libraries like spring, lucene and hibernate.

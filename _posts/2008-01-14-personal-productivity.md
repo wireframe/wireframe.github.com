@@ -1,10 +1,8 @@
 ---
 
 title: "Personal Productivity"
-date: 2008-01-14
-comments: false
 tags:
- - productivity
+- productivity
 ---
 
 I was asked by a co-worker the other day what I would recommend to improve productivity. I'm by no means an expert in this field, but here are a few things I recommend to everyone to increase their effectiveness.

@@ -1,10 +1,8 @@
 ---
 
 title: "3 keys to decision making"
-date: 2009-01-28
-comments: false
 tags:
-- life-motto
+- innerwork
 ---
 
 

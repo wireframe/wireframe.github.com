@@ -1,10 +1,8 @@
 ---
 
 title: "Early Optimization"
-date: 2005-03-02
-comments: false
 tags:
- - performance
+- performance
 ---
 
 "Early optimization is the root of much evil."

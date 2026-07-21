@@ -1,10 +1,8 @@
 ---
 
 title: "No Need For Flock"
-date: 2006-02-06
-comments: false
 tags:
- - flock
+- flock
 ---
 
 Imagine that.  Just weeks after [raving how great Flock was]({% post_url 2005-11-30-flock-rocks %}), I'm back to browsing with "good old" Firefox.  Of course, I've installed a couple of plugins to give me an equivalent suite of features.  Here's how to "pimp your Firefox" to make Flock nearly obsolete:

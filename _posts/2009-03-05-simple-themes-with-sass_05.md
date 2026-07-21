@@ -1,10 +1,8 @@
 ---
 
 title: "Simple Themes With SASS"
-date: 2009-03-05
-comments: false
 tags:
- - css
+- css
 ---
 
 [SASS](http://haml.hamptoncatlin.com/docs/rdoc/classes/Sass.html) is an amazing library to have in your toolbox.  Here's a simple trick to make skinning your website drop dead easy...AND MAINTAINABLE!!

@@ -1,11 +1,9 @@
 ---
 
 title: "FinderTemplate"
-date: 2006-08-07
-comments: false
 tags:
- - ruby
- - java
+- ruby
+- java
 ---
 
 I think I'm becoming addicted to Ruby syntax. The Ruby collection API is super slick, and since I've already brought [a Ruby-like iteration syntax to Java](http://jroller.com/page/wireframe?entry=humane_object_iteration), I think it's logical to try and port [the Ruby find syntax](http://www.rubycentral.com/ref/ref_m_enumerable.html#find) to Java as well.

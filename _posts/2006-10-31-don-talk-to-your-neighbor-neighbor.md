@@ -1,11 +1,9 @@
 ---
 
 title: "Don't Talk To Your Neighbor's Neighbor"
-date: 2006-10-31
-comments: false
 tags:
- - java
- - design
+- java
+- design
 ---
 
 I'll be continuing on the pattern/antipattern postings today, even though it seems that the large majority of people really missed the point of my [previous entry]({% post_url 2006-10-25-mutating-methods %}). I'll try harder to keep things simple, and avoid talking about the much loved static util (anti) pattern.

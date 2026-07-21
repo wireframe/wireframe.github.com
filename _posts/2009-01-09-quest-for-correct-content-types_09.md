@@ -1,10 +1,8 @@
 ---
 
 title: "The Quest for Correct Content Types"
-date: 2009-01-09
-comments: false
 tags:
- - ruby
+- ruby
 ---
 
 [Attachment Fu is a kick ass rails plugin](http://github.com/technoweenie/attachment_fu/tree/master) for handling file uploads within your rails application.  It greatly simplifies the ordeal of supporting file uploads and even supports some really amazing features like using Amazon S3 as a backend to store your files.  My only gripes thus far have been finicky thumbnail generation...

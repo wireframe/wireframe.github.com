@@ -1,8 +1,6 @@
 ---
 
 title: "Backgrounded Class Methods"
-date: 2010-10-30
-comments: false
 tags:
 - ruby
 - backgrounded

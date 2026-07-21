@@ -1,11 +1,9 @@
 ---
 
 title: "Simple CSS Builder"
-date: 2006-05-15
-comments: false
 tags:
- - java
- - css
+- java
+- css
 ---
 
 I would like to think that most developers can avoid hardcoding web content (html, javascript or CSS) directly in Java code. Realistically though, there are times when it's just easier to put it in the code. [Wicket](http://wicketframework.org) is definately improving this, but I'm sure there will still be times where this web content get's hardcoded in Java.

@@ -1,11 +1,9 @@
 ---
 
 title: "The Poor Man's Apple"
-date: 2006-10-23
-comments: false
 tags:
- - linux
- - apple
+- linux
+- apple
 ---
 
 I've been a hardcore Linux user for the past couple years, and I commonly refer to Linux as The Poor Man's Apple. I use Linux because I truly believe that I'm more productive using Linux than Windows, and I'm too cheap to buy an Apple. Seriously, I would love to have a spiffy new Apple laptop, but I just can't justify paying the extra markup cost.

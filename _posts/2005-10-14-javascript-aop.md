@@ -1,10 +1,8 @@
 ---
 
 title: "Javascript AOP"
-date: 2005-10-14
-comments: false
 tags:
- - javascript
+- javascript
 ---
 
 Yesterday, I had a truly mind bending experience...

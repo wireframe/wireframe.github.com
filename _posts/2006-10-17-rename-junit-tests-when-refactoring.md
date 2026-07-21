@@ -1,11 +1,9 @@
 ---
 
 title: "Rename JUnit Tests When Refactoring"
-date: 2006-10-17
-comments: false
 tags:
- - java
- - testing
+- java
+- testing
 ---
 
 Modern IDE's have been putting a lot of effort into improving their tools to support code refactoring. Eclipse is still the champ in my opinion, but [NetBeans seems to be making headway as well](http://refactoring.netbeans.org/). One refactoring feature I have yet to see implemented that would make my life a little easier would be automatically rename JUnit test classes when the class being tested is renamed.

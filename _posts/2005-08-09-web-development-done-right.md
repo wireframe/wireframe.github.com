@@ -1,11 +1,9 @@
 ---
 
 title: "Web Development Done Right"
-date: 2005-08-09
-comments: false
 tags:
- - java
- - wicket
+- java
+- wicket
 ---
 
 My [deep burning hate for JSP]({% post_url 2005-02-09-jsp-is-joke %}) will never change. It is absolutely the[most incompetent]({% post_url 2005-02-10-jsp-late-binding %}) Java web technology ever created. Yet, with all of my [bitching and complaining about JSP]({% post_url 2004-10-22-two-faces-of-jsp %}), I've been fairly quiet on what is a better solution. JSP has been the only option at my day-job, and to be honest, I have not deployed a full blown production application using a different web technology. I've used plenty of other frameworks internally or for open-source projects, but JSP is where I've spent most of my time (not by choice).

@@ -1,13 +1,11 @@
 ---
 
 title: "Hibernate Annotations and Wicket"
-date: 2007-05-08
-comments: false
 tags:
- - java
- - hibernate
- - wicket
- - database
+- java
+- hibernate
+- wicket
+- database
 ---
 
 Wow. It's been an insane 24 hours.

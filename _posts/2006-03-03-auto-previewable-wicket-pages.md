@@ -1,12 +1,10 @@
 ---
 
 title: "Auto Previewable Wicket Pages"
-date: 2006-03-03
-comments: false
 tags:
- - javascript
- - java
- - wicket
+- javascript
+- java
+- wicket
 ---
 
 Previewable Wicket pages, take two...

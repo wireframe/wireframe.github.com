@@ -1,10 +1,8 @@
 ---
 
 title: "Actions Speak Louder Than Words"
-date: 2005-07-21
-comments: false
 tags:
- - testing
+- testing
 ---
 
 To be perfectly blunt, I think javadoc is overrated. Yes, I think it's important for public API's or interfaces to be documented, but for the most part, it's unnecessary work. Let me explain why.

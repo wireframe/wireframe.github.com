@@ -1,12 +1,10 @@
 ---
 
 title: "Scriptaculous 1.8 Release"
-date: 2007-11-09
-comments: false
 tags:
- - java
- - scriptaculous
- - wicket
+- java
+- scriptaculous
+- wicket
 ---
 
 With the [recent release of the scriptaculous 1.8 javascript library](http://script.aculo.us/), I've [released an update to the wicketstuff-scriptaculous project](http://wicketstuff.org/maven/repository/org/wicketstuff/wicketstuff-scriptaculous/1.3-SNAPSHOT/) that incorporates these latest changes (including prototype 1.6!).

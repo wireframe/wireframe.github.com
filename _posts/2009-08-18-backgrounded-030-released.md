@@ -1,8 +1,6 @@
 ---
 
 title: "Backgrounded 0.3.0 Released"
-date: 2009-08-18
-comments: false
 tags:
 - ruby
 - backgrounded

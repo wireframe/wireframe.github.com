@@ -1,11 +1,9 @@
 ---
 
 title: "Choosing a Java Web Framework"
-date: 2008-01-28
-comments: false
 tags:
- - java
- - wicket
+- java
+- wicket
 ---
 
 Last week I was asked to give a presentation comparing Java web frameworks for an upcoming project. This is very similar to the [a presentation given by Matt Raible](http://raibledesigns.com/rd/entry/comparing_jvm_web_frameworks_presentation), so I started there to see what he had to say. He's obviously done a lot of work with the appfuse project which supports a pretty impressive number of frameworks out of the box. I'd highly recommend folks checkout the documentation he's done over the years and even [watch his presentation from past conferences](http://parleys.com/display/PARLEYS/Comparing+Java+Web+Frameworks?showComments=true).

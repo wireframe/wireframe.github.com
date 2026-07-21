@@ -1,14 +1,12 @@
 ---
 
 title: "Autocomplete More Than Just Text"
-date: 2005-08-25
-comments: false
 tags:
- - javascript
- - java
- - scriptaculous
- - wicket
- - ajax
+- javascript
+- java
+- scriptaculous
+- wicket
+- ajax
 ---
 
 If you run the [scriptaculous autocomplete demo](http://script.aculo.us/demos/ajax/autocompleter_customized) you'll notice that one of the coolest features is that the results are not just plain text. They display a thumbnail image along with two pieces of text in a great looking layout. You might not realize it, but the current Wicket AutocompleteTextField in wicket-stuff already supports this behavior.

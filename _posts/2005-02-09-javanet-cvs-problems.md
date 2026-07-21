@@ -1,11 +1,9 @@
 ---
 
 title: "java.net CVS problems"
-date: 2005-02-09
-comments: false
 tags:
- - scm
- - java
+- scm
+- java
 ---
 
 Have any other java.net project owners noticed that the version of CVS used to host projects has some issues? I ran headlong into an issue that has prevented me from integrating CVS commit messages into my [JIRA instance](http://jira.codecrate.com). The underlying problem is that you can not run an r* commands against the java.net CVS servers (ex: rlog, rdiff, etc).

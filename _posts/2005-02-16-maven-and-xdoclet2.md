@@ -1,11 +1,9 @@
 ---
 
 title: "Maven and XDoclet2"
-date: 2005-02-16
-comments: false
 tags:
- - java
- - documentation
+- java
+- documentation
 ---
 
 It's been a while since I've used XDoclet, but now that I'm starting to use Hibernate, I thought I would see what XDoclet could do for me. First let it be known that I use Maven for my projects, and I have been [extremely unimpressed with the XDoclet's integration with Maven thus far](http://wiki.codehaus.org/maven/CreatingEjbApplications). That being said, I'm all for second chances, and so I decided to really give this some investigation.

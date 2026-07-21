@@ -1,11 +1,9 @@
 ---
 
 title: "Using Maven For Classpath Isolation"
-date: 2008-02-22
-comments: false
 tags:
- - java
- - maven
+- java
+- maven
 ---
 
 I'm absolutely obsessed with my application's classpath. I come from a background where projects have ginormous classpaths containing 80+ jars, and classes are imported willy nilly without any thought of the consequences. This is one of the worst things you do to the long term maintainability of your application. Let me give you an example...

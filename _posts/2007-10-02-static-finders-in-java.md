@@ -1,11 +1,9 @@
 ---
 
 title: "Static Finders in Java"
-date: 2007-10-02
-comments: false
 tags:
- - java
- - database
+- java
+- database
 ---
 
 For the past couple days, I've been unnaturally obsessed with the Ruby syntax for looking up persistent objects. The [ActiveRecord find API](http://railsmanual.org/class/ActiveRecord::Base/find/1.1.2) is absolutely a piece of art.

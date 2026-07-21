@@ -1,12 +1,10 @@
 ---
 
 title: "Wicketstuff-Hibernate Updates"
-date: 2007-06-28
-comments: false
 tags:
- - java
- - hibernate
- - wicket
+- java
+- hibernate
+- wicket
 ---
 
 It's been a week since [the first "release" of my wicket/hibernate integration, and the [feedback from the wicket community](http://www.nabble.com/HibernateAnnotationComponentConfigurator-t3969383.html#a11266736) has been pretty amazing.

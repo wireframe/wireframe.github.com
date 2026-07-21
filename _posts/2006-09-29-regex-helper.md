@@ -1,12 +1,10 @@
 ---
 
 title: "RegEx Helper"
-date: 2006-09-29
-comments: false
 tags:
- - java
- - eclipse
- - regex
+- java
+- eclipse
+- regex
 ---
 
 I've always had difficulty with regular expressions. It's one area of programming that has always confused me.

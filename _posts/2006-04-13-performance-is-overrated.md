@@ -1,10 +1,8 @@
 ---
 
 title: "Performance Is Overrated"
-date: 2006-04-13
-comments: false
 tags:
- - performance
+- performance
 ---
 
 Let me get one thing clear: Software performance _is_important, but it's also _completely_overrated.

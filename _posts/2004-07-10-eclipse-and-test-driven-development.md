@@ -1,11 +1,9 @@
 ---
 
 title: "Eclipse and Test Driven Development"
-date: 2004-07-10
-comments: false
 tags:
- - java
- - testing
+- java
+- testing
 ---
 
 Eclipse has changed my life. Test Driven Development (TDD) has been a major boost to my productivity, and Eclipse has been huge factor in getting me to adopt new development style. Here's my brief experience working with Eclipse and TDD.

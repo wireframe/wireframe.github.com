@@ -1,10 +1,8 @@
 ---
 
 title: "JDK Source Code in Eclipse"
-date: 2004-07-19
-comments: false
 tags:
- - java
+- java
 ---
 
 I have been interested in the whole "Open Sourcing Java" argument, and one comment I hear frequently is that "If Java was Open Source, I could view where code bugs were and fix/submit them back". The response is usually, "Sun does provide the source code along with the SDK for anyone to view".

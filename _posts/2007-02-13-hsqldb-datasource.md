@@ -1,11 +1,9 @@
 ---
 
 title: "HSQLDB Datasource"
-date: 2007-02-13
-comments: false
 tags:
- - java
- - database
+- java
+- database
 ---
 
 I use [HSQLDB](http://hsqldb.org) in my development environment, and for the most part it works great. I ran into a recent issue though that caught me off guard.

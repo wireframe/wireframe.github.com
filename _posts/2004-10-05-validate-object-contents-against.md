@@ -1,11 +1,9 @@
 ---
 
 title: "Validate object contents against database structure"
-date: 2004-10-05
-comments: false
 tags:
- - java
- - database
+- java
+- database
 ---
 
 If using object to relational database mapping tools like hibernate or jdo, how can you validate that the object has valid contents before persisting? Database errors are not consistent across platforms and for the most part users' don't understand what went wrong. I would like to programatically check that a field's null/not-null status and verify that the object size does not break the database column. XWork has an object validation framework, and I'm wondering if it's possible to hook onto that framework to make a connection to the database and validate the object contents before it's persisted.

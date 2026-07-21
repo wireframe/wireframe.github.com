@@ -1,11 +1,9 @@
 ---
 
 title: "jQuery DOM Manipulation Performance"
-date: 2009-11-02
-comments: false
 tags:
- - performance
- - jquery
+- performance
+- jquery
 ---
 
 Everyone says that "avoiding DOM manipulation" is a key to improve javascript performance, but their understanding of the root issue is slightly skewed. In reality, manipulating elements is extremely fast until the element has been added to the DOM. No need to throw away the wonderful append/prepend jQuery API's and drop down to the low level innerHtml tricks to get great performance. Just make sure that you're manipulating element fragments before they're added to the DOM.

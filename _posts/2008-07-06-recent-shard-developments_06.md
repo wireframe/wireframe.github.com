@@ -1,8 +1,6 @@
 ---
 
 title: "Recent Shard Developments"
-date: 2008-07-06
-comments: false
 tags:
 - shard
 - open-source

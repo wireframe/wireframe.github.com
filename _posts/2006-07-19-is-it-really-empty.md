@@ -1,10 +1,8 @@
 ---
 
 title: "Is It REALLY Empty?"
-date: 2006-07-19
-comments: false
 tags:
- - jsp
+- jsp
 ---
 
 JSP is so damn ghetto.

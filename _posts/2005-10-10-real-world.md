@@ -1,10 +1,8 @@
 ---
 
 title: "The Real World"
-date: 2005-10-10
-comments: false
 tags:
- - testing
+- testing
 ---
 
 I must say that I'm a bit suprised at the number of people who seem genuinely angry because of my previous posts. I could take this opportunity to try to calm people's fears, or to clarify my opinions. But, what's the point? How about I just add more wood to the fire?

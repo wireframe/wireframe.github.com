@@ -1,8 +1,6 @@
 ---
 
 title: "New Relic + Backgrounded + Resque = Awesome"
-date: 2010-10-14
-comments: false
 tags:
 - ruby
 - performance

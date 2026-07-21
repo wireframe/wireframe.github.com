@@ -1,12 +1,10 @@
 ---
 
 title: "Hibernate LoadAll Feature"
-date: 2007-02-12
-comments: false
 tags:
- - java
- - hibernate
- - database
+- java
+- hibernate
+- database
 ---
 
 I've used [Hibernate](http://hibernate.org) off and on over the years, and just recently discovered one of its weirdest features.

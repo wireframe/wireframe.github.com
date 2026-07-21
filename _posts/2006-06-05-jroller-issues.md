@@ -1,10 +1,8 @@
 ---
 
 title: "JRoller Issues"
-date: 2006-06-05
-comments: false
 tags:
- - jroller
+- jroller
 ---
 
 I can't say that I'm exactly impressed with the folks who run JRoller. After their latest upgrade, my templates have broken permalinks. I originally customized my template to add [technorati](http://technorati.com) links, but reverting to the "default" templates doesn't fix the issue. The permalinks for each blog contains an unrendered velocity macro, $entry.website.user.userName. Now, you'd expect a bug this noticeable to be fixed after an hour or two, but this has been lingering around for the past two months!

@@ -1,10 +1,8 @@
 ---
 
 title: "Requesting Java Launcher"
-date: 2008-01-09
-comments: false
 tags:
- - java
+- java
 ---
 
 For the love of God, will someone please create a Java version of an application launcher ala Quicksilver?!?

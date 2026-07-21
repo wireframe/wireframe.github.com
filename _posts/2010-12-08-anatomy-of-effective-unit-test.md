@@ -1,10 +1,8 @@
 ---
 
 title: "Anatomy of an Effective Unit Test"
-date: 2010-12-08
-comments: false
 tags:
- - testing
+- testing
 ---
 
 [](http://1.bp.blogspot.com/_yocpuDtbm4c/TQBR1QacfVI/AAAAAAAAABU/FqFtno1aIbE/s1600/doogietest.png)

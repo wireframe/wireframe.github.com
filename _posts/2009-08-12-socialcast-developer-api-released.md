@@ -1,10 +1,8 @@
 ---
 
 title: "Socialcast Developer API Released"
-date: 2009-08-12
-comments: false
 tags:
- - socialcast
+- socialcast
 ---
 
 [](http://www.flickr.com/photos/wireframe/3816583420/)

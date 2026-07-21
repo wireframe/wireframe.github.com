@@ -1,11 +1,9 @@
 ---
 
 title: "JSP Late Binding"
-date: 2005-02-10
-comments: false
 tags:
- - java
- - jsp
+- java
+- jsp
 ---
 
 My old friend JSP has caused me yet more pain. In my current project, I've been stung by the pervasive Late Binding issue with JSP. If I try and reference a method or class that doesn't exist on the page, I get a horrendous error message at runtime. This is the ultimate of inconveniences since it has escaped through my development/testing process. The bottom line is no matter how well I've architected my code to only place particular objects into JSP's context (using WebWork or any other web framework), every time I refactor or rename a method, I have to search through all of my JSP's for references to that method. This is a BIG problem when you've got a system with literally thousands of JSP's. It just doesn't scale, and slows down development to the point that people are afraid to refactor because code might break something. Definately a problem for "agile" development.

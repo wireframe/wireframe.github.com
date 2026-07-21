@@ -1,11 +1,9 @@
 ---
 
 title: "Preview Release of Shard Minotaur"
-date: 2006-06-13
-comments: false
 tags:
- - java
- - shard
+- java
+- shard
 ---
 
 Whew...I just wrapped up [releasing a preview of the new shard-minotaur d20 character generator application](http://wiki.codecrate.com/display/SHA/2006/06/13/Preview+Release+of+Shard+Minotaur) that I've been working on for quite a while. I've been chomping at the bit to get this app out there so that I can get feedback as early as possible.

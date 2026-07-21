@@ -1,10 +1,8 @@
 ---
 
 title: "Ubiquity is Like Crack"
-date: 2008-08-26
-comments: false
 tags:
- - ubiquity
+- ubiquity
 ---
 
 Okay, I KNOW I might be jumping the gun here, but I just have to say that the new [Firefox Ubiquity Plugin](https://wiki.mozilla.org/Labs/Ubiquity) is the greatest piece of software written.  EVER.

@@ -1,13 +1,11 @@
 ---
 
 title: "Wicket Sortable Container"
-date: 2006-12-15
-comments: false
 tags:
- - javascript
- - java
- - wicket
- - ajax
+- javascript
+- java
+- wicket
+- ajax
 ---
 
 The Wicket [ListView](http://wicket.sourceforge.net/apidocs/wicket/markup/html/list/ListView.html) is an excellent core component when you need to display a list of objects. It's fairly simple to use and is fairly extensible when you need to customize it's behavior.

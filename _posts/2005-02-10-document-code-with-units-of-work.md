@@ -1,11 +1,9 @@
 ---
 
 title: "Document Code With Units Of Work"
-date: 2005-02-10
-comments: false
 tags:
- - java
- - documentation
+- java
+- documentation
 ---
 
 Good rule of thumb is: if you feel the need to comment a method body for how a block of code works, work should be extracted in a more understandable way. Either extract the code into a seperate class, or extract it to a shorter, simpler and more expressive method.

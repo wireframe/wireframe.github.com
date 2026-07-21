@@ -1,11 +1,9 @@
 ---
 
 title: "Unit Test Valid SASS"
-date: 2009-03-25
-comments: false
 tags:
- - testing
- - css
+- testing
+- css
 ---
 
 How do you ensure that hacker developers like myself don't check in invalid SASS?  I can't count the number of times I've checked in that "one tiny change", that ended up breaking the layout of a page.

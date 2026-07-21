@@ -1,7 +1,5 @@
 ---
 title: "acts_as_stripped Now Available"
-date: 2009-06-27
-comments: false
 tags:
 - ruby
 - rails

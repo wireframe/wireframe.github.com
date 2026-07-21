@@ -1,10 +1,8 @@
 ---
 
 title: "SuSE Wireless Woes"
-date: 2005-06-28
-comments: false
 tags:
- - linux
+- linux
 ---
 
 I have now spent three days trying to upgrade my wife's computer from SuSE 9.1 to SuSE 9.3. I was hoping that the setup of my wireless USB adapter would go smoother than [last time]({% post_url 2005-06-28-suse-91-usb-wireless-configuration %}) but, I'm sad to say that 9.3 is actually much worse.

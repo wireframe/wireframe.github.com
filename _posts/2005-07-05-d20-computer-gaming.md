@@ -1,11 +1,9 @@
 ---
 
 title: "D20 Computer Gaming"
-date: 2005-07-05
-comments: false
 tags:
- - games
- - shard
+- games
+- shard
 ---
 
 [Neverwinter Nights](http://nwn.bioware.com) is still one of my favorite games. It was one of the most [community focused games](http://nwvault.ign.com/) I have ever seen. Not only were people able to build [cool little mods](http://nwvault.ign.com/View.php?view=Modules.DMFM) for the game, some developers have [built adventures that rival the original game's content](http://nwn.bioware.com/premium/).

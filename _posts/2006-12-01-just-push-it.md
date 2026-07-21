@@ -1,11 +1,9 @@
 ---
 
 title: "Just Push It"
-date: 2006-12-01
-comments: false
 tags:
- - java
- - design
+- java
+- design
 ---
 
 Holiday time has come again, and my time available for blogging has shrunk to almost none. This little post continues my series of simple development tips, and builds on a [related post from a while back]({% post_url 2005-02-10-document-code-with-units-of-work %}).

@@ -1,10 +1,8 @@
 ---
 
 title: "Words of Wisdom"
-date: 2005-09-27
-comments: false
 tags:
-- life-motto
+- innerwork
 ---
 
 And now for a short break from my techo blog...

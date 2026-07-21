@@ -1,10 +1,8 @@
 ---
 
 title: "Business Analysts are a Crutch"
-date: 2006-05-10
-comments: false
 tags:
- - process
+- process
 ---
 
 I've come to the realization that there is no "silver bullet" for software development processes. I personally believe that agile software development practices have great benefit for most teams. That being said, I no longer believe that [eXtreme Programming](http://www.extremeprogramming.org/) is the right solution for every development team.

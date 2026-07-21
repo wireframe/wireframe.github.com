@@ -1,11 +1,9 @@
 ---
 
 title: "Still Swinging"
-date: 2007-12-15
-comments: false
 tags:
- - java
- - swing
+- java
+- swing
 ---
 
 It's been a while since my last blog entry, and I hope you'll believe me when I say that [I've been busy for the past month or so](http://flickr.com/photos/wireframe/tags/sophia)...

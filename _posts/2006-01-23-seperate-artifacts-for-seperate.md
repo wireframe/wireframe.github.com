@@ -1,12 +1,10 @@
 ---
 
 title: "Seperate Artifacts For Seperate Dependencies"
-date: 2006-01-23
-comments: false
 tags:
- - java
- - spring
- - maven
+- java
+- spring
+- maven
 ---
 
 [Maven2](http://maven.apache.org) is a definate step up from Maven1, but some of the "must have features" (ie: transitive dependencies), are not as fleshed out as they need to be. If Maven2 hopes to de-throne [Ant](http://ant.apache.org) and become the de-facto project management tool, transitive dependencies need to be re-addressed ASAP.

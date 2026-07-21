@@ -1,10 +1,8 @@
 ---
 
 title: "Website Design Guide"
-date: 2006-01-04
-comments: false
 tags:
- - design
+- design
 ---
 
 I have to deal with graphic designers in my real life job and for my [side projects](http://www.codecrate.com). Unfortunately, people put too much faith in these static mockups, so lately I've been cautioning clients to not get too caried away with the images the designer slaps together. Granted, I'm no website developer expert, but I have found these guidelines to be true for the most part.

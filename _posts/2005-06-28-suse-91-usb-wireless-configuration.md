@@ -1,10 +1,8 @@
 ---
 
 title: "SuSE 9.1 USB Wireless Configuration"
-date: 2005-06-28
-comments: false
 tags:
- - linux
+- linux
 ---
 
 My love for SuSE was almost lost while trying to setup a Belkin wireless USB adapter (F5D6050 version 2000) for my PC. My problems were rooted in the fact that I have a standard ethernet card and the USB adapter. They did not play well together, and for the record (and hopefully for others who need the info), here were the steps to get it up and going:

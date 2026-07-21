@@ -1,8 +1,6 @@
 ---
 
 title: "Rails console tweaks gem"
-date: 2012-03-24
-comments: false
 tags:
 - ruby
 - rails

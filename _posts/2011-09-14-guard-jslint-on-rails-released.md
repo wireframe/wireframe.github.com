@@ -1,8 +1,6 @@
 ---
 
 title: "Guard JSLint on Rails Released!"
-date: 2011-09-14
-comments: false
 tags:
 - ruby
 - javascript
