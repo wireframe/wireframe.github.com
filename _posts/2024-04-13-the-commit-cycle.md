@@ -13,7 +13,7 @@ Since then, I've had the opportunity to be a part of multiple Zero to one startu
 
 Time is the enemy of every startup, and the best way to increase our odds of success is by having our customers tell us what matters to them as quickly as possible (and what doesn't matter). The tighter our feedback loops, the more opportunities we have to iterate and get it right for our customers. I've taken a few concepts that have been useful for me and refined them into a Product Development Process (PDP) called "The Commit Cycle".
 
-<img src="/images/the_commit_cycle.png">
+![The Commit Cycle: a continuous loop from Align to Execute to Evaluate](/images/the_commit_cycle.png)
 
 First, we need to know where we are headed. **We commit to a *direction*.**
 
