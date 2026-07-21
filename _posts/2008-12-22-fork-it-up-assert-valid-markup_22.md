@@ -54,7 +54,7 @@ _no such file to load -- FileUtils
 /home/eventrobot/.cruise/projects/socialcast/work/vendor/plugins/assert\_valid\_markup/lib/assert\_valid\_markup.rb:5
 
 /usr/local/lib/ruby/site\_ruby/1.8/rubygems/custom\_require.rb:27:in `gem\_original\_require' _
-After digging through the plugin source code, I did what any inquisitive developer would do, **FORK IT UP**! [A small change](http://github.com/wireframe/assert_valid_markup/commit/637088fbd8ff8d1d507a8d07403ca92e04b9a684%20%20) to the plugin and I was back up and running...almost.  Another issue cropped up when running the tests through Cruisecontrol.
+After digging through the plugin source code, I did what any inquisitive developer would do, **FORK IT UP**! [A small change](http://github.com/wireframe/assert_valid_markup/commit/637088fbd8ff8d1d507a8d07403ca92e04b9a684) to the plugin and I was back up and running...almost.  Another issue cropped up when running the tests through Cruisecontrol.
 
 _/usr/local/bin/ruby -Ilib:test
 
@@ -93,7 +93,7 @@ from
 
 from ./vendor/plugins/ez-where/test/test\_helper.rb:6 _
 
-Tracking down this issue was a real pain.  I spend the majority of my afternoon banging my head against the wall, but [I eventually tracked it down](http://github.com/wireframe/assert_valid_markup/commit/5883b603b5cf6381fc75364756d496f30c886cdf%20%20).  Tests are now up and running, and I have a github project with all of my fixes available for anyone to check out.  I'm still not 100% clear on the differences between my local environment and cruisecontrol, but that's for another time.
+Tracking down this issue was a real pain.  I spend the majority of my afternoon banging my head against the wall, but [I eventually tracked it down](http://github.com/wireframe/assert_valid_markup/commit/5883b603b5cf6381fc75364756d496f30c886cdf).  Tests are now up and running, and I have a github project with all of my fixes available for anyone to check out.  I'm still not 100% clear on the differences between my local environment and cruisecontrol, but that's for another time.
 
 I may take this fork a bit further and turn it into a ruby gem instead of a rails plugin.  It seems better suited that way now that I ripped out the rails initializer code.
 

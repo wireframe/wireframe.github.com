@@ -45,7 +45,7 @@ Here's a quick demo of how it looks now!
 
 
 
-The wicket-preview.js is pretty simple. It uses [dojo](http://dojotoolkit.org/) in the same way as my previous demo, and uses the [Behaviour javascript library](bennolan.com/behaviour/) to automatically parse out the wicket:preview attribute and swap in the included file contents. The implementation is maybe a bit basic, but that can be improved later. It seems like the majority of included components use a div tag, but it probably should support the span tag as well.
+The wicket-preview.js is pretty simple. It uses [dojo](http://dojotoolkit.org/) in the same way as my previous demo, and uses the [Behaviour javascript library](http://bennolan.com/behaviour/) to automatically parse out the wicket:preview attribute and swap in the included file contents. The implementation is maybe a bit basic, but that can be improved later. It seems like the majority of included components use a div tag, but it probably should support the span tag as well.
 
 
 ```javascript
