@@ -9,7 +9,7 @@ tags:
 After nearly a decade of scaling our organization and releasing updates multiple times a day, we began to notice cracks in our foundation. The team felt that the quality of the platform was declining. Some endpoints were experiencing slow response times, incidents took increasingly longer to resolve, and technical debt had accumulated over time. This situation prompted us to embark on a journey to objectively define and measure the quality of our software platform and to devise a technical strategy for the future.
 
 ## Defining Platform Quality
-Building a "high-quality" platform has always been an aspirational goal for every engineering team I've been part of. But what does "quality" really mean? After numerous discussions and iterations, we agreed on three dimensions to define quality:
+Building a "high-quality" platform has been an aspirational goal for every engineering team I've been part of. But what does "quality" really mean? After numerous discussions and iterations, we agreed on three dimensions to define quality:
 
 A **quality** platform is:
 * **Secure.** We handle our customer data with the utmost care, not just for compliance reasons, but because trust is crucial for delivering value to our customers.
