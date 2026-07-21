@@ -34,7 +34,7 @@
         <span class="author vcard">By <span class="fn">{{ author.name }}</span></span>
         <span class="entry-date date published"><time datetime="{{ page.date | date_to_xmlschema }}"><i class="fa fa-calendar-o"></i> {{ page.date | date: "%B %d, %Y" }}</time></span>
         {% if page.modified %}<span class="entry-date date modified"><time datetime="{{ page.modified }}"><i class="fa fa-pencil"></i> {{ page.modified | date: "%B %d, %Y" }}</time></span>{% endif %}
-        {% if site.owner.comment-address and page.comments != false %}<span class="entry-comments"><i class="fa fa-comment-o"></i> <a href="mailto:{{site.owner.comment-address}}">Comment</a></span>{% endif %}
+        {% if site.owner.comment-address and page.comments != false %}<span class="entry-comments"><i class="fa fa-comment-o"></i> <a href="mailto:{{site.owner.comment-address}}?subject={{ page.title | url_encode | replace: '+', '%20' }}">Comment</a></span>{% endif %}
         {% if page.tags %}
           <div class="entry-tags-wrap">
             <p class="entry-tags-heading">Tagged</p>
