@@ -11,7 +11,7 @@ Just incase anyone thought that the [wicket-contrib-scriptaculous project]({% po
 
 
 
-There have been a number of _great_changes made lately (which I will be blogging about later), including a **new project name** (which was _much_needed). I now give you the **wicketstuff-scriptaculous project**.
+There have been a number of _great_ changes made lately (which I will be blogging about later), including a **new project name** (which was _much_ needed). I now give you the **wicketstuff-scriptaculous project**.
 
 
 

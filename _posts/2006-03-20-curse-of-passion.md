@@ -5,7 +5,7 @@ tags:
 - innerwork
 ---
 
-For the most part, _passion_is a great thing. It's a word associated with [fervor, fire and zeal](http://dictionary.reference.com/search?q=passion). As a software developer, passion is what keeps me going. It's what pushes me to innovate, invent and create the best possible solution for the problem at hand. If I were forced to describe myself, I think I would choose, _A Passionate Opensource Software Developer_.
+For the most part, _passion_ is a great thing. It's a word associated with [fervor, fire and zeal](http://dictionary.reference.com/search?q=passion). As a software developer, passion is what keeps me going. It's what pushes me to innovate, invent and create the best possible solution for the problem at hand. If I were forced to describe myself, I think I would choose, _A Passionate Opensource Software Developer_.
 
 
 
@@ -17,7 +17,7 @@ Some might consider this arrogance, but I expect people to be passionate for the
 
 
 
-Last week I started work on a project I would dub _The Worst Project I've Worked On In The Past Two Years_. It's essentially taking everything I just learned from the amazing [_Getting Real_book by 37signals](https://gettingreal.37signals.com/) and throwing it right out the window. Meeting after meeting, with no end in sight. No clear definition or _vision_of what we're trying to attain. Constant speculation about what the user _wants_instead of just building it and listening to their feedback. I can't count the number of times I've wanted to impale myself with my pen while sitting through hour after hour of meeting.
+Last week I started work on a project I would dub _The Worst Project I've Worked On In The Past Two Years_. It's essentially taking everything I just learned from the amazing [_Getting Real_ book by 37signals](https://gettingreal.37signals.com/) and throwing it right out the window. Meeting after meeting, with no end in sight. No clear definition or _vision_ of what we're trying to attain. Constant speculation about what the user _wants_ instead of just building it and listening to their feedback. I can't count the number of times I've wanted to impale myself with my pen while sitting through hour after hour of meeting.
 
 
 

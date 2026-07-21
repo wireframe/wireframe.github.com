@@ -5,11 +5,11 @@ tags:
 - jsp
 ---
 
-It's been a _long_time since I've [blogged about]({% post_url 2005-02-09-jsp-is-joke %}) [how much I **HATE** JSP]({% post_url 2004-10-22-two-faces-of-jsp %}). Today marks yet another day in the unending saga of pain and misery, and yet another reason this beast needs to be put to sleep.
+It's been a _long_ time since I've [blogged about]({% post_url 2005-02-09-jsp-is-joke %}) [how much I **HATE** JSP]({% post_url 2004-10-22-two-faces-of-jsp %}). Today marks yet another day in the unending saga of pain and misery, and yet another reason this beast needs to be put to sleep.
 
 
 
-I seriously just spent the past two days troubleshooting why my page shows one chunk of information with correct encoding, and another piece all jumbled. Of course, if I would have _known_it was an "encoding issue", it wouldn't have taken me so long, but that's not exactly the first place I checked since it worked for half the page. The "Standard" JSTL import tag isn't exactly a red flag for losing the current page encoding.
+I seriously just spent the past two days troubleshooting why my page shows one chunk of information with correct encoding, and another piece all jumbled. Of course, if I would have _known_ it was an "encoding issue", it wouldn't have taken me so long, but that's not exactly the first place I checked since it worked for half the page. The "Standard" JSTL import tag isn't exactly a red flag for losing the current page encoding.
 
 
 

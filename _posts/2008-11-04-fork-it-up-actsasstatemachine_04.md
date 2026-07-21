@@ -33,12 +33,12 @@ door.lock! #=> closes the door
 door.lock! #=> doesn't do anything. door is already closed
 ```
 
-The script **_should_** produce an error because the _lock_event does not have a valid transition when the door is already in the _closed_state. Instead, the current _acts\_as\_state\_machine_plugin quietly returns _false_if
+The script **_should_** produce an error because the _lock_ event does not have a valid transition when the door is already in the _closed_ state. Instead, the current _acts\_as\_state\_machine_ plugin quietly returns _false_ if
 there is no valid transition. That definitely isn't what I expected
 and seriously took me several hours to track down this mysterious
 behavior.
 
-I have published [a fork of the _acts\_as\_state\_machine_project](http://github.com/wireframe/acts_as_state_machine/tree/master) which _**correctly**_ raises exceptions if there are no valid transitions available. The code change is very minor if you want to apply a patch to your own install.
+I have published [a fork of the _acts\_as\_state\_machine_ project](http://github.com/wireframe/acts_as_state_machine/tree/master) which _**correctly**_ raises exceptions if there are no valid transitions available. The code change is very minor if you want to apply a patch to your own install.
 
 There's an entire rant just ripe for the picking, but I'll save that for
 another time. For now, I've "scratched my own itch" and have made a

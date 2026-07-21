@@ -52,7 +52,7 @@ public class MyService {
 
 
 
-Wiring this object in Spring is now _much_simpler than [my previous incarnation]({% post_url 2006-07-01-crazy-command-composition %}). Simply wrap your business object in the EventTriggeredProgressMonitoredBackgroundCommandExecutor and tell it what method to invoke. It'll take care of the rest!
+Wiring this object in Spring is now _much_ simpler than [my previous incarnation]({% post_url 2006-07-01-crazy-command-composition %}). Simply wrap your business object in the EventTriggeredProgressMonitoredBackgroundCommandExecutor and tell it what method to invoke. It'll take care of the rest!
 
 
 
