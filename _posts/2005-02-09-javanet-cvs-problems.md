@@ -2,7 +2,7 @@
 
 title: "java.net CVS problems"
 tags:
-- scm
+- version-control
 - java
 ---
 

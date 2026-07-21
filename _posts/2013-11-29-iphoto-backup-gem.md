@@ -2,7 +2,7 @@
 title: "iPhoto Backup Gem"
 tags:
 - ruby
-- mac
+- apple
 - open-source
 ---
 

@@ -2,7 +2,7 @@
 
 title: "To Github We Go!"
 tags:
-- scm
+- version-control
 - open-source
 ---
 

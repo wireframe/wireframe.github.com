@@ -2,7 +2,7 @@
 title: "Git eXcited"
 tags:
 - ruby
-- git
+- version-control
 - open-source
 ---
 

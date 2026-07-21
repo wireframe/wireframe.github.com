@@ -1,7 +1,7 @@
 ---
 title: "Cooking OSX Machines with Kitchenplan"
 tags:
-- osx
+- apple
 - chef
 - kitchenplan
 ---
