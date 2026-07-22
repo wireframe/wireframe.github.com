@@ -5,68 +5,81 @@ tags:
 - leadership
 ---
 
-## A pipe let go in the basement
+## Cleanup on Aisle 2003
 
-Water where water should never be. A weekend of hauling out ruined things, wringing out what could be saved, and standing over boxes deciding what was worth keeping and what had just been sitting in the dark for years pretending to matter.
+A pipe let go in the basement. Water where water should never be. A weekend of hauling out ruined things, wringing out what could be saved, and standing over boxes deciding what still mattered and what had just been sitting in the dark for years pretending to.
 
-Somewhere in that sorting mood, I opened my blog. Twenty-plus years of posts, all the way back to 2003. Figured I'd do a little housekeeping there too. Tidy the tags, fix a dead link, maybe delete the embarrassing stuff.
+Still in that clean-out mood, I opened my blog. Twenty-plus years of posts, all the way back to 2003. I figured I'd fix a few dead links and prune some tags. Then I stopped on a question I'd somehow never asked: there are two decades of my writing sitting right here. I wonder what's changed?
 
-I didn't expect to meet anyone. But the guy writing in 2005 was a stranger, and he wasn't kind.
+So I asked my Claude coach. Read all of it, I said, and tell me how I've changed. I was not ready for the answer.
 
-## Reading your life in eras
+## The Eras Tour (Sonnek's Version)
 
-Here's the thing I didn't see coming: twenty years of writing doesn't read as one long stream. It sorts itself into eras. Same author, distinct sound, one throughline running under all of it. Taylor Swift built a stadium tour on exactly this idea, and it turns out it works for a nobody's tech blog too.
+The process was simple. Read everything. Show me the shape. Then dig into the data: the tone, the topics, the words I reached for year over year.
 
-There was the Ranter, banging out angry Java posts from a day job he hated. The Evangelist, all-in on a Ruby startup, running user groups, shipping his own gems. The Team Lead, where "my code" quietly became "our code." And whoever I am now, writing about engineering organizations and culture and what it means to lead.
+What came back is that twenty years doesn't read as one voice. It sorts into eras. Same guy, different sound.
 
-Naming the eras is what made the mess legible. You can't see a change you're standing inside of. You have to zoom out until the years group up and the shape appears. I'd never have found the shape by living it. I found it by reading it back.
+![The Ranter · 2003–2006](/images/2026-07-22-era-1-ranter.png)
 
-## The mirror
+**The Ranter (2003–2006).** An in-the-trenches Java developer, frustrated by a corporate day job, cranking out side projects and angry blog posts at night.
 
-So let me hold the mirror up honestly, because that's the only version of this worth writing.
+![The Evangelist · 2007–2009](/images/2026-07-22-era-2-evangelist.png)
 
-In 2005, I sorted the world into people who "get it" and people who don't, and called the second group "mindless drones." I told frustrated JSP developers they should "consider tossing yourself from a balcony." I called Adobe AIR "one of the greatest crimes against humanity I have witnessed in recent history." When users struggled with something I'd built, I reached for PEBCAK, my little acronym for talking down on people who didn't appreciate the elegance of my systems.
+**The Evangelist (2007–2009).** Left corporate Java for a Ruby startup, bought the MacBook, ran the user groups, shipped his own gems, and preached to anyone who'd listen.
 
-Real developers read those words. I wrote them in public, on purpose, and felt clever doing it.
+![The Team Lead · 2010–2014](/images/2026-07-22-era-3-team-lead.png)
 
-That was me. Not a caricature I'm inventing to look humble. The actual sentences are still sitting in the archive with my name on them.
+**The Team Lead (2010–2014).** Where "my code" quietly turned into "our code." Gems and protips gave way to teams and process.
 
-## Scratch a cynic
+![The Leader · 2015–2026](/images/2026-07-22-era-4-leader.png)
 
-For years I'd have told you I was a realist. Maybe a little cynical, but cynics are just people who've been paying attention, right?
+**The Leader (2015–2026).** Engineering and product leadership at BetterUp, writing about organizations, culture, and what it takes to lead them.
 
-Peter Senge has a line that took the legs out from under that story:
+You can't see a change while you're standing inside it. You have to zoom out until the years group up and the pattern shows. I never saw it by living it. I saw it by reading it back.
+
+## The Candid Mirror
+
+The surprising part was meeting the earliest version of me. I barely recognized him, and he was not kind.
+
+In 2005 I sorted the world into people who "get it" and people who don't, and called the second group "mindless drones." I told frustrated developers they should "consider tossing yourself from a balcony." I called Adobe AIR "one of the greatest crimes against humanity I have witnessed in recent history." When someone struggled with software I'd built, I reached for PEBCAK, my little acronym for talking down on people who didn't appreciate the elegance of my systems.
+
+Real people read those words. I wrote them in public, on purpose, and felt clever doing it.
+
+Here's what surprised me most: I didn't feel guilty reading them. I felt curious. Who was that guy? What was he so angry about? He clearly cared, enormously, about craft and testing and doing the work well. So where did all the contempt come from?
+
+Peter Senge has a line that answers it:
 
 > Scratch the surface of most cynics and you find a frustrated idealist, someone who made the mistake of converting his ideals into expectations.
 
-That's the whole diagnosis in one sentence. I wasn't detached or resigned, which is what a real cynic is. I cared enormously about craft, about testing, about doing the work well. Then I took those ideals and turned them into expectations of everyone around me, and got contemptuous when people fell short.
+That's the whole diagnosis. I wasn't detached or resigned, which is what a real cynic actually is. I was an idealist who turned his ideals into demands on everyone around him, then got contemptuous when they fell short. The curiosity was never the problem. The ego riding along with it was.
 
-The curiosity was never the problem. I was always hungry for the next idea. The problem was the ego riding along with it, the part that fused being right to being worth something. Disagreement didn't read as a different opinion. It read as someone else being stupid.
+I've written before about dropping the shame around this kind of thing; my [#NoShameNovember story](/2023/11/my-no-shame-november-story.html) was about exactly that. You can't learn much from a version of yourself you're too embarrassed to look at. Meet him with curiosity instead. He has things to tell you.
 
-## Some things move slowly
+## The Shift
 
-While I was sorting, I went looking for harder evidence than my own memory. A few years back I took an assessment called [Primal World Beliefs](https://myprimals.com), out of Jer Clifton's lab at Penn. It measures the gut-level assumptions you carry about the world as a whole. Is it safe? Is it enticing? Is it alive and worth engaging?
+I won't drag you through the research. Years ago I took an assessment that measures your gut-level beliefs about the world, the kind that barely move over a lifetime. Two of mine moved anyway. I stopped believing the world was **dangerous**, and I started believing it was **good**.
 
-These beliefs barely move. They're closer to eye color than to mood, stable across decades of a life. So when I look at where mine landed, and then read the arc of the writing, the interesting part isn't the score. It's that the writing shows the same slow tide the research would predict.
+The early blog is a low-safety world with enemies everywhere: bad frameworks, worse managers, the drones. You had to fight and prove yourself to do anything worthwhile. The recent writing isn't naive about danger, but the threat moved. It points at complacency and bureaucracy now, not at people. Somewhere along the way the world stopped feeling like a fight I had to win and started feeling like a place that was basically on my side.
 
-The belief that moved most was whether the world is safe. The early blog is a low-safety world with enemies everywhere: bad frameworks, worse managers, the drones. You had to fight and prove yourself to do anything good. The recent writing isn't naive about danger, but the threat moved. It points at complacency and bureaucracy now, not at people. I write like someone who feels safe enough to be wrong in public. That guy in 2005 could not afford to be wrong, because being right was the whole identity.
+I don't think code did that. Life did.
 
-The sharpest proof is a single sentence I reversed. "People who don't get it" (2005) became "Talent is equally distributed. Opportunity is not." (2026). Same person. Opposite belief about whether ability is fixed and some people simply have it.
+- **2004, married.** Hard to stay at war with everything while you're learning to build a life with someone.
+- **2007, a kid and my first startup.** A child rewrites what "safe" and "good" even mean, the same year I bet on something uncertain and it worked out.
+- **2012, team lead.** Success stopped being "I was right" and started being "we shipped."
+- **2015, leadership at BetterUp.** The job itself became other people's growth.
 
-## Cynic to Stoic
+I can't prove those events caused the shift. But they line up with the eras almost exactly, and it's hard to keep believing the world is out to get you while it keeps handing you a wife, kids, and work that matters.
 
-So where did the fighter go?
+The sharpest proof is a single sentence I reversed. "People who don't get it" (2005) became "Talent is equally distributed. Opportunity is not." (2026). Same person, opposite belief about whether some people simply have it and others don't.
 
-He didn't disappear. He got disciplined. Somewhere in the last decade I stopped demanding outcomes and started owning conditions. That's the Stoic move. You don't control whether the world complies with your ideals. You control what you build, how you show up, and whether you keep your ideals without weaponizing them. Being wrong stopped being a wound and became information. I even started writing that every mental model is wrong and some are useful, which is not a sentence the balcony guy could have typed.
+So where did the fighter go? He didn't disappear. He got disciplined. I stopped demanding outcomes and started owning conditions. You don't control whether the world complies with your ideals. You control what you build, how you show up, and whether you can hold your ideals without weaponizing them. Being wrong stopped being a wound and became information. I even started writing that every mental model is wrong and some are useful, which is not a sentence the 2005 guy could have typed.
 
-Hold the ideal. Drop the demand. The anti-cynicism move and the Stoic move are the same move, seen from two sides.
+Hold the ideal. Drop the demand. The anti-cynicism move and the Stoic move turn out to be the same one.
 
-## Still holding the mirror
+## Still Mopping
 
-I want to be careful not to write the tidy ending here, the one where the jerk becomes wise and rides off. I'm not there. I still catch the old contempt reaching for the wheel. The eras aren't a graduation. They're a tide that's still going out and, some days, coming back in.
+I don't get to write the tidy ending, the one where the jerk becomes wise and rides off. I'm not there. I still catch the old contempt reaching for the wheel. The eras aren't a finish line. They're a tide that's still going out, and some days coming back in.
 
-But the innerwork itself was worth every hour. Reading your own trail in eras, hearing how the voice changed, checking it against something slow and honest like your Primals, that's a practice, not a one-time cleanup. If you've been writing, or shipping, or leading in public for a while, go read yourself back. [Take the Primals assessment](https://myprimals.com) and see what you actually believe about the world, then go read what you were writing ten years ago and see if the two agree.
+The innerwork was worth every hour. Reading your own trail, hearing how the voice changed, checking it against something slow and honest like your beliefs about the world, that's a practice, not a one-time cleanup. If you've been writing or shipping or leading in public for a while, go read yourself back. [Take the Primals assessment](https://myprimals.com), then go read what you were writing ten years ago, and see if the two agree. You might not like everyone you meet back there. I didn't. But you can't drop a demand you never noticed you were making.
 
-You might not like everyone you meet back there. I didn't. But you can't drop a demand you never noticed you were making.
-
-The basement's dry now. The sorting isn't done.
+The basement is mostly dry now. That mess had a shut-off valve and a wet vac. The guy in the 2005 archive doesn't clean up in a weekend, so I'm still down there, mopping up the rest of me.
