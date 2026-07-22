@@ -57,24 +57,22 @@ What was the source of The Ranter's cynicism?  One explanation resonates strongl
 
 > Scratch the surface of most cynics and you find a frustrated idealist, someone who made the mistake of converting his ideals into expectations.  - Peter Senge (The Fifth Discipline)
 
-That hit the nail right on the head. I was an idealist who turned strong opinions into unspoken expectations on everyone else, and then got worked-up when they behaved differently.  Ego and pride taking the driver's seat assuming my opinions were the "right" ones.
+That's exactly it. I was an idealist who turned strong opinions into unspoken expectations of everyone else, then got worked up when they behaved differently. Ego and pride in the driver's seat, certain my opinions were the right ones.
 
 ## The Shift
 
 So what changed? There was no lightbulb moment, and no single cause I can point to. It was slow and arduous, a handful of forces pulling in the same direction over a lot of years, because the beliefs that drive behavior take a long time to rewire.
 
-The obvious ones came from external events. I got married, and had kids along the way. My career walked me from writing code alone, to leading teams, to leading leaders. Each step widened the apereture. It's hard to keep sorting the world into people who "get it" when my whole job becomes helping other people get there, and hard to stay at war with a world where I'm busy raising a family.
+The obvious ones came from external events. I got married, and had kids along the way. My career walked me from writing code alone, to leading teams, to leading leaders. Each step widened the aperture. It's hard to keep sorting the world into people who "get it" when my whole job becomes helping other people get there, and hard to stay at war with a world where I'm busy raising a family.
 
-The deeper change came from the inside, and it took deliberate work.  I've learned to identify what I can (and can't control) with the foundational practice and philosophy of Stoicism and my faith.  And I've been incredibly fortunate to work with the expert coaches at [BetterUp](https://www.betterup.com) (both human and AI) that _push_ me to keep growing.
+The deeper change came from the inside, and it took deliberate work.  I've learned to identify what I can and can't control through the foundational practice and philosophy of Stoicism and my faith.  And I've been incredibly fortunate to work with the expert coaches at [BetterUp](https://www.betterup.com) (both human and AI) who _push_ me to keep growing.
 
-Some of it even shows up in the data. The psychologist Jer Clifton built an assessment that measures your gut-level beliefs about the world, the kind that hold fairly steady across a lifetime. Two of mine moved anyway: I stopped believing the world was **dangerous**, and started believing it was **good**. The Ranter era is a low-safety world with enemies everywhere: bad frameworks, worse managers, the drones. I had to fight and prove myself to do anything worthwhile. Over time the world stopped feeling like a fight I had to win and started feeling like a place that was basically on my side.  The recent era isn't living in fear. 
+Some of it even shows up in the data. The psychologist Jer Clifton built the [Primals assessment](https://myprimals.com), a measure of the gut-level beliefs you hold about the world, the kind that stay fairly steady across a lifetime. Two of mine moved anyway: I stopped believing the world was **dangerous**, and started believing it was **good**. The Ranter era is a low-safety world with enemies everywhere: bad frameworks, worse managers, the drones. I had to fight and prove myself to do anything worthwhile. Over time the world stopped feeling like a fight I had to win and started feeling like a place that was basically on my side. 
 
-The Ranter had tied his sense of being right to controlling how everyone else behaved: bad code, a user who didn't understand my elegant system, a coworker who didn't "get it," all of it his to rage about. Somewhere in the last decade I put that bill down. I hold onto what's mine, the work and the effort and how I treat people, and let go of what isn't, like whether the world agrees. Being wrong stopped being a wound and became information. The idealism never left. I just stopped turning it into expectations of everyone around me.
+The Ranter had tied his sense of being right to controlling how everyone else behaved. Somewhere in the last decade I put that bill down. I hold onto what's mine, the work and the effort and how I treat people, and let go of what isn't, like whether the world agrees. Being wrong stopped being a wound and became information. The idealism never left. I just stopped turning it into expectations of everyone around me.
 
 ## The Cleanup Continues
 
-The basement is dry now, but the cleanup continues in the house, and in me.  I'm still a work in progress and will be for many years to come.
-
-I'm grateful for the chance to look back, and for the people and tools that helped me do the work.  If you're interested, I highly recommend [the Primals assessment](https://myprimals.com) for understanding your current world-view, and the [Positive Intelligence Saboteurs assessment](https://www.positiveintelligence.com/saboteurs/) for understanding how you show up when you are _not_ at your best.
+The basement is dry now, but the cleanup continues in the house, and in me.  I'm still a work in progress and will be for many years to come. I'm grateful for the chance to look back, and for the people and tools that helped me do the work.
 
 Keep mopping!
