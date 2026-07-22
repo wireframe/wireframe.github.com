@@ -9,31 +9,60 @@ tags:
 
 A pipe let go in the basement. Water where water should never be. A weekend of hauling out ruined things, wringing out what could be saved, and standing over boxes deciding what still mattered and what had just been sitting in the dark for years pretending to.
 
-Still in that clean-out mood, I opened my blog. Twenty-plus years of posts, all the way back to 2003. I figured I'd fix a few dead links and prune some tags. Then I stopped on a question I'd somehow never asked: there are two decades of my writing sitting right here. I wonder what's changed?
+Still in that clean-out mood, I opened my blog. Twenty-plus years of posts, all the way back to 2003. I figured I'd fix a few dead links and prune some tags. Then I stopped on a question I'd somehow never asked: How does the change in my writing over time reflect my change as an individual?
 
-So I asked my Claude coach. Read all of it, I said, and tell me how I've changed. I was not ready for the answer.
+So I asked my Claude coach to roll up it's sleeves and go to work.  Read everything, analyze the content and infer changes in tone, voice, identity, values, and world-view.  And to be _brutally_ honest. 
 
 ## The Eras Tour (Sonnek's Version)
 
-The process was simple. Read everything. Show me the shape. Then dig into the data: the tone, the topics, the words I reached for year over year.
+What came back was a surprise to say the least.  Twenty years of writing distilled into four eras with meaningful differences in written tone, and underlying beliefs.  They are:
 
-What came back is that twenty years doesn't read as one voice. It sorts into eras. Same guy, different sound.
-
-![The Ranter · 2003–2006](/images/2026-07-22-era-1-ranter.png)
-
-**The Ranter (2003–2006).** An in-the-trenches Java developer, frustrated by a corporate day job, cranking out side projects and angry blog posts at night.
-
-![The Evangelist · 2007–2009](/images/2026-07-22-era-2-evangelist.png)
-
-**The Evangelist (2007–2009).** Left corporate Java for a Ruby startup, bought the MacBook, ran the user groups, shipped his own gems, and preached to anyone who'd listen.
-
-![The Team Lead · 2010–2014](/images/2026-07-22-era-3-team-lead.png)
-
-**The Team Lead (2010–2014).** Where "my code" quietly turned into "our code." Gems and protips gave way to teams and process.
-
-![The Leader · 2015–2026](/images/2026-07-22-era-4-leader.png)
-
-**The Leader (2015–2026).** Engineering and product leadership at BetterUp, writing about organizations, culture, and what it takes to lead them.
+<table class="eras">
+  <tr>
+    <td style="width:120px;vertical-align:top;padding:14px 18px 14px 0;">
+      <img src="/images/2026-07-22-era-1-ranter.png" width="110" alt="The Ranter" />
+    </td>
+    <td style="vertical-align:top;padding:14px 0;">
+      <strong>The Ranter</strong> &middot; 2003&ndash;2006<br>
+      Combative Java dev, day-job frustrated, allergic to anyone who didn't "get it."<br>
+      <em>"Give me clean slow code any day of the week."</em><br>
+      <small><a href="/2006/04/performance-is-overrated.html">Performance Is Overrated, 2006</a></small>
+    </td>
+  </tr>
+  <tr>
+    <td style="width:120px;vertical-align:top;padding:14px 18px 14px 0;">
+      <img src="/images/2026-07-22-era-2-evangelist.png" width="110" alt="The Evangelist" />
+    </td>
+    <td style="vertical-align:top;padding:14px 0;">
+      <strong>The Evangelist</strong> &middot; 2007&ndash;2009<br>
+      Ruby startup convert and community organizer, evangelizing to anyone who'd sit still.<br>
+      <em>"HTML5 is the light on the horizon and Google is her knight in shining armor."</em><br>
+      <small><a href="/2009/08/end-of-adobe-air.html">The End of Adobe AIR, 2009</a></small>
+    </td>
+  </tr>
+  <tr>
+    <td style="width:120px;vertical-align:top;padding:14px 18px 14px 0;">
+      <img src="/images/2026-07-22-era-3-team-lead.png" width="110" alt="The Team Lead" />
+    </td>
+    <td style="vertical-align:top;padding:14px 0;">
+      <strong>The Team Lead</strong> &middot; 2010&ndash;2014<br>
+      "My code" became "our code"; the brashness softening toward pragmatism.<br>
+      <em>"If you are unwilling to change, you are guaranteed to atrophy."</em><br>
+      <small><a href="/2013/07/a-new-day.html">A New Day, 2013</a></small>
+    </td>
+  </tr>
+  <tr>
+    <td style="width:120px;vertical-align:top;padding:14px 18px 14px 0;">
+      <img src="/images/2026-07-22-era-4-leader.png" width="110" alt="The Leader" />
+    </td>
+    <td style="vertical-align:top;padding:14px 0;">
+      <strong>The Leader</strong> &middot; 2015&ndash;2026<br>
+      Eng/product leadership at BetterUp; certainty giving way to clarity.<br>
+      <em>"The best org design isn't the right one. It's the clear one."</em><br>
+      <small><a href="/2026/04/team-topology-ownership.html">Outgrowing the Org Chart, 2026</a></small>
+    </td>
+  </tr>
+</table>
 
 You can't see a change while you're standing inside it. You have to zoom out until the years group up and the pattern shows. I never saw it by living it. I saw it by reading it back.
 
