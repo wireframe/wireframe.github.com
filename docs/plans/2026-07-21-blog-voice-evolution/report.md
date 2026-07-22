@@ -76,7 +76,7 @@ This is not only an outside read. Your own notes make the same diagnosis. You ha
 
 You asked for the unflattering parts named, so here they are, grounded in the text.
 
-**The early cruelty had targets, and some were people.** Telling strangers to jump off a balcony is funny until you remember real developers read it. The "mindless drones" framing (`2005-10-10-real-world.md`) was contempt aimed at colleagues, not just tools. Your own later post admits the cost of this stance toward users (`2023-11-23-my-no-shame-november-story.md`).
+**The early cruelty had targets, and some were people.** Telling strangers to jump off a balcony is funny until you remember real developers read it. The "mindless drones" framing (`2006-03-20-curse-of-passion.md`) was contempt aimed at colleagues, not just tools. Your own later post admits the cost of this stance toward users (`2023-11-23-my-no-shame-november-story.md`).
 
 **Certainty was your default, and it wasn't always earned.** The Ranter years, and the front of the Builder era, treated strong opinions as proof of competence ("You've got to be confident if you really believe you're right," `2006-03-20-curse-of-passion.md`). The pragmatism came later. Some of the early crusades (the multi-year war on JSP, for instance) read now as a young engineer mistaking volume for rigor.
 

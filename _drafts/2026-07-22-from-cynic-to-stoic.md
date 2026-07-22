@@ -15,7 +15,7 @@ So I asked my Claude coach to roll up it's sleeves and go to work.  Read everyth
 
 ## The Eras Tour (Sonnek's Version)
 
-What came back was a surprise to say the least.  Twenty years of writing distilled into three eras with meaningful differences in the written tone, individual identity, and underlying beliefs.  They are:
+What came back was a surprise to say the least.  Twenty years of writing distilled into three eras with meaningful differences in the written tone, individual identity, and underlying beliefs. 
 
 <table class="eras">
   <tr>
@@ -24,9 +24,7 @@ What came back was a surprise to say the least.  Twenty years of writing distill
     </td>
     <td style="vertical-align:top;padding:14px 0;">
       <strong>The Ranter</strong> &middot; 2003&ndash;2007<br>
-      Combative Java dev, day-job frustrated, allergic to anyone who didn't "get it."<br>
-      <em>"Give me clean slow code any day of the week."</em><br>
-      <small><a href="/2006/04/performance-is-overrated.html">Performance Is Overrated, 2006</a></small>
+      The combative developer frustrated at his day-job and allergic to anyone who didn't "get it."<br>
     </td>
   </tr>
   <tr>
@@ -35,9 +33,7 @@ What came back was a surprise to say the least.  Twenty years of writing distill
     </td>
     <td style="vertical-align:top;padding:14px 0;">
       <strong>The Builder</strong> &middot; 2008&ndash;2014<br>
-      Left corporate Java for a Rails startup and shipped his own gems, then went from "my code" to "our code" leading a team.<br>
-      <em>"If you are unwilling to change, you are guaranteed to atrophy."</em><br>
-      <small><a href="/2013/07/a-new-day.html">A New Day, 2013</a></small>
+      Left large-corporate for a startup environment, shipped open-source libraries and shifted ownership from "my code" to "our code" leading teams.<br>
     </td>
   </tr>
   <tr>
@@ -46,32 +42,24 @@ What came back was a surprise to say the least.  Twenty years of writing distill
     </td>
     <td style="vertical-align:top;padding:14px 0;">
       <strong>The Leader</strong> &middot; 2015&ndash;2026<br>
-      Eng/product leadership at BetterUp; certainty giving way to clarity.<br>
-      <em>"The best org design isn't the right one. It's the clear one."</em><br>
-      <small><a href="/2026/04/team-topology-ownership.html">Outgrowing the Org Chart, 2026</a></small>
+      Leading product/engineering teams where individual impact is funneled directly through the surrounding teams.<br>
     </td>
   </tr>
 </table>
 
-You can't see a change while you're standing inside it. You have to zoom out until the years group up and the pattern shows. I never saw it by living it. I saw it by reading it back.
+These eras map reasonably cleanly to changes in roles in my professional career progressing from "coder" to "leader", but there was more nuance found in this one-liner:
+
+> The old self was a curious, defended perfectionist: hungry for ideas, distrustful of people, ego fused to being right. The current self is a curious, open builder: the same appetite for ideas, but ability is now malleable, being wrong is information, and talent is assumed to be everywhere. 
 
 ## The Candid Mirror
 
-The surprising part was meeting the earliest version of me. I barely recognized him, and he was not kind.
+I sat with this analysis for quite some time.  Claude did not pull any punches.  Who was that "Ranter" version of me? I barely recognized him, and he was not kind.  I viewed the world as black and white...me versus everyone else.  The "other people" who [didn't "get it"]({% post_url 2005-10-10-real-world %}), and the "[mindless drones]({% post_url 2006-03-20-curse-of-passion %})." I told frustrated developers they should "[consider tossing yourself from a balcony]({% post_url 2006-06-14-when-will-hurting-stop %})." I called software that I didn't like "[one of the greatest crimes against humanity I have witnessed in recent history]({% post_url 2010-01-10-airfail-for-html-developers %})."  When someone struggled with software I'd built, [I blamed the user]({% post_url 2023-11-23-my-no-shame-november-story %}) instead of identifying the bugs in my own platform.
 
-In 2005 I sorted the world into people who "get it" and people who don't, and called the second group "mindless drones." I told frustrated developers they should "consider tossing yourself from a balcony." I called Adobe AIR "one of the greatest crimes against humanity I have witnessed in recent history." When someone struggled with software I'd built, I reached for PEBCAK, my little acronym for talking down on people who didn't appreciate the elegance of my systems.
-
-Real people read those words. I wrote them in public, on purpose, and felt clever doing it.
-
-Here's what surprised me most: I didn't feel guilty reading them. I felt curious. Who was that guy? What was he so angry about? He clearly cared, enormously, about craft and testing and doing the work well. So where did all the contempt come from?
-
-Peter Senge has a line that answers it:
+What was the source of The Ranter's cynicism?  Peter Senge has a line that I think answers it:
 
 > Scratch the surface of most cynics and you find a frustrated idealist, someone who made the mistake of converting his ideals into expectations.
 
-That's the whole diagnosis. I wasn't detached or resigned, which is what a real cynic actually is. I was an idealist who turned his ideals into demands on everyone around him, then got contemptuous when they fell short. The curiosity was never the problem. The ego riding along with it was.
-
-I've written before about dropping the shame around this kind of thing; my [#NoShameNovember story](/2023/11/my-no-shame-november-story.html) was about exactly that. You can't learn much from a version of yourself you're too embarrassed to look at. Meet him with curiosity instead. He has things to tell you.
+That's the whole diagnosis. I was an idealist who turned strong opinions into unspoken expectations on everyone else, and then got contemptuous when they fell short.  Ego and pride taking the driver's seat assuming my opinions were the "right" ones.
 
 ## The Shift
 

@@ -4,6 +4,8 @@ Decisions: [decisions.md](decisions.md)
 Research: [research.md](research.md)
 Structure: [structure.md](structure.md)
 
+> **Revision note (post-execution):** the era model was later revised from four eras to three — **The Ranter** (2003–2007), **The Builder** (2008–2014), **The Leader** (2015–2026). See [decisions.md](decisions.md) **D7** for the proof. The task descriptions below reflect the original four-era execution and are kept as a record; the analysis artifacts (`report.md`, `evidence.md`, `research.md`, `evolution.html`) carry the current three-era model.
+
 > **For Claude:** REQUIRED SUB-SKILL: Use superpowers:executing-plans to implement this plan task-by-task.
 
 **Goal:** Produce a private, fully-candid written report on how Ryan's tone, identity, beliefs, and world-view changed across four blog eras (2003→2026), plus an optional self-contained visual companion.
