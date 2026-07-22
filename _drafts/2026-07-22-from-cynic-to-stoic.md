@@ -78,12 +78,12 @@ The early blog is a low-safety world with enemies everywhere: bad frameworks, wo
 
 So where did the fighter go? He didn't disappear. He got disciplined. I stopped demanding outcomes and started owning conditions. You don't control whether the world complies with your ideals. You control what you build, how you show up, and whether you can hold your ideals without weaponizing them. Being wrong stopped being a wound and became information. I even started writing that every mental model is wrong and some are useful, which is not a sentence the 2005 guy could have typed.
 
-Hold the ideal. Drop the demand. 
+Holding onto the ideals, and dropping the demands.
 
 ## Still Mopping
 
-While the basement is mostly dry now, I'm still a work in progress and will keep fixing things for many years to come.
+The basement is dry now, but the cleanup continues both for the house, and for me personally.  I'm still a work in progress and will keep fixing things for many years to come.
 
-I'm grateful for the opportunity to reflect on years of change, work through it with experts (AI and human support), and continue moving forward.  If you're interested, I highly recommend [the Primals assessment](https://myprimals.com) for understanding your current world-view, and the [Positive Intelligence Saboteur's assessment](https://www.positiveintelligence.com/saboteurs/) for understanding how you show up when you are _not_ at your best.
+I'm grateful for the opportunity to reflect on these years of change, work through it with experts (AI and human support), and continue moving forward.  If you're interested, I highly recommend [the Primals assessment](https://myprimals.com) for understanding your current world-view, and the [Positive Intelligence Saboteur's assessment](https://www.positiveintelligence.com/saboteurs/) for understanding how you show up when you are _not_ at your best.
 
 Keep mopping!
