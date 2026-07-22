@@ -51,7 +51,7 @@ Structure: [structure.md](structure.md)
   - Change: Confirm every quote line carries a `_posts/*.md` reference; remove any quote that failed verbatim verification in 1.2–1.5 (note removals inline).
   - Test: No quote bullet lacks a `_posts/` path; every cited file exists (`for f in $(grep -oE '_posts/[a-z0-9./-]+\.(md|markdown)' evidence.md | sort -u); do test -f "$f" || echo "MISSING $f"; done` prints nothing).
 
-- [~] Commit Phase 1 — "add verified evidence pack for blog voice-evolution analysis"  (skipped: leave uncommitted per user)
+- [x] Commit Phase 1 — landed together with Phases 2–3 in commit `af8b010` "Add blog voice-evolution analysis (report + visual)"
 
 ## Phase 2: Write the report
 
@@ -90,7 +90,7 @@ Structure: [structure.md](structure.md)
   - Change: Apply the `writing-style` skill and CLAUDE.md anti-patterns: remove any "it's not X, it's Y" constructions, inflated-significance words, superficial "-ing" closers; vary sentence/paragraph length; em dashes sparse. Read end-to-end confirming every claim matches its source post.
   - Test: `grep -niE "it'?s not .* it'?s|stands as a testament|watershed|profound impact|solidif|pivotal|transformative" report.md` returns nothing; manual read-through completed.
 
-- [~] Commit Phase 2 — "write private blog voice-evolution report"  (skipped: leave uncommitted per user)
+- [x] Commit Phase 2 — landed in commit `af8b010` "Add blog voice-evolution analysis (report + visual)"
 
 ## Phase 3: Visual companion (Serves Preference decision D6 — confirm before expanding)
 
@@ -106,7 +106,7 @@ Structure: [structure.md](structure.md)
   - Change: Fix any issue found in verification.
   - Test: Post counts in the timeline match `research.md` (2004:30, 2005:57, 2006:54, 2009:33, 2014:13, 2025:6, etc.); every inferred element is visibly labeled as inference; page body does not scroll horizontally at 375px width; both themes legible.
 
-- [~] Commit Phase 3 — "add self-contained visual companion for voice-evolution analysis"  (skipped: leave uncommitted per user)
+- [x] Commit Phase 3 — landed in commit `af8b010` "Add blog voice-evolution analysis (report + visual)"
 
 ---
 
