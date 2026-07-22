@@ -47,7 +47,9 @@ What came back was a surprise to say the least.  Twenty years of writing distill
   </tr>
 </table>
 
-These eras track my career cleanly enough, from coder to leader. But the roles were just the surface. The deeper read was a shift in disposition, and I recognized it the moment I saw it: I started as a curious but defended perfectionist, hungry for ideas and distrustful of people, my ego fused to being right. Over the years I've become a curious, open builder, the same appetite for ideas, but now ability looks malleable, being wrong is just information, and talent seems to be everywhere. 
+These eras track my career cleanly enough, from coder to leader. But the roles were just the surface. Underneath was a shift in disposition, which the analysis put plainly:
+
+> The old self was a curious, defended perfectionist: hungry for ideas, distrustful of people, ego fused to being right. The current self is a curious, open builder: the same appetite for ideas, but ability is now malleable, being wrong is information, and talent is assumed to be everywhere. 
 
 ## The Candid Mirror
 
