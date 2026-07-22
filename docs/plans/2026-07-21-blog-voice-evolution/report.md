@@ -2,16 +2,17 @@
 
 *A private report for Ryan. Not for publication. It reads the archive (290 posts, 2003–2026) as evidence of how your tone, identity, beliefs, and world-view shifted over time. Every quote is verbatim from a post and cited. The candor is deliberate: you asked for an honest mirror, so the regressions and blind spots are named alongside the growth.*
 
-## The four eras
+## The three eras
 
-The posting volume, more than the calendar, marks the seasons of this blog. Four eras fall out of the data:
+The posting volume, more than the calendar, marks the seasons of this blog. Three eras fall out of the data:
 
 | Era | Years | Posts | Who you were |
 |---|---|---|---|
-| **The Ranter** | 2003–2006 | ~144 | In-the-trenches Java coder, day-job frustrated, side-project prolific |
-| **The Evangelist** | 2007–2009 | ~83 | Startup convert (Java→Ruby), community organizer, faith surfacing |
-| **The Team Lead** | 2010–2014 | ~46 | IC becoming a lead; gems give way to team process |
+| **The Ranter** | 2003–2007 | 169 | Combative in-the-trenches Java coder, day-job frustrated, side-project prolific |
+| **The Builder** | 2008–2014 | 104 | Rails startup convert and community organizer, then IC→tech-lead; "my code" becomes "our code" |
 | **The Leader** | 2015–2026 | 17 | Senior eng/product leader at BetterUp; org, culture, AI |
+
+An earlier cut split the first stretch in two, with a separate "Evangelist" era (2007–2009). The data doesn't support it. In 2007 you were still 96% Java (24 of 25 posts), indistinguishable from the Ranter years; the Java→Ruby pivot actually runs 2008–2011, straddling that boundary; and the combative tone continues to about 2010. So 2007 belongs with the Ranter, and the startup/Rails pivot is the front of a single Builder era that runs through the 2013 tech-lead hinge. Cadence was the only thing that set 2007–2009 apart, and cadence is not identity.
 
 The blog went quiet after 2015. There were zero posts from 2016 through 2021, then one each in 2022 and 2023, before it came back in 2024 as a leadership and strategy platform. The genre break is sharp. In 2015 you were still shipping shell-script protips. By 2024 you were writing about scaling a 100-engineer organization.
 
@@ -29,9 +30,9 @@ The role you write from tracks your career almost exactly, and the clearest sign
 
 In the Ranter era you wrote as a hands-on developer with a frustrating corporate day-job and a stack of side projects. You called yourself "A Passionate Opensource Software Developer" (`2006-03-20-curse-of-passion.md`), and the unit of concern was a method, a framework, a gem.
 
-The Evangelist era is the first pivot. You left corporate Java for a Rails startup: "I'll finally be able to dive into the world of apple and use a macbook pro as my primary development platform" (`2008-04-21-open-wide.md`). You organized user groups, shipped your own gem, ran a hack-a-thon. Still an individual contributor, but now a public one.
+The Builder era opens with the pivot. You left corporate Java for a Rails startup: "I'll finally be able to dive into the world of apple and use a macbook pro as my primary development platform" (`2008-04-21-open-wide.md`). You organized user groups, shipped your own gem, ran a hack-a-thon. Still an individual contributor, but now a public one.
 
-The 2013 hinge is the one that matters most. Leaving Socialcast for "the unknown," you wrote: "If you are unwilling to change, you are *guaranteed* to atrophy" (`2013-07-16-a-new-day.md`). Around here "my gem" becomes "we built," personal repos move to an organization you run, and you start writing about a "team of 25 developers" (`2014-09-10-optimized-development-workflow.md`) and mentoring "developers of the future" (`2011-01-14-3-es-of-engineering.md`).
+The same era's back half is where you became a lead. The 2013 hinge matters most: leaving Socialcast for "the unknown," you wrote "If you are unwilling to change, you are *guaranteed* to atrophy" (`2013-07-16-a-new-day.md`). Around here "my gem" becomes "we built," personal repos move to an organization you run, and you start writing about a "team of 25 developers" (`2014-09-10-optimized-development-workflow.md`) and mentoring "developers of the future" (`2011-01-14-3-es-of-engineering.md`).
 
 By the Leader era the unit of concern is an entire engineering organization and its culture. You write about assigning system ownership "to a *team* instead of an individual" (`2024-03-22-scaling-platform-quality.md`) and declare that "You Don't Declare a Culture — You Engineer One" (`2026-05-30-engineering-your-remote-engineering-team.md`). The progression is legible in one line: a method, then a team's lifecycle, then an org's culture.
 
@@ -77,11 +78,11 @@ You asked for the unflattering parts named, so here they are, grounded in the te
 
 **The early cruelty had targets, and some were people.** Telling strangers to jump off a balcony is funny until you remember real developers read it. The "mindless drones" framing (`2005-10-10-real-world.md`) was contempt aimed at colleagues, not just tools. Your own later post admits the cost of this stance toward users (`2023-11-23-my-no-shame-november-story.md`).
 
-**Certainty was your default, and it wasn't always earned.** The Ranter and Evangelist eras treat strong opinions as proof of competence ("You've got to be confident if you really believe you're right," `2006-03-20-curse-of-passion.md`). The pragmatism came later. Some of the early crusades (the multi-year war on JSP, for instance) read now as a young engineer mistaking volume for rigor.
+**Certainty was your default, and it wasn't always earned.** The Ranter years, and the front of the Builder era, treated strong opinions as proof of competence ("You've got to be confident if you really believe you're right," `2006-03-20-curse-of-passion.md`). The pragmatism came later. Some of the early crusades (the multi-year war on JSP, for instance) read now as a young engineer mistaking volume for rigor.
 
 **The faith thread left the writing, not your life.** In 2008–2009 your Christian faith was explicit and load-bearing in how you made decisions: "Know that the outcome is in God's hands" (`2009-01-28-3-keys-to-decision-making.md`); passion as something you "was built with… as one of the strongest fibers in my being," redirected toward faith (`2008-11-28-my-strongest-strength.md`). By the Leader era it is nearly absent from the public writing. This is the one place the text alone would mislead an outside reader: the archive shows faith fading from the page, but you've noted it has only deepened over these years. The change is editorial, not spiritual. Worth stating plainly, because a reader working from the posts alone would draw the wrong conclusion.
 
-**Two measurement caveats.** First, the Primals scores are one datapoint from 2023; treat the per-era world-view arc as a reasoned read, not data. Second, the eras are wildly unequal in size (144 posts versus 17), so the early reads rest on sampling while the late era was read in full. The confidence in each claim should scale accordingly.
+**Two measurement caveats.** First, the Primals scores are one datapoint from 2023; treat the per-era world-view arc as a reasoned read, not data. Second, the eras are wildly unequal in size (169 posts versus 17), so the early reads rest on sampling while the late era was read in full. The confidence in each claim should scale accordingly.
 
 ## The one-line version
 

@@ -15,7 +15,7 @@ So I asked my Claude coach to roll up it's sleeves and go to work.  Read everyth
 
 ## The Eras Tour (Sonnek's Version)
 
-What came back was a surprise to say the least.  Twenty years of writing distilled into four eras with meaningful differences in written tone, and underlying beliefs.  They are:
+What came back was a surprise to say the least.  Twenty years of writing distilled into three eras with meaningful differences in the written tone, individual identity, and underlying beliefs.  They are:
 
 <table class="eras">
   <tr>
@@ -23,7 +23,7 @@ What came back was a surprise to say the least.  Twenty years of writing distill
       <img src="/images/2026-07-22-era-1-ranter.png" width="110" alt="The Ranter" />
     </td>
     <td style="vertical-align:top;padding:14px 0;">
-      <strong>The Ranter</strong> &middot; 2003&ndash;2006<br>
+      <strong>The Ranter</strong> &middot; 2003&ndash;2007<br>
       Combative Java dev, day-job frustrated, allergic to anyone who didn't "get it."<br>
       <em>"Give me clean slow code any day of the week."</em><br>
       <small><a href="/2006/04/performance-is-overrated.html">Performance Is Overrated, 2006</a></small>
@@ -31,29 +31,18 @@ What came back was a surprise to say the least.  Twenty years of writing distill
   </tr>
   <tr>
     <td style="width:120px;vertical-align:top;padding:14px 18px 14px 0;">
-      <img src="/images/2026-07-22-era-2-evangelist.png" width="110" alt="The Evangelist" />
+      <img src="/images/2026-07-22-era-2-builder.png" width="110" alt="The Builder" />
     </td>
     <td style="vertical-align:top;padding:14px 0;">
-      <strong>The Evangelist</strong> &middot; 2007&ndash;2009<br>
-      Ruby startup convert and community organizer, evangelizing to anyone who'd sit still.<br>
-      <em>"HTML5 is the light on the horizon and Google is her knight in shining armor."</em><br>
-      <small><a href="/2009/08/end-of-adobe-air.html">The End of Adobe AIR, 2009</a></small>
-    </td>
-  </tr>
-  <tr>
-    <td style="width:120px;vertical-align:top;padding:14px 18px 14px 0;">
-      <img src="/images/2026-07-22-era-3-team-lead.png" width="110" alt="The Team Lead" />
-    </td>
-    <td style="vertical-align:top;padding:14px 0;">
-      <strong>The Team Lead</strong> &middot; 2010&ndash;2014<br>
-      "My code" became "our code"; the brashness softening toward pragmatism.<br>
+      <strong>The Builder</strong> &middot; 2008&ndash;2014<br>
+      Left corporate Java for a Rails startup and shipped his own gems, then went from "my code" to "our code" leading a team.<br>
       <em>"If you are unwilling to change, you are guaranteed to atrophy."</em><br>
       <small><a href="/2013/07/a-new-day.html">A New Day, 2013</a></small>
     </td>
   </tr>
   <tr>
     <td style="width:120px;vertical-align:top;padding:14px 18px 14px 0;">
-      <img src="/images/2026-07-22-era-4-leader.png" width="110" alt="The Leader" />
+      <img src="/images/2026-07-22-era-3-leader.png" width="110" alt="The Leader" />
     </td>
     <td style="vertical-align:top;padding:14px 0;">
       <strong>The Leader</strong> &middot; 2015&ndash;2026<br>

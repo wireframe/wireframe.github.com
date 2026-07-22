@@ -139,7 +139,7 @@
 
 <div class="viz-root">
   <h1>How the voice changed, 2003&ndash;2026</h1>
-  <p class="lede">Twenty-three years of one blog, read as four eras. Bar heights are real data (posts per year). Everything about tone, mindset, and world-view is an <span class="est">analyst estimate</span> read from the text, not a measurement.</p>
+  <p class="lede">Twenty-three years of one blog, read as three eras. Bar heights are real data (posts per year). Everything about tone, mindset, and world-view is an <span class="est">analyst estimate</span> read from the text, not a measurement.</p>
   <span class="tag">Private analysis &middot; blog archive + your Roam notes</span>
 
   <h2>Posts per year <span style="font-weight:400;color:var(--text-muted);font-size:.8rem">(real data)</span></h2>
@@ -153,7 +153,7 @@
   </div>
   <p class="caption">The 2016&ndash;2021 flatline is real: zero posts for six straight years, then one each in 2022 and 2023, before the 2024 revival.</p>
 
-  <h2>The four eras</h2>
+  <h2>The three eras</h2>
   <div class="cards" id="cards"></div>
 
   <h2>Mindset: fixed &rarr; growth <span class="est" style="font-size:.72rem">(analyst estimate &mdash; not measured)</span></h2>
@@ -162,8 +162,7 @@
     <div class="track-row" id="track"></div>
     <div class="track-labels">
       <span>defended /<br>fixed-about-people</span>
-      <span>meaning<br>enters</span>
-      <span>comfort with<br>change</span>
+      <span>meaning enters,<br>change becomes good</span>
       <span>open /<br>growth</span>
     </div>
   </div>
@@ -223,25 +222,21 @@
 
 <script>
   const ERAS = [
-    { id:1, name:"The Ranter",     yrs:"2003–2006", cls:"e1",
-      identity:"In-the-trenches Java coder, day-job frustrated, side-project prolific",
+    { id:1, name:"The Ranter",  yrs:"2003–2007", cls:"e1",
+      identity:"Combative Java IC, day-job frustrated, side-project prolific",
       tone:"Combative, profane, ALL-CAPS, unedited",
-      world:"Curious about ideas, hostile to people; world of allies vs. 'drones'" },
-    { id:2, name:"The Evangelist", yrs:"2007–2009", cls:"e2",
-      identity:"Startup convert (Java→Ruby), community organizer, faith surfacing",
-      tone:"Confident evangelism, still ranty, humor-forward",
-      world:"World gains meaning; explicit faith frames decisions" },
-    { id:3, name:"The Team Lead",  yrs:"2010–2014", cls:"e3",
-      identity:"IC becoming a lead; personal gems give way to team process",
-      tone:"Brash, marketing-inflected, softening toward pragmatism",
-      world:"Change is a moral good; invests in growing others" },
-    { id:4, name:"The Leader",     yrs:"2015–2026", cls:"e4",
-      identity:"Senior eng/product leader; org, culture, and AI",
+      world:"Curious about ideas, hostile to people; allies vs. 'drones'" },
+    { id:3, name:"The Builder", yrs:"2008–2014", cls:"e3",
+      identity:"Rails startup convert & community organizer, then IC→tech-lead",
+      tone:"Confident evangelism cooling into pragmatism; still brash",
+      world:"World gains meaning (faith surfaces); change becomes good; invests in others" },
+    { id:4, name:"The Leader",  yrs:"2015–2026", cls:"e4",
+      identity:"Senior eng/product leader at BetterUp; org, culture, and AI",
       tone:"Punchy but civil; cited authorities, humble disclaimers",
       world:"Optimist-explorer; talent seen as universal, being wrong is data" },
   ];
   const eraColor = { 1:"var(--era-1)", 2:"var(--era-2)", 3:"var(--era-3)", 4:"var(--era-4)" };
-  function eraOf(y){ if(y<=2006)return 1; if(y<=2009)return 2; if(y<=2014)return 3; return 4; }
+  function eraOf(y){ if(y<=2007)return 1; if(y<=2014)return 3; return 4; }
 
   const COUNTS = {2003:3,2004:30,2005:57,2006:54,2007:25,2008:25,2009:33,2010:11,2011:11,
     2012:3,2013:8,2014:13,2015:3,2016:0,2017:0,2018:0,2019:0,2020:0,2021:0,2022:1,2023:1,2024:3,2025:6,2026:3};

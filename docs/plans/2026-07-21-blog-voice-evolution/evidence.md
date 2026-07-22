@@ -4,7 +4,7 @@ Every quote below was verified verbatim against its source post (`rg -F` hit con
 
 ---
 
-## Era 1 — The Ranter (2003–2006, ~144 posts)
+## Era 1 — The Ranter (2003–2007, 169 posts)
 
 ### Tone & voice
 - "If you use JSP, stop using JSP. If you can't stop using JSP, consider tossing yourself from a balcony to avoid dealing with it's suckyness." — `_posts/2006-06-14-when-will-hurting-stop.md`
@@ -29,49 +29,37 @@ Every quote below was verified verbatim against its source post (`rg -F` hit con
 
 ---
 
-## Era 2 — The Evangelist (2007–2009, ~83 posts)
+## Era 2 — The Builder (2008–2014, 104 posts)
 
 ### Tone & voice
 - "Prove it." (as a standalone paragraph) — `_posts/2008-04-30-say-it-do-it-prove-it.md`
 - Star Wars aside on switching to Mac: "unlearn what I have learned" — `_posts/2008-04-21-open-wide.md`
-
-### Identity
-- Java→Ruby startup pivot: leaves corporate Windows Java shop for a Mac/Rails startup (Socialcast). "I'll finally be able to dive into the world of apple and use a macbook pro as my primary development platform." — `_posts/2008-04-21-open-wide.md`
-- Announces broadening the blog beyond tech: "I will be expanding my posts to include a little bit more about myself and personal interests." — `_posts/2009-07-12-adios-jroller.md`
-
-### Beliefs & values
-- Reframes Dependency Injection as a testability crutch: "Dependency Injection is used for testability, not configuration. Period." — `_posts/2008-08-09-end-of-dependency-injection_09.md`
-- Techno-optimism about the open web: "HTML5 is the light on the horizon and Google is her knight in shining armor." — `_posts/2009-08-03-end-of-adobe-air.md`
-
-### World-view
-- Explicit Christian faith frames decisions: "Know that the outcome is in God's hands." — `_posts/2009-01-28-3-keys-to-decision-making.md`
-- Passion as innate wiring, redirected to faith: "I was built with passion as one of the strongest fibers in my being." — `_posts/2008-11-28-my-strongest-strength.md`
-- **[Growth seed]** talents framed as gifts to steward and grow ("plus one" ethic across the innerwork posts).
-
----
-
-## Era 3 — The Taper / Team Lead (2010–2014, ~46 posts)
-
-### Tone & voice
 - Peak vitriol: Adobe AIR "is one of the greatest crimes against humanity I have witnessed in recent history." — `_posts/2010-01-10-airfail-for-html-developers.md`
 - Register note: still exclamation/BOOM-heavy, meme-speak ("teh new hotness"), unedited typos.
 
 ### Identity
+- Java→Ruby startup pivot: leaves corporate Windows Java shop for a Mac/Rails startup (Socialcast). "I'll finally be able to dive into the world of apple and use a macbook pro as my primary development platform." — `_posts/2008-04-21-open-wide.md`
+- Announces broadening the blog beyond tech: "I will be expanding my posts to include a little bit more about myself and personal interests." — `_posts/2009-07-12-adios-jroller.md`
 - 2013 career hinge (leaves Socialcast for "the unknown"): "If you are unwilling to change, you are *guaranteed* to atrophy." / "Stay hungry. Stay foolish." — `_posts/2013-07-16-a-new-day.md`
 - Team-scale leadership: "used this flow with a team of 25 developers" — `_posts/2014-09-10-optimized-development-workflow.md`
 - Mentoring voice: "I've had the great privilege over the years to train new developers and mentor developers of the future" — `_posts/2011-01-14-3-es-of-engineering.md`
 
 ### Beliefs & values
+- Reframes Dependency Injection as a testability crutch: "Dependency Injection is used for testability, not configuration. Period." — `_posts/2008-08-09-end-of-dependency-injection_09.md`
+- Techno-optimism about the open web: "HTML5 is the light on the horizon and Google is her knight in shining armor." — `_posts/2009-08-03-end-of-adobe-air.md`
 - Bias to action: "It is better to be wrong than undecided." / "Perfect is the enemy of good" — `_posts/2014-09-08-startup-words-of-wisdom.md`
 - **[Dogma→pragmatism]** "I'm all for separation of concerns, but this is a simple matter of pragmatism vs dogma." — `_posts/2014-11-17-rspec-controllers-best-practices.md`
 
 ### World-view
+- Explicit Christian faith frames decisions: "Know that the outcome is in God's hands." — `_posts/2009-01-28-3-keys-to-decision-making.md`
+- Passion as innate wiring, redirected to faith: "I was built with passion as one of the strongest fibers in my being." — `_posts/2008-11-28-my-strongest-strength.md`
+- **[Growth seed]** talents framed as gifts to steward and grow ("plus one" ethic across the innerwork posts).
 - Change/growth as a moral good (atrophy quote above).
 - Startup work as high-stakes calling; time as the scarcest resource (`_posts/2014-09-08-startup-words-of-wisdom.md`).
 
 ---
 
-## Era 4 — The Leader (2015–2026, ~15 posts)
+## Era 3 — The Leader (2015–2026, 17 posts)
 
 ### Tone & voice
 - Humble-expert disclaimer tic: "Every mental model is wrong…some are useful. Take this template if it helps, leave it if it doesn't." — `_posts/2025-02-04-v2ooo.md`

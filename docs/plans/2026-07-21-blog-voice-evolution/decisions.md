@@ -53,6 +53,12 @@ Task: Analyze the blog archive for how Ryan has changed as a professional / lead
 **Chosen:** Roam block `((NKUuTwhnE))` is a required research input for the world-view dimension.
 **Rationale:** Ryan supplied this block ref alongside the world-view dimension. Research phase must resolve it. Before reading the graph: call `get_graph_guidelines` for the relevant graph first (per MCP server instructions), and translate any Roam-internal shorthand into plain English in the final report (standing preference: [[feedback-roam-jargon]]).
 
+## D7: Era count — three, not four (revised after analysis)
+**Question:** Does "The Evangelist" (2007–2009) stand as its own era, or is it a transition to be absorbed?
+**Firmness:** Firm (revised post-analysis)
+**Chosen:** Collapse to **three eras** — The Ranter (2003–2007, 169 posts), The Builder (2008–2014, 104), The Leader (2015–2026, 17). The old Evangelist dissolves: 2007 folds into the Ranter; 2008–2009 becomes the front of the Builder, which also absorbs the old Team Lead (2010–2014).
+**Rationale (proven from the archive, year-by-year keyword pass):** In 2007, 24 of 25 posts were still Java (96%) — statistically identical to the Ranter years (78–81% Java). The Java→Ruby pivot actually runs 2008–2011 (Ruby-tagged posts 8%→28%→44%→75%→82%), straddling the old Evangelist/Team-Lead boundary rather than fitting inside 2007–09. Faith language is diffuse (2006 had as many faith posts as 2009), not a 2007–09 signature. Combative tone is continuous to ~2010 (peak vitriol — the Adobe AIR line — is 2010). Only posting cadence set 2007–09 apart, and cadence is not identity. Propagated across `report.md`, `evidence.md`, `research.md`, `evolution.html`, and the blog draft `_drafts/2026-07-22-from-cynic-to-stoic.md`. (The original four-era task descriptions in `plan.md` are left as an execution record; this decision supersedes them.)
+
 ## Research Focus Areas
 - Inventory the full `_posts/` archive: list every post with date and title, then segment the 2003→2026 span into coherent eras (e.g. by role, topic cluster, or writing-style breaks). How many posts per era?
 - Per era, identify 2–4 representative posts to quote from for tone/voice evidence.
