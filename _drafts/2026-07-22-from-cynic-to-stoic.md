@@ -65,9 +65,9 @@ That's exactly it. I was an idealist who turned strong opinions into unspoken ex
 
 So what changed? There was no lightbulb moment, and no single cause I can point to. It was slow and arduous, a handful of forces pulling in the same direction over a lot of years, because the beliefs that drive behavior take a long time to rewire.
 
-The obvious ones came from external events. I got married, and had kids along the way. My career walked me from writing code alone, to leading teams, to leading leaders. Each step widened the aperture. It's hard to keep sorting the world into people who "get it" when my whole job becomes helping other people get there, and hard to stay at war with a world where I'm busy raising a family.
+The obvious ones came from _external_ events. I got married, and had kids along the way. My career walked me from writing code alone, to leading teams, to leading leaders. Each step widened the aperture. It's hard to keep sorting the world into people who "get it" when my whole job becomes helping other people get there, and hard to stay at war with a world where I'm busy raising a family.
 
-The deeper change came from the inside, and it took deliberate work.  I've learned to identify what I can and can't control through the foundational practice and philosophy of Stoicism and my faith.  And I've been incredibly fortunate to work with the expert coaches at [BetterUp](https://www.betterup.com) (both human and AI) who _push_ me to keep growing.
+The deeper change came from years of deliberate _innerwork_.  I've learned to identify what I can and can't control through the foundational practice and philosophy of Stoicism and my faith.  And I've been incredibly fortunate to work with the expert coaches at [BetterUp](https://www.betterup.com) (both human and AI) who _push_ me to keep growing.
 
 Some of it even shows up in the data. The psychologist Jer Clifton built the [Primals assessment](https://myprimals.com), a measure of the gut-level beliefs you hold about the world, the kind that stay fairly steady across a lifetime. Two of mine moved anyway: I stopped believing the world was **dangerous**, and started believing it was **good**. The Ranter era is a low-safety world with enemies everywhere: bad frameworks, worse managers, the drones. I had to fight and prove myself to do anything worthwhile. Over time the world stopped feeling like a fight I had to win and started feeling like a place that was basically on my side. 
 
@@ -77,4 +77,4 @@ The Ranter had tied his sense of being right to controlling how everyone else be
 
 The basement is dry now, but the cleanup continues in the house, and in me.  I'm still a work in progress and will be for many years to come. I'm grateful for the chance to look back, and for the people and tools that helped me do the work.
 
-Keep mopping!
+_Keep mopping!_
