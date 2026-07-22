@@ -13,6 +13,8 @@ DATE=$(date +%Y-%m-%d)
 SLUG=$(echo "$TITLE" | tr '[:upper:]' '[:lower:]' | tr ' ' '-' | tr -cd '[:alnum:]-')
 FILENAME="_drafts/${DATE}-${SLUG}.md"
 
+mkdir -p _drafts
+
 if [ -f "$FILENAME" ]; then
   echo "Error: $FILENAME already exists"
   exit 1
