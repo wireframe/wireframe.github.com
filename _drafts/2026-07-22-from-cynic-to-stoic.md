@@ -9,7 +9,7 @@ tags:
 
 Last week was a rough one.  A catastrophic failure in our basement plumbing, and my birthday spent cleaning and salvaging anything that could be saved.
 
-Still in that clean-out mood, I figured I'd do some housekeeping on the blog too: fix a few dead links, prune some tags. But scrolling back through twenty-plus years of posts, I stopped on a question I'd never actually asked myself: how do the changes in my writing over time reflect the changes in me?
+Still in that clean-out mood, I figured I'd do some housekeeping on the blog too: fix a few dead links, prune some tags. But scrolling back through twenty-plus years of posts, I stopped on a question I'd never actually asked myself: **how do the changes in my writing reflect the changes in me**?
 
 So I asked my Claude coach to roll up its sleeves and go to work.  Read everything, analyze the content and infer changes in my tone, voice, identity, values, and world-view.  And to be _brutally_ honest. 
 
@@ -55,7 +55,7 @@ These eras track my career cleanly enough, from coder to leader. But the roles w
 
 I sat with this analysis for quite some time.  Claude did not pull any punches.  Who was that "Ranter" version of me? I barely recognized him, and he was not kind.  I viewed the world as black and white...me versus everyone else.  The "other people" who [didn't "get it"]({% post_url 2005-10-10-real-world %}), and the "[mindless drones]({% post_url 2006-03-20-curse-of-passion %})." I told frustrated developers they should "[consider tossing yourself from a balcony]({% post_url 2006-06-14-when-will-hurting-stop %})." I called software that I didn't like "[one of the greatest crimes against humanity I have witnessed in recent history]({% post_url 2010-01-10-airfail-for-html-developers %})."  When someone struggled with software I'd built, [I blamed the user]({% post_url 2023-11-23-my-no-shame-november-story %}) instead of identifying the bugs in my own platform.
 
-What was the source of The Ranter's cynicism?  One explanation resonates strongly:
+What was the source of The Ranter's cynicism?  One explanation really resonated with me:
 
 > Scratch the surface of most cynics and you find a frustrated idealist, someone who made the mistake of converting his ideals into expectations.  - Peter Senge (The Fifth Discipline)
 
