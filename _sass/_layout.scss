@@ -496,6 +496,12 @@ span + .entry-title {
     @include font-size(64,yes,66);
   }
 }
+// Post title divider: closes the header zone before the article body
+#post .entry-title {
+  padding-bottom: 0.3em;
+  margin-bottom: 0.4em;
+  border-bottom: 1px solid rgba($black, 0.15);
+}
 .entry-wrapper {
   @include outer-container;
   margin-top: 0;
