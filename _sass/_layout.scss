@@ -7,93 +7,154 @@ body {
 }
 
 
-// Top Navigation
+// Site Header
 // --------------------------------------------------
+// Compact brand bar: wordmark + tagline on the left, nav on the right,
+// finished with a thin yellow gradient rule. Nav collapses to a toggle
+// on small screens (driven by responsive-nav.js).
 
-.navigation-wrapper {
-  text-align: center;
-  @include clearfix;
-  ul {
-    display: inline-block;
-    width: 100%;
-    vertical-align: top;
-    margin: 0 0 5px;
-    padding: 4px 20px;
-    background-color: $black;
-    @include media($medium) {
-      width: auto;
-      @include rounded(0 0 10px 10px);
-    }
-    @include clearfix;
-  }
-  li {
+.site-header {
+  position: relative;
+  background: $black;
+  &::after {
+    content: "";
     display: block;
-    float: left;
-    list-style: none;
-    text-align: center;
-    @include font-size(24,no);
-    text-transform: uppercase;
-    color: $white;
-    @include media($medium) {
-      @include font-size(14,no);
-    }
-    a:hover {
-      @include box-shadow($shadow: inset 0 0 1px $white);
-    }
-  }
-  a {
-    display: block;
-    margin-bottom: 10px;
-    padding: 12px 20px;
-    @include media($medium) {
-      margin-bottom: 0;
-      padding: 6px 10px;
-    }
-    color: $white;
-    @include rounded(4px);
-    &:hover {
-      background-color: lighten($black, 10);
-    }
+    height: 4px;
+    background: linear-gradient(90deg,
+      $brand-gold 0%,
+      $brand-yellow 26%,
+      lighten($brand-yellow, 12%) 50%,
+      $brand-yellow 74%,
+      $brand-gold 100%);
+    box-shadow: 0 1px 6px rgba($brand-yellow, 0.5);
   }
 }
-// Responsive nav toggle stuff
+.site-header-inner {
+  max-width: em(960);
+  margin: 0 auto;
+  padding: 12px $gutter;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0 18px;
+  @include media($medium) {
+    flex-wrap: nowrap;
+  }
+}
+.site-brand {
+  font-family: $heading-font;
+  font-weight: 700;
+  @include font-size(24, no);
+  line-height: 1;
+  letter-spacing: -0.01em;
+  color: $white;
+  text-decoration: none;
+  white-space: nowrap;
+  &:visited {
+    color: $white;
+  }
+  &:hover {
+    color: rgba($white, 0.85);
+  }
+}
+.site-tagline {
+  display: none;
+  font-family: $alt-font;
+  font-style: italic;
+  @include font-size(15, no);
+  line-height: 1;
+  color: rgba($white, 0.6);
+  white-space: nowrap;
+  @include media($medium) {
+    display: inline;
+  }
+}
+
+// Navigation: right-aligned links on desktop, collapsing to a toggle on mobile.
 #site-nav {
   display: none;
+  width: 100%;
+  order: 3;
   z-index: 5;
-  @include media($medium) {
-    -webkit-animation-duration: 1s;
-    -moz-animation-duration: 1s;
-    -o-animation-duration: 1s;
-    animation-duration: 1s;
+  background-color: $black;
+  &.opened {
+    display: block;
   }
   &.closed {
     @include media($medium) {
       display: block;
     }
   }
-  &.opened {
+  ul {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 4px 0 2px;
+    list-style: none;
+  }
+  li {
+    list-style: none;
+  }
+  a,
+  .dosearch span {
     display: block;
-    max-height: 100%;
-    li {
-      float: none;
-      @include media($medium) {
-        float: left;
-      }
+    color: $white;
+    @include font-size(14, no);
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    padding: 10px 4px;
+    @include rounded(4px);
+    text-decoration: none;
+    cursor: pointer;
+  }
+  a:hover,
+  .dosearch:hover span {
+    background-color: lighten($black, 12);
+  }
+  @include media($medium) {
+    display: block;
+    width: auto;
+    order: 0;
+    margin-left: auto;
+    ul {
+      flex-direction: row;
+      align-items: center;
+    }
+    a,
+    .dosearch span {
+      padding: 6px 12px;
     }
   }
 }
+// responsive-nav.js injects `#site-nav.opened{max-height:Npx}`, but it measures
+// the menu while it is display:none, so N is 0 and the panel collapses to zero
+// height (links spill onto the page below). We show/hide with display, so cancel
+// that max-height. Higher specificity than the injected rule wins without !important.
+.site-header #site-nav.opened {
+  max-height: none;
+}
 .no-js #site-nav {
   display: block;
+  width: auto;
+  order: 0;
+  margin-left: auto;
+  ul {
+    flex-direction: row;
+  }
 }
 #nav-toggle {
   z-index: 20;
   display: block;
-  vertical-align: top;
-  margin: 0;
-  padding: 6px 20px;
-  background-color: $black;
-  height: 44px;
-  @include rounded(0);
+  order: 2;
+  margin-left: auto;
+  padding: 7px 10px;
+  color: $white;
+  background: transparent;
+  @include font-size(15, no);
+  @include rounded(4px);
+  &:hover {
+    background-color: lighten($black, 12);
+  }
   @include media($medium) {
     display: none;
   }
@@ -116,32 +177,9 @@ body {
 }
 
 
-// Masthead
+// Site logo / avatar (bio + home page)
 // --------------------------------------------------
 
-.masthead {
-  margin-top: 10px;
-  padding: 10px;
-  background-image: url('/images/background.jpg');
-  @include clearfix;
-  @include media($medium) {
-    margin-top: 0;
-  }
-  .wrap {
-    text-align: center;
-    max-width: em(440);
-    padding-right: 20px;
-    padding-left: 20px;
-    @include media($medium) {
-      max-width: em(728);
-      padding-right: 60px;
-      padding-left: 60px;
-    }
-    @include media($large) {
-      max-width: em(960);
-    }
-  }
-}
 .site-logo {
   img {
     width: 100px;
@@ -162,29 +200,6 @@ body {
     }
   }
 }
-.site-title {
-  margin-top: 10px;
-  margin-bottom: 0;
-  @include animation-duration(1s);
-    @include animation-delay(.75s);
-  a {
-    color: $black;
-  }
-}
-.site-description {
-  margin-bottom: 10px;
-  margin-top: 0;
-  font-family: $alt-font;
-  @include font-size(16);
-  font-weight: 400;
-  font-style: italic;
-  @include animation-duration(1s);
-    @include animation-delay(1s);
-  @include media($medium) {
-    @include font-size(20);
-  }
-}
-
 // Bio
 .bio {
   text-align: left;
@@ -480,6 +495,12 @@ span + .entry-title {
   @include media($large) {
     @include font-size(64,yes,66);
   }
+}
+// Post title divider: closes the header zone before the article body
+#post .entry-title {
+  padding-bottom: 0.3em;
+  margin-bottom: 0.4em;
+  border-bottom: 1px solid rgba($black, 0.15);
 }
 .entry-wrapper {
   @include outer-container;
