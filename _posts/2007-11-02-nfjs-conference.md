@@ -4,7 +4,6 @@ title: "NFJS Conference"
 tags:
 - performance
 - java
-- process
 - nfjs
 ---
 

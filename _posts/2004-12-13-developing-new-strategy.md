@@ -2,7 +2,7 @@
 
 title: "Developing a New Strategy"
 tags:
-- process
+- software-development
 ---
 
 Infoworld has a great article that lays out [The top 20 IT mistakes to avoid](http://www.infoworld.com/article/04/11/19/47FEtop20_1.html). My absolute favorite in this article is number 16, Clinging to prior solutions. With it's real world example that closely mirrors my own experience, it articulately describes the idiocy in blindly using a solution just because it's been done before.

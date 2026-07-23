@@ -2,7 +2,8 @@
 title: "Optimized Development Workflow"
 tags:
 - open-source
-- process
+- software-development
+- version-control
 ---
 
 Over the years, I have worked to define and refine a software

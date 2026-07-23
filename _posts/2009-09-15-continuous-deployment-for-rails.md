@@ -3,7 +3,7 @@
 title: "Continuous Deployment for Rails"
 tags:
 - ruby
-- process
+- software-development
 - startup
 - rails
 - testing
