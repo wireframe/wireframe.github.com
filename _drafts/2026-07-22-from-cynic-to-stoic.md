@@ -20,7 +20,7 @@ What came back was a surprise to say the least.  Twenty years of writing distill
 <table class="eras">
   <tr>
     <td style="width:120px;vertical-align:top;padding:14px 18px 14px 0;">
-      <img src="/images/2026-07-22-era-1-ranter.png" width="110" alt="The Ranter" />
+      <img src="/images/2026-07-22-era-1-ranter.png" width="110" height="110" style="border-radius:50%;object-fit:cover;" alt="The Ranter" />
     </td>
     <td style="vertical-align:top;padding:14px 0;">
       <strong>The Ranter</strong> &middot; 2003&ndash;2007<br>
@@ -29,7 +29,7 @@ What came back was a surprise to say the least.  Twenty years of writing distill
   </tr>
   <tr>
     <td style="width:120px;vertical-align:top;padding:14px 18px 14px 0;">
-      <img src="/images/2026-07-22-era-2-builder.png" width="110" alt="The Builder" />
+      <img src="/images/2026-07-22-era-2-builder.png" width="110" height="110" style="border-radius:50%;object-fit:cover;" alt="The Builder" />
     </td>
     <td style="vertical-align:top;padding:14px 0;">
       <strong>The Builder</strong> &middot; 2008&ndash;2014<br>
@@ -38,7 +38,7 @@ What came back was a surprise to say the least.  Twenty years of writing distill
   </tr>
   <tr>
     <td style="width:120px;vertical-align:top;padding:14px 18px 14px 0;">
-      <img src="/images/2026-07-22-era-3-leader.png" width="110" alt="The Leader" />
+      <img src="/images/2026-07-22-era-3-leader.png" width="110" height="110" style="border-radius:50%;object-fit:cover;" alt="The Leader" />
     </td>
     <td style="vertical-align:top;padding:14px 0;">
       <strong>The Leader</strong> &middot; 2015&ndash;2026<br>
