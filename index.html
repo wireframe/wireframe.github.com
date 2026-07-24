@@ -44,6 +44,9 @@ github_script: true
 
   <section class="bio-section">
     <h2>What I'm thinking about</h2>
+    <p>
+      I use writing as a tool to clarify my own thinking. My recent focus has been on <a href="/tags/#leadership">leadership</a>, <a href="/tags/#product-development">product development</a>, and building <a href="/tags/#engineering">engineering teams</a> in the age of <a href="/tags/#ai">AI</a>. Here are a few that I keep coming back to:
+    </p>
     <ul>
       {% assign featured_posts = site.posts | where_exp: "post", "post.featured_description" %}
       {% for post in featured_posts %}
@@ -56,9 +59,9 @@ github_script: true
   <section class="bio-section">
     <h2>What I'm shipping</h2>
     <p>
-      I've been shipping open source since 2005. The majority of my work is on <a href="https://github.com/wireframe">GitHub</a>. Some highlights:
+      I've been shipping for decades, and I'm still at it. From <a href="{% post_url 2025-12-22-my-mcp-learnings %}">AI</a>, to web applications, to infrastructure libraries, to browser extensions, and productivity tools. Much of my work in the open and <a href="https://github.com/wireframe">open-source</a>. Some highlights:
     </p>
-    <ul class="project-list">
+    <ul>
       {% for project in site.data.projects %}
       <li><a href="{{ project.url }}">{{ project.name }}</a> - {{ project.description }}</li>
       {% endfor %}

@@ -75,3 +75,5 @@ tags:
 ```
 
 Common tags: `engineering`, `product development`, `ai`, `tools`
+
+Use `release-announcement` to tag posts announcing an open-source release or project launch.
