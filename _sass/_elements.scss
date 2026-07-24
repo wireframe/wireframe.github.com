@@ -90,6 +90,15 @@ table {
   }
 }
 
+// Inline SVG Icons
+// --------------------------------------------------
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.125em;
+}
+
 .close-btn {
   position: absolute;
   top: 0;
@@ -98,6 +107,10 @@ table {
   background-color: transparent;
   border: 0 solid transparent;
   color: $white;
+  .icon {
+    width: 2em;
+    height: 2em;
+  }
 }
 
 // Well
