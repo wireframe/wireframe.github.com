@@ -2,6 +2,7 @@
 
 title: "Send Mail with Backgrounded Mail"
 tags:
+- release-announcement
 - ruby
 - backgrounded
 - email

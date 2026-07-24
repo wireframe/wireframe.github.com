@@ -2,6 +2,7 @@
 
 title: "Wicket Scriptaculous 0.1.1 Release"
 tags:
+- release-announcement
 - javascript
 - java
 - scriptaculous

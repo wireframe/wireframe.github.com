@@ -2,6 +2,7 @@
 
 title: "Mailinator Google Chrome Extension"
 tags:
+- release-announcement
 - chrome
 - open-source
 ---

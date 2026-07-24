@@ -1,6 +1,7 @@
 ---
 title: "Hide Self-View Firefox Extension"
 tags:
+- release-announcement
 - open-source
 - firefox
 ---

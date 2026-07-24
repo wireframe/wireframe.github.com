@@ -2,6 +2,7 @@
 
 title: "Zillow Ubiquity Plugin"
 tags:
+- release-announcement
 - zillow
 - ubiquity
 - open-source

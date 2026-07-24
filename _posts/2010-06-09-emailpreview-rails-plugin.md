@@ -2,6 +2,7 @@
 
 title: "email_preview Rails Plugin"
 tags:
+- release-announcement
 - ruby
 - email-preview
 - rails

@@ -2,6 +2,7 @@
 
 title: "jQuery Snazzy Select Plugin"
 tags:
+- release-announcement
 - javascript
 - jquery
 ---

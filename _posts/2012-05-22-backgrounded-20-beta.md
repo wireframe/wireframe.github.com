@@ -2,6 +2,7 @@
 
 title: "Backgrounded 2.0 Beta"
 tags:
+- release-announcement
 - ruby
 - backgrounded
 - rails

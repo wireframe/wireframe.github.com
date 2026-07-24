@@ -1,6 +1,7 @@
 ---
 title: "iPhoto Backup Gem"
 tags:
+- release-announcement
 - ruby
 - apple
 - open-source

@@ -2,6 +2,7 @@
 
 title: "Backgrounded - Background Processing Done Right"
 tags:
+- release-announcement
 - ruby
 - backgrounded
 - open-source

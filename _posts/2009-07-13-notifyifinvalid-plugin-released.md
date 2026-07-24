@@ -2,6 +2,7 @@
 
 title: "notify_if_invalid Plugin Released"
 tags:
+- release-announcement
 - ruby
 - open-source
 ---

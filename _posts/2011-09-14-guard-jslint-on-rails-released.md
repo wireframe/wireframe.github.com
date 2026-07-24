@@ -2,6 +2,7 @@
 
 title: "Guard JSLint on Rails Released!"
 tags:
+- release-announcement
 - ruby
 - javascript
 - testing

@@ -2,6 +2,7 @@
 
 title: "New Relic + Backgrounded + Resque = Awesome"
 tags:
+- release-announcement
 - ruby
 - performance
 - backgrounded

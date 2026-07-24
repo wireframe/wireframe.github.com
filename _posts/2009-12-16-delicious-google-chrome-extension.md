@@ -2,6 +2,7 @@
 
 title: "Delicious Google Chrome Extension"
 tags:
+- release-announcement
 - chrome
 - open-source
 ---

@@ -2,6 +2,7 @@
 
 title: "Preview Release of Shard Minotaur"
 tags:
+- release-announcement
 - java
 - shard
 ---

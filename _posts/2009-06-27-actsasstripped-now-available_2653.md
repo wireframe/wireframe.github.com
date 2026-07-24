@@ -1,6 +1,7 @@
 ---
 title: "acts_as_stripped Now Available"
 tags:
+- release-announcement
 - ruby
 - rails
 - open-source

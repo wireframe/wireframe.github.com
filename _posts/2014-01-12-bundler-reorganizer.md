@@ -1,6 +1,7 @@
 ---
 title: "Bundler Reorganizer"
 tags:
+- release-announcement
 - ruby
 - open-source
 ---

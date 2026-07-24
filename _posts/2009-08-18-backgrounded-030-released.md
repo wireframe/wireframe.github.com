@@ -2,6 +2,7 @@
 
 title: "Backgrounded 0.3.0 Released"
 tags:
+- release-announcement
 - ruby
 - backgrounded
 - open-source

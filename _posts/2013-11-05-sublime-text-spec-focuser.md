@@ -1,6 +1,7 @@
 ---
 title: "Sublime Text Spec Focuser Plugin"
 tags:
+- release-announcement
 - testing
 - ruby
 - rspec

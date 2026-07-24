@@ -2,6 +2,7 @@
 
 title: "Scriptaculous 1.8 Release"
 tags:
+- release-announcement
 - java
 - scriptaculous
 - wicket

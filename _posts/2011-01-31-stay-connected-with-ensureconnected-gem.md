@@ -2,6 +2,7 @@
 
 title: "Stay Connected with the ensure_connected gem"
 tags:
+- release-announcement
 - backgrounded
 - resque
 - open-source

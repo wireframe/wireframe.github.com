@@ -2,6 +2,7 @@
 
 title: "Rails console tweaks gem"
 tags:
+- release-announcement
 - ruby
 - rails
 - open-source

@@ -2,6 +2,7 @@
 
 title: "Zillow Google Chrome Extension"
 tags:
+- release-announcement
 - chrome
 - zillow
 - open-source

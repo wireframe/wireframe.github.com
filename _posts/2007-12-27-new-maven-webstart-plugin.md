@@ -2,6 +2,7 @@
 
 title: "New Maven Webstart Plugin"
 tags:
+- release-announcement
 - swing
 - maven
 ---

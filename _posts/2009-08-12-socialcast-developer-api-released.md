@@ -2,6 +2,7 @@
 
 title: "Socialcast Developer API Released"
 tags:
+- release-announcement
 - socialcast
 ---
 

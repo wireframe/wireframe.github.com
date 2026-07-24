@@ -2,6 +2,7 @@
 
 title: "Official Testdox Maven Plugin Release"
 tags:
+- release-announcement
 - java
 - testing
 - maven

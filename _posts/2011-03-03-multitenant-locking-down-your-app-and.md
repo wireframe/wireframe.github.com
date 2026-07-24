@@ -2,6 +2,7 @@
 
 title: "Multitenant Ruby Gem"
 tags:
+- release-announcement
 - ruby
 - multitenant
 - security

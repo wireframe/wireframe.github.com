@@ -2,6 +2,7 @@
 
 title: "Webstart Report Now Available"
 tags:
+- release-announcement
 - java
 - webstart
 - swing

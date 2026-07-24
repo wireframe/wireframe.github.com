@@ -1,6 +1,7 @@
 ---
 title: "Bundler Updater Gem"
 tags:
+- release-announcement
 - open-source
 - ruby
 ---
