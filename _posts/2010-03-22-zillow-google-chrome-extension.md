@@ -16,7 +16,7 @@ Grab an address, pop open the Zillow Google Chrome extension and find the estima
 
 The Zillow Google Chrome extension is a mashup using
 [the Google Maps API](http://code.google.com/apis/maps/documentation/v3/introduction.html) and
-[the Zillow API](http://www.zillow.com/howto/api/GetZestimate.htm) to quickly find
+[the Zillow API](http://www.zillow.com/howto/api/GetZestimate.htm) to  quickly  find
 as much detail about a property while avoiding the cluttered and slow ass real-estate websites.
 Consider this the "official" successor to my
 [original Zillow Ubiquity plugin]({% post_url 2009-03-04-zillow-ubiquity-plugin_04 %}).
