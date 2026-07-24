@@ -335,20 +335,6 @@ body {
     line-height: 1.85;
     @include font-size(17);
   }
-
-  ul.project-list {
-    list-style: none;
-    margin-left: 0;
-
-    li {
-      margin-bottom: 0.75em;
-      padding-left: 0;
-    }
-
-    a {
-      font-weight: 600;
-    }
-  }
 }
 
 // TL;DR section
