@@ -1,6 +1,8 @@
 ---
 
 title: "Lessons Learned From Building BetterUp's MCP Server (And Where This Is All Heading)"
+featured_description: >
+  Lessons learned building BetterUp's MCP server
 tags:
 - mcp
 - ai

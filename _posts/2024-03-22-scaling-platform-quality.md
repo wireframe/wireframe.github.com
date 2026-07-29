@@ -1,8 +1,11 @@
 ---
 title: "A Journey of Continuously Improving Platform Quality"
+featured_description: >
+  How we made platform quality measurable with a system-by-system scorecard
 tags:
 - engineering
 - leadership
+- architecture
 ---
 
 ## Background

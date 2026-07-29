@@ -5,7 +5,7 @@ description: "Chief Technology Officer — building stuff that matters."
 ---
 
 *Chief Technology Officer • "Building stuff that matters."*
-| Minneapolis, Minnesota (50% on-site) | [ryan.sonnek@gmail.com](mailto:ryan.sonnek@gmail.com) | [linkedin.com/in/ryansonnek](https://linkedin.com/in/ryansonnek) | [codecrate.com](https://codecrate.com)
+Minneapolis, Minnesota (50% on-site) • [ryan.sonnek@gmail.com](mailto:ryan.sonnek@gmail.com) • [linkedin.com/in/ryansonnek](https://linkedin.com/in/ryansonnek) • [codecrate.com](https://codecrate.com)
 
 
 ---
@@ -35,7 +35,7 @@ Technology executive with 20+ years scaling engineering and product organization
 
 *Fortune 5 internal startup incubator (The Garage)*
 
-- Led the engineering team behind 10+ zero-to-one consumer ventures inside a Fortune 5 balance sheet — the same pattern I later repeated at BetterUp as founder.
+- Led an engineering team of ~10 across 10+ zero-to-one consumer ventures inside a Fortune 5 balance sheet — the same pattern later repeated at BetterUp as founder.
 - Built the development process that let the org validate fast and kill weak concepts early, advancing one venture to internal funding.
 
 
@@ -58,7 +58,7 @@ Technology executive with 20+ years scaling engineering and product organization
 ## Patents
 
 - **Virtual Coaching Platform** (US 11,024,189 B2, 2021) — AI/ML coach-matching system using NLP and member data.
-- **Conversation Analysis Indicators** (US 12,073,851 B2) — Multimodal ML analyzing acoustic, video, and text across multiparty conversations.
+- **Conversation Analysis Indicators** (US 12,073,851 B2, 2024) — Multimodal ML analyzing acoustic, video, and text across multiparty conversations.
 
 ---
 
@@ -72,7 +72,7 @@ Technology executive with 20+ years scaling engineering and product organization
 
 ## Core Competencies
 
-[AI-Native Engineering](/tags/#ai) • [Hands-On Technical Leadership](/tags/#leadership) • [Zero-to-One Product Development](/tags/#product-development) • [Platform Architecture & Quality](/tags/#engineering) • [Engineering Organization Scaling](/tags/#team-topology) • Developer Experience & Delivery Metrics • M&A Technology Integration • FedRAMP Compliance • International Expansion • IT & Security Transformation • Talent Pipeline Development
+[AI-Native Engineering](/tags/#ai) • [Hands-On Technical Leadership](/tags/#leadership) • [Zero-to-One Product Development](/tags/#product-development) • [Platform Architecture & Quality](/tags/#architecture) • [Engineering Organization Scaling](/tags/#team-topology) • Developer Experience & Delivery Metrics • M&A Technology Integration • FedRAMP Compliance • International Expansion • IT & Security Transformation • Talent Pipeline Development
 
 ---
 
