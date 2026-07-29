@@ -72,7 +72,7 @@ Hands-on technology executive with 20+ years scaling engineering and product org
 
 ## Core Competencies
 
-[AI-Native Engineering](/tags/#ai) • [Hands-On Technical Leadership](/tags/#leadership) • [Zero-to-One Product Development](/tags/#product-development) • [Platform Architecture & Quality](/tags/#architecture) • [Engineering Organization Scaling](/tags/#team-topology) • Developer Experience & Delivery Metrics • M&A Technology Integration • FedRAMP Compliance • International Expansion • IT & Security Transformation • Talent Pipeline Development
+[AI-Native Engineering](/tags/#ai) • [Hands-On Technical Leadership](/tags/#leadership) • [Zero-to-One Product Development](/tags/#product-development) • [Platform Architecture & Quality](/tags/#architecture) • [Engineering Organization Scaling](/tags/#team-topology) • [Developer Experience & Delivery Metrics](/tags/#developer-experience) • M&A Technology Integration • FedRAMP Compliance • International Expansion • IT & Security Transformation • Talent Pipeline Development
 
 ---
 
