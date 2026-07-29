@@ -12,7 +12,7 @@ Minneapolis, Minnesota (50% on-site) • [ryan.sonnek@gmail.com](mailto:ryan.son
 
 ## Executive Summary
 
-Hands-on technology executive with 20+ years scaling engineering and product organizations from zero to enterprise scale. Took BetterUp from employee #1 to a 120+ person engineering org (140+ while also running product) and the business from pre-revenue to $250M+ ARR and a $4.7B valuation, while delivering FedRAMP authorization, integrating two acquisitions, and leading the org through a path to profitability. Two zero-to-one runs before that: one inside a Fortune 5 incubator, one through a startup's $100M+ acquisition. Now looking for a company past initial traction, ready to scale, where the team needs to grow and how it builds needs to change in the agentic era.
+Hands-on technology executive with 20+ years scaling engineering and product organizations from zero to enterprise scale. Took BetterUp from employee #1 to a 120+ person engineering org (140+ while also running product) and the business from pre-revenue to a unicorn valuation, while delivering FedRAMP authorization, integrating two acquisitions, and leading the org through a path to profitability. Two zero-to-one runs before that: one inside a Fortune 5 incubator, one through a startup's $100M+ acquisition. Now looking for a company past initial traction, ready to scale, where the team needs to grow and how it builds needs to change in the agentic era.
 
 
 ---
@@ -21,7 +21,7 @@ Hands-on technology executive with 20+ years scaling engineering and product org
 
 ### BetterUp | Founding CTO (January 2015 - Present)
 
-*Behavioral science technology platform • $4.7B valuation • 380+ enterprise customers*
+*Behavioral science technology platform • unicorn valuation • 380+ enterprise customers*
 
 - Founding engineer and CTO: scaled engineering from a single hire to 120+ across US, Europe, and LATAM (140+ including product, during the period I ran both) as BetterUp grew from one coaching product to an enterprise platform serving Disney, NASA, Chevron, Salesforce, and Hilton across 380+ customers.
 - Built BetterUp's MCP platform and shipped the AI coaching agent into the core product. Part of building out Forward Deployed Engineering and driving the org's shift to AI-native engineering practices, including instrumenting adoption so leverage is measured against spend, not assumed.
