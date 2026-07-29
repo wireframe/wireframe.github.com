@@ -27,6 +27,7 @@ Hands-on technology executive with 20+ years scaling engineering and product org
 - Built BetterUp's MCP platform and shipped the AI coaching agent into the core product. Part of building out Forward Deployed Engineering and driving the org's shift to AI-native engineering practices, including instrumenting adoption so leverage is measured against spend, not assumed.
 - Rebuilt product management and design after an 18-month build of the wrong product. Made customer discovery the default and held the line that speed and quality aren't a trade-off.
 - Delivered FedRAMP authorization, led the technology org through the path to profitability, and integrated the Motive and Impraise acquisitions into platform, roadmap, and team — opening federal markets while cutting cost.
+- Transformed internal IT and security operations, delivering millions in efficiency savings.
 
 
 ---
@@ -51,7 +52,7 @@ Hands-on technology executive with 20+ years scaling engineering and product org
 
 ### Digital River | Senior Software Engineer (April 2004 - April 2008)
 
-- Built high-availability infrastructure for global e-commerce platform powering Microsoft, Symantec, and Autodesk storefronts through peak traffic events.
+- Built high-availability infrastructure for global e-commerce platform powering Microsoft, Symantec, and Autodesk storefronts through peak traffic events, including product launches, Black Friday, and Cyber Monday.
 
 ---
 
@@ -81,5 +82,5 @@ Hands-on technology executive with 20+ years scaling engineering and product org
 
 **Minnesota State University, Mankato**
 
-- Bachelor of Science, Computer Information Science (Major), Mathematics (Minor) (1997 - 2001)
+- Bachelor of Science, Computer Information Science (Major), Mathematics (Minor) (1997 - 2001) — Summa Cum Laude, four-year Dean's List, MSU Who's Who Award
 - Technical: Ruby, Ruby on Rails, JavaScript, Python, Cloud Architecture (AWS/GCP), Platform Engineering, MCP, agentic development workflows
