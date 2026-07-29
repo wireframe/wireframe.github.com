@@ -773,3 +773,14 @@ span + .entry-title {
 #goog-wm-sb {
   @extend .btn;
 }
+
+// Print: strip site chrome (nav, menu toggle, search overlay, footer) so
+// pages print as clean content.
+@media print {
+  .site-header,
+  .menu-screen,
+  .search-wrapper,
+  .footer-wrapper {
+    display: none !important;
+  }
+}

@@ -51,10 +51,7 @@ github_script: true
       I use writing as a tool to clarify my own thinking. My recent focus has been on <a href="/tags/#leadership">leadership</a>, <a href="/tags/#product-development">product development</a>, and building <a href="/tags/#engineering">engineering teams</a> in the age of <a href="/tags/#ai">AI</a>. Here are a few that I keep coming back to:
     </p>
     <ul>
-      {% assign featured_posts = site.posts | where_exp: "post", "post.featured_description" %}
-      {% for post in featured_posts %}
-      <li><a href="{{ post.url }}">{{ post.featured_description }}</a></li>
-      {% endfor %}
+      {% include featured-writings.html %}
     </ul>
     <p><a href="/archive.html">Read more...</a></p>
   </section>

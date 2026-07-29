@@ -5,6 +5,7 @@ tags:
   - remote-work
   - leadership
   - culture
+  - team-topology
 ---
 
 ## You Don't Declare a Culture — You Engineer One

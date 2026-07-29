@@ -12,7 +12,8 @@ description: "Chief Technology Officer — building stuff that matters."
 
 ## Executive Summary
 
-Most recently at BetterUp: employee #1 to a 120+ person engineering org (140+ when I also ran product), and the business from pre-revenue to $250M+ ARR and a $4.7B valuation. I also delivered FedRAMP authorization, integrated two acquisitions, and led the org through a path to profitability. Zero-to-one twice before that — once inside a Fortune 5 incubator, once through a startup's $100M+ acquisition. Right now, I'm part of building BetterUp's Forward Deployed Engineering function and driving its shift to AI-native engineering practices, measuring adoption against real spend instead of assuming the leverage. What I want next: a CTO seat at a Series B-ish, venture-backed company moving from traction to scale, where I build the engineering org and the AI-native operating model together.
+Technology executive with 20+ years scaling engineering and product organizations from zero to enterprise scale. Took BetterUp from employee #1 to a 120+ person engineering org (140+ while also running product) and the business from pre-revenue to $250M+ ARR and a $4.7B valuation, while delivering FedRAMP authorization, integrating two acquisitions, and leading the org through a path to profitability. Two zero-to-one runs before that: one inside a Fortune 5 incubator, one through a startup's $100M+ acquisition. Currently building BetterUp's Forward Deployed Engineering function and its shift to AI-native engineering, measuring adoption against real spend instead of assuming the leverage. Looking for a CTO seat at a Series B-ish, venture-backed company moving from traction to scale, to build the engineering org and the AI-native operating model together.
+
 
 ---
 
@@ -63,16 +64,15 @@ Most recently at BetterUp: employee #1 to a 120+ person engineering org (140+ wh
 
 ## Selected writings from [codecrate.com](https://www.codecrate.com)
 
-- [Lessons learned building BetterUp's MCP server](https://codecrate.com/2025/12/my-mcp-learnings.html)
-- [What agentic engineering looks like in practice, not in pitch decks](https://www.codecrate.com/2025/05/agentic-engineering.html)
-- [How a platform team raises quality without slowing product teams down](https://codecrate.com/2024/03/scaling-platform-quality.html)
-- [Why ownership clarity matters more than the perfect org chart](https://www.codecrate.com/2026/04/team-topology-ownership.html)
+<ul>
+{% include featured-writings.html %}
+</ul>
 
 ---
 
 ## Core Competencies
 
-AI-Native Engineering • Hands-On Technical Leadership • Zero-to-One Product Development • Platform Architecture & Quality • Engineering Organization Scaling • Developer Experience & Delivery Metrics • M&A Technology Integration • FedRAMP Compliance • International Expansion • IT & Security Transformation • Talent Pipeline Development
+[AI-Native Engineering](/tags/#ai) • [Hands-On Technical Leadership](/tags/#leadership) • [Zero-to-One Product Development](/tags/#product-development) • [Platform Architecture & Quality](/tags/#engineering) • [Engineering Organization Scaling](/tags/#team-topology) • Developer Experience & Delivery Metrics • M&A Technology Integration • FedRAMP Compliance • International Expansion • IT & Security Transformation • Talent Pipeline Development
 
 ---
 
