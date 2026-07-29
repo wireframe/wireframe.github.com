@@ -52,7 +52,7 @@ Hands-on technology executive with 20+ years scaling engineering and product org
 
 ### Digital River | Senior Software Engineer (April 2004 - April 2008)
 
-- Built high-availability infrastructure for global e-commerce platform powering Microsoft, Symantec, and Autodesk storefronts through peak traffic events, including product launches, Black Friday, and Cyber Monday.
+- Built high-availability infrastructure for global e-commerce platform powering Microsoft, Symantec, VMware, and Autodesk storefronts through peak traffic events, including product launches, Black Friday, and Cyber Monday.
 
 ---
 
