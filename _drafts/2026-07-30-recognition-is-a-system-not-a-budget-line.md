@@ -17,23 +17,21 @@ So I made up an award for the team that had nothing to show for their work excep
 
 ## Petty Cash Depreciates, Memories Compound
 
-Ask anyone what "employee recognition" means and they'll describe a budget line: a bonus, a gift card, a comp adjustment that has to clear finance before it lands. It gets delivered on a schedule that has nothing to do with when the work actually happened — the annual review, the quarterly bonus cycle, an exec calling someone out by name at an all-hands.
+Ask anyone what how they want to be recognized at work and they'll describe a budget line: a bonus, a gift card, a comp adjustment that has to clear finance before it lands. It gets delivered on a schedule that has little to do with when the work actually happened: the annual review, the quarterly bonus cycle, etc.
 
-That assumption isn't irrational. It matches how people report experiencing recognition today. Gallup found employees credit their manager for their most meaningful recognition 28% of the time, senior leaders or the CEO 24%, the manager's manager 12%, customers 10%. Peers come in last, at 9%. Recognition, as most companies run it, flows down the org chart. It almost never flows sideways.
-
-That model has a bigger problem than being narrow, though: the research says it rewards people with the wrong currency. Laszlo Bock ran the numbers at Google and found the opposite of what people say they want. Ask someone whether they'd rather have cash or an experience and they'll pick cash. Give them the experience anyway, and:
+But the research tells a different story: 
 
 > Despite telling us they would prefer cash over experiences, the experimental group was happier. Much happier. They thought their awards were 28 percent more fun, 28 percent more memorable, and 15 percent more thoughtful.
 > — Laszlo Bock, *Work Rules!*
 
-Cash gets spent and forgotten. A gift or an experience sticks around as a story — "the joy of money is fleeting, but memories last forever," as Bock puts it, and non-cash awards trigger an emotional response that a direct deposit never will. This isn't a one-company anecdote. The Incentive Research Foundation's meta-analysis found non-cash incentives outperform cash for discretionary effort and long-term performance in 65% of comparable studies. McKinsey found praise and leadership attention beat the three highest-rated financial incentives, cash bonuses included.
+Cash gets spent and forgotten. A gift or an experience sticks around as a story: "the joy of money is fleeting, but memories last forever," as Bock puts it, and non-cash awards trigger an emotional response that a direct deposit never will. This isn't a one-company anecdote. The Incentive Research Foundation's meta-analysis found non-cash incentives outperform cash for discretionary effort and long-term performance in 65% of comparable studies. McKinsey found leadership praise beat the three highest-rated financial incentives, cash bonuses included.
 
-None of this works if it only happens once a year. Chip and Dan Heath studied what actually makes recognition land, and cadence mattered more than production value:
+On top of that, cash incentives have real limitations on their avaiability for frequency of use. The recognition doesn't have it's intended effect if it only happens once a year. Chip and Dan Heath studied what makes recognition land, and cadence mattered more than production value:
 
 > The proper pace of recognition is weekly or even daily, not monthly or yearly.
 > — Chip & Dan Heath, *The Power of Moments*
 
-Style barely matters. Frequency and authenticity do. And frequency is exactly where a cash-based system breaks down: every dollar spent needs approval, so every instance of recognition inherits that approval cycle's latency. Recognition can't run weekly if it has to clear finance weekly. The budget gate is only half the problem, though. The deeper one is who's allowed to generate recognition in the first place.
+And frequency is exactly where a cash-based system breaks down: every dollar spent needs approval, so every instance of recognition inherits that approval cycle's latency. Recognition can't run weekly if it has to clear finance weekly. The budget gate is only half the problem, though. The deeper one is who's allowed to generate recognition in the first place.
 
 ## The Bottleneck Is the Org Chart
 
@@ -43,7 +41,7 @@ Style barely matters. Frequency and authenticity do. And frequency is exactly wh
   > Peers are the most effective source of reinforcement at work—and the most underutilized. Peers are in the best position to deliver positive and immediate reinforcement (positive, immediate, and certain consequences [PICs]) because they can observe performance more closely and more often than most supervisors and managers.
   > — Aubrey Daniels, *Bringing Out the Best in People*
 
-- Callback to the Gallup breakdown from section 2: peers sit dead last at 9%, behind manager, senior leader/CEO, manager's manager, *and* customers. Daniels says peers should be first. That gap is the whole argument.
+- The fuller Gallup breakdown lands here, not in section 2 (section 2 only used manager + senior leader/CEO to make the top-down point): manager's manager 12%, customers 10%, and peers dead last at 9% — behind even customers. Daniels says peers should be first. That gap is the whole argument.
 - The throughput case: if the manager is the only node in the network allowed to dispense recognition, the system is capacity-constrained by definition — one person, finite attention, finite hours in the week, no matter how much they care. Every peer added as a legitimate reinforcer is another node generating signal in parallel. That's not a marginal gain, it's a multiplier on volume.
 - It's a multiplier on quality too, not just volume: a manager sees a fraction of anyone's actual work — the demo, the standup update, the postmortem. Peers see the pull request, the 11pm Slack message, the customer call. They have the higher-resolution view, which is exactly what Daniels means by "observe performance more closely and more often."
 - Frame it as a design flaw, not a values gap: "whatever behaviors you recognize and incentivize is the behavior change you will see" (own note, `[[Incentive structure]]`) — if the only dispensing mechanism runs through managers, you've built a system that structurally under-uses the channel with both the most bandwidth and the best visibility
