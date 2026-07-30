@@ -17,7 +17,7 @@ So I made up an award for the team that had nothing to show for their work excep
 
 ## Petty Cash Depreciates, Memories Compound
 
-Ask anyone how they want to be recognized at work and they'll describe a budget line: a bonus, a gift card, a comp adjustment that has to clear finance before it lands. It gets delivered on a schedule that has little to do with when the work actually happened: the annual review, the quarterly bonus cycle, etc.
+Ask anyone how they want to be recognized at work and they'll describe a budget line: a bonus, a gift card, a comp adjustment that has to clear finance before it lands. It gets delivered on a schedule that has little to do with when the work actually happened: the annual review, the quarterly bonus cycle, the exec shoutout at an all-hands.
 
 But the research tells a different story: 
 
@@ -31,7 +31,7 @@ Cash has a hard ceiling on frequency, too: no one hands out a bonus every week. 
 > The proper pace of recognition is weekly or even daily, not monthly or yearly.
 > — Chip & Dan Heath, *The Power of Moments*
 
-And frequency is exactly where a cash-based system breaks down: every dollar spent needs approval, so every instance of recognition inherits that approval cycle's latency. Recognition can't run weekly if it has to clear finance weekly. The budget gate is only half the problem, though. The deeper one is who's allowed to generate recognition in the first place.
+Every dollar spent needs approval, so every instance of recognition inherits that approval cycle's latency — a system that has to clear finance can't run at the cadence Heath describes. The budget gate is only half the problem, though. The deeper one is who's allowed to generate recognition in the first place.
 
 ## The Bottleneck Is the Org Chart
 
