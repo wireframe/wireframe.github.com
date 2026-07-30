@@ -17,16 +17,16 @@ So I made up an award for the team that had nothing to show for their work excep
 
 ## Petty Cash Depreciates, Memories Compound
 
-Ask anyone what how they want to be recognized at work and they'll describe a budget line: a bonus, a gift card, a comp adjustment that has to clear finance before it lands. It gets delivered on a schedule that has little to do with when the work actually happened: the annual review, the quarterly bonus cycle, etc.
+Ask anyone how they want to be recognized at work and they'll describe a budget line: a bonus, a gift card, a comp adjustment that has to clear finance before it lands. It gets delivered on a schedule that has little to do with when the work actually happened: the annual review, the quarterly bonus cycle, etc.
 
 But the research tells a different story: 
 
 > Despite telling us they would prefer cash over experiences, the experimental group was happier. Much happier. They thought their awards were 28 percent more fun, 28 percent more memorable, and 15 percent more thoughtful.
 > — Laszlo Bock, *Work Rules!*
 
-Cash gets spent and forgotten. A gift or an experience sticks around as a story: "the joy of money is fleeting, but memories last forever," as Bock puts it, and non-cash awards trigger an emotional response that a direct deposit never will. This isn't a one-company anecdote. The Incentive Research Foundation's meta-analysis found non-cash incentives outperform cash for discretionary effort and long-term performance in 65% of comparable studies. McKinsey found leadership praise beat the three highest-rated financial incentives, cash bonuses included.
+Cash gets spent and forgotten. A gift or an experience sticks around as a story: "the joy of money is fleeting, but memories last forever," as Bock puts it, and non-cash awards trigger an emotional response that a direct deposit never will. This isn't a one-company anecdote. The Incentive Research Foundation's meta-analysis found non-cash incentives outperform cash for discretionary effort and long-term performance in 65% of comparable studies. McKinsey found **praise alone had a stronger motivational effect than the three highest-rated financial incentives, cash bonuses included.**
 
-On top of that, cash incentives have real limitations on their avaiability for frequency of use. The recognition doesn't have it's intended effect if it only happens once a year. Chip and Dan Heath studied what makes recognition land, and cadence mattered more than production value:
+Cash has a hard ceiling on frequency, too: no one hands out a bonus every week. And recognition that only happens once a year rarely lands. Chip and Dan Heath studied what makes recognition land, and cadence mattered more than production value:
 
 > The proper pace of recognition is weekly or even daily, not monthly or yearly.
 > — Chip & Dan Heath, *The Power of Moments*
