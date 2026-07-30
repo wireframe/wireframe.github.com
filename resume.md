@@ -12,7 +12,10 @@ Minneapolis, Minnesota (50% on-site) • [ryan.sonnek@gmail.com](mailto:ryan.son
 
 ## Executive Summary
 
-Hands-on technology executive with 20+ years scaling engineering and product organizations from zero to enterprise scale. Took BetterUp from employee #1 to a 120+ person engineering org (140+ while also running product) and the business from pre-revenue to a unicorn valuation, while delivering FedRAMP authorization, integrating two acquisitions, and leading the org through a path to profitability. Two zero-to-one runs before that: one inside a Fortune 5 incubator, one through a startup's $100M+ acquisition. Now looking for a company past initial traction, ready to scale, where the team needs to grow and how it builds needs to change in the agentic era.
+Hands-on technology executive with 20+ years scaling engineering and product organizations from zero to enterprise scale. Took BetterUp from employee #1 to a 120+ person engineering org (140+ while also running product) and the business from pre-revenue to a unicorn valuation, while delivering FedRAMP authorization, integrating two acquisitions, and leading the org through a path to profitability. Two zero-to-one runs before that: one inside a Fortune 5 incubator, one through a startup's $100M+ acquisition. 
+
+Now looking for a company past product-market fit that needs its engineering org rebuilt for the next stage of growth in this new agentic era.
+
 
 
 ---
