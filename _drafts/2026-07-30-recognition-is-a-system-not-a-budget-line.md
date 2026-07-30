@@ -1,6 +1,6 @@
 ---
 
-title: "Recognition Is a System, Not a Budget Line"
+title: "Recognition Is a System, Not an Expense"
 tags:
 - leadership
 - culture
@@ -35,17 +35,40 @@ Every dollar spent needs approval, so every instance of recognition inherits tha
 
 ## The Bottleneck Is the Org Chart
 
-- Core claim: the org already has its best reinforcement channel, it just doesn't route recognition through it
-- Source: Aubrey Daniels, *Bringing Out the Best in People: How to Apply the Astonishing Power of Positive Reinforcement*
+Section 2 ended on who's allowed to generate recognition in the first place. Gallup's research shows management accounts for 64% of employees' most meaningful recognition — manager (28%), senior leaders or the CEO (24%), the manager's manager (12%) — while peers account for less than 10%, at 9%.
 
-  > Peers are the most effective source of reinforcement at work—and the most underutilized. Peers are in the best position to deliver positive and immediate reinforcement (positive, immediate, and certain consequences [PICs]) because they can observe performance more closely and more often than most supervisors and managers.
-  > — Aubrey Daniels, *Bringing Out the Best in People*
+Aubrey Daniels has spent a career arguing that ranking is backwards:
 
-- The fuller Gallup breakdown lands here, not in section 2 (section 2 only used manager + senior leader/CEO to make the top-down point): manager's manager 12%, customers 10%, and peers dead last at 9% — behind even customers. Daniels says peers should be first. That gap is the whole argument.
-- The throughput case: if the manager is the only node in the network allowed to dispense recognition, the system is capacity-constrained by definition — one person, finite attention, finite hours in the week, no matter how much they care. Every peer added as a legitimate reinforcer is another node generating signal in parallel. That's not a marginal gain, it's a multiplier on volume.
-- It's a multiplier on quality too, not just volume: a manager sees a fraction of anyone's actual work — the demo, the standup update, the postmortem. Peers see the pull request, the 11pm Slack message, the customer call. They have the higher-resolution view, which is exactly what Daniels means by "observe performance more closely and more often."
-- Frame it as a design flaw, not a values gap: "whatever behaviors you recognize and incentivize is the behavior change you will see" (own note, `[[Incentive structure]]`) — if the only dispensing mechanism runs through managers, you've built a system that structurally under-uses the channel with both the most bandwidth and the best visibility
-- This section is the pivot from "cash vs. non-cash" to "who's allowed to give it" — sets up section 5's examples as proof the fix is buildable
+> Peers are the most effective source of reinforcement at work—and the most underutilized. Peers are in the best position to deliver positive and immediate reinforcement (positive, immediate, and certain consequences [PICs]) because they can observe performance more closely and more often than most supervisors and managers.
+> — Aubrey Daniels, *Bringing Out the Best in People*
+
+Here's why the gap matters so much: if a manager is the only person dispensing recognition, the system is capacity-constrained by definition. One person, with finite attention and finite hours in a week. It just doesn't scale, and it leaves most of the team starved for recognition. Every peer added to the system is another node generating volume in parallel — that's a multiplier, not a marginal gain.
+
+It's a multiplier on quality too. A manager sees a fraction of anyone's actual work: the demo, the standup update, the postmortem after something goes wrong. Peers see the pull request, the 11pm Slack message asking for a sanity check, the customer call nobody wrote a summary of. They have the higher-resolution view — exactly what Daniels means by "observe performance more closely and more often."
+
+Everyone already agrees peer recognition matters. The gap is a design flaw: whatever behaviors you recognize and incentivize is the behavior change you'll see, and today the only valve for recognition runs through the manager. Widen that valve — put the whole organization behind it — and both volume and quality compound. The question is how you actually build that.
+
+<!-- TODO: link primary sources for the Gallup, Daniels, Bock, Heath, McKinsey, and IRF citations throughout this post -->
+
+---
+
+
+Section 2 ended on who's allowed to generate recognition in the first place. Look past the two rungs of management already covered, and the rest of the Gallup breakdown answers it: the manager's manager accounts for 12% of employees' most meaningful recognition, customers 10%, and peers dead last at 9%. The people sitting next to you in every stand-up and every pull request review rank behind customers who only ever see the finished product.
+
+Aubrey Daniels has spent a career arguing the opposite ranking is correct:
+
+> Peers are the most effective source of reinforcement at work—and the most underutilized. Peers are in the best position to deliver positive and immediate reinforcement (positive, immediate, and certain consequences [PICs]) because they can observe performance more closely and more often than most supervisors and managers.
+> — Aubrey Daniels, *Bringing Out the Best in People*
+
+The gap between who Daniels says should be first and who Gallup shows is actually last is the whole argument.
+
+Here's why the gap matters so much: if a manager is the only person allowed to dispense recognition, the system is capacity-constrained by definition. One person, finite attention, finite hours in a week, no matter how much they care. Every peer added as a legitimate reinforcer is another node generating signal in parallel. That's a multiplier on volume, not a marginal gain.
+
+It's a multiplier on quality, too. A manager sees a fraction of anyone's actual work: the demo, the standup update, the postmortem after something goes wrong. Peers see the pull request, the 11pm Slack message asking for a sanity check, the customer call nobody wrote a summary of. They have the higher-resolution view — exactly what Daniels means by "observe performance more closely and more often."
+
+Everyone at these companies already agrees peer recognition matters. The gap is structural, not attitudinal: whatever behaviors you recognize and incentivize is the behavior change you'll see, and today the only valve for recognition runs through the manager. That's a system that ignores its highest-bandwidth, highest-visibility channel by design.
+
+Who's allowed to give recognition decides more than what currency it's paid in.
 
 ## The High-Five Economy
 
@@ -54,6 +77,7 @@ Every dollar spent needs approval, so every instance of recognition inherits tha
 - **Crickets Award** — callback to the opening story, don't retell it. For excellence in delivering value without disrupting the customer. Physical, engraved with team name / project / date, shipped to the team lead. Mid-frequency, tied to one specific behavior.
 - **Culture Value Award** — quarterly, nomination-driven, explicitly tied to named company values (examples from own notes: Grit, Extreme Ownership, Craftsmanship, Empathy). Lowest frequency, highest visibility. Nominations pull from the high-fives layer below it — the cheap layer feeds the ceremonial one.
 - The throughline: none of these required a budget conversation. They required deciding who's allowed to give recognition and how often, which is a systems decision, not a compensation decision.
+- TODO: reference eager beaver award.   recognizing the behaviors you want to see is beyond just recognizing the "outcome" (which may not be within our control).
 
 ## Ship Recognition Like Infrastructure
 
