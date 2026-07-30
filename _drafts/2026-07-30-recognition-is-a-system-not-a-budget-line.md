@@ -17,7 +17,7 @@ So I made up an award for the team that had nothing to show for their work excep
 
 ## Petty Cash Depreciates, Memories Compound
 
-Ask anyone how they want to be recognized at work and they'll describe a budget line: a bonus, a gift card, a comp adjustment that has to clear finance before it lands. It gets delivered on a schedule that has little to do with when the work actually happened: the annual review, the quarterly bonus cycle, the exec shoutout at an all-hands.
+Ask anyone how they want to be recognized at work and they'll describe a budget line: a bonus, a gift card, a comp adjustment that has to clear finance before it lands. It gets delivered on a schedule that has little to do with when the work actually happened: the annual review, the quarterly bonus cycle, a one-off spot bonus.
 
 But the research tells a different story: 
 
