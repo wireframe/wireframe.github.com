@@ -17,32 +17,23 @@ So I made up an award for the team that had nothing to show for their work excep
 
 ## Petty Cash Depreciates, Memories Compound
 
-- Quick statement of the default, not belabored — recognition means cash bonus / gift card / comp adjustment, cleared through finance, delivered top-down: annual review, quarterly bonus cycle, an exec calling someone out in an all-hands
-- One data point to show it's the lived pattern, not a strawman: employees attribute their most meaningful recognition to their manager (28%), senior leaders/CEO (24%), manager's manager (12%), customers (10%), peers (9%) — [Gallup data via SelectSoftwareReviews](https://www.selectsoftwarereviews.com/blog/employee-recognition-statistics). That breakdown *is* the budget-line, top-down model — recognition flows down the org chart, rarely sideways.
-- Pivot fast into the reversal — this isn't a matter of taste, money measurably underperforms non-cash on the things that matter
-- Primary source: Laszlo Bock, *Work Rules! Insights from Inside Google That Will Transform How You Live and Lead*, ch. 10 "Pay Unfairly" → "Celebrate accomplishment, not compensation"
+Ask anyone what "employee recognition" means and they'll describe a budget line: a bonus, a gift card, a comp adjustment that has to clear finance before it lands. It gets delivered on a schedule that has nothing to do with when the work actually happened — the annual review, the quarterly bonus cycle, an exec calling someone out by name at an all-hands.
 
-  > Despite telling us they would prefer cash over experiences, the experimental group was happier. Much happier. They thought their awards were 28 percent more fun, 28 percent more memorable, and 15 percent more thoughtful.
-  > — Laszlo Bock, *Work Rules!*
+That assumption isn't irrational. It matches how people report experiencing recognition today. Gallup found employees credit their manager for their most meaningful recognition 28% of the time, senior leaders or the CEO 24%, the manager's manager 12%, customers 10%. Peers come in last, at 9%. Recognition, as most companies run it, flows down the org chart. It almost never flows sideways.
 
-  > The joy of money is fleeting, but memories last forever.
-  > — Laszlo Bock, *Work Rules!*
+That model has a bigger problem than being narrow, though: the research says it rewards people with the wrong currency. Laszlo Bock ran the numbers at Google and found the opposite of what people say they want. Ask someone whether they'd rather have cash or an experience and they'll pick cash. Give them the experience anyway, and:
 
-  > Non-cash awards, whether they are experiences (a dinner for two) or gifts (a Nexus 7 tablet), trigger an emotional response.
-  > — Laszlo Bock, *Work Rules!*
+> Despite telling us they would prefer cash over experiences, the experimental group was happier. Much happier. They thought their awards were 28 percent more fun, 28 percent more memorable, and 15 percent more thoughtful.
+> — Laszlo Bock, *Work Rules!*
 
-- Independent corroboration (not just one book's anecdote):
-  - Incentive Research Foundation meta-analysis: non-cash incentives outperform cash for discretionary effort and long-term performance in 65% of comparable studies — [Rewardian summary](https://blog.rewardian.com/non-monetary-rewards-for-employees-what-actually-works-in-2026)
-  - McKinsey: non-financial incentives (praise, leadership attention) had a stronger motivational effect than the three highest-rated financial incentives, including cash bonuses — [Rewardian summary](https://blog.rewardian.com/non-monetary-rewards-for-employees-what-actually-works-in-2026)
-- Frequency angle — why this matters for a *system*, not just a single award: Chip & Dan Heath, *The Power of Moments*, ch. 7 "Recognize Others"
+Cash gets spent and forgotten. A gift or an experience sticks around as a story — "the joy of money is fleeting, but memories last forever," as Bock puts it, and non-cash awards trigger an emotional response that a direct deposit never will. This isn't a one-company anecdote. The Incentive Research Foundation's meta-analysis found non-cash incentives outperform cash for discretionary effort and long-term performance in 65% of comparable studies. McKinsey found praise and leadership attention beat the three highest-rated financial incentives, cash bonuses included.
 
-  > The proper pace of recognition is weekly or even daily, not monthly or yearly.
-  > — Chip & Dan Heath, *The Power of Moments*
+None of this works if it only happens once a year. Chip and Dan Heath studied what actually makes recognition land, and cadence mattered more than production value:
 
-  > The style is not important. What's important is authenticity: being personal not programmatic. And frequency: closer to weekly than yearly.
-  > — Chip & Dan Heath, *The Power of Moments*
+> The proper pace of recognition is weekly or even daily, not monthly or yearly.
+> — Chip & Dan Heath, *The Power of Moments*
 
-  - Cash-based recognition can't run at that cadence — every approval-gated instance throttles the system. But the budget gate is only half the constraint; the deeper one is *who's allowed to generate recognition at all* — covered next.
+Style barely matters. Frequency and authenticity do. And frequency is exactly where a cash-based system breaks down: every dollar spent needs approval, so every instance of recognition inherits that approval cycle's latency. Recognition can't run weekly if it has to clear finance weekly. The budget gate is only half the problem, though. The deeper one is who's allowed to generate recognition in the first place.
 
 ## The Bottleneck Is the Org Chart
 
