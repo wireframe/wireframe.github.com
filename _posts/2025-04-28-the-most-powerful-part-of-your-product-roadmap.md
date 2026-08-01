@@ -7,9 +7,9 @@ tags:
 - product-strategy
 ---
 
-I came away with a new insight after a cross-functional review of my team's strategy and roadmap last week.  The most valuable discussion and debate wasn't focused on what we **were** doing — they revolved around what we **weren’t**.  Specifically, the items were consciously choosing **not** to work on.
+I came away with a new insight after a cross-functional review of my team's strategy and roadmap last week.  The most valuable discussion and debate wasn't focused on what we **were** doing — they revolved around what we **weren't**.  Specifically, the items were consciously choosing **not** to work on.
 
-While I’m a big believer in outcome-based roadmaps, output-based roadmaps have an important place, especially when it comes to sequencing work across cross-functional teams.  To help increase the level of clarity and alignment across teams, I added an **explicit** section to my [team's V2OOO strategy]({% post_url 2025-02-04-v2ooo %}) for what we are not doing (ie: "The Not Doing List").
+While I'm a big believer in outcome-based roadmaps, output-based roadmaps have an important place, especially when it comes to sequencing work across cross-functional teams.  To help increase the level of clarity and alignment across teams, I added an **explicit** section to my [team's V2OOO strategy]({% post_url 2025-02-04-v2ooo %}) for what we are not doing (ie: "The Not Doing List").
 
 <img src="/images/2025-04-28.png" width="50%" alt="A handwritten product roadmap listing planned features above a separate Not Doing List" />
 
@@ -17,11 +17,11 @@ Why was this so effective?  I believe there are three distinct reasons.
 
 ## 1. Dispelling Hidden Assumptions
 
-Here’s the thing: a product roadmap is never meant to capture every single workstream. But when something **isn’t** listed, there is often a hidden assumption that the items that are not listed must be a “small thing” that’ll get done anyways.  By clearly stating what we’re choosing not to do, we eliminate the illusion of hidden work and make trade-offs visible.  It encourages further conversations around items missing from the roadmap and "The Not Doing List" to ensure there is clarity of the full scope of work.
+Here's the thing: a product roadmap is never meant to capture every single workstream. But when something **isn't** listed, there is often a hidden assumption that the items that are not listed must be a "small thing" that'll get done anyways.  By clearly stating what we're choosing not to do, we eliminate the illusion of hidden work and make trade-offs visible.  It encourages further conversations around items missing from the roadmap and "The Not Doing List" to ensure there is clarity of the full scope of work.
 
 ## 2. Not Now vs Not Ever
 
-An item in "The Not Doing List" does not necessarily mean it will never be done.  Good strategy requires a clear time horizon — I recommend 6 months to a year. Including something on "The Not Doing List" simply communicates that it’s not planned for this execution window, and not that it’s off the table forever.  This list is a ripe conversation starter for projects that may have downstream timeline dependencies and debate projects that can be killed entirely into the "Not Ever" bucket. 
+An item in "The Not Doing List" does not necessarily mean it will never be done.  Good strategy requires a clear time horizon — I recommend 6 months to a year. Including something on "The Not Doing List" simply communicates that it's not planned for this execution window, and not that it's off the table forever.  This list is a ripe conversation starter for projects that may have downstream timeline dependencies and debate projects that can be killed entirely into the "Not Ever" bucket. 
 
 ## 3. Holistic Reprioritization
 

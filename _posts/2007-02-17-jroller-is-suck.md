@@ -15,7 +15,7 @@ Who the crap is DZone and why are they scamming my RSS feeds!?
 
 
 
-Tired of your job? Need to hire developers? Visit DZone Jobs: great people, great opportunities.
+> Tired of your job? Need to hire developers? Visit DZone Jobs: great people, great opportunities.
 
 
 

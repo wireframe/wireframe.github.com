@@ -11,11 +11,15 @@ After [uncovering the horrible state of affairs for Java Webstart developers]({%
 
 
 
-I was appalled that the default behavior of the plugin forced developers to manually create a JNLP file and all the plugin did was sign jar files and zip up the contents for you. After a few long discussions with the developers of the plugin, [I commented that](http://jira.codehaus.org/browse/MWEBSTART-86) "It would greatly improve the adoption of this plugin if it supports very simple out of the box behavior".
+I was appalled that the default behavior of the plugin forced developers to manually create a JNLP file and all the plugin did was sign jar files and zip up the contents for you. After a few long discussions with the developers of the plugin, [I commented that](http://jira.codehaus.org/browse/MWEBSTART-86):
+
+> It would greatly improve the adoption of this plugin if it supports very simple out of the box behavior.
 
 
 
-The response I was a bit surprising, "Not sure if that will improve the adoption of the plugin (what are the alternatives?)"
+The response I was a bit surprising:
+
+> Not sure if that will improve the adoption of the plugin (what are the alternatives?)
 
 
 

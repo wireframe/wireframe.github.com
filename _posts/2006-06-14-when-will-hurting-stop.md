@@ -17,7 +17,7 @@ Just to be perfectly clear why this pisses me off. My webapp renders all pages w
 
 
 
-```
+```xml
 <c:import charEncoding="UTF-8" url="/WEB-INF/views/jsp/myPage.jsp" />
 ```
 

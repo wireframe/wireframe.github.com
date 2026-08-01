@@ -8,13 +8,13 @@ tags:
 [Attachment Fu is a kick ass rails plugin](http://github.com/technoweenie/attachment_fu/tree/master) for handling file uploads within your rails application.  It greatly simplifies the ordeal of supporting file uploads and even supports some really amazing features like using Amazon S3 as a backend to store your files.  My only gripes thus far have been finicky thumbnail generation...
 
 
-_**And**_correct detection of the file content type...
+_**And**_ correct detection of the file content type...
 
 
 I'm using a [flash widget for file uploads](http://developer.yahoo.com/yui/uploader/) in my app and it's been a pretty good solution except for the fact that flash kind of "forgets" to send the file content type to the server. _Oooppps_!  You see, browsers are responsible for including the content type when they post the file to the server and not having the correct content type causes all sorts of funky issues when the file is downloaded.  For example, a MS Word document will open with the wrong application if you don't have the correct content type.
 
 
-Since [web browsers are not exactly any more trustworthy than flash](http://swfupload.org/forum/generaldiscussion/166)_*cough* IE *cough*_, it would be prudent to have the server do it's best to detect and/or correct the mime type sent by the client browser.  This led me to create [a fork of the attachment\_fu project](http://github.com/wireframe/attachment_fu) and improve the support for determining content types if/when the browser was unable to do so.
+Since [web browsers are not exactly any more trustworthy than flash](http://swfupload.org/forum/generaldiscussion/166) _*cough* IE *cough*_, it would be prudent to have the server do it's best to detect and/or correct the mime type sent by the client browser.  This led me to create [a fork of the attachment\_fu project](http://github.com/wireframe/attachment_fu) and improve the support for determining content types if/when the browser was unable to do so.
 
 
 My solution is to determine the file content type by checking a chain of different mime type decision points.  First and foremost, the content type from the browser is used if available. If one is not given, or if the browser is unable to determine the content type, a series of fallback implementations try to reconcile the issue.
@@ -23,7 +23,7 @@ My solution is to determine the file content type by checking a chain of differe
 The first fallback is to rely on the file extension to lookup the mime type.  This is a very simple and flexible solution that allows for easy addition/customization of accepted mime types. Registering new mime types in rails is a snap, and this solution was necessary for me to support the new ms office 2007 document types.
 
 
-Using the unix 'file' command to detect the content type is the next fallback.  This solution inspects the contents of the file to determine the file type.  It works relatively well except for when file contents are not necessarily unique.  For example, [all ms-office documents are reported as application/msword due to the file contents being nearly identical](http://www.mediawiki.org/wiki/Manual_talk:Mime_type_detection).
+Using the unix `file` command to detect the content type is the next fallback.  This solution inspects the contents of the file to determine the file type.  It works relatively well except for when file contents are not necessarily unique.  For example, [all ms-office documents are reported as application/msword due to the file contents being nearly identical](http://www.mediawiki.org/wiki/Manual_talk:Mime_type_detection).
 
 
 If all else fails, we simply set the content type to "application/octet-stream" which basically means "unknown binary data".
@@ -42,7 +42,7 @@ def uploaded_data=(file_data)
 end
 
 
-# uses the os’s “file” utility to determine the file type, yanked and modified slightly from file_column.
+# uses the os's "file" utility to determine the file type, yanked and modified slightly from file_column.
 # see http://blog.vixiom.com/2007/12/28/hacking-attachment_fu-to-work-with-flashflex-uploads-and-crop-square-images/
 def native_content_type
  begin

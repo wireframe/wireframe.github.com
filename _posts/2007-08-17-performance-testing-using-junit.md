@@ -26,7 +26,8 @@ public class PerformanceTestCase extends TestCase {
    runnable.run();
    long executionTime = System.currentTimeMillis() - start;
 
-   assertTrue("Expected execution time to be less than " + millis + " but was " + executionTime, executionTime  }
+   assertTrue("Expected execution time to be less than " + millis + " but was " + executionTime, executionTime &lt; millis);
+ }
 }
 
 ```

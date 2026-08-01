@@ -62,7 +62,7 @@ The appserver specific gems are autoloaded using the Rack config.ru configuratio
 
 Autoloading gems into your background workers can also easily be done by passing the RAILS\_GROUPS config to your resque workers.
 
-```
+```bash
 $ RAILS_GROUPS=worker QUEUES=* RAILS_ENV=production rake resque:work
 ```
 

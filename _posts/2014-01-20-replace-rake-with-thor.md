@@ -95,7 +95,7 @@ has built a **considerable** [collection of extensions and integrations](http://
 There were two critical features that needed to be addressed
 in order to complete the migration from Rake to Thor...
 
-#### Performance Monitoring (NewRelic)
+### Performance Monitoring (NewRelic)
 
 [NewRelic](http://newrelic.com/) is my goto solution for application
 profiling and the
@@ -106,7 +106,7 @@ The [newrelic-thor gem](https://github.com/thegarage/newrelic-thor)
 brings that same profiling support to your Thor tasks with no code
 changes.  Can't get much easier then that!
 
-#### Exception Tracking (Honeybadger)
+### Exception Tracking (Honeybadger)
 
 [Honyebadger](http://honeybadger.io/) is an excellent solution
 for tracking application exceptions.  They even package tracking

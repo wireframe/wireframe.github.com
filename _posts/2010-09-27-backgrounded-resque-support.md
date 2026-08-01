@@ -19,7 +19,7 @@ After an extended rest, Backgrounded is back in action with support for Resque.
 
 After getting Resque up and running, the Backgrounded configuration is simple (as always).
 
-```
+```ruby
 #config/initializers/backgrounded.rb
 require 'backgrounded/handler/resque_handler'
 

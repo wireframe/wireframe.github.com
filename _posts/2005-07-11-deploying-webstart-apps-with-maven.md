@@ -20,7 +20,7 @@ This definately isn't desirable, since I want to concurrently serve up multiple 
 The repository layout for maven2 seems to almost solve my problems. It provides a versioned layout for artifacts, which has been my largest problem thus far. This type of layout would be usuable for most of my use cases:
 
 
-```
+```text
 myProject/
  /jnlps/
  /1.0/myProject-1.0.jnlp

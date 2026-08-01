@@ -38,7 +38,7 @@ The [ruby json gem](http://json.rubyforge.org/) encodes the unicode characters c
 
 Please vote for this lighthouse ticket to get JSON encoding in Rails up to snuff!
 
-[https://rails.lighthouseapp.com/projects/8994/tickets/3345-to\_json-does-not-escape-unicode-characters#ticket-3345-1](https://rails.lighthouseapp.com/projects/8994/tickets/3345-to_json-does-not-escape-unicode-characters#ticket-3345-1)
+[this lighthouse ticket](https://rails.lighthouseapp.com/projects/8994/tickets/3345-to_json-does-not-escape-unicode-characters#ticket-3345-1)
 
 
 **UPDATE:** A patch has been [submitted and accepted](http://github.com/rails/rails/commit/a9002056761a481589852d6e8680f752a5b823b7) into the rails core that should fix this issue with the next release. Hopefully this doesn't have to wait till the Rails 3.0 release!

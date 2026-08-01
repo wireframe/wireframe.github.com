@@ -15,7 +15,7 @@ Any Wicket users in the Minneapolis/St. Paul area should head over to a newly cr
 
 
 
-[http://groups.google.com/group/wicket-user-group-twincities](http://groups.google.com/group/wicket-user-group-twincities)
+[Wicket Users Group Twin Cities Google Group](http://groups.google.com/group/wicket-user-group-twincities)
 
 
 

@@ -58,8 +58,7 @@ It's just that simple! =) This version of the presentation was a big hit, but if
 
 
 
-Action Frameworks
-=================
+### Action Frameworks
 
 
 
@@ -121,8 +120,7 @@ Very powerful library used for rendering view layer (OGNL) can be useful, but ha
 
 
 
-Component Frameworks
-====================
+### Component Frameworks
 
 
 

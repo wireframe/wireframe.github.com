@@ -22,7 +22,7 @@ Integrating JSLint into your continuous testing flow is now possible with the ne
 
 ###  First: install the gem...
 
-```
+```bash
 $ gem install guard-jslint-on-rails
 ```
 
@@ -30,7 +30,7 @@ $ gem install guard-jslint-on-rails
 
 ###  Next: configure guard...
 
-```
+```bash
 $ guard init jslint-on-rails
 ```
 

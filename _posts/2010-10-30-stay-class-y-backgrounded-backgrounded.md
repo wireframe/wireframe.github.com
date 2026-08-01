@@ -22,7 +22,7 @@ There are lots of usecases where it's necessary to run a background method on a 
 Backgrounded class methods work exactly the same as instance methods and there are no client API changes required to use them. Just reference your class level method with a class level backgrounded declaration and you're all set.
 
 
-```
+```ruby
 class User
  class << self
    backgrounded :my_instance_method

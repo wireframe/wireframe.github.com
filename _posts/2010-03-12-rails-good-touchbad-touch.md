@@ -28,10 +28,10 @@ User.first.touch
 ```
 
 
-Easy, right? But, did you know that this useful little method will fire all of your after\_save callbacks?  This led to some nasty performance problems recently, and now you can now stop Rails from having it's way with you!  Bad Touch Rails!
+Easy, right? But, did you know that this useful little method will fire all of your `after_save` callbacks?  This led to some nasty performance problems recently, and now you can now stop Rails from having it's way with you!  Bad Touch Rails!
 
 
-The good\_touch project is now available on [github](http://github.com/wireframe/good_touch) and [gemcutter](http://rubygems.org/gems/good_touch) and eliminates the overhead for updating a simple timestamp attribute.  It's as easy as using the standard/bad touch method without all the horseplay.
+The `good_touch` project is now available on [github](http://github.com/wireframe/good_touch) and [gemcutter](http://rubygems.org/gems/good_touch) and eliminates the overhead for updating a simple timestamp attribute.  It's as easy as using the standard/bad touch method without all the horseplay.
 
 ```ruby
 User.first.good_touch

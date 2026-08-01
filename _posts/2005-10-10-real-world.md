@@ -13,22 +13,18 @@ After I gave my presentation on FIT, I had a number of developers come up and as
 
 
 
-```
-AnotherDeveloper:
-Great presentation!
-I'm wondering how I can use FIT to test my Spring MVC controllers?
-
-
-Me:
-Ummmm....Spring MVC is a GUI layer, right?
-It's extremely difficult to test *any* GUI layer.
-But it should be really easy to extract the business logic into
-non-GUI specific code and test that.
-
-
-AnotherDeveloper:
-Well ideally, yes we should do that, but this is the "real world".
-So, how can I "fix FIT" to create servlet request/response objects?
-```
+> AnotherDeveloper:
+> Great presentation!
+> I'm wondering how I can use FIT to test my Spring MVC controllers?
+>
+> Me:
+> Ummmm....Spring MVC is a GUI layer, right?
+> It's extremely difficult to test *any* GUI layer.
+> But it should be really easy to extract the business logic into
+> non-GUI specific code and test that.
+>
+> AnotherDeveloper:
+> Well ideally, yes we should do that, but this is the "real world".
+> So, how can I "fix FIT" to create servlet request/response objects?
 
 This is just another example of people that just don't "get it". I personally *guarentee* that it would be less work for AnotherDeveloper to extract and test the business logic instead of trying to hack FIT to test their Spring MVC code.

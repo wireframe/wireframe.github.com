@@ -13,11 +13,11 @@ There's been a lot of talk lately about [who's to blame for problems in our worl
 
 
 
-"How are you going to change the world, right here, right now?"
+> How are you going to change the world, right here, right now?
 
 
 
-"If you don't do it, noone else will."
+> If you don't do it, noone else will.
 
 
 

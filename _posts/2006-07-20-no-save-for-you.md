@@ -22,7 +22,7 @@ There's nothing inherintly wrong with this solution, except for the fact that th
 
 
 
-Thank God for tools like [greasemonkey](http://greasemonkey.mozdev.org/) and [firebug ](https://addons.mozilla.org/firefox/1843/)that allow you to execute scripts against the available DOM. Something like this works like a champ to get around that _pesky_ security.
+Thank God for tools like [greasemonkey](http://greasemonkey.mozdev.org/) and [firebug](https://addons.mozilla.org/firefox/1843/) that allow you to execute scripts against the available DOM. Something like this works like a champ to get around that _pesky_ security.
 
 
 ```javascript

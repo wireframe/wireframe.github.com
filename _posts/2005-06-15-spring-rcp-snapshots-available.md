@@ -12,9 +12,9 @@ I've been putting in a fair amount of work lately on two spring-rcp applications
 To solve this problem, I decided to publish [CVS snapshots of spring-rcp](http://maven.codecrate.com/spring-rcp/jars/) on [my public maven repository](http://maven.codecrate.com). Anyone interested in developing a spring-rcp application with maven can simply update their list of repositories to include my server.
 
 
-project.properties
+`project.properties`
 
-```
+```properties
 #repository settings
 maven.repo.remote=http://maven.codecrate.com,http://www.ibiblio.org/maven
 ```

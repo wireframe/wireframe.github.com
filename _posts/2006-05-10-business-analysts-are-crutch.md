@@ -21,5 +21,7 @@ Business analysts serve their purpose as a developer "safety blanket". Their job
 
 
 
-"The only thing constant is change." Why not embrace it?
+> The only thing constant is change.
+
+Why not embrace it?
 

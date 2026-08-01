@@ -12,7 +12,7 @@ Just when I thought JSP couldn't get any worse, Sun announces that they are subm
 Sun claims that this spec is useful:
 
 
-"A JSP tag library for Web Services is a happy union of the two technologies that will help JSP page authors integrate Web Services into their web applications with minimal effort and quick turnaround times."
+> A JSP tag library for Web Services is a happy union of the two technologies that will help JSP page authors integrate Web Services into their web applications with minimal effort and quick turnaround times.
 
 
 "A Happy Union"? I would call it, "A Shotgun Wedding". Why can't someone see that this is a terrible, terrible idea?

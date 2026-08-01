@@ -20,7 +20,7 @@ This is an excellent optimization to increase the availability of your cron serv
 
 crontab invocation:
 
-```
+```bash
 script/backgrounded enqueue Foo.bar --queue baz
 ```
 

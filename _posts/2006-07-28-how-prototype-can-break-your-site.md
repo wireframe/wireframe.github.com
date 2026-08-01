@@ -32,7 +32,7 @@ Now, before prototype is added to the page, this Javascript will have the follow
 
 
 
-```
+```text
 0 = 1
 1 = 2
 ```
@@ -44,7 +44,7 @@ After prototype is added to the page, the for loop acts differently and also ite
 
 
 
-```
+```text
 0 = 1
 1 = 2
 each = function() { }

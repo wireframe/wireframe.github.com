@@ -11,14 +11,14 @@ _Everyone_ knows that there's no decent ruby solution for monitoring server side
 
 
 
-I've been using starling/workling in my current project and needed to monitor the health of my starling queue. There can be sudden bursts of load on my starling queue, and the workling processes may fall behind and not process items in the queue fast enough. There is a starling\_status script that can be used to manually check on the health of the queue, but I got a little tired of sitting at my keyboard day after day periodically running the script.
+I've been using starling/workling in my current project and needed to monitor the health of my starling queue. There can be sudden bursts of load on my starling queue, and the workling processes may fall behind and not process items in the queue fast enough. There is a `starling_status` script that can be used to manually check on the health of the queue, but I got a little tired of sitting at my keyboard day after day periodically running the script.
 
 
 
 So, I wrote up a monitoring task that will notify me when the queue is backed up, and when/if it recovers back to a good state. Just drop this into your existing GOD configuration script, and tweak for the queue you need to monitor.
 
 
-```
+```ruby
 
 
 God.task do |w|
@@ -73,7 +73,7 @@ end
 Here is the GOD extension to connect and monitor the health of the starling queue. To install it, simply copy this code into your GOD configuration script as well.
 
 
-```
+```ruby
 
 
 module God

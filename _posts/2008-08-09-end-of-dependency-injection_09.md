@@ -23,7 +23,7 @@ public class MyService {
 }
 ```
 
-What makes this previous block of Java code untestable?  It's because of the "new" keyword.  In Java, "new" is a magic keyword and there's nothing you can do to circumvent the code that executes when it fires. In order to test the my code with various DatabaseConnection behavior, you need to inject the DatabaseConnection so unit tests can configure the expected behavior.
+What makes this previous block of Java code untestable?  It's because of the `new` keyword.  In Java, `new` is a magic keyword and there's nothing you can do to circumvent the code that executes when it fires. In order to test the my code with various DatabaseConnection behavior, you need to inject the DatabaseConnection so unit tests can configure the expected behavior.
 
 
 ```java
@@ -42,7 +42,7 @@ public class MyService {
 ```
 
 
-It's unfortunate that making my code "testable" doubles the amount of code.  It also reduces context of the code and makes its purpose less clear.  Is this really necessary?  In Ruby, "new" is just another method that you can easily override to facilitate testing and you don't need to make any changes to your class to inject test dependencies.
+It's unfortunate that making my code "testable" doubles the amount of code.  It also reduces context of the code and makes its purpose less clear.  Is this really necessary?  In Ruby, `new` is just another method that you can easily override to facilitate testing and you don't need to make any changes to your class to inject test dependencies.
 
 
 ```ruby
@@ -56,7 +56,7 @@ end
 ```
 
 
-This Ruby code is just as testable as the previous Java example and there's no Dependency Injection required.  Instead of having to "jump through hoops" and inject the DatabaseConnection object into my class, I can just override the DatabaseConnection.new method to return a testable mock implementation.
+This Ruby code is just as testable as the previous Java example and there's no Dependency Injection required.  Instead of having to "jump through hoops" and inject the DatabaseConnection object into my class, I can just override the `DatabaseConnection.new` method to return a testable mock implementation.
 
 
 ```ruby

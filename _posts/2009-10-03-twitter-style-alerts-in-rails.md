@@ -14,9 +14,7 @@ tags:
 
 [](http://img.skitch.com/20091003-x7i4ydi1wuk2jjxpe6kepxxre1.jpg)
 
-[
-
-](http://img.skitch.com/20091003-x7i4ydi1wuk2jjxpe6kepxxre1.jpg)
+[](http://img.skitch.com/20091003-x7i4ydi1wuk2jjxpe6kepxxre1.jpg)
 
 
 Why this solution rocks
@@ -33,13 +31,13 @@ Apparently, Twitter rules the world and everything Twitter does needs to be copi
 
 See the solution in action at:
 
-[http://twitteralerts.heroku.com/](http://twitteralerts.heroku.com/)
+[the live demo](http://twitteralerts.heroku.com/)
 
 
 
 Code for the demo is available on github at:
 
-[http://github.com/wireframe/twitteralerts](http://github.com/wireframe/twitteralerts)
+[github](http://github.com/wireframe/twitteralerts)
 
 
 

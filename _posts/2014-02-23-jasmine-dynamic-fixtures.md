@@ -46,7 +46,7 @@ directory.  The `spec/javascripts/fixtures` directory can still be used for any 
 The generated fixtures are also automatically ignored by Git, so you don’t need to worry about
 polluting your project repository.
 
-```
+```text
 spec/javascripts/fixtures/
 ├── generated
 │   └── users

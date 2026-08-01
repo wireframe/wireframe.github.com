@@ -30,7 +30,6 @@ This example AutocompleteTextField is just an extention of the normal Wicket tex
 
 
 ```java
-<pre>
 public class AutocompleteTextField extends TextField {
     private final AutocompleteEventHandler handler;
 

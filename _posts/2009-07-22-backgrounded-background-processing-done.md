@@ -40,13 +40,13 @@ end
 ```
 
 
-I've released a Backgrounded on github at [http://github.com/wireframe/backgrounded](http://github.com/wireframe/backgrounded) as a simple and concise API for invoking background jobs.  It also provides a thin wrapper around the underlying job handler framework to support pluggable implementations.  DelayedJob is supported out of the box, but it's trivial to drop in support for bj, workling, or any other implementation.
+I've released a Backgrounded on [github](http://github.com/wireframe/backgrounded) as a simple and concise API for invoking background jobs.  It also provides a thin wrapper around the underlying job handler framework to support pluggable implementations.  DelayedJob is supported out of the box, but it's trivial to drop in support for bj, workling, or any other implementation.
 
 
 Backgrounded also works great in unit tests as well by providing a "synchronous" handler so that your tests don't need to wait for the background work to complete.  No need for Thread.sleep!
 
 
-I'm excited about this API for a number of reasons.  The meta programming declaration doubles as documentation and makes it very clear what the developer is intending to do.  It also allows for backgrounded internals to declaratively create the backgrounded methods ahead of time and remove the need for ugly "method\_missing" handling.  Yay for clean stacktraces and accurate listing of methods (including IRB method autocompletion)!
+I'm excited about this API for a number of reasons.  The meta programming declaration doubles as documentation and makes it very clear what the developer is intending to do.  It also allows for backgrounded internals to declaratively create the backgrounded methods ahead of time and remove the need for ugly `method_missing` handling.  Yay for clean stacktraces and accurate listing of methods (including IRB method autocompletion)!
 
 
 DelayedJob supports a slightly similar *alternative* API (ex: User.send\_later(:do\_something)), but their primary usecase revolves around creating a secondary Job class to perform your work.  I've thought about forking the delayed job project to support my syntax, but for now I'll leave it as a separate project.  Let me know if there's any interest in having this merged into the core delayed\_job project.

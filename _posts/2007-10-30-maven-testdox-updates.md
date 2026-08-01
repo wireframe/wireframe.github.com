@@ -13,6 +13,7 @@ I've released a [new version of the maven testdox plugin](http://maven.codecrate
 
 
 Notable changes in this release are to try and make the report even more "human readable":
+
   - trim off package name for the test class name (ex: com.mysite.FooTest becomes Foo)
   - add spaces to the test class name (ex: FooBarTest becomes Foo bar)
 

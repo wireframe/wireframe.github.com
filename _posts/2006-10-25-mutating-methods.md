@@ -9,7 +9,7 @@ Today marks the start of a new series of blog entries that identify common patte
 
 
 
-A Mutating Method is a method that takes a parameter as input and modifies that object directly instead of returning a value. This is definitely an antipattern, and one of my pet peeves. A perfect example of this is Collections.sort(List). There's no return value for this method. It just rewrites your list however it sees fit and there's nothing you can do about it.
+A Mutating Method is a method that takes a parameter as input and modifies that object directly instead of returning a value. This is definitely an antipattern, and one of my pet peeves. A perfect example of this is `Collections.sort(List)`. There's no return value for this method. It just rewrites your list however it sees fit and there's nothing you can do about it.
 
 
 

@@ -15,7 +15,7 @@ tags:
 As a developer, working with email pretty much sucks. Crafting emails is a time consuming task where you constantly refine and tweak markup to get the **perfect** layout for your message. Heck, it's easier to do cross browser testing of your application for IE6!
 
 
-The email\_preview engine is a new Rails 3 plugin I've released to help developers build kick ass emails for your Rails 3 app. It provides a quick and easy way to preview sample emails from within your web browser and see how they will look in the end user's email client.
+The `email_preview` engine is a new Rails 3 plugin I've released to help developers build kick ass emails for your Rails 3 app. It provides a quick and easy way to preview sample emails from within your web browser and see how they will look in the end user's email client.
 
 
 The developer API is extremely simple. You can use the standard Rails ActionMailer interface to configure each instance, or manually configure each email using the excellent [mail library](http://github.com/mikel/mail).
@@ -57,10 +57,10 @@ end
 ```
 
 
-Once you've configuring your sample emails, startup your Rails 3 application and preview them in any web browser at [http://localhost:3000/email\_preview](http://localhost:3000/email_preview). All email templates are re-rendered with each request so you can tweak/save/refresh to instantly preview how your emails will look for your users. Talk about quick turnaround time!
+Once you've configuring your sample emails, startup your Rails 3 application and preview them in any web browser at [`http://localhost:3000/email_preview`](http://localhost:3000/email_preview). All email templates are re-rendered with each request so you can tweak/save/refresh to instantly preview how your emails will look for your users. Talk about quick turnaround time!
 
 
 Need more assurance that your emails will look correct? If your dev environment is configured to send emails, you can send any of your email previews to your inbox by filling out the convenient form at the top of each page.
 
 
-This plugin is 100% opensource and the code is available on github at [http://github.com/wireframe/email\_preview](http://github.com/wireframe/email_preview). Patches are *always* welcome, and if you have any questions or suggestions, please drop me a line.
+This plugin is 100% opensource and the code is available on github at [`http://github.com/wireframe/email_preview`](http://github.com/wireframe/email_preview). Patches are *always* welcome, and if you have any questions or suggestions, please drop me a line.

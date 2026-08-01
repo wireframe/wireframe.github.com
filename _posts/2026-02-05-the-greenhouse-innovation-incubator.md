@@ -15,13 +15,21 @@ Early-stage startups operate under brutal constraints. Never enough time. Never 
 
 Then you survive, and you grow. One product team becomes four. An initiative gets staffed with five designers producing "activity" without "motion." Revenue keeps climbing and the runway that once felt desperate now stretches for years. Project timelines stretch right along with it. The existential pressure that drove you here fades, and with it, something else fades too: urgency.
 
-"Necessity is the mother of invention," Plato wrote. What happens when necessity disappears? You have to manufacture it by creating a *greenhouse* for incubating your innovation initiatives.
+> Necessity is the mother of invention.
+> — Plato
+
+What happens when necessity disappears? You have to manufacture it by creating a *greenhouse* for incubating your innovation initiatives.
 
 ## From the Lab to the Greenhouse
 
 The typical corporate response to the urgency problem is an innovation lab. I've seen this model up close. It creates a permanent class of innovators who build prototypes and hand them off to production teams. Context evaporates, the org splits into haves and have-nots, and without real constraints the lab becomes a fiefdom where activity masquerades as progress.
 
-The greenhouse offers a different model. Most people think greenhouses are about protection. But real greenhouses don't just protect. They manufacture growing seasons. As Orson Welles put it, "The enemy of art is the absence of limitations." Greenhouses impose real constraints with real consequences, and the isolation is temporary. Teams earn their right to continue or get composted.
+The greenhouse offers a different model. Most people think greenhouses are about protection. But real greenhouses don't just protect. They manufacture growing seasons.
+
+> The enemy of art is the absence of limitations.
+> — Orson Welles
+
+Greenhouses impose real constraints with real consequences, and the isolation is temporary. Teams earn their right to continue or get composted.
 
 ## Controlling the Climate with Manufactured Constraints
 
@@ -37,7 +45,10 @@ Your greenhouse teams need the same pressure. A clear timeline with clear succes
 
 Organizations will try to kill new ideas. Not maliciously. Just people doing their jobs. Architecture review wants consistency. Security needs threat models. Legal needs compliance sign-off. Product management wants roadmap alignment. Each request is reasonable in isolation. Together, they suffocate anything new.
 
-Ed Catmull nailed this in *Creativity, Inc.*: "Part of our job is to protect the new from people who don't understand that, in order for greatness to emerge, there must be phases of not-so-greatness."
+Ed Catmull nailed this in *Creativity, Inc.*:
+
+> Part of our job is to protect the new from people who don't understand that, in order for greatness to emerge, there must be phases of not-so-greatness.
+> — Ed Catmull, *Creativity, Inc.*
 
 For innovation teams, the greenhouse walls provide insulation from these organizational processes. Architecture review. Sprint ceremonies. SLAs. Code coverage requirements. Documentation standards. These processes exist for good reasons in the main organization. Inside the greenhouse, they're waste. The walls keep them out and the team decides what is "good enough" for their customers.
 

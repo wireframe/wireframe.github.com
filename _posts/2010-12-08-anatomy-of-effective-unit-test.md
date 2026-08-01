@@ -65,7 +65,7 @@ I'll use shoulda syntax for these examples, but the same principles apply to RSp
 
 Separating the setup/execution/assertions into separate blocks creates self documenting and highly readable tests.  The "description" component for each part of your test (setup, execute, assertion) is used to construct a sentence for your test.  This is a welcome change from the uglified test naming convention used by legacy test frameworks. The previous example would read:
 
-"creating blog post with new user should send email to author"
+`creating blog post with new user should send email to author`
 
 
 ### Setup

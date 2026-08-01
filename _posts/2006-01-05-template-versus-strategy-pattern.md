@@ -18,7 +18,7 @@ The template pattern defines the "hook" template methods for subclasses as prote
 
 
 
-Here's a simple example using Java psuedocode.  Notice how in order for me to unit test the importObject(String line) method of my extension class, I have to unit test all of the file IO.  It's a bit basic, but if that behavior was promoted to a strategy, you could unit test it without any file system dependencies.  Something like LineObjectImporter.importObject(String line) would do just nicely. +1 for testability!
+Here's a simple example using Java psuedocode.  Notice how in order for me to unit test the `importObject(String line)` method of my extension class, I have to unit test all of the file IO.  It's a bit basic, but if that behavior was promoted to a strategy, you could unit test it without any file system dependencies.  Something like `LineObjectImporter.importObject(String line)` would do just nicely. +1 for testability!
 
 
 

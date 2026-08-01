@@ -22,19 +22,19 @@ deployment methodologies.
 
 ## The Basic Building Blocks
 
-#### Master branch == Production environment
+### Master branch == Production environment
 
 Straightforward and simple.  Continuous integration and continuous deployment
 take care of building all code checked into master, validating all tests pass,
 and automatically deploying to production.  Continuous integration also will
 create a unique tag in git for each release.
 
-#### All development is done on feature branches
+### All development is done on feature branches
 
 No shockers here.  This has been a best practice in software development for
 a long time and git makes this stunningly easy.
 
-#### Staging branch == Staging environment
+### Staging branch == Staging environment
 
 How do you test your feature branch in a non-production environment?  This is
 where things get interesting.  The staging branch is what I call an
@@ -56,14 +56,14 @@ And if the staging branch gets into a bad state, no worries.  We have a simple
 way to `nuke` any aggregate branch back to a known good state using git tags
 that are created via continuous integration.
 
-#### Peer Review with Pull Requests
+### Peer Review with Pull Requests
 
 Github pull requests are incredible to facilitate discussion for feature branches.
 It is a transparent way for team members to review each others code and a convenient
 way for stakeholders to see what's going on in a project.
 
 
-#### Continuous Integration and Continuous Deployment
+### Continuous Integration and Continuous Deployment
 
 [Continuous integration and continuous deployment need to be included from day
 one]({% post_url 2014-05-22-day-one-rails-continuous-integration %}).  These systems are the orchestration layer that perform all the heavy

@@ -20,7 +20,7 @@ The differentiator isn’t just in having agents. It’s in building the environ
 
 But we’re still in the early days, and teams are regularly stumbling over landmines: tooling is inconsistent, the behavior is brittle, hallucinations, stale context, unpredictable edge cases. It’s messy. It’s frustrating. And it’s also one of **the most exciting shifts we’ve seen in software** since the rise of cloud-native development.
 
-In this moment of rapid technological shift, now more than ever, we need "Pilots"—those who proactively tune environments, validate outputs, and guide agents through complex systems. Not "Passengers" waiting for someone else to figure it all out.
+In this moment of rapid technological shift, now more than ever, we need “Pilots”—those who proactively tune environments, validate outputs, and guide agents through complex systems. Not “Passengers” waiting for someone else to figure it all out.
 
 Let’s get to work.
 
@@ -28,9 +28,9 @@ Let’s get to work.
 
 ## From Planning to Landing: Humans *still* required
 
-Let's get this out of the way first. Agents currently have *severe* limitations and require significant oversight from domain experts with sufficient context. You cannot abdicate responsibility for code written by an agent. They’re only following your instructions—you bear responsibility for the result.
+Let’s get this out of the way first. Agents currently have *severe* limitations and require significant oversight from domain experts with sufficient context. You cannot abdicate responsibility for code written by an agent. They’re only following your instructions—you bear responsibility for the result.
 
-[This excellent interview with Gumroad's CEO, Sahil Lavingia](https://youtu.be/KVZ3vMx_aJ4), describes a model of human + agent collaboration where humans act as the task planners and reviewers—allowing agents to operate asynchronously.
+[This excellent interview with Gumroad’s CEO, Sahil Lavingia](https://youtu.be/KVZ3vMx_aJ4), describes a model of human + agent collaboration where humans act as the task planners and reviewers—allowing agents to operate asynchronously.
 
 Humans are uniquely suited to:
 
@@ -41,7 +41,7 @@ Teams can begin evaluating agents not just by what they output—but by how much
 
 ## Agents as Interns
 
-Think of an agent as an intern. Ask an intern to "optimize the UI" and you’ll get chaos. But with a clear spec, metrics, and examples, you’ll get useful output.
+Think of an agent as an intern. Ask an intern to “optimize the UI” and you’ll get chaos. But with a clear spec, metrics, and examples, you’ll get useful output.
 
 Today’s agents are confident but brittle. This model helps manage expectations: with structure and support, they can be effective contributors.
 
@@ -59,13 +59,13 @@ If your systems are hard for humans to work with, they’re worse for machines. 
 
 Make it easy for both:
 
-* **Reproducible environments:** Use containers or setup scripts to onboard agents and humans alike.
-* **Reliable test suites:** Fast, comprehensive tests allow agents to verify their changes.
-* **Clear observability:** Well-structured logs, traces, and error messages help both sides of the collaboration debug effectively.
+- **Reproducible environments:** Use containers or setup scripts to onboard agents and humans alike.
+- **Reliable test suites:** Fast, comprehensive tests allow agents to verify their changes.
+- **Clear observability:** Well-structured logs, traces, and error messages help both sides of the collaboration debug effectively.
 
 Better DX = more autonomy and less babysitting.
 
-## It's All About the Context
+## It’s All About the Context
 
 Agents need usable context to succeed. In greenfield apps, it’s easier to bake in modular design and modern practices from the start.
 

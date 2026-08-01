@@ -17,7 +17,7 @@ API Above All
 The API for calling background jobs needs to be clear and concise. No extra Worker/Job classes, and the method signature for invoking background jobs needs to make sense.
 
 
-The optional delayed\_job API is okay, but not great. It is nowhere near as usable as as the Backgrounded syntax. 
+The optional `delayed_job` API is okay, but not great. It is nowhere near as usable as as the Backgrounded syntax. 
 
 ```ruby
 #delayed_job API
@@ -25,7 +25,7 @@ MyObject.handle_asynchronously(:my_action)
 ```
 
 
-Workling's implementation is workable (pun intended), but not ideal either. I constantly find myself wondering if the method name starts with "async" or "asynch" and the lack of method completion (due to method\_missing usage) makes this problem even worse.
+Workling's implementation is workable (pun intended), but not ideal either. I constantly find myself wondering if the method name starts with "async" or "asynch" and the lack of method completion (due to `method_missing` usage) makes this problem even worse.
 
 ```ruby
 #workling API

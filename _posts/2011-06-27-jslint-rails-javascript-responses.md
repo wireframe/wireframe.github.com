@@ -15,7 +15,7 @@ Let's start by describing problem in a bit more detail.  Here are a few snippit
 
 Example Rails form for creating a new blog post via AJAX:
 
-```ruby
+```haml
 # app/views/blogs/new.html.haml
 = form_for Blog.new, :remote => true do |f|
   = f.text_area :body

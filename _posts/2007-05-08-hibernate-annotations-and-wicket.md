@@ -15,14 +15,14 @@ Wow. It's been an insane 24 hours.
 It all started by me posting this simple question on the wicket mailing list:
 
 
-Anyone have some fancy integration of hibernate and wicket?
+> Anyone have some fancy integration of hibernate and wicket?
 
 
 
 The response?
 
 
-Why don't you write one?
+> Why don't you write one?
 
 
 
@@ -36,10 +36,10 @@ After a flurry of research into this area, I've whipped together a hibernate/wic
 Essentially, right now it will auto configure a component by:
 
 
-  - set component to be "required" when using NotNullannotation
+  - set component to be "required" when using `NotNull` annotation
 
 
-  - add "maxlength" attribute when using Lengthannotation
+  - add "maxlength" attribute when using `Length` annotation
 
 
 

@@ -35,7 +35,7 @@ According to [The Anatomy of an Effective Unit Test]({% post_url 2010-12-08-anat
 I'm a strong proponent of [expressive method names]({% post_url 2005-02-10-document-code-with-units-of-work %}) as a way to self document your code and that's exactly what we need in this scenario. We need a clear and concise way to encapsulate our fixture data initialization outside of the before method and hook it into the RSpec test lifecycle. This will help remove the ambiguous purpose of the before method in this example.
 
 
-Luckily, The RSpec DSL can be easily be extended.  The new [factory\_girl\_rspec gem](https://github.com/wireframe/factory_girl_rspec) adds the with method which is a seriously clean and concise DSL for initializing your fixtures:
+Luckily, The RSpec DSL can be easily be extended.  The new [`factory_girl_rspec` gem](https://github.com/wireframe/factory_girl_rspec) adds the with method which is a seriously clean and concise DSL for initializing your fixtures:
 
 ```ruby
 describe User do

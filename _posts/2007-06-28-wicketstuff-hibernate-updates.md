@@ -7,7 +7,7 @@ tags:
 - wicket
 ---
 
-It's been a week since [the first "release" of my wicket/hibernate integration, and the [feedback from the wicket community](http://www.nabble.com/HibernateAnnotationComponentConfigurator-t3969383.html#a11266736) has been pretty amazing.
+It's been a week since the first "release" of my wicket/hibernate integration, and the [feedback from the wicket community](http://www.nabble.com/HibernateAnnotationComponentConfigurator-t3969383.html#a11266736) has been pretty amazing.
 
 
 

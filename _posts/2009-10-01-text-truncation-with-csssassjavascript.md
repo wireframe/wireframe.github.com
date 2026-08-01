@@ -52,4 +52,4 @@ This solution degrades gracefully and defaults to using overflow hidden if the c
 
 Javascript can used to emulate the same CSS truncation for browsers that do not support the text-overflow feature.  Here's a great jQuery plugin that does the dirty work so that all clients can see the same sexy truncation.
 
-[http://devongovett.wordpress.com/2009/04/06/text-overflow-ellipsis-for-firefox-via-jquery/](http://devongovett.wordpress.com/2009/04/06/text-overflow-ellipsis-for-firefox-via-jquery/)
+[this jQuery text-overflow plugin](http://devongovett.wordpress.com/2009/04/06/text-overflow-ellipsis-for-firefox-via-jquery/)

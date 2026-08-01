@@ -21,7 +21,7 @@ Here's a simple solution for your layouts to provide the default content, and ex
 ```
 
 
-Now each of your views can "inherit" the default markup, or they can override the content by declaring a content\_for block like so:
+Now each of your views can "inherit" the default markup, or they can override the content by declaring a `content_for` block like so:
 
 ```haml
 

@@ -45,7 +45,15 @@ Miss any of these and the whole thing falls apart. Get all three right and you'v
 
 **Intentional in-person investments pay off.** Some work is high-bandwidth by nature, and remote tools don't replicate it well. Quarterly planning brings the team into alignment on strategy. Team off-sites are concentrated time for design sprints, product discovery, and the kind of work that benefits from a shared whiteboard. Fast, in-the-room ideation is structurally harder over a wire. That's exactly why you schedule the off-site, not why you mandate the office.
 
-**Docs over decks.** A written narrative is a concrete artifact: anyone can read it, push back on it, or reference it, regardless of whether they were in the room when it was discussed. Reading is roughly twice as fast as listening anyway. Writing also forces clearer thinking. Bezos's anti-PowerPoint memo at Amazon argued that "the narrative structure of a good memo forces better thought." Steve Jobs ran Apple the same way: "I hate the way people use slide presentations instead of thinking."
+**Docs over decks.** A written narrative is a concrete artifact: anyone can read it, push back on it, or reference it, regardless of whether they were in the room when it was discussed. Reading is roughly twice as fast as listening anyway. Writing also forces clearer thinking. Bezos's anti-PowerPoint memo at Amazon argued that the narrative structure of a good memo forces better thought:
+
+> The narrative structure of a good memo forces better thought.
+> — Jeff Bezos
+
+Steve Jobs ran Apple the same way:
+
+> I hate the way people use slide presentations instead of thinking.
+> — Steve Jobs
 
 ## Systems — Make the Right Thing the Easy Thing
 

@@ -22,7 +22,7 @@ Here's my issue (in a broad sense):
   2. My wizard has registered a number of validators (ex: NameNotNullValidator).
 
 
-  3. My wizard doesn't display a validated piece of data until a later step. (ex: can't enter the nameuntil step 2).
+  3. My wizard doesn't display a validated piece of data until a later step. (ex: can't enter the `name` until step 2).
 
 
   4. How does the wizard support "delayed" validation until the user has access to the validated field?

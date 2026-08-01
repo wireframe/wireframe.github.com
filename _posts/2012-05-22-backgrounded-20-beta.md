@@ -77,6 +77,6 @@ end
 ```
 Grab the latest beta version via rubygems and send any feedback my way!
 
-```
+```bash
 gem install backgrounded --pre
 ```

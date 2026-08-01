@@ -21,25 +21,25 @@ HSQLDB uses a JVM shutdown hook to release the database lock which can be an iss
   1. Embedded application starts up. A new JVM is initialized.
 
 
-  2. Database Datasourcestarts up and connects to the database. HSQLDB will create the file lock.
+  2. Database `Datasource` starts up and connects to the database. HSQLDB will create the file lock.
 
 
   3. Embedded application is shutdown. The JVM does not exit.
 
 
-  4. Datasourcecloses, but HSQLDB does not release the file lock since the JVM did not exit.
+  4. `Datasource` closes, but HSQLDB does not release the file lock since the JVM did not exit.
 
 
   5. Embedded application is restarted in the same JVM.
 
 
-  6. Database Datasourcestarts up and tries to connect to the database. A big fat stacktrace is thrown because the HSQLDB database is still locked from the previous instance.
+  6. Database `Datasource` starts up and tries to connect to the database. A big fat stacktrace is thrown because the HSQLDB database is still locked from the previous instance.
 
 
 
 
 
-So, I did a bit of searching and found that you can manually tell HSQLDB to shutdown and release the database lock. Here's a nice little extension to the [commons dbcp](http://jakarta.apache.org/commons/dbcp/)Datasource that will correctly shutdown HSQLDB when the Datasource is closed.
+So, I did a bit of searching and found that you can manually tell HSQLDB to shutdown and release the database lock. Here's a nice little extension to the [commons dbcp](http://jakarta.apache.org/commons/dbcp/) `Datasource` that will correctly shutdown HSQLDB when the Datasource is closed.
 
 
 

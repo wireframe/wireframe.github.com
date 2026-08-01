@@ -49,7 +49,7 @@ Why is this such a big deal?
 
 
 
-For starters, you are no longer coupled to a particularTextField implementation. This is great for when people create their own subclasses of Components to customize behavior. For example, I might create a simple RequiredTextField Component. Using Behaviors allows you to use this functionality on anyTextField Component! Using Components forces users to use class extension to customize behavior while using Behaviors allows for a mix-and-match approach more like interfaces.
+For starters, you are no longer coupled to a particular `TextField` implementation. This is great for when people create their own subclasses of Components to customize behavior. For example, I might create a simple RequiredTextField Component. Using Behaviors allows you to use this functionality on any `TextField` Component! Using Components forces users to use class extension to customize behavior while using Behaviors allows for a mix-and-match approach more like interfaces.
 
 
 

@@ -9,7 +9,7 @@ tags:
 
 I've had a very simple photo archival strategy in place for over 10 years now which basically boils down to grouping related images in a folder named for the event with an [ISO8601 date prefix](http://en.wikipedia.org/wiki/ISO_8601) for easy organization.
 
-```
+```text
 Pictures
 |____2013
 | |____2013-08-30 End of Summer BBQ

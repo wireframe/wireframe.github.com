@@ -53,7 +53,7 @@ function doInBatchesWithDelay(array, callback, batchSize, delay) {
 ```
 
 
-[](http://www.hulu.com/watch/17201/saturday-night-live-sloths)
+[this video](http://www.hulu.com/watch/17201/saturday-night-live-sloths)
 
 This is your Javascript in BATCHES! It's still slow, but it'll kick your face in a punch fight!
 

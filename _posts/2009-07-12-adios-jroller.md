@@ -8,7 +8,7 @@ tags:
 
 I've talked about migrating off of JRoller for a long time, and the time has finally come.  The new home for this blog is officially at:
    
-[http://blog.codecrate.com](http://blog.codecrate.com/)
+[my new blog](http://blog.codecrate.com/)
    
    
 Unfortunately, there's no good way to migrate blog entries between systems, so my old blog will stay up in an "archived" state at [http://jroller.com/wireframe](http://jroller.com/wireframe) from here on out.  You'd think with all of the standardization on RSS and Atom that it would be relatively simple to migrate posts (I'm not concerned with migrating comments).  I've tested out various [atom export/import hacks](http://code.google.com/p/google-blog-converters-appengine/wiki/BloggerExportTemplate) with no luck thus far.

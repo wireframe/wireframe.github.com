@@ -29,16 +29,16 @@ In the past, non-critical infrastructure was often viewed as a **distraction** f
 But with AI shrinking the cost of building and maintaining small systems, that trade-off is shifting. It's now often faster, cheaper, and more flexible to build lightweight tools in-house, even for functions that used to justify vendor spend.
 
 **Recent examples of what's moving in-house:**
-* **Developer experience tooling.** Pull request quality checks are a good example: a few years ago, we’d have bought a vendor solution. Today, it’s a weekend build that fits our workflow exactly.
+* **Developer experience tooling.** Pull request quality checks are a good example: a few years ago, we'd have bought a vendor solution. Today, it's a weekend build that fits our workflow exactly.
 * **Slackbots and workflow helpers.** Where companies once bought niche SaaS for reminders, approvals, or integrations, we're now seeing small internal bots emerge — easier to maintain and more tailored than their vendor equivalents.
 
-The question isn’t just "buy vs. build" anymore — it’s "why outsource non-critical systems if building them is nearly free?"
+The question isn't just "buy vs. build" anymore — it's "why outsource non-critical systems if building them is nearly free?"
 
 ### 2. How Good is "Good Enough"?
 
-Most vendor software comes with bloat where you end up paying for 100 features when you only use 10. The real question is: **how much extra are you willing to pay for those bells and whistles you don’t need?**
+Most vendor software comes with bloat where you end up paying for 100 features when you only use 10. The real question is: **how much extra are you willing to pay for those bells and whistles you don't need?**
 
-A recent case study makes this clear: [Klarna replaced Salesforce’s flagship CRM with a homegrown, AI-accelerated alternative](https://techcrunch.com/2025/03/04/klarna-ceo-doubts-that-other-companies-will-replace-salesforce-with-ai/). It wasn't perfect, but it did what they needed, and saved them millions.
+A recent case study makes this clear: [Klarna replaced Salesforce's flagship CRM with a homegrown, AI-accelerated alternative](https://techcrunch.com/2025/03/04/klarna-ceo-doubts-that-other-companies-will-replace-salesforce-with-ai/). It wasn't perfect, but it did what they needed, and saved them millions.
 
 That's the shift: perfect is expensive, "good enough" is cheap and in your control.  
 
@@ -53,7 +53,7 @@ Of course, AI-built tools aren't flawless. They can be brittle or rough around t
 
 ## The New Build vs Buy Decision Framework
 
-Together, these two questions — mission criticality and good enough — reshape the build vs buy decision. Here’s a simple way to think about it:
+Together, these two questions — mission criticality and good enough — reshape the build vs buy decision. Here's a simple way to think about it:
 
 1. **Is this mission-critical to my business?** (If yes → probably still buy)
 2. **Can I live with "good enough" functionality?** (If yes → probably build)

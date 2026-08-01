@@ -24,7 +24,7 @@ Creating your own stack is as simple as following a few steps:
 
 The installer script takes you from zero to hero in one line.  There's literally nothing else you need to do to get up and going.  The installer script even takes care of **automatically installing Xcode Command Line Tools**!
 
-```
+```bash
     # configure location of custom kitchenplan repository
     $ export KITCHENPLAN_REPO=https://github.com/mycompany/kitchenplan.git
 
@@ -40,7 +40,7 @@ Kitchenplan has an elegant set of configuration files that supports global as we
 
 I spent some time exploring [Pivotal sprout](https://github.com/wireframe/chef-osxbootstrap) as an alternative to kitchenplan, but it's lack of groups and limited local user customizations really make kitchen plan shine here.
 
-# Building your [Kitchen]plan
+## Building your [Kitchen]plan
 
 There are **lots** of recipes to choose from to build your kitchen plan config, and it can be overwhelming to know where to start.  I've found the best place to start is to cherry-pick recipes one at a time instead of trying to import a whole slew of recipes and weed through which ones are relevant.
 
@@ -63,6 +63,6 @@ Building the perfect shell environment takes a **long** time and I've invested a
 
 [the chef-dotfiles cookbook](https://github.com/thegarage/chef-dotfiles) has done a good job here as well getting a basic shell environment up to snuff and on par with my old custom dotfiles configuration (yep, contributions are encouraged).
 
-# Remodeling starts today
+## Remodeling starts today
 
 Creating a custom kitchenplan is an easy way to pay it forward and give your "future self" a few extra hours of productivity when you have to setup that next development environment.

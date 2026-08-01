@@ -14,7 +14,7 @@ It's literally been months since I've manually typed "cap production deploy". Fo
 
 
 
-Just Ship It!
+### Just Ship It!
 
 
 The theory behind continuous deployment is rather simple, "unreleased code is a liability". Features that takes weeks to build without getting real feedback are distracting you from focusing on what your customers are seeing every day. Using continuous deployment forces you to think differently about feature development. Large complex features become incremental deployments with user feedback at each step to ensure you're headed in the right direction (and to pull the plug as quickly as possible if you're not). If you're able to adjust your feature during the development cycle, you save time (and money) that would be wasted on going in a wrong direction.
@@ -25,7 +25,7 @@ Effective and thorough testing are all that stands between a bad commit and a bu
 
 
 
-If it's not tested, it's CRAP!
+### If it's not tested, it's CRAP!
 
 
 [Cruisecontrol.rb](http://cruisecontrolrb.thoughtworks.com/) is the heart and soul of our continuous deployment, but it's actually a very simple process. We register a custom rake task which runs our complete testsuite and if all tests pass, cruisecontrol flips the switch and deploys the code. Our rake task looks something like this:

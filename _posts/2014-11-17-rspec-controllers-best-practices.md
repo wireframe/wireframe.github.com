@@ -102,8 +102,7 @@ Do not nest contexts in order to share common setup.  Just don't.  **Ever**.
 
 Now, here's a gotcha with the RSpec-Rails integration.  For some reason, the default RSpec-Rails configuration disables rendering of templates for controller specs.  In my opinion, This is a very poor recommendation that leads to a false sense of security.  I've seen this happen more than once where your controller tests will pass, your code coverage will be 100%, but like a HAML indentation issue will blow up in production.  **BOOM**.
 
-Rails controllers operate on HTTP requests and **the response body is a critical part of it's job**.  To fix this, make sure to enable the `render_views` setting in your rails_helper.rb file.
-https://github.com/rspec/rspec-rails#controller-specs
+Rails controllers operate on HTTP requests and **the response body is a critical part of it's job**.  To fix this, make sure to enable the `render_views` setting in your rails_helper.rb file, as described in the [rspec-rails controller specs documentation](https://github.com/rspec/rspec-rails#controller-specs).
 
 ```ruby
 RSpec.configure do |config|

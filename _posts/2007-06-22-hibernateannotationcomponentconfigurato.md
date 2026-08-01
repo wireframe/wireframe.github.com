@@ -53,7 +53,7 @@ This object can also be used as a component listener that will automatically con
 
 
 
-I'm extremely excited that it is now possible for an _entire application_to automatically use Hibernate annotations without any extra work. As far as I know, this is a first for _any_ Java web framework and just goes to show how much Wicket rocks.
+I'm extremely excited that it is now possible for an _entire application_ to automatically use Hibernate annotations without any extra work. As far as I know, this is a first for _any_ Java web framework and just goes to show how much Wicket rocks.
 
 
 

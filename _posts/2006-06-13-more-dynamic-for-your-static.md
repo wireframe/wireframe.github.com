@@ -37,7 +37,7 @@ Next on my list was trying to integrate rss feeds. After several nights searchin
 
 
 
-That took care of my current needs, but I was definately excited to see a whole slew of other Javascript widgets that could be integrated into purely static sites. [Right Cart looks extremely promising for integrating a complete shopping expreience into a static website, and I may look into this again later if I [start selling CD's online](http://ryan.codecrate.com/music/). The [dojo toolkit](http://dojotoolkit.org/) also has some great examples of Javascript widgets for things like a complete image slideshow too.
+That took care of my current needs, but I was definately excited to see a whole slew of other Javascript widgets that could be integrated into purely static sites. Right Cart looks extremely promising for integrating a complete shopping expreience into a static website, and I may look into this again later if I [start selling CD's online](http://ryan.codecrate.com/music/). The [dojo toolkit](http://dojotoolkit.org/) also has some great examples of Javascript widgets for things like a complete image slideshow too.
 
 
 

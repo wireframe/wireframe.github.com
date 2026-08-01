@@ -11,7 +11,7 @@ My reading group recently finished [Head First Design Patterns](http://www.oreil
 
 
 
-Running code doesn't lie.
+> Running code doesn't lie.
 
 
 
@@ -23,7 +23,7 @@ The cost of maintaining two sources of documentation is just too high.  Eventua
 
 
 
-There are a number of tools out there than can give insight into code [quality](http://checkstyle.sourceforge.net/) or [system metrics](http://pmd.sourceforge.net/), but most of these tools are far too technical and completely meaningless to a business person.  But, there are tools out there that can give important contextual information for anyone to understand. [TestDox ](http://agiledox.sourceforge.net/)is one of these tools, and it has really driven me to look into this area more.
+There are a number of tools out there than can give insight into code [quality](http://checkstyle.sourceforge.net/) or [system metrics](http://pmd.sourceforge.net/), but most of these tools are far too technical and completely meaningless to a business person.  But, there are tools out there that can give important contextual information for anyone to understand. [TestDox](http://agiledox.sourceforge.net/) is one of these tools, and it has really driven me to look into this area more.
 
 
 
@@ -52,7 +52,7 @@ public class DogTest extends TestCase {
 
 would generate the following:
 
-```
+```text
 Dog
 - dog walks when you kick it
 - dog barks when sits down

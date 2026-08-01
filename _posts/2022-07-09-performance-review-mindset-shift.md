@@ -39,5 +39,5 @@ It wasn't long after my trip to Amsterdam that I picked up the __highly__ recomm
 
 At the start of this process, I was attempting to make each performance review **Attractive** (The 2nd Law from Atomic Habits).  I attempted using "Temptation bundling" to motivate myself to complete my tasks and allow me to get to do the "fun" activities like sightseeing.  This was effective at helping me be incrementally more __productive__, but these productivity hacks fell short.  The __real__ unlock was when I realized that my behavior was not aligned with my desired intentions and identity.  I don't think I can say it any better than this quote from the book:
 
-> Imagine changing just one word: You don’t "have" to. You "get" to. You get to wake up early for work. You get to make another sales call for your business. By simply changing one word, you shift the way you view each event.
+> Imagine changing just one word: You don't "have" to. You "get" to. You get to wake up early for work. You get to make another sales call for your business. By simply changing one word, you shift the way you view each event.
 

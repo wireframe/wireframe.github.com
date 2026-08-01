@@ -13,7 +13,7 @@ Let's start with a simple HAML page that includes a specific stylesheet dependin
 
 
 
-index.html.haml
+`index.html.haml`
 
 
 ```haml
@@ -29,7 +29,7 @@ index.html.haml
 
 Now, let's create the SASS file for the specific theme. We'll define all of our themeable properties as SASS variables, which will be used later on.
 
-theme\_default.sass
+`theme_default.sass`
 ```sass
 !textcolor = red
 @import themable.sass
@@ -40,7 +40,7 @@ theme\_default.sass
 Can't get much simpler than that! Now, we'll define all of our themed elements and reference the variables declared in the specific theme file.
 
 
-themable.sass
+`themable.sass`
 ```sass
 .fancy_text
   :color= !textcolor
@@ -50,7 +50,7 @@ That's it!  Now, anytime you want to create a new theme, simply create a new SA
 
 
 
-theme\_blue.sass
+`theme_blue.sass`
 
 
 ```sass

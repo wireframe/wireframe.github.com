@@ -12,7 +12,7 @@ It's been a while since I've used XDoclet, but now that I'm starting to use Hibe
 Getting XDoclet2 up and running with Maven was surprisingly easy, and I'm very impressed that it is no longer necessary to "jump through hoops" to get up and going. I started by following the [examples posted on the XDoclet2 website](http://xdoclet.codehaus.org/maven-plugin/example-hibernate.html), but quickly found out that it's out of date. I needed to use the following dependencies instead of the one's listed in the example. Once the dependencies were in place, I was up and going by adding some pretty straightforward properties. I now can use XDoclet2 for my maven projects by manually invoking maven xdoclet2, or by setting up a pregoal for java:compile.
 
 
-```
+```xml
 xdoclet-plugins
 maven-xdoclet2-plugin
 1.0-SNAPSHOT
@@ -29,7 +29,7 @@ true
 ```
 
 
-```
+```properties
 #snippet from project.properties
 #hibernate properties
 hibernate.dialect=net.sf.hibernate.dialect.HSQLDialect

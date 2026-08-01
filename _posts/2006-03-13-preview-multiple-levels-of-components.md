@@ -14,7 +14,7 @@ My [previous]({% post_url 2006-03-10-wicket-preview-with-one-javascript %}) [inc
 Here's a sample scenario that I've been using to test this idea out.
 
 
-```
+```text
  mysite
  |__Home.html -- This is the homepage that includes the login panel
  |__login

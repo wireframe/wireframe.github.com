@@ -9,7 +9,7 @@ Yesterday, I had a truly mind bending experience...
 
 
 
-With all of my [recent](http://jroller.com/page/wireframe/?anchor=indicator_while_processing)[work](http://jroller.com/page/wireframe/?anchor=new_draggabletarget)[using](http://jroller.com/page/wireframe/?anchor=wicket_drag_drop_components)[scriptaculous](http://jroller.com/page/wireframe/?anchor=choice_is_good), I never thought there would be a clean way to attach dynamic (AJAX, javascript) functionality to HTML components. I just accepted that the rendered HTML would be "tagsoup" and went on my merry way. Even general concepts like [graceful degradation](http://webtips.dan.info/graceful.html) and accesibility didn't concern me because, "if you don't want to run a bleeding-edge browser, that's your problem!" :)
+With all of my [recent](http://jroller.com/page/wireframe/?anchor=indicator_while_processing) [work](http://jroller.com/page/wireframe/?anchor=new_draggabletarget) [using](http://jroller.com/page/wireframe/?anchor=wicket_drag_drop_components) [scriptaculous](http://jroller.com/page/wireframe/?anchor=choice_is_good), I never thought there would be a clean way to attach dynamic (AJAX, javascript) functionality to HTML components. I just accepted that the rendered HTML would be "tagsoup" and went on my merry way. Even general concepts like [graceful degradation](http://webtips.dan.info/graceful.html) and accesibility didn't concern me because, "if you don't want to run a bleeding-edge browser, that's your problem!" :)
 
 
 

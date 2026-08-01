@@ -14,7 +14,7 @@ Here's a real simple example, but I think it shows the usefulness of this techni
 
 
 
-### Example One
+## Example One
 
 
 Old code that does all the work and uses comments inside the method body.
@@ -31,7 +31,7 @@ public void doStuff(Object myClass) {
 
 
 
-### Example Two
+## Example Two
 
 
 New code that extracts work into easily understandable method.

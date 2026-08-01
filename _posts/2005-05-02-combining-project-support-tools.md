@@ -9,19 +9,19 @@ There are a variety of tools out there that can be used to provide project suppo
 
 
 
-Mailing Lists
+### Mailing Lists
 
 Favored by developers, and shunned by users.
 
 
 
-Forums
+### Forums
 
 Slick user interfaces usually with built in search tools. Slower than mailing lists. Some forums are starting to integrate with mailing lists so that posting on one, will automatically post on the other. Most forums have functionality to display "current logged in users" (based off a session cookie).
 
 
 
-Realtime Messaging
+### Realtime Messaging
 
 IRC, and online chat (instant messenger) tools fall into this category.
 

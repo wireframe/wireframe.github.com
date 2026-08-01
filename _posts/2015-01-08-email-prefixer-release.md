@@ -14,7 +14,7 @@ Rails env for non-production environments (ex: staging, demo, etc).
 
 For example:
 
-```
+```text
 # subject for MyApp from staging
 [MyApp STAGING] Forgot Password
 
@@ -27,7 +27,7 @@ This simple change makes it much easier easier to visually scan incoming
 emails and even simpler to setup effective email filters.  All good
 things to reduce email overload.
 
-### ActionMailer::Interceptor to the rescue
+## ActionMailer::Interceptor to the rescue
 
 Rails 3.1 and above have a great feature that allow for intercepting
 all outgoing email and optionally modifying the mail object before it is
@@ -41,7 +41,7 @@ The [email_prefixer gem](https://github.com/wireframe/email_prefixer)
 encapsulates this functionality and is absolutely simple to get up and running.
 Literally `bundle install` and your done.
 
-### Customizing the application name
+## Customizing the application name
 
 The `email_prefixer` gem automatically infers the application name from the
 Rails application class name, but this can be changed using a standard Rails config initializer.
@@ -55,7 +55,7 @@ EmailPrefixer.configure do |config|
 end
 ```
 
-### Feedback wanted
+## Feedback wanted
 
 Are there other customizations that would be useful?  I'd love to hear
 any feedback or suggestions for improvements!

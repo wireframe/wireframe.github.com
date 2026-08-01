@@ -28,7 +28,7 @@ Now, I don't want to hear about the [Java 1.5 enhanced for loop](http://jcp.org/
 
 
 
-Object Iteration In Javascript (with Prototype)
+### Object Iteration In Javascript (with Prototype)
 
 [Prototype](http://prototype.conio.net/) has greatly increased the usability of Javascript by providing a much more elegant approach than the standard for loop.
 
@@ -42,7 +42,7 @@ $$('myElements').each(function(element) {
 
 
 
-Object Iteration In Ruby
+### Object Iteration In Ruby
 
 Ruby takes the cake when it comes to easy object iteration.
 
@@ -60,7 +60,7 @@ After being exposed to the Javascript and Ruby syntax, I became bound and determ
 
 
 
-Object Iteration In Java With Ruby-like Syntax (Version One)
+### Object Iteration In Java With Ruby-like Syntax (Version One)
 
 My first stab at doing this in Java was to extract a static util class that would do the iteration and provide a callback for custom code.
 
@@ -120,7 +120,7 @@ So, here's my second attempt of providing a cleaner way to iterate over objects 
 
 
 
-Object Iteration In Java With Ruby-like Syntax (Version Two)
+### Object Iteration In Java With Ruby-like Syntax (Version Two)
 
 ```java
 new IteratorTemplate(Collection objects) {
@@ -159,7 +159,7 @@ Now, I for one, really prefer this new "template" approach. It's still not as el
 
 
 
-I've repeatedly said that Ruby doesn't do anything that Java can't do, it just does it differently. I fully believe that the Java solution is comparable to the Ruby solution, it's just that the Ruby solution is much more elegant and understandable. The Ruby code is clearer and gives the important code much more **context**. Invoking an operation directly on an object has much more meaning that passing an object to another process to perform the work. For example, myString.isEmpty() reads **completely** different than StringUtil.isEmpty(myString).
+I've repeatedly said that Ruby doesn't do anything that Java can't do, it just does it differently. I fully believe that the Java solution is comparable to the Ruby solution, it's just that the Ruby solution is much more elegant and understandable. The Ruby code is clearer and gives the important code much more **context**. Invoking an operation directly on an object has much more meaning that passing an object to another process to perform the work. For example, `myString.isEmpty()` reads **completely** different than `StringUtil.isEmpty(myString)`.
 
 
 

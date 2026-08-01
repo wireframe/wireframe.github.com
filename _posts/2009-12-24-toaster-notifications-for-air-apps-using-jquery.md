@@ -15,11 +15,11 @@ Instead of integrating with the native notification system, AIR applications are
 
 I was able to scrounge up a few existing Javascript libraries that work with AIR to emulate system notifications, but each is tied to a different Javascript framework:
 
-* DOJO - [http://o.sitepen.com/labs/dair/](http://o.sitepen.com/labs/dair/)
-* MooTools - [http://cookbooks.adobe.com/post\_Creating\_a\_transparent\_notification\_window-8226.html](http://cookbooks.adobe.com/post_Creating_a_transparent_notification_window-8226.html)
-* Prototype - [http://github.com/wireframe/growl-air](http://github.com/wireframe/growl-air)
+- DOJO - [http://o.sitepen.com/labs/dair/](http://o.sitepen.com/labs/dair/)
+- MooTools - [http://cookbooks.adobe.com/post\_Creating\_a\_transparent\_notification\_window-8226.html](http://cookbooks.adobe.com/post_Creating_a_transparent_notification_window-8226.html)
+- Prototype - [http://github.com/wireframe/growl-air](http://github.com/wireframe/growl-air)
 
-Hey, where's the jQuery love? Well, I guess it's my call in life to fill the void! I'm happy to announce the jquery.air.notification plugin that brings Growl like notifications to your Javascript AIR app! The API is incredibly simple:
+Hey, where's the jQuery love? Well, I guess it's my call in life to fill the void! I'm happy to announce the `jquery.air.notification` plugin that brings Growl like notifications to your Javascript AIR app! The API is incredibly simple:
 
 ```javascript
 $.air.notify('hello world');

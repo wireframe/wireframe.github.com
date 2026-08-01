@@ -14,9 +14,9 @@ I was recently contacted by someone looking for one of my old Wicket contributio
 
 Github is by far the best solution for these projects and so I have migrated my published projects from the Wicketstuff SVN repo to github.  You can now find my contributed Wicketstuff projects here:
 
-  - [wicketstuff-hibernate-behavior](http://github.com/wireframe/wicketstuff-hibernate-behavior/)- Wicket integration to auto-configure your forms using Hibernate annotations.
-  - [wicketstuff-rome](http://github.com/wireframe/wicketstuff-rome)- Wicket component for integrating with the ROME RSS/Atom library
-  - [wicketstuff-scriptaculous](http://github.com/wireframe/wicketstuff-scriptaculous)- Web 2.0 Wicket components using the Scriptaculous Javascript library
+  - [wicketstuff-hibernate-behavior](http://github.com/wireframe/wicketstuff-hibernate-behavior/) - Wicket integration to auto-configure your forms using Hibernate annotations.
+  - [wicketstuff-rome](http://github.com/wireframe/wicketstuff-rome) - Wicket component for integrating with the ROME RSS/Atom library
+  - [wicketstuff-scriptaculous](http://github.com/wireframe/wicketstuff-scriptaculous) - Web 2.0 Wicket components using the Scriptaculous Javascript library
 
 
 Unfortunately, the import from SVN to github has totally nuked the commit history for these projects.  The commit history may have been lost due to the project rearrangement done by the wicketstuff devs (SVN fail).  That's really unfortunate, but since the majority of these projects are from one-night coding sessions, there's not a lot of true "history" in them.  It just sucks that to lose the author information.  If anyone has some fix for this, please let me know.  The projects are currently in read-only state, so I would have no issue re-importing them from the subversion repository if that would fix things.

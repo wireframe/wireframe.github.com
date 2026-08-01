@@ -6,7 +6,7 @@ tags:
 - testing
 ---
 
-I've run into an issue with mock frameworks not being able to mock out methods from java.lang.Object (hashCode, equals, toString). Here's a simple usecase:
+I've run into an issue with mock frameworks not being able to mock out methods from `java.lang.Object` (`hashCode`, `equals`, `toString`). Here's a simple usecase:
 
 
 
@@ -30,7 +30,7 @@ Easymock has the limitation [stated explicitly at the very bottom of their websi
 
 
 
-The behavior for the three object methods equals(), hashCode() and toString() cannot be changed for Mock Objects created with EasyMock, even if they are part of the interface for which the Mock Object is created.
+> The behavior for the three object methods `equals()`, `hashCode()` and `toString()` cannot be changed for Mock Objects created with EasyMock, even if they are part of the interface for which the Mock Object is created.
 
 
 
@@ -38,5 +38,5 @@ The behavior for the three object methods equals(), hashCode() and toString() ca
 I was able to track down [an issue for jmock](http://jira.codehaus.org/browse/JMOCK-55) to fix this limitation, and according to JIRA, it is supposedly been fixed in CVS. Looking through [the files changed for the issue](http://cvs.jmock.org/viewrep/jmock/jmock/core/src/org/jmock/builder/InvocationMockerBuilder.java) didn't uncover any relevent code or fixes, and there were don't appear to be any test cases for this scenerio either. I'm not sure that this change actually exists, and if it does exist, I don't know what release it is in. It might be sitting in CVS awaiting the next release... Jmock should really try to improve their project roadmap and changelog management.
 
 
-Unfortunately, the only way I've found around this issue is to not use the standard java.lang.Object methods. Instead of using .equals(), I have been creating a similar method .isSame() (although I should probably name it isEqual()).
+Unfortunately, the only way I've found around this issue is to not use the standard `java.lang.Object` methods. Instead of using `.equals()`, I have been creating a similar method `.isSame()` (although I should probably name it `isEqual()`).
 

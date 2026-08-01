@@ -12,7 +12,7 @@ I've spent the last couple weeks straining my brain to create [a slick autocompl
 
 
 
-### AutocompleteTextField
+## AutocompleteTextField
 
 
 This is the basic autocomplete implementation that is 100% AJAX free. Simply instantiate the text field with all the possible options, and scriptaculous' built in filtering features will take care of the rest. This is an easy solution for small datasets.
@@ -30,7 +30,7 @@ add(new AutocompleteTextField("color", results));
 
 
 
-### AjaxAutocompleteTextField
+## AjaxAutocompleteTextField
 
 
 And now for some AJAX magic. The AjaxAutocompleteTextField provides a simple callback to allow for dynamically populating the list of available auto completions based on the user input.
@@ -48,7 +48,7 @@ add(new AjaxAutocompleteTextField("fruit") {
 });
 ```
 
-### CustomLayoutAjaxAutocompleteTextField
+## CustomLayoutAjaxAutocompleteTextField
 
 
 My [previous blog entry]({% post_url 2005-08-25-autocomplete-more-than-just-text %}) introduced how to autocomplete more than just text. I wanted to improve the API so that the html markup would be done outside the Java code.
@@ -68,7 +68,7 @@ add(new CustomLayoutAjaxAutocompleteTextField("emailAddress", ExampleAjaxAutocom
 ```
 
 
-A helper abstract class (CustomLayoutAutocompleteResultsPageContribution) is available to handle extracting the user's input from the correct input parameter.
+A helper abstract class (`CustomLayoutAutocompleteResultsPageContribution`) is available to handle extracting the user's input from the correct input parameter.
 
 
 ```java

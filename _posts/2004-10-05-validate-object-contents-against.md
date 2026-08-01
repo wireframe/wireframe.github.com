@@ -36,16 +36,16 @@ Hibernate appears to make it easy to extract both connection settings and object
 Resources:
 
 
-  - http://www.jguru.com/faq/view.jsp?EID=1184
+  - [jGuru FAQ: EID=1184](http://www.jguru.com/faq/view.jsp?EID=1184)
 
 
-  - http://wiki.opensymphony.com/display/XW/Building+a+Validator
+  - [Building a Validator](http://wiki.opensymphony.com/display/XW/Building+a+Validator)
 
 
-  - http://www.hibernate.org/hib\_docs/api/index.html
+  - [Hibernate API docs](http://www.hibernate.org/hib_docs/api/index.html)
 
 
-  - http://www.mail-archive.com/hibernate-devel@lists.sourceforge.net/msg03272.html
+  - [hibernate-devel mailing list thread](http://www.mail-archive.com/hibernate-devel@lists.sourceforge.net/msg03272.html)
 
 
 

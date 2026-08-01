@@ -14,6 +14,7 @@ The Mouse Is Evil
 
 
 Using that little pointing device is the single biggest loss for productivity. Avoid using it at ALL costs.
+
   - Bye-bye start menu. Quick launch bars and application docks are a waste of time. Use one of the many [application launching tools]({% post_url 2008-01-09-requesting-java-launcher %}) out there instead. No more searching for buttons or menus to launch the app you need.
 
 Tools are your Friend
@@ -39,7 +40,7 @@ There are [lots of articles that talk about how important it is to get into "the
   - Turn off all MS Outlook notifications, beeps, and popups. Seriously, they're just as annoying as Clippy.
 
 
-  - Launch gmail and google reader as a separate window. This has been absolutely HUGE for me lately. As much as I love firefox tabs, they are my number one source of distractions right now. Instead of focusing on the task/tab at hand, my eyes constantly wander to the other tabs and see "Oh, I have an unread message! I better check it RIGHT NOW!". [Prism is a godsend](http://labs.mozilla.com/2007/10/prism/)that allows me to 1) launch gmail in a lightweight process outside of my main firefox window 2) provide desktop shortcut that can be integrated with my application launcher (see above)
+  - Launch gmail and google reader as a separate window. This has been absolutely HUGE for me lately. As much as I love firefox tabs, they are my number one source of distractions right now. Instead of focusing on the task/tab at hand, my eyes constantly wander to the other tabs and see "Oh, I have an unread message! I better check it RIGHT NOW!". [Prism is a godsend](http://labs.mozilla.com/2007/10/prism/) that allows me to 1) launch gmail in a lightweight process outside of my main firefox window 2) provide desktop shortcut that can be integrated with my application launcher (see above)
 
 
   - Make a CONCIOUS decision to check messages/rss/etc and do it as infrequently as possible. Don't just flip over to email every time a 10 second code compilation kicks in.

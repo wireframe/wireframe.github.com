@@ -17,5 +17,5 @@ Sure, your code _may_ be faster, but will it be more **clear**? More **testable*
 
 
 
-"Early optimization is the root of much evil."
+> Early optimization is the root of much evil.
 

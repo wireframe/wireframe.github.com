@@ -15,16 +15,16 @@ My love for SuSE was almost lost while trying to setup a Belkin wireless USB ada
   - Plug USB adapter into PC (if already plugged in, need to unplug then plug back in).
 
 
-  - run ifconfigto see that adapter obtained IP address.
+  - run `ifconfig` to see that adapter obtained IP address.
 
 
-  - run ifdown eth0to disable the ethernet card.
+  - run `ifdown eth0` to disable the ethernet card.
 
 
-  - run ifdown wlan0to disable the USB adapter.
+  - run `ifdown wlan0` to disable the USB adapter.
 
 
-  - run ifup wlan0to re-enable the USB adapter.
+  - run `ifup wlan0` to re-enable the USB adapter.
 
 
 

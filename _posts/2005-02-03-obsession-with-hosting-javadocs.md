@@ -13,7 +13,7 @@ I don't exactly understand what the recent obsession is with hosting javadocs ([
 Example maven repository that holds artifacts/sources/javadocs:
 
 
-```
+```text
 /myrepo/myproject/
  /jars/myjar-1.0.jar
  /javadocs/1.0/index.html

@@ -22,7 +22,10 @@ It doesn't matter whether a system lands in Team A or Team B, as long as there i
 
 ## Design Your Org for the Architecture You Want
 
-Conway's Law ("any organization that designs a system will produce a design whose structure is a copy of the organization's communication structure") is one of those observations that sounds obvious until you realize how few organizations actually act on it. Your org structure will mirror your system architecture whether you plan for it or not. Ruth Malan put it sharply: "If the architecture of the system and the architecture of the organization are at odds, the architecture of the organization wins."
+Conway's Law ("any organization that designs a system will produce a design whose structure is a copy of the organization's communication structure") is one of those observations that sounds obvious until you realize how few organizations actually act on it. Your org structure will mirror your system architecture whether you plan for it or not.
+
+> If the architecture of the system and the architecture of the organization are at odds, the architecture of the organization wins.
+> — Ruth Malan
 
 The Reverse Conway Maneuver flips this from an observation into a strategy: deliberately structure your teams to produce the architecture you want. If you want loosely coupled services organized around business domains, organize your teams that way first. The architecture will follow.
 
@@ -50,7 +53,12 @@ Now, you might be thinking: "Great, I'll draw hard lines around everything and l
 
 Clear ownership boundaries are necessary but not sufficient. Without deliberate investment in cross-boundary collaboration and knowledge sharing, boundaries harden into silos. You trade the tragedy of the commons for a different failure mode: isolated teams optimizing locally, unaware of (or indifferent to) the impact on the broader system. "Not my problem" becomes the culture.
 
-Stanley McChrystal learned this the hard way in *Team of Teams*: "By focusing on the component parts rather than the overall process, we were missing the fundamental problem. Speeding up the individual elements of the system did nothing to eliminate the blinks between them that most stymied our efforts." The same applies to engineering orgs. Optimizing individual teams while ignoring the seams between them just moves the bottleneck.
+Stanley McChrystal learned this the hard way in *Team of Teams*:
+
+> By focusing on the component parts rather than the overall process, we were missing the fundamental problem. Speeding up the individual elements of the system did nothing to eliminate the blinks between them that most stymied our efforts.
+> — Stanley McChrystal, *Team of Teams*
+
+The same applies to engineering orgs. Optimizing individual teams while ignoring the seams between them just moves the bottleneck.
 
 **The goal is clear domains with porous edges.** Each team knows what they own and can go deep in their area, but they also invest in the connections between teams. Guilds give engineers across teams a shared space to align on practices and cross-cutting concerns. Architecture reviews make system-level tradeoffs visible before they become surprises.
 

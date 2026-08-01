@@ -6,7 +6,7 @@ tags:
 - socialcast
 ---
 
-[](http://www.flickr.com/photos/wireframe/3816583420/)
+![](http://www.flickr.com/photos/wireframe/3816583420/)
 
 
 Incase you missed the announcement, today we unveiled [the official release of our Socialcast Developer API.](http://blog.socialcast.com/socialcast-announces-official-release-of-developer-api/)  It's a 100% REST API designed to open your Socialcast community to a new generation of integrations.

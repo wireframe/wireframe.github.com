@@ -23,7 +23,7 @@ Create a new external goal using the eclipse wizard and use some eclipse variabl
 
 
 
-```
+```text
 Base Directory:
 ${workspace_loc:/${project_name}}
 

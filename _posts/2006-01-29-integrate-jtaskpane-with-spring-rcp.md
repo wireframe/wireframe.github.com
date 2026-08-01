@@ -44,7 +44,7 @@ group.createSwingComponent(JMenuBar.class);
 I won't go into the hairy details of how I got it all to work right now. If anyone is interested, you can checkout the code from [shard](http://shard.codecrate.com), or drop me a line and I'd be glad to go over it with you. After all of my work was done, here's all that's needed now to build a fully configurable task pane that's wired from spring-rcp!
 
 
-command-context.xml
+`command-context.xml`
 
 ```xml
 &lt;bean id="contextTasks"
@@ -67,7 +67,7 @@ command-context.xml
 ```
 
 
-MyObjectView.java
+`MyObjectView.java`
 
 ```java
 TaskPaneCommandGroup tasks = (TaskPaneCommandGroup) getWindowCommandManager().getCommandGroup("contextTasks");

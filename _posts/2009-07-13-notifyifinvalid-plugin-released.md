@@ -38,7 +38,7 @@ This is all well and good, but there's a slight issue with this pattern. Re-rend
 Either way, it is important to record and measure these events. In my experience, it has been applicable to consider these validation errors as important as actual application errors. The fact that the user was able to construct an "invalid" object is just another opportunity for the user to drop out of your application, never to return.
 
 
-I've built a plugin that will assist in recording these events in [HopToad](http://hoptoadapp.com/) (my preferred error monitoring tool). The notify\_if\_invalid plugin is a Rails plugin that will record a ValidationError in HopToad anytime a user creates an invalid ActiveRecord Model. This plugin is available on github at [http://github.com/wireframe/notify\_if\_invalid](http://github.com/wireframe/notify_if_invalid) and has a super simple API.
+I've built a plugin that will assist in recording these events in [HopToad](http://hoptoadapp.com/) (my preferred error monitoring tool). The `notify_if_invalid` plugin is a Rails plugin that will record a `ValidationError` in HopToad anytime a user creates an invalid ActiveRecord Model. This plugin is available on [github](http://github.com/wireframe/notify_if_invalid) and has a super simple API.
 
 ```ruby
 class User

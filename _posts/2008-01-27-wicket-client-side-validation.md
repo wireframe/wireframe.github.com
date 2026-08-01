@@ -8,7 +8,7 @@ tags:
 - validation
 ---
 
-Over the past several weeks, I've been been seeing lots of posts for [fancy](http://extjs.com/deploy/ext/examples/form/dynamic.html)[Javascript](http://www.jsvalidate.com/)[validation](http://tetlaw.id.au/view/javascript/really-easy-field-validation) libraries. I spent a couple weeks playing around with integrating these libraries into Wicket, but something didn't feel quite right. Giving users instant feedback when filling in data forms is *really* nice, but what is the best way to support it?
+Over the past several weeks, I've been been seeing lots of posts for [fancy](http://extjs.com/deploy/ext/examples/form/dynamic.html) [Javascript](http://www.jsvalidate.com/) [validation](http://tetlaw.id.au/view/javascript/really-easy-field-validation) libraries. I spent a couple weeks playing around with integrating these libraries into Wicket, but something didn't feel quite right. Giving users instant feedback when filling in data forms is *really* nice, but what is the best way to support it?
 
 
 

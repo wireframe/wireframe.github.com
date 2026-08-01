@@ -15,13 +15,13 @@ Since Sun does provide the source code allong with the SDK, I wanted to try to p
   1. Go to Window > Preferences > Java > Installed JRE's.
 
 
-  2. Add a new JRE and point the file system location to the value of your JAVA\_HOME.
+  2. Add a new JRE and point the file system location to the value of your `JAVA_HOME`.
 
 
-  3. Select "rt.jar" and press the "Attach Source" button.
+  3. Select `rt.jar` and press the "Attach Source" button.
 
 
-  4. The location should be JAVA\_HOME/src.zip
+  4. The location should be `JAVA_HOME/src.zip`
 
 
 
