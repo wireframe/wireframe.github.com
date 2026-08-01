@@ -22,39 +22,39 @@ Ask anyone how they want to be recognized at work and they'll describe a budget 
 But the research tells a different story: 
 
 > Despite telling us they would prefer cash over experiences, the experimental group was happier. Much happier. They thought their awards were 28 percent more fun, 28 percent more memorable, and 15 percent more thoughtful.
-> — Laszlo Bock, *Work Rules!*
+> — Laszlo Bock, *[Work Rules!](https://books.google.com/books/about/Work_Rules.html?id=YbPCoAEACAAJ)*
 
-Cash gets spent and forgotten. A gift or an experience sticks around as a story: "the joy of money is fleeting, but memories last forever," as Bock puts it, and non-cash awards trigger an emotional response that a direct deposit never will. This isn't a one-company anecdote. The Incentive Research Foundation's meta-analysis found non-cash incentives outperform cash for discretionary effort and long-term performance in 65% of comparable studies. McKinsey found **praise alone had a stronger motivational effect than the three highest-rated financial incentives, cash bonuses included.**
+Cash gets spent and forgotten. A gift or an experience sticks around as a story: "the joy of money is fleeting, but memories last forever," as Bock puts it, and non-cash awards trigger an emotional response that a direct deposit never will. This isn't a one-company anecdote. The [Incentive Research Foundation's meta-analysis](https://blog.rewardian.com/non-monetary-rewards-for-employees-what-actually-works-in-2026) found non-cash incentives outperform cash for discretionary effort and long-term performance in 65% of comparable studies. [McKinsey found](https://blog.rewardian.com/non-monetary-rewards-for-employees-what-actually-works-in-2026) **praise alone had a stronger motivational effect than the three highest-rated financial incentives, cash bonuses included.**
 
 Cash has a hard ceiling on frequency, too: no one hands out a bonus every week. And recognition that only happens once a year rarely lands. Chip and Dan Heath studied what makes recognition land, and cadence mattered more than production value:
 
 > The proper pace of recognition is weekly or even daily, not monthly or yearly.
-> — Chip & Dan Heath, *The Power of Moments*
+> — Chip & Dan Heath, *[The Power of Moments](https://www.simonandschuster.com/books/The-Power-of-Moments/Chip-Heath/9781501147760)*
 
 Every dollar spent needs approval, so every instance of recognition inherits that approval cycle's latency — a system that has to clear finance can't run at the cadence Heath describes. The budget gate is only half the problem, though. The deeper one is who's allowed to generate recognition in the first place.
 
 ## The Bottleneck Is the Org Chart
 
-Gallup's research shows that over 60% of meaningful feedback comes from management, with less than 10% of feedback coming from peers.  Here's why the gap matters so much: if a manager is the only person dispensing recognition, the system is capacity-constrained by definition. One person, with finite attention and finite hours in a week.  It just doesn't scale, and leaves the majority of the team starved for recognition.  Every additional individual added to your recognition system creates a multiplier on volume.
+[Gallup's research](https://www.selectsoftwarereviews.com/blog/employee-recognition-statistics) shows that over 60% of meaningful feedback comes from management, with less than 10% of feedback coming from peers.  Here's why the gap matters so much: if a manager is the only person dispensing recognition, the system is capacity-constrained by definition. One person, with finite attention and finite hours in a week.  It just doesn't scale, and leaves the majority of the team starved for recognition.  Every additional individual added to your recognition system creates a multiplier on volume.
 (NOTE: link to all research in this post)
 
 Not only are you increasing the quantity of feedback, you're also increasing the quality. A manager sees a fraction of anyone's actual work: the demo, the standup update, the postmortem after something goes wrong. Peers see the pull request, the 11pm Slack message asking for a sanity check, the customer call nobody wrote a summary of. They have the higher-resolution view — exactly what Daniels means by "observe performance more closely and more often." The people sitting next to you in every stand-up and every pull request review rank behind customers who only ever see the finished product.
 
 
 > Peers are the most effective source of reinforcement at work—and the most underutilized. Peers are in the best position to deliver positive and immediate reinforcement (positive, immediate, and certain consequences [PICs]) because they can observe performance more closely and more often than most supervisors and managers.
-> — Aubrey Daniels, *Bringing Out the Best in People*
+> — Aubrey Daniels, *[Bringing Out the Best in People](https://www.aubreydaniels.com/store/books/bringing-out-the-best-in-people)*
 
 Once you've empowered the entire organization to provide positive feedback, the performance impact begins to spiral upwards...
 
 ---
 
 
-Section 2 ended on who's allowed to generate recognition in the first place. Look past the two rungs of management already covered, and the rest of the Gallup breakdown answers it: the manager's manager accounts for 12% of employees' most meaningful recognition, customers 10%, and peers dead last at 9%. The people sitting next to you in every stand-up and every pull request review rank behind customers who only ever see the finished product.
+Section 2 ended on who's allowed to generate recognition in the first place. Look past the two rungs of management already covered, and the rest of the [Gallup breakdown](https://www.selectsoftwarereviews.com/blog/employee-recognition-statistics) answers it: the manager's manager accounts for 12% of employees' most meaningful recognition, customers 10%, and peers dead last at 9%. The people sitting next to you in every stand-up and every pull request review rank behind customers who only ever see the finished product.
 
 Aubrey Daniels has spent a career arguing the opposite ranking is correct:
 
 > Peers are the most effective source of reinforcement at work—and the most underutilized. Peers are in the best position to deliver positive and immediate reinforcement (positive, immediate, and certain consequences [PICs]) because they can observe performance more closely and more often than most supervisors and managers.
-> — Aubrey Daniels, *Bringing Out the Best in People*
+> — Aubrey Daniels, *[Bringing Out the Best in People](https://www.aubreydaniels.com/store/books/bringing-out-the-best-in-people)*
 
 The gap between who Daniels says should be first and who Gallup shows is actually last is the whole argument.
 
