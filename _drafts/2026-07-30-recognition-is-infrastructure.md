@@ -18,8 +18,7 @@ So we made a change, and created an award for the team that had nothing to show 
 
 ## Petty Cash Depreciates, Memories Compound
 
-Ask anyone how they want to be recognized at work and they'll describe a budget line item: a bonus, a raise, a comp adjustment.  
-The research tells a very different story from what people SAY they want versus what they ACTUALLY value. Both Google and [McKinsey](https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/motivating-people-getting-beyond-money) have found that non-cash recognition to be more memorable, more thoughtful, and their effect was appreciated over a longer time frame.  As Lazlo Bock puts it in *[Work Rules!](https://books.google.com/books/about/Work_Rules.html?id=YbPCoAEACAAJ)*, "The joy of money is fleeting, but memories last forever."
+Ask anyone how they want to be recognized at work and they'll describe a budget line item: a bonus, a raise, a comp adjustment.  The research tells a very different story from what people SAY they want versus what they ACTUALLY value. Both Google and [McKinsey](https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/motivating-people-getting-beyond-money) have found that non-cash recognition to be more memorable, more thoughtful, and their effect was appreciated over a longer time frame.  As Lazlo Bock puts it in *[Work Rules!](https://books.google.com/books/about/Work_Rules.html?id=YbPCoAEACAAJ)*, "The joy of money is fleeting, but memories last forever."
 
 Cash also has a hard ceiling on frequency. Nobody hands out a bonus every week. It has to clear finance before it lands and the shape recognition shifts into finance's cadance of Annual review, quarterly bonus cycle, instead of being coupled with the actual work calendar.  Even occasional spot bonuses carry friction, delays, and denials.  Chip and Dan Heath put a number on how often recognition actually needs to happen:
 
@@ -30,21 +29,12 @@ Every dollar spent needs approval, so every instance of recognition inherits tha
 
 ## The Bottleneck Is the Org Chart
 
-Gallup asked employees to name where their most memorable recognition came from.
+[Gallup's research](https://www.gallup.com/workplace/236441/employee-recognition-low-cost-high-impact.aspx) identified that the vast majority employee's meaningful recognition funneled through the organizational management layer.  While not surprising, it highlights an inherent tension around the **capacity** for an organization to dispense recognition.  If a manager is the only person dispensing recognition, the system is constrained by definition: one person, finite attention, finite hours in a week, no matter how much they care. Every peer added as a legitimate reinforcer is another node generating signal in parallel. That's a multiplier on volume, and until you add them the majority of the team stays starved.
 
-> The data revealed the most memorable recognition comes most often from an employee's manager (28%), followed by a high-level leader or CEO (24%), the manager's manager (12%), a customer (10%) and peers (9%).
-> — [Gallup, *The Importance of Employee Recognition: Low Cost, High Impact*](https://www.gallup.com/workplace/236441/employee-recognition-low-cost-high-impact.aspx)
-
-Peers finish last. The people sitting next to you in every stand-up and every pull request review rank behind customers who only ever see the finished product.
-
-Aubrey Daniels has spent a career arguing the opposite ranking is correct:
+Aubrey Daniels has spent a career arguing the largest untapped resource for breaking that capacity constraint already exists within every single organization: **it's your peers**. The people sitting next to you in every stand-up and every pull request review rank behind customers who only ever see the finished product.
 
 > Peers are the most effective source of reinforcement at work—and the most underutilized. Peers are in the best position to deliver positive and immediate reinforcement (positive, immediate, and certain consequences [PICs]) because they can observe performance more closely and more often than most supervisors and managers.
 > — Aubrey Daniels, *[Bringing Out the Best in People](https://www.aubreydaniels.com/store/books/bringing-out-the-best-in-people)*
-
-The gap between who Daniels puts first and who Gallup shows is actually last is the whole argument.
-
-Start with capacity. If a manager is the only person dispensing recognition, the system is constrained by definition: one person, finite attention, finite hours in a week, no matter how much they care. Every peer added as a legitimate reinforcer is another node generating signal in parallel. That's a multiplier on volume, and until you add them the majority of the team stays starved.
 
 Quality moves too. A manager sees a fraction of anyone's actual work: the demo, the standup update, the postmortem after something goes wrong. Peers see the pull request, the 11pm Slack message asking for a sanity check, the customer call nobody wrote a summary of. That's the higher-resolution view Daniels means by "observe performance more closely and more often."
 
