@@ -9,27 +9,19 @@ tags:
 
 ## When Nothing Breaks, Nobody Claps
 
-We spent months migrating our infrastructure onto AWS. The day it finished, nothing happened. No incident channel lit up, no support tickets, no customers noticing a thing had changed underneath them.
+One of our teams spent months migrating our infrastructure to a new cloud provider. They carefully worked through prelaunch testing, and the moment they finally flipped the switch to cutover...nothing happened (rework this...nothing isn't true...but emphasize that we were holding our breaths and the switch was a non-event). No incident channel lit up, no support tickets, no customers noticing a thing had changed underneath them.
 
-Nothing happening is rare, and it's the whole reason the moment stuck with me. Look at what actually gets celebrated at most companies: the launch that survived a 2am fire drill, the escalation someone talked a customer down from, the outage that got fixed before the exec team even heard about it. Drama makes a story. A story is easy to recognize. A migration that goes exactly according to plan produces no story at all, so by default it goes unmarked — even though avoiding the fire is harder and more valuable than fighting it well.
+The team did tremendous work, and once the moment passed, it was "back to business as usual".  The moment stuck with me. A "quiet launch" is a rare thing. Look at what actually gets celebrated at most companies: the launch that survived a 2am fire drill, the escalation someone talked a customer down from, the outage that got fixed before the exec team even heard about it. Drama makes a story. A story is easy to recognize. A migration that goes exactly according to plan produces no story at all, so by default it goes unmarked — even though avoiding the fire is harder and more valuable than fighting it well.
 
-So I made up an award for the team that had nothing to show for their work except the absence of a disaster. We called it the Crickets Award, for excellence in shipping change no customer ever felt. No budget request, no approval chain, no cash attached.
+So we made a change, and created an award for the team that had nothing to show for their work except the **absence** of a disaster: The Crickets Award.  No cash attached, no budget request, and no approval chain.  Just a small custom made trophy with the team name and project engraved and a short informal ceremony to shine a spotlight on the work. 🦗🦗🦗
 
 
 ## Petty Cash Depreciates, Memories Compound
 
-Ask anyone how they want to be recognized at work and they'll describe a budget line: a bonus, a raise, a comp adjustment that has to clear finance before it lands. Recognition then arrives on the finance calendar instead of on the work's calendar. Annual review, quarterly bonus cycle, occasional spot bonus.
+Ask anyone how they want to be recognized at work and they'll describe a budget line item: a bonus, a raise, a comp adjustment.  
+The research tells a very different story from what people SAY they want versus what they ACTUALLY value. Both Google and [McKinsey](https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/motivating-people-getting-beyond-money) have found that non-cash recognition to be more memorable, more thoughtful, and their effect was appreciated over a longer time frame.  As Lazlo Bock puts it in *[Work Rules!](https://books.google.com/books/about/Work_Rules.html?id=YbPCoAEACAAJ)*, "The joy of money is fleeting, but memories last forever."
 
-Google ran the experiment. One set of award winners got cash. The other got trips, team dinners, and gifts of the same value.
-
-> Despite telling us they would prefer cash over experiences, the experimental group was happier. Much happier. They thought their awards were 28 percent more fun, 28 percent more memorable, and 15 percent more thoughtful.
-> — Laszlo Bock, *[Work Rules!](https://books.google.com/books/about/Work_Rules.html?id=YbPCoAEACAAJ)*
-
-Five months later the gap had widened. Happiness with the cash awards had dropped about 25 percent. Happiness with the experiences hadn't moved. "The joy of money is fleeting, but memories last forever," as Bock puts it. Cash gets spent and forgotten. A gift or an experience sticks around as a story.
-
-Praise is cheaper still, and it holds up against money. When [McKinsey surveyed](https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/motivating-people-getting-beyond-money) 1,047 executives, managers, and employees, three noncash motivators (praise from an immediate manager, attention from leadership, a chance to lead a project) rated as effective or more effective than the three highest-rated financial incentives, cash bonuses included.
-
-Cash also has a hard ceiling on frequency. Nobody hands out a bonus every week. Chip and Dan Heath put a number on how often recognition actually needs to happen:
+Cash also has a hard ceiling on frequency. Nobody hands out a bonus every week. It has to clear finance before it lands and the shape recognition shifts into finance's cadance of Annual review, quarterly bonus cycle, instead of being coupled with the actual work calendar.  Even occasional spot bonuses carry friction, delays, and denials.  Chip and Dan Heath put a number on how often recognition actually needs to happen:
 
 > The proper pace of recognition is weekly or even daily, not monthly or yearly.
 > — Chip & Dan Heath, *[The Power of Moments](https://www.simonandschuster.com/books/The-Power-of-Moments/Chip-Heath/9781501147760)*
@@ -63,11 +55,11 @@ Who's allowed to give recognition decides more than what currency it's paid in.
 ## The High-Five Economy
 
 - Purpose: make the systems reframe concrete with three real mechanisms, layered from most frequent/cheapest to least
+- reference eager beaver award from "Win forever" by Pete Carrol.   recognizing the behaviors you want to see is beyond just recognizing an "outcome" (like winning the game) (which may not be within our control).
 - **15Five high-fives** — free, instant, any peer to any peer, no approval needed. The base layer. (Aside, maybe cut for scope: we once tried to auto-classify high-fives by which cultural behavior they represented for a hackathon — worth a line as evidence of taking the signal seriously, not worth a full paragraph.)
 - **Crickets Award** — callback to the opening story, don't retell it. For excellence in shipping change no customer ever felt. Physical, engraved with team name / project / date, shipped to the team lead. Mid-frequency, tied to one specific behavior.
 - **Culture Value Award** — quarterly, nomination-driven, explicitly tied to named company values (examples from own notes: Grit, Extreme Ownership, Craftsmanship, Empathy). Lowest frequency, highest visibility. Nominations pull from the high-fives layer below it — the cheap layer feeds the ceremonial one.
 - The throughline: none of these required a budget conversation. They required deciding who's allowed to give recognition and how often, which is a systems decision, not a compensation decision.
-- TODO: reference eager beaver award.   recognizing the behaviors you want to see is beyond just recognizing the "outcome" (which may not be within our control).
 
 ## Ship Recognition Like Infrastructure
 
