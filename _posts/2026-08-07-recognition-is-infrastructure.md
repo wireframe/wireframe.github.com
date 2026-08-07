@@ -56,12 +56,12 @@ One of my favorite examples comes from Pete Carroll's coaching career. He didn't
 
 Practicing hardest is within the control of every single player. Winning on Sunday isn't.
 
-Pointing at a behavior only works if people can picture it. "Craftsmanship" is not something you can catch someone doing. "Shipped something big that customers never felt" is, which is why the Crickets Award had a target and a generic excellence award wouldn't. We had the same problem with ownership, a value everyone nodded at and nobody could act on, until we [wrote down what it looks like](https://build.betterup.com/extreme-ownership-at-betterup/). Name the behavior precisely enough that someone could spot it in a pull request, and you have something a system can *actually* run on.
+Pointing at a behavior only works if people can picture it. "Craftsmanship" is not something you can catch someone doing, and why the Crickets Award anchored in tangible and observable behaviors of "Shipping something big that customers never felt". We had the same problem with ownership, a value everyone nodded at and nobody could act on, until we [wrote down what it looks like](https://build.betterup.com/extreme-ownership-at-betterup/). Name the behavior precisely enough that someone could spot it in a pull request, and you have something a system can *actually* run on.
 
 
 ## Nobody Claps, Nobody Stays
 
-Every one of these is a design decision for leadership. How often recognition can happen. Who's allowed to originate it. What it points at. How much friction sits between noticing something good and saying so out loud. Those are the same kinds of decisions you make about a deploy pipeline, and they have the same property: when you get them wrong, the problem is structural. Caring harder doesn't fix a bottleneck.
+Every one of these is a design decision for leadership. How often recognition can happen. Who's allowed to dispense it. What it points at. How much friction sits between noticing something good and saying so out loud. Those are the same kinds of decisions you make about a deploy pipeline, and they have the same property: when you get them wrong, the problem is structural. Caring harder doesn't fix a bottleneck.
 
 > The currency of leadership is recognition and praise.
 > — Damian Vaughn
