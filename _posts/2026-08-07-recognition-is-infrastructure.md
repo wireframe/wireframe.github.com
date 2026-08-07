@@ -30,20 +30,18 @@ Every dollar spent needs approval, so every instance of recognition inherits tha
 
 ## The Bottleneck Is the Org Chart
 
-[Gallup's research](https://www.gallup.com/workplace/236441/employee-recognition-low-cost-high-impact.aspx) found that roughly two-thirds of employees' most memorable recognition came through the management layer.  While not surprising, that points straight at the real constraint: **capacity**.  If a manager is the only person dispensing recognition, the system is constrained by definition: one person, finite attention, finite hours in a week, no matter how much they care. Every peer added as a legitimate reinforcer is another node generating signal in parallel. That's a multiplier on volume, and until you add them the majority of the team stays starved.
+[Gallup's research](https://www.gallup.com/workplace/236441/employee-recognition-low-cost-high-impact.aspx) found that roughly two-thirds of employees' most memorable recognition came through the management layer.  While not surprising, that points straight at the real constraint: **capacity**.  If a manager is the only person dispensing recognition, the system is constrained by definition: one person, finite attention, finite hours in a week, no matter how much they care. 
 
-Aubrey Daniels has spent a career arguing the largest untapped resource for breaking that capacity constraint already exists within every single organization: **it's your peers**. The people sitting next to you in every stand-up and every pull request see far more of the work than anyone with a "manager" job title ever will.
-
-Peers add quantity. They also raise **quality**. A manager sees a fraction of anyone's actual work: the demo, the standup update, the postmortem after something goes wrong. Peers see the pull request, the 11pm Slack message asking for a sanity check, the customer call nobody wrote a summary of. That's exactly what Daniels is describing:
+Aubrey Daniels has spent a career arguing the largest untapped resource for breaking that capacity constraint already exists within every single organization: **it's your peers**. The people sitting next to you each and every day have far more opportunities to recognize great work than anyone with a "manager" job title ever will. Peers add quantity, and they also raise **quality**. A manager sees a fraction of anyone's actual work while peers see the the real meat of the work: the craft within the pull request, the 11pm Slack message asking for a sanity check, the customer call nobody wrote a summary of. That's exactly what Daniels is describing:
 
 > Peers are the most effective source of reinforcement at work—and the most underutilized. Peers are in the best position to deliver positive and immediate reinforcement (positive, immediate, and certain consequences [PICs]) because they can observe performance more closely and more often than most supervisors and managers.
 > — Aubrey Daniels, *[Bringing Out the Best in People](https://www.aubreydaniels.com/store/books/bringing-out-the-best-in-people)*
 
 Everyone agrees that peer recognition matters. The gap is structural, not attitudinal. In most orgs the only valve for recognition runs through the manager, which ignores the highest-bandwidth channel by design.
 
-Opening that valve took us two rules: nobody needs permission, and nobody needs a reason good enough to justify the interruption. Ours ran through 15Five, where any person could post recognition to a feed the whole company could read, but the tool mattered far less than those two rules. This is the layer that has to run daily, so any friction you leave in it costs you volume.
+Opening that valve took very little investment in tooling, but it took time for the habits to form within the organization.  A simple system where any person could post recognition to a feed the whole company could read.  Operating in real-time, 24/7, without friction, approvals, or a specific job title to recognize another person's work.
 
-Who's allowed to give recognition decides more than what currency it's paid in.
+Who's empowered to give recognition matters more than what currency it's paid in.
 
 ## The Ground Game
 
