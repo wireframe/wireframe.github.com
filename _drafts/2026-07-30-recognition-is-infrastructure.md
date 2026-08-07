@@ -18,7 +18,7 @@ So we made a change, and created an award for the team that had nothing to show 
 
 ## Petty Cash Depreciates, Memories Compound
 
-Ask anyone how they want to be recognized at work and they'll describe a budget line item: a bonus, a raise, a comp adjustment.  The research tells a very different story about what people SAY they want versus what they ACTUALLY value. Both Google and [McKinsey](https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/motivating-people-getting-beyond-money) have found non-cash recognition to be more memorable, more thoughtful, and appreciated over a longer time frame.  As Laszlo Bock puts it in *[Work Rules!](https://books.google.com/books/about/Work_Rules.html?id=YbPCoAEACAAJ)*, "The joy of money is fleeting, but memories last forever."
+Ask anyone how they want to be recognized at work and they'll describe a budget line item: a bonus, a raise, a comp adjustment.  The research tells a very different story about what people *say* they want versus what they *actually* value. Both Google and [McKinsey](https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/motivating-people-getting-beyond-money) have found non-cash recognition to be more memorable, more thoughtful, and appreciated over a longer time frame.  As Laszlo Bock puts it in *[Work Rules!](https://books.google.com/books/about/Work_Rules.html?id=YbPCoAEACAAJ)*, "The joy of money is fleeting, but memories last forever."
 
 Cash also has a hard ceiling on frequency. Nobody hands out a bonus every week. It has to clear finance before it lands, so recognition ends up shaped by finance's calendar of annual reviews and quarterly bonus cycles instead of by the work calendar.  Even occasional spot bonuses carry friction, delays, and denials.  Chip and Dan Heath put a number on how often recognition actually needs to happen:
 
@@ -38,7 +38,7 @@ Increasing the quantity of recognition from peer-network is fantastic, and the *
 > Peers are the most effective source of reinforcement at work—and the most underutilized. Peers are in the best position to deliver positive and immediate reinforcement (positive, immediate, and certain consequences [PICs]) because they can observe performance more closely and more often than most supervisors and managers.
 > — Aubrey Daniels, *[Bringing Out the Best in People](https://www.aubreydaniels.com/store/books/bringing-out-the-best-in-people)*
 
-Everybody already agrees peer recognition matters. The gap is structural, not attitudinal. In most orgs the only valve for recognition runs through the manager, which ignores the highest-bandwidth channel by design.  Who's allowed to give recognition decides more than what currency it's paid in.
+Everyone agrees that peer recognition matters. The gap is structural, not attitudinal. In most orgs the only valve for recognition runs through the manager, which ignores the highest-bandwidth channel by design.  Who's allowed to give recognition decides more than what currency it's paid in.
 
 ## The High-Five Economy
 
@@ -46,14 +46,16 @@ The behaviors you recognize are the behaviors you will get more of. Currency and
 
 The obvious target is **results**. Ship the thing, hit the number, close the deal. The trouble is that results are only *partly* within our control. A team can run a flawless quarter and still miss, and a team can stumble through one and get lucky anyway. Recognize outcomes alone and you end up handing out awards for variance. (todo: reference "resulting" concept from Thinking in bets: Making smarter decisions when you don't have all the facts)
 
-One of my favorite examples comes from Pete Carroll's coaching career.  He didn't celebrate the scoreboard wins, instead, he recognized the players who showed up and practiced the hardest during practice: The Eager Beaver award.
+One of my favorite examples comes from Pete Carroll's coaching career.  He didn't celebrate the wins on the scoreboard. He recognized the players who showed up each and every day and worked the hardest during practice: The Eager Beaver award.
 
-> [The Eager Beaver] award to the player who practiced the hardest. It was such a small thing that it was almost silly. The player who worked the hardest earned the title of "Eager Beaver." [It] gave our guys something to compete for, and it also gave us a common experience that no one outside our circle could share. It really was the best of both worlds.
+> [The Eager Beaver] award [was given] to the player who practiced the hardest. It was such a small thing that it was almost silly. The player who worked the hardest earned the title of "Eager Beaver." [It] gave our guys something to compete for, and it also gave us a common experience that no one outside our circle could share. It really was the best of both worlds.
 > — Pete Carroll, *[Win Forever](https://www.goodreads.com/book/show/7368602)*
 
-Practicing hardest is entirely inside a player's control. Winning on Sunday isn't. 
+Practicing hardest is within the control of every single player. Winning on Sunday isn't. 
 
-An inside joke with a trophy attached makes belonging to the group mean something. Here's what that looked like for us, cheapest and most frequent at the bottom.
+note: this feels like the right place to emphasize the importance on having a CLEAR definition of the behaviors/values you're optimizing here.  amazon's leadership principles may be an example here (maybe a bad example..tbd).  
+
+(note: the list below are the systems...the infrastructure...the examples.  this should move to the next section and be more generalized.  the goal is to showcase some frameworks, not necessarily the specific instances.  making it real is helpful, but the take away is that there is no perfect system.  just putting energy into establishing SOMETHING here and iterating from there is better than waiting for the PERFECT solution...which will never come.)
 
 **High fives.** Any person to any person, free, instant, no approval, posted to a feed the whole company can read. Ours ran through 15Five, but the tool matters far less than the two rules: nobody needs permission, and nobody needs a reason good enough to justify the interruption. This is the layer that has to run daily, so any friction you leave in it costs you volume.
 
