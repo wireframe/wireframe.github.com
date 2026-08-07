@@ -1,15 +1,26 @@
 // Jekyll Simple Search
 // -------------------------------------------------
+$search-fade: 200ms 100ms cubic-bezier(0, 0.6, 0.4, 1);
+
+// The closed form still overflows its 1px-tall .search-wrapper, so it must be
+// hidden with `visibility` rather than `opacity` alone -- a transparent form
+// still swallows clicks and drags aimed at the page title underneath it.
+// Visibility flips instantly on open (so the script can focus the field) and
+// waits out the fade on close.
 .search-form {
   width: 100%;
   position: relative;
   opacity: 0;
-  transition: all 200ms 100ms cubic-bezier(0, 0.6, 0.4, 1);
+  visibility: hidden;
+  transition: all $search-fade, visibility 0s 300ms;
   top: 0;
   left: -200px;
   z-index: 9002;
   .search-field {
     -webkit-appearance: none;
+    // The global `transition: all` on inputs would animate the visibility this
+    // field inherits from the form, leaving it un-focusable when search opens.
+    transition: all .2s ease, visibility 0s;
     border: none;
     width: 100%;
     color: $white;
@@ -27,6 +38,8 @@
   }
   &.active {
     opacity: 1;
+    visibility: visible;
+    transition: all $search-fade, visibility 0s;
     top: 0;
     left: 0;
   }
