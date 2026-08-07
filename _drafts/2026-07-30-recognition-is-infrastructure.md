@@ -76,15 +76,17 @@ It took us a few years and several false starts to land on these three layers, a
 
 ## Nobody Claps, Nobody Stays
 
-- Restate the thesis plainly: recognition is infrastructure you design — frequency, who can give it, how much friction it takes — not a line item you request from finance
-- Cost of getting this wrong, to make it concrete for a reader who thinks this is a "nice to have": Gallup, for a 10,000-person org —
-  - ~$92M in productivity gains from doubling the number of employees who receive recognition — [NPR/Gallup coverage](https://npr.org/2024/09/18/nx-s1-5113918/employee-praise-recognition-retention-gallup)
-  - $16.1M saved annually in turnover
-  - Employees who get meaningful recognition are 45% less likely to leave
-- Possible closing beat:
+Every one of these is a design decision for leadership. How often recognition can happen. Who's allowed to originate it. What it points at. How much friction sits between noticing something good and saying so out loud. Those are the same kinds of decisions you make about a deploy pipeline, and they have the same property: when you get them wrong, the problem is structural. Caring harder doesn't fix a bottleneck.
 
-  > The currency of leadership is recognition and praise.
-  > — Damian Vaughn
+So why does almost nobody build this? David Marquet has the best answer I've found:
 
-  Leaders still matter here; they're just not supposed to be the only channel.
-- Close on the provocation, not a summary: ask what the cheapest recognition mechanism in the reader's org is right now, and who's actually allowed to use it. If the honest answer is "only my manager, only at review time," that's the system to fix — not the values poster on the wall.
+> First, the pause to celebrate takes time away from the production work, reducing efficiency and creating waste. Second, we worry that our team will turn complacent and not be motivated to continue on to the next phase. Third, we don't see the components of the work in chunks, we see it as one long conveyor belt. Hence, we never get to the end of anything, and there is nothing to celebrate because "we're not done yet."
+> — L. David Marquet, *[Leadership Is Language](https://www.penguinrandomhouse.com/books/566179/leadership-is-language-by-l-david-marquet/)*
+
+The third one is what happened to my migration team. Nobody looked at that cutover and decided it wasn't worth marking. There was just no edge to the work, no moment where something was demonstrably finished, so the moment slid past and the next ticket started. A conveyor belt doesn't stop on its own. Somebody has to cut it into pieces and call one of them done.
+
+If that still sounds like a soft problem, [Gallup and Workhuman put a price on it](https://www.npr.org/2024/09/18/nx-s1-5113918/employee-praise-recognition-retention-gallup).  Doubling the number of employees who get recognized in a given week produces a 9% productivity gain and a 45% reduction in voluntary attrition.  It all adds up, and costs nearly nothing.
+
+So here's the question worth sitting with. What's the cheapest way for someone at your company to recognize a peer today, without asking permission from anyone? How long does it take, and who's allowed to do it?
+
+If the honest answer is that it runs through a manager, once a year, at review time, then you already know what to build. 
