@@ -8,7 +8,7 @@ search: true
 # The url is only used when full-domain names are needed
 # such as sitemap and atom
 # Most places will/should use BASE_PATH to make the urls
-url: https://codecrate.com
+url: https://www.codecrate.com
 locale: en_US
 image:
   feature: background.jpg

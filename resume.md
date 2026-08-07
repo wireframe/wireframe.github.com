@@ -5,7 +5,7 @@ description: "Chief Technology Officer — building stuff that matters."
 ---
 
 *Chief Technology Officer • "Building stuff that matters."*
-Minneapolis, Minnesota (50% on-site) • [ryan.sonnek@gmail.com](mailto:ryan.sonnek@gmail.com) • [linkedin.com/in/ryansonnek](https://linkedin.com/in/ryansonnek) • [codecrate.com](https://codecrate.com)
+Minneapolis, Minnesota (50% on-site) • [ryan.sonnek@gmail.com](mailto:ryan.sonnek@gmail.com) • [linkedin.com/in/ryansonnek](https://linkedin.com/in/ryansonnek) • [codecrate.com](https://www.codecrate.com)
 
 
 ---
