@@ -40,22 +40,26 @@ Increasing the quantity of recognition from peer-network is fantastic, and the *
 
 Everyone agrees that peer recognition matters. The gap is structural, not attitudinal. In most orgs the only valve for recognition runs through the manager, which ignores the highest-bandwidth channel by design.  Who's allowed to give recognition decides more than what currency it's paid in.
 
-## The High-Five Economy
+## The Ground Game
 
 The behaviors you recognize are the behaviors you will get more of. Currency and permissions are two of the three dials. The third is what you point the recognition at.
 
-The obvious target is **results**. Ship the thing, hit the number, close the deal. The trouble is that results are only *partly* within our control. A team can run a flawless quarter and still miss, and a team can stumble through one and get lucky anyway. Recognize outcomes alone and you end up handing out awards for variance. (todo: reference "resulting" concept from Thinking in bets: Making smarter decisions when you don't have all the facts)
+The obvious target is **results**. Ship the thing, hit the number, close the deal. The trouble is that results are only *partly* within our control. A team can run a flawless quarter and still miss, and a team can stumble through one and get lucky anyway. Poker players have a word for grading a decision by how it turned out rather than by how it was made, and Annie Duke brought it to the rest of us in *[Thinking in Bets](https://www.penguinrandomhouse.com/books/552885/thinking-in-bets-by-annie-duke/)*: resulting. Ninety percent of startups fail even when they're run well. Recognize outcomes alone and you end up handing out awards for variance.
 
-One of my favorite examples comes from Pete Carroll's coaching career.  He didn't celebrate the wins on the scoreboard. He recognized the players who showed up each and every day and worked the hardest during practice: The Eager Beaver award.
+One of my favorite examples comes from Pete Carroll's coaching career. He didn't reserve recognition for the scoreboard.
 
-> [The Eager Beaver] award [was given] to the player who practiced the hardest. It was such a small thing that it was almost silly. The player who worked the hardest earned the title of "Eager Beaver." [It] gave our guys something to compete for, and it also gave us a common experience that no one outside our circle could share. It really was the best of both worlds.
+> [The Eager Beaver] award [was given] to the player who practiced the hardest. It was such a small thing that it was almost silly. The player who worked the hardest earned the title of "eager Beaver." ... [It] gave our guys something to compete for, and it also gave us a common experience that no one outside our circle could share. It really was the best of both worlds.
 > — Pete Carroll, *[Win Forever](https://www.goodreads.com/book/show/7368602)*
 
-Practicing hardest is within the control of every single player. Winning on Sunday isn't. 
+Practicing hardest is within the control of every single player. Winning on Sunday isn't.
 
-note: this feels like the right place to emphasize the importance on having a CLEAR definition of the behaviors/values you're optimizing here.  amazon's leadership principles may be an example here (maybe a bad example..tbd).  
+Pointing at a behavior only works if people can picture it. Name the behavior precisely enough that a teammate could spot it in a pull request, and you have something a system can actually run on. "Craftsmanship" is not something you can catch someone doing. "Shipped something big that customers never felt" is, which is why the Crickets Award had a target and a generic excellence award wouldn't have.
+(note: refer to my extreme ownership post as a reference to move from an ambiguous value of ownership into visible and tangible behaviors that you can recognize in daily activities).
 
-(note: the list below are the systems...the infrastructure...the examples.  this should move to the next section and be more generalized.  the goal is to showcase some frameworks, not necessarily the specific instances.  making it real is helpful, but the take away is that there is no perfect system.  just putting energy into establishing SOMETHING here and iterating from there is better than waiting for the PERFECT solution...which will never come.)
+
+## The High-Five Economy
+
+Setting the three dials still leaves you with something to build. Here's ours, offered as one instance rather than a blueprint. The layering is the part worth stealing: cheapest and most frequent at the bottom.
 
 **High fives.** Any person to any person, free, instant, no approval, posted to a feed the whole company can read. Ours ran through 15Five, but the tool matters far less than the two rules: nobody needs permission, and nobody needs a reason good enough to justify the interruption. This is the layer that has to run daily, so any friction you leave in it costs you volume.
 
@@ -69,7 +73,9 @@ That signal got dense enough to be worth mining. One hackathon, we pointed a lan
 
 None of this required a budget conversation. It required deciding who was allowed to give recognition, how often, and what it pointed at. Those are systems decisions.
 
-## Ship Recognition Like Infrastructure
+It took us a few years and several false starts to land on these three layers, and I'd change parts of it tomorrow. That's fine. There is no version of this you get right on paper, because the thing you need in order to design a good recognition system is a pile of evidence about what your company actually values, and the only way to get that pile is to start recognizing people badly for a while. A mediocre system running every week beats an excellent one you're still designing.
+
+## Nobody Claps, Nobody Stays
 
 - Restate the thesis plainly: recognition is infrastructure you design — frequency, who can give it, how much friction it takes — not a line item you request from finance
 - Cost of getting this wrong, to make it concrete for a reader who thinks this is a "nice to have": Gallup, for a 10,000-person org —
