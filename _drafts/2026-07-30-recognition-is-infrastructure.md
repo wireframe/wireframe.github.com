@@ -67,9 +67,7 @@ Every one of these is a design decision for leadership. How often recognition ca
 > The currency of leadership is recognition and praise.
 > — Damian Vaughn
 
-A currency is only worth something if it circulates.
-
-When nominations opened for our quarterly culture award, the one judged against the company's named values, the prompt we sent out was: go review the high fives you've handed out this quarter. Nobody had to reconstruct three months from memory, because the daily layer had been quietly writing the nomination all along. One hackathon we pointed a language model at that same feed and had it sort every high five against those named behaviors, which only worked because there was enough signal sitting there to sort.
+A currency is only worth something if it circulates.  A low-friction system for peer high-fives funneling into a quarterly culture award (using some LLM assisted grading) taps into the *real-time* signal within your company without the "tax" and recency-bias trying to recall what outstanding work was done over the past three months.  These systems layer for compounding effect.
 
 So why does almost nobody build this? David Marquet has the best answer I've found:
 
@@ -80,8 +78,6 @@ The third one is what happened to my migration team. Nobody looked at that cutov
 
 If that still sounds like a soft problem, Gallup and Workhuman put a price on it. Doubling the number of employees who get recognized in a given week produces a [9% productivity gain](https://www.businesswire.com/news/home/20230328005814/en/New-Workhuman-Gallup-Study-Finds-Employee-Recognition-Can-Help-Businesses-Gain-Over-$90-Million-in-Increased-Productivity). Separately, employees getting high-quality recognition were [45% less likely to leave](https://www.npr.org/2024/09/18/nx-s1-5113918/employee-praise-recognition-retention-gallup).  It all adds up, and costs nearly nothing.
 
-It took us a few years and several false starts to get there, and I'd change parts of it tomorrow. That's fine. There is no version of this you get right on paper, because designing a good recognition system requires evidence about what your company actually values, and the only way to collect that evidence is to start recognizing people badly for a while. A mediocre system running every week beats an excellent one you're still designing.
+There is no version of this you get right on paper, because designing a good recognition system requires evidence about what your company *actually* values, and the only way to collect that evidence is to start recognizing people badly for a while. A mediocre system running every week beats an excellent one you're still designing.
 
-So here's the question worth sitting with. What's the cheapest way for someone at your company to recognize a peer today, without asking permission from anyone? How long does it take, and who's allowed to do it?
-
-If the honest answer is that it runs through a manager, once a year, at review time, then you already know what to build. 
+So here's the question worth sitting with. What's the cheapest way for someone at your company to recognize a peer today, without asking permission from anyone? How long does it take, and who's allowed to do it?  If the honest answer is that it runs through a manager, once a year, at review time, then you already know what to build. 
