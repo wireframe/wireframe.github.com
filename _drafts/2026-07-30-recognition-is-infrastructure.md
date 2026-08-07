@@ -67,7 +67,7 @@ Every one of these is a design decision for leadership. How often recognition ca
 > The currency of leadership is recognition and praise.
 > — Damian Vaughn
 
-A currency is only worth something if it circulates.  A low-friction system for peer high-fives funneling into a quarterly culture award (using some LLM assisted grading) taps into the *real-time* signal within your company without the "tax" and recency-bias trying to recall what outstanding work was done over the past three months.  These systems layer for compounding effect.
+A currency is only worth something if it circulates. When nominations opened for our quarterly culture award, the prompt we sent out was: go review the high fives you've handed out this quarter. Nobody had to fight recency bias or reconstruct three months from memory, because the daily layer had already written the nomination. One hackathon we even pointed a language model at that feed and had it sort every high five against our named behaviors, which only worked because there was real signal sitting there to sort.
 
 So why does almost nobody build this? David Marquet has the best answer I've found:
 
@@ -76,8 +76,10 @@ So why does almost nobody build this? David Marquet has the best answer I've fou
 
 The third one is what happened to my migration team. Nobody looked at that cutover and decided it wasn't worth marking. There was just no edge to the work, no moment where something was demonstrably finished, so the moment slid past and the next ticket started. A conveyor belt doesn't stop on its own. Somebody has to cut it into pieces and call one of them done.
 
-If that still sounds like a soft problem, Gallup and Workhuman put a price on it. Doubling the number of employees who get recognized in a given week produces a [9% productivity gain](https://www.businesswire.com/news/home/20230328005814/en/New-Workhuman-Gallup-Study-Finds-Employee-Recognition-Can-Help-Businesses-Gain-Over-$90-Million-in-Increased-Productivity). Separately, employees getting high-quality recognition were [45% less likely to leave](https://www.npr.org/2024/09/18/nx-s1-5113918/employee-praise-recognition-retention-gallup).  It all adds up, and costs nearly nothing.
+If that still sounds like a soft problem, Gallup and Workhuman put a price on it. Doubling the number of employees who get recognized in a given week produces a [9% productivity gain](https://www.businesswire.com/news/home/20230328005814/en/New-Workhuman-Gallup-Study-Finds-Employee-Recognition-Can-Help-Businesses-Gain-Over-$90-Million-in-Increased-Productivity). Separately, employees getting high-quality recognition were [45% less likely to leave](https://www.npr.org/2024/09/18/nx-s1-5113918/employee-praise-recognition-retention-gallup).  The gains are enormous. The mechanisms cost almost nothing.
 
-There is no version of this you get right on paper, because designing a good recognition system requires evidence about what your company *actually* values, and the only way to collect that evidence is to start recognizing people badly for a while. A mediocre system running every week beats an excellent one you're still designing.
+I still don't think we got this right, and there's plenty of things I would change if I were starting over. But you don't get this right on paper. Designing a good recognition system requires evidence about what your company *actually* values, and the only way to collect that evidence is to start recognizing people badly for a while. A mediocre system running every week beats an excellent one you're still designing.
 
-So here's the question worth sitting with. What's the cheapest way for someone at your company to recognize a peer today, without asking permission from anyone? How long does it take, and who's allowed to do it?  If the honest answer is that it runs through a manager, once a year, at review time, then you already know what to build. 
+So here's the question worth sitting with. What's the cheapest way for someone at your company to recognize a peer today, without asking permission from anyone? How long does it take, and who's allowed to do it?
+
+If the honest answer is that it runs through a manager, once a year, at review time, then you already know what to build. Nobody's budget is stopping you.
