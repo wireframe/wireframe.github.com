@@ -31,18 +31,18 @@ Every dollar spent needs approval, so every instance of recognition inherits tha
 
 [Gallup's research](https://www.gallup.com/workplace/236441/employee-recognition-low-cost-high-impact.aspx) identified that the vast majority employee's meaningful recognition funneled through the organizational management layer.  While not surprising, it highlights an inherent tension around the **capacity** for an organization to dispense recognition.  If a manager is the only person dispensing recognition, the system is constrained by definition: one person, finite attention, finite hours in a week, no matter how much they care. Every peer added as a legitimate reinforcer is another node generating signal in parallel. That's a multiplier on volume, and until you add them the majority of the team stays starved.
 
-Aubrey Daniels has spent a career arguing the largest untapped resource for breaking that capacity constraint already exists within every single organization: **it's your peers**. The people sitting next to you in every stand-up and every pull request review rank behind customers who only ever see the finished product.
+Aubrey Daniels has spent a career arguing the largest untapped resource for breaking that capacity constraint already exists within every single organization: **it's your peers**. The people sitting next to you in every stand-up and every pull request have ten times the opportunity to see and recognize others for great work compared to relying solely on people with a "manager" job title.
+
+Increasing the quantity of recognition from peer-network is fantastic, and the **quality** increases right along side it. A manager sees a fraction of anyone's actual work: the demo, the standup update, the postmortem after something goes wrong. Peers see the pull request, the 11pm Slack message asking for a sanity check, the customer call nobody wrote a summary of. That's exactly with Daniels refers to when she says:
 
 > Peers are the most effective source of reinforcement at work—and the most underutilized. Peers are in the best position to deliver positive and immediate reinforcement (positive, immediate, and certain consequences [PICs]) because they can observe performance more closely and more often than most supervisors and managers.
 > — Aubrey Daniels, *[Bringing Out the Best in People](https://www.aubreydaniels.com/store/books/bringing-out-the-best-in-people)*
 
-Quality moves too. A manager sees a fraction of anyone's actual work: the demo, the standup update, the postmortem after something goes wrong. Peers see the pull request, the 11pm Slack message asking for a sanity check, the customer call nobody wrote a summary of. That's the higher-resolution view Daniels means by "observe performance more closely and more often."
-
-Everybody already agrees peer recognition matters. The gap is structural, not attitudinal. Whatever behavior you recognize is the behavior you get more of, and in most orgs the only valve for recognition runs through the manager. That's a system ignoring its highest-bandwidth channel by design.
-
-Who's allowed to give recognition decides more than what currency it's paid in.
+Everybody already agrees peer recognition matters. The gap is structural, not attitudinal. In most orgs the only valve for recognition runs through the manager which ignores its highest-bandwidth channel by design.  By tapping into the peer-group for recognition, you **unleash** the full potential of the impact recognition can have on your organization.
 
 ## The High-Five Economy
+
+Whatever behavior you recognize is the behavior you get more of.
 
 - Purpose: make the systems reframe concrete with three real mechanisms, layered from most frequent/cheapest to least
 - reference eager beaver award from "Win forever" by Pete Carrol.   recognizing the behaviors you want to see is beyond just recognizing an "outcome" (like winning the game) (which may not be within our control).
