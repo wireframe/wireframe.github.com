@@ -1,6 +1,17 @@
 <meta charset="utf-8">
 <title>{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}</title>
-{% if page.excerpt %}<meta name="description" content="{{ page.excerpt | strip_html }}">{% endif %}
+{% comment %}
+  Shared by the meta description and the link preview tags below. A hand
+  written featured_description beats Jekyll's auto excerpt, which is only the
+  first block of the post and is usually just the opening heading.
+{% endcomment %}
+{% if page.featured_description %}{% assign description = page.featured_description %}
+{% elsif page.excerpt %}{% assign description = page.excerpt | strip_html %}{% endif %}
+{% assign description = description | normalize_whitespace | strip %}
+{% comment %} Some early posts open with an image, so their excerpt strips to nothing. {% endcomment %}
+{% if description == '' and page.excerpt %}{% assign description = page.content | strip_html | normalize_whitespace | strip | truncate: 200 %}{% endif %}
+{% if description == '' %}{% assign description = site.description %}{% endif %}
+<meta name="description" content="{{ description | escape_once }}">
 {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
 {% if page.author %}
   {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.owner %}

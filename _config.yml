@@ -9,8 +9,12 @@ search: true
 # such as sitemap and atom
 # Most places will/should use BASE_PATH to make the urls
 url: https://codecrate.com
+locale: en_US
 image:
   feature: background.jpg
+  # Fallback for link previews on posts with no image of their own.
+  # 1200x630 is the size LinkedIn and X crop against.
+  default: og-default.png
 
 # Site owner/author info
 owner:

@@ -1,0 +1,123 @@
+#!/usr/bin/env bash
+#
+# Verify built pages carry the metadata LinkedIn and X need to render a preview.
+#
+# Usage:
+#   bin/check-social-preview                     # every built page
+#   bin/check-social-preview _site/index.html    # specific pages
+#
+# LinkedIn reads og:image and ignores twitter:image, so a page missing og:image
+# renders as a bare link. Both crawlers need absolute URLs; a relative
+# /images/foo.png resolves against their own host, not this site.
+#
+# Assumes the site is already built. Run `bundle exec jekyll build` first.
+
+set -e
+
+SITE_DIR="_site"
+FAILURES=0
+
+meta_content() {
+  local file="$1" attribute="$2" name="$3"
+  grep -o "<meta ${attribute}=\"${name}\" content=\"[^\"]*\"" "$file" \
+    | head -1 \
+    | sed -e 's/.*content="//' -e 's/"$//'
+}
+
+local_path_for() {
+  echo "$1" | sed -E 's#^https?://[^/]+##'
+}
+
+report() {
+  echo "  FAIL $1"
+  FAILURES=$((FAILURES + 1))
+}
+
+require_present() {
+  local value="$1" label="$2"
+  [ -n "$value" ] && return 0
+  report "$label is missing or empty"
+  return 1
+}
+
+require_absolute_url() {
+  local value="$1" label="$2"
+  case "$value" in
+    https://*|http://*) return 0 ;;
+  esac
+  report "$label is not an absolute URL: '$value'"
+  return 1
+}
+
+require_existing_image() {
+  local value="$1" label="$2"
+  local path
+  path="$SITE_DIR$(local_path_for "$value")"
+  [ -f "$path" ] && return 0
+  report "$label points at a file that is not in the build: '$value'"
+  return 1
+}
+
+check_url_tag() {
+  local file="$1" attribute="$2" name="$3"
+  local value
+  value=$(meta_content "$file" "$attribute" "$name")
+  require_present "$value" "$name" || return 0
+  require_absolute_url "$value" "$name"
+}
+
+check_image_tag() {
+  local file="$1" attribute="$2" name="$3"
+  local value
+  value=$(meta_content "$file" "$attribute" "$name")
+  require_present "$value" "$name" || return 0
+  require_absolute_url "$value" "$name" || return 0
+  require_existing_image "$value" "$name"
+}
+
+check_text_tag() {
+  local file="$1" attribute="$2" name="$3"
+  require_present "$(meta_content "$file" "$attribute" "$name")" "$name" || true
+}
+
+check_page() {
+  local file="$1"
+  local before=$FAILURES
+
+  echo "$file"
+  check_text_tag "$file" property "og:title"
+  check_text_tag "$file" property "og:description"
+  check_text_tag "$file" property "og:type"
+  check_url_tag "$file" property "og:url"
+  check_image_tag "$file" property "og:image"
+  check_text_tag "$file" name "twitter:card"
+  check_image_tag "$file" name "twitter:image"
+
+  if [ "$before" -eq "$FAILURES" ]; then
+    echo "  ok"
+  fi
+}
+
+pages_to_check() {
+  if [ $# -gt 0 ]; then
+    printf '%s\n' "$@"
+  else
+    grep -rl '<head>' "$SITE_DIR" --include='*.html' | sort
+  fi
+}
+
+if [ ! -d "$SITE_DIR" ]; then
+  echo "No $SITE_DIR directory. Run 'bundle exec jekyll build' first."
+  exit 1
+fi
+
+while read -r page; do
+  check_page "$page"
+done < <(pages_to_check "$@")
+
+echo
+if [ "$FAILURES" -gt 0 ]; then
+  echo "$FAILURES social preview problem(s) found"
+  exit 1
+fi
+echo "All pages have complete social preview metadata"

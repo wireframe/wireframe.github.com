@@ -1,19 +1,31 @@
-<!-- Twitter Cards -->
-<meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-{% if page.excerpt %}<meta name="twitter:description" content="{{ page.excerpt | strip_html }}">{% endif %}
+{% comment %}
+  Link preview metadata. `description` and `author` are set by head.html.
+
+  Every URL here is absolute on purpose: crawlers resolve relative paths
+  against their own host, so /images/foo.png silently becomes a dead link.
+  LinkedIn reads og:image only, so a page without one renders as a bare link.
+{% endcomment %}
+{% capture social_title %}{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}{% endcapture %}
+{% capture social_url %}{{ page.url | replace:'index.html','' | prepend: site.url }}{% endcapture %}
+{% if page.image.feature %}{% assign social_image = page.image.feature %}
+{% elsif page.image.thumb %}{% assign social_image = page.image.thumb %}
+{% else %}{% assign social_image = site.image.default %}{% endif %}
+{% capture social_image_url %}{{ social_image | prepend: '/images/' | prepend: site.url }}{% endcapture %}
+
+<!-- Open Graph: LinkedIn, Slack, iMessage, Facebook -->
+<meta property="og:locale" content="{{ site.locale }}">
+<meta property="og:type" content="{% if page.date %}article{% else %}website{% endif %}">
+<meta property="og:site_name" content="{{ site.title }}">
+<meta property="og:title" content="{{ social_title | escape_once }}">
+<meta property="og:description" content="{{ description | escape_once }}">
+<meta property="og:url" content="{{ social_url }}">
+<meta property="og:image" content="{{ social_image_url }}">
+<meta property="og:image:alt" content="{{ social_title | escape_once }}">
+
+<!-- Twitter Cards: X -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ social_title | escape_once }}">
+<meta name="twitter:description" content="{{ description | escape_once }}">
+<meta name="twitter:image" content="{{ social_image_url }}">
 {% if site.owner.twitter %}<meta name="twitter:site" content="@{{ site.owner.twitter }}">{% endif %}
 {% if author.twitter %}<meta name="twitter:creator" content="@{{ author.twitter }}">{% endif %}
-{% if page.image.feature %}
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="/images/{{ page.image.feature }}">
-{% else %}
-<meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="{% if page.image.thumb %}/images/{{ page.image.thumb }}{% else %}/images/{{ site.logo }}{% endif %}">
-{% endif %}
-<!-- Open Graph -->
-<meta property="og:locale" content="{{ site.locale }}">
-<meta property="og:type" content="article">
-<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-{% if page.excerpt %}<meta property="og:description" content="{{ page.excerpt | strip_html }}">{% endif %}
-<meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.url }}">
-<meta property="og:site_name" content="{{ site.title }}">
