@@ -13,7 +13,7 @@ One of our teams spent months migrating our infrastructure to a new cloud provid
 
 The team did tremendous work, and once the moment passed, it was "back to business as usual".  The moment stuck with me. A "quiet launch" is a rare thing. Look at what actually gets celebrated at most companies: the launch that survived a 2am fire drill, the escalation someone talked a customer down from, the outage that got fixed before the exec team even heard about it. Drama makes a story. A story is easy to recognize. A migration that goes exactly according to plan produces no story at all, so by default it goes unmarked — even though avoiding the fire is harder and more valuable than fighting it well.
 
-So we made a change, and created an award for the team that had nothing to show for their work except the *absence* of a disaster: The Crickets Award.  No cash attached, no budget request, and no approval chain.  Just a small custom made trophy with the team name and project engraved and a short informal ceremony to shine a spotlight on the work. 🦗🦗🦗
+So we made a change, and created an award for the team that had nothing to show for their work except the *absence* of a disaster: "The Crickets Award".  No cash attached, no budget request, and no approval chain.  Just a small custom made trophy with the team name and project engraved and a short informal ceremony to shine a spotlight on the work. 🦗
 
 
 ## Petty Cash Depreciates, Memories Compound
