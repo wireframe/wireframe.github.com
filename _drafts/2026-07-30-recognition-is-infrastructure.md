@@ -53,7 +53,7 @@ One of my favorite examples comes from Pete Carroll's coaching career. He didn't
 
 Practicing hardest is within the control of every single player. Winning on Sunday isn't.
 
-Pointing at a behavior only works if people can picture it. "Craftsmanship" is not something you can catch someone doing. "Shipped something big that customers never felt" is, which is why the Crickets Award had a target and a generic excellence award wouldn't. We had the same problem with ownership, a value everyone nodded at and nobody could act on, until we [wrote down what it actually looks like](https://build.betterup.com/extreme-ownership-at-betterup/): improving a shared library nobody assigned you, leaving a meeting with action items instead of hopes, walking a teammate through your reasoning instead of gatekeeping it. Name the behavior precisely enough that someone could spot it in a pull request, and you have something a system can actually run on.
+Pointing at a behavior only works if people can picture it. "Craftsmanship" is not something you can catch someone doing. "Shipped something big that customers never felt" is, which is why the Crickets Award had a target and a generic excellence award wouldn't. We had the same problem with ownership, a value everyone nodded at and nobody could act on, until we [wrote down what it actually looks like](https://build.betterup.com/extreme-ownership-at-betterup/). Name the behavior precisely enough that someone could spot it in a pull request, and you have something a system can *actually* run on.
 
 
 ## The High-Five Economy
