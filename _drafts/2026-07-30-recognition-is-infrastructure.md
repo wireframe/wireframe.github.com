@@ -69,7 +69,7 @@ Every one of these is a design decision for leadership. How often recognition ca
 
 A currency is only worth something if it circulates.
 
-Designed well, the layers feed each other. When nominations opened for our quarterly culture award, the one judged against the company's named values, the prompt we sent out was: go review the high fives you've handed out this quarter. Nobody had to reconstruct three months from memory, because the cheap daily layer had been quietly writing the nomination all along. One hackathon we pointed a language model at that same feed and had it sort every high five against those named behaviors, which only worked because there was enough signal sitting there to sort.
+When nominations opened for our quarterly culture award, the one judged against the company's named values, the prompt we sent out was: go review the high fives you've handed out this quarter. Nobody had to reconstruct three months from memory, because the daily layer had been quietly writing the nomination all along. One hackathon we pointed a language model at that same feed and had it sort every high five against those named behaviors, which only worked because there was enough signal sitting there to sort.
 
 So why does almost nobody build this? David Marquet has the best answer I've found:
 
