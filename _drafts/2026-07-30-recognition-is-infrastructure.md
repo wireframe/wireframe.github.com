@@ -9,7 +9,7 @@ tags:
 
 ## When Nothing Breaks, Nobody Claps
 
-One of our teams spent months migrating our infrastructure to a new cloud provider. They carefully worked through prelaunch testing, and the moment they finally flipped the switch to cutover...nothing happened (rework this...nothing isn't true...but emphasize that we were holding our breaths and the switch was a non-event). No incident channel lit up, no support tickets, no customers noticing a thing had changed underneath them.
+One of our teams spent months migrating our infrastructure to a new cloud provider. They worked carefully through prelaunch testing, and when they finally flipped the switch to cutover, we all held our breath. The cutover was a non-event. No incident channel lit up, no support tickets, no customers noticing a thing had changed underneath them.
 
 The team did tremendous work, and once the moment passed, it was "back to business as usual".  The moment stuck with me. A "quiet launch" is a rare thing. Look at what actually gets celebrated at most companies: the launch that survived a 2am fire drill, the escalation someone talked a customer down from, the outage that got fixed before the exec team even heard about it. Drama makes a story. A story is easy to recognize. A migration that goes exactly according to plan produces no story at all, so by default it goes unmarked — even though avoiding the fire is harder and more valuable than fighting it well.
 
@@ -18,9 +18,9 @@ So we made a change, and created an award for the team that had nothing to show 
 
 ## Petty Cash Depreciates, Memories Compound
 
-Ask anyone how they want to be recognized at work and they'll describe a budget line item: a bonus, a raise, a comp adjustment.  The research tells a very different story from what people SAY they want versus what they ACTUALLY value. Both Google and [McKinsey](https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/motivating-people-getting-beyond-money) have found that non-cash recognition to be more memorable, more thoughtful, and their effect was appreciated over a longer time frame.  As Lazlo Bock puts it in *[Work Rules!](https://books.google.com/books/about/Work_Rules.html?id=YbPCoAEACAAJ)*, "The joy of money is fleeting, but memories last forever."
+Ask anyone how they want to be recognized at work and they'll describe a budget line item: a bonus, a raise, a comp adjustment.  The research tells a very different story about what people SAY they want versus what they ACTUALLY value. Both Google and [McKinsey](https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/motivating-people-getting-beyond-money) have found non-cash recognition to be more memorable, more thoughtful, and appreciated over a longer time frame.  As Laszlo Bock puts it in *[Work Rules!](https://books.google.com/books/about/Work_Rules.html?id=YbPCoAEACAAJ)*, "The joy of money is fleeting, but memories last forever."
 
-Cash also has a hard ceiling on frequency. Nobody hands out a bonus every week. It has to clear finance before it lands and the shape recognition shifts into finance's cadance of Annual review, quarterly bonus cycle, instead of being coupled with the actual work calendar.  Even occasional spot bonuses carry friction, delays, and denials.  Chip and Dan Heath put a number on how often recognition actually needs to happen:
+Cash also has a hard ceiling on frequency. Nobody hands out a bonus every week. It has to clear finance before it lands, so recognition ends up shaped by finance's calendar of annual reviews and quarterly bonus cycles instead of by the work calendar.  Even occasional spot bonuses carry friction, delays, and denials.  Chip and Dan Heath put a number on how often recognition actually needs to happen:
 
 > The proper pace of recognition is weekly or even daily, not monthly or yearly.
 > — Chip & Dan Heath, *[The Power of Moments](https://www.simonandschuster.com/books/The-Power-of-Moments/Chip-Heath/9781501147760)*
@@ -29,27 +29,43 @@ Every dollar spent needs approval, so every instance of recognition inherits tha
 
 ## The Bottleneck Is the Org Chart
 
-[Gallup's research](https://www.gallup.com/workplace/236441/employee-recognition-low-cost-high-impact.aspx) identified that the vast majority employee's meaningful recognition funneled through the organizational management layer.  While not surprising, it highlights an inherent tension around the **capacity** for an organization to dispense recognition.  If a manager is the only person dispensing recognition, the system is constrained by definition: one person, finite attention, finite hours in a week, no matter how much they care. Every peer added as a legitimate reinforcer is another node generating signal in parallel. That's a multiplier on volume, and until you add them the majority of the team stays starved.
+[Gallup's research](https://www.gallup.com/workplace/236441/employee-recognition-low-cost-high-impact.aspx) found that roughly two-thirds of employees' most memorable recognition came through the management layer.  While not surprising, it highlights an inherent tension around the **capacity** for an organization to dispense recognition.  If a manager is the only person dispensing recognition, the system is constrained by definition: one person, finite attention, finite hours in a week, no matter how much they care. Every peer added as a legitimate reinforcer is another node generating signal in parallel. That's a multiplier on volume, and until you add them the majority of the team stays starved.
 
-Aubrey Daniels has spent a career arguing the largest untapped resource for breaking that capacity constraint already exists within every single organization: **it's your peers**. The people sitting next to you in every stand-up and every pull request have ten times the opportunity to see and recognize others for great work compared to relying solely on people with a "manager" job title.
+Aubrey Daniels has spent a career arguing the largest untapped resource for breaking that capacity constraint already exists within every single organization: **it's your peers**. The people sitting next to you in every stand-up and every pull request see far more of the work than anyone with a "manager" job title ever will.
 
-Increasing the quantity of recognition from peer-network is fantastic, and the **quality** increases right along side it. A manager sees a fraction of anyone's actual work: the demo, the standup update, the postmortem after something goes wrong. Peers see the pull request, the 11pm Slack message asking for a sanity check, the customer call nobody wrote a summary of. That's exactly with Daniels refers to when she says:
+Increasing the quantity of recognition from peer-network is fantastic, and the **quality** increases right along side it. A manager sees a fraction of anyone's actual work: the demo, the standup update, the postmortem after something goes wrong. Peers see the pull request, the 11pm Slack message asking for a sanity check, the customer call nobody wrote a summary of. That's exactly what Daniels is describing:
 
 > Peers are the most effective source of reinforcement at work—and the most underutilized. Peers are in the best position to deliver positive and immediate reinforcement (positive, immediate, and certain consequences [PICs]) because they can observe performance more closely and more often than most supervisors and managers.
 > — Aubrey Daniels, *[Bringing Out the Best in People](https://www.aubreydaniels.com/store/books/bringing-out-the-best-in-people)*
 
-Everybody already agrees peer recognition matters. The gap is structural, not attitudinal. In most orgs the only valve for recognition runs through the manager which ignores its highest-bandwidth channel by design.  By tapping into the peer-group for recognition, you **unleash** the full potential of the impact recognition can have on your organization.
+Everybody already agrees peer recognition matters. The gap is structural, not attitudinal. In most orgs the only valve for recognition runs through the manager, which ignores the highest-bandwidth channel by design.  Who's allowed to give recognition decides more than what currency it's paid in.
 
 ## The High-Five Economy
 
-Whatever behavior you recognize is the behavior you get more of.
+The behaviors you recognize are the behaviors you will get more of. Currency and permissions are two of the three dials. The third is what you point the recognition at.
 
-- Purpose: make the systems reframe concrete with three real mechanisms, layered from most frequent/cheapest to least
-- reference eager beaver award from "Win forever" by Pete Carrol.   recognizing the behaviors you want to see is beyond just recognizing an "outcome" (like winning the game) (which may not be within our control).
-- **15Five high-fives** — free, instant, any peer to any peer, no approval needed. The base layer. (Aside, maybe cut for scope: we once tried to auto-classify high-fives by which cultural behavior they represented for a hackathon — worth a line as evidence of taking the signal seriously, not worth a full paragraph.)
-- **Crickets Award** — callback to the opening story, don't retell it. For excellence in shipping change no customer ever felt. Physical, engraved with team name / project / date, shipped to the team lead. Mid-frequency, tied to one specific behavior.
-- **Culture Value Award** — quarterly, nomination-driven, explicitly tied to named company values (examples from own notes: Grit, Extreme Ownership, Craftsmanship, Empathy). Lowest frequency, highest visibility. Nominations pull from the high-fives layer below it — the cheap layer feeds the ceremonial one.
-- The throughline: none of these required a budget conversation. They required deciding who's allowed to give recognition and how often, which is a systems decision, not a compensation decision.
+The obvious target is **results**. Ship the thing, hit the number, close the deal. The trouble is that results are only *partly* within our control. A team can run a flawless quarter and still miss, and a team can stumble through one and get lucky anyway. Recognize outcomes alone and you end up handing out awards for variance. (todo: reference "resulting" concept from Thinking in bets: Making smarter decisions when you don't have all the facts)
+
+One of my favorite examples comes from Pete Carroll's coaching career.  He didn't celebrate the scoreboard wins, instead, he recognized the players who showed up and practiced the hardest during practice: The Eager Beaver award.
+
+> [The Eager Beaver] award to the player who practiced the hardest. It was such a small thing that it was almost silly. The player who worked the hardest earned the title of "Eager Beaver." [It] gave our guys something to compete for, and it also gave us a common experience that no one outside our circle could share. It really was the best of both worlds.
+> — Pete Carroll, *[Win Forever](https://www.goodreads.com/book/show/7368602)*
+
+Practicing hardest is entirely inside a player's control. Winning on Sunday isn't. 
+
+An inside joke with a trophy attached makes belonging to the group mean something. Here's what that looked like for us, cheapest and most frequent at the bottom.
+
+**High fives.** Any person to any person, free, instant, no approval, posted to a feed the whole company can read. Ours ran through 15Five, but the tool matters far less than the two rules: nobody needs permission, and nobody needs a reason good enough to justify the interruption. This is the layer that has to run daily, so any friction you leave in it costs you volume.
+
+**The Crickets Award.** A small custom trophy, engraved with the team name, project, and date, shipped to the team lead. Less frequent, and pointed at one behavior in particular: shipping something big that customers never felt. Craftsmanship and care for the customer are easy to praise in the abstract and nearly impossible to see in the moment, which is exactly why they need a named award.
+
+**A quarterly culture award.** Nomination-driven, judged against the company's named values: grit, ownership, craftsmanship, empathy. Lowest frequency, highest ceremony, the one that gets an actual stage.
+
+The layers only work because they're wired together. When quarterly nominations opened, the prompt we sent out was: go review the high fives you've handed out this quarter. Nobody has to reconstruct three months from memory, because the cheap layer has been quietly writing the nomination all along.
+
+That signal got dense enough to be worth mining. One hackathon, we pointed a language model at the high-five feed and had it classify each one against our named behaviors, then published the results back to the team. It was a toy. It also proved the base layer was generating real data about which behaviors the company actually rewarded.
+
+None of this required a budget conversation. It required deciding who was allowed to give recognition, how often, and what it pointed at. Those are systems decisions.
 
 ## Ship Recognition Like Infrastructure
 
