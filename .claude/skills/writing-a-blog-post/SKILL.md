@@ -6,7 +6,7 @@ description: Use when starting a new post for this blog (wireframe.github.com), 
 # Writing a Blog Post
 
 ## Overview
-Five-phase workflow: align on the outline and intent, build a claims-and-evidence skeleton **on the Roam project page**, move to a Jekyll draft and write prose, revise section by section, then review the whole piece.
+Six-phase workflow: align on the outline and intent, build a claims-and-evidence skeleton **on the Roam project page**, move to a Jekyll draft and write prose, revise section by section, add the flavor back, then review the whole piece.
 
 The skeleton lives in Roam, not in `_drafts/`. Roam is where the research already is, where block references keep sources live, and where restructuring is cheap. The Jekyll file gets created only when the skeleton is settled and prose starts.
 
@@ -150,7 +150,17 @@ Revision is its own phase. One section per turn, and within a section go in this
 
 **After any restructuring, re-check the headers and the section numbering.** Killing or moving a section leaves headers describing content that isn't there, headers restating the title, and stale numbers.
 
-## Phase 5: Full-Post Review
+## Phase 5: Flavor
+Revision strips prose flat, which is what it is for. This phase puts the personality back on purpose, on the parts that earned it. **Run it after the citation and deslop passes, never before** — flavor added early is the first thing a reviewer calls slop, because emphasis on an unearned claim reads as puffery.
+
+- **Emphasize the claims a reader could argue with.** Bold or italicize the contested assertion — not the topic sentence, not the transition, and never a sentence that only summarizes. One or two per section. Count them at the end: if a section carries more than two, keep the one that would start a fight and unbold the rest. Emphasis everywhere is emphasis nowhere.
+- **Italics for the single word carrying the turn** (deliver impact *without* writing a line of code); **bold for a claim that stands on its own** (**I've never hired a programmer.**). Alternating them at random reads as shouting.
+- **Puns are in-voice** — the user's own style note says playful and punny. A pun in a header, a caption, or an aside is welcome. A pun that needs explaining is not; see the deslop rule about explaining your own material.
+- **An image earns its place when it lands a joke or shows what prose can't.** A pun image counts. Reuse an existing one with attribution — never generate one (Phase 3, step 4).
+- **Name the constructs.** This blog names things: The Crickets Award, The Commit Cycle, The Not Doing List, V2OOO. A named idea gets quoted back at you; an unnamed one gets paraphrased away.
+- **Check the last line of every section, not just the post.** Each should land a fact, an image, or a question — never a summary of what the reader just finished reading.
+
+## Phase 6: Full-Post Review
 Read the whole post start to finish:
 - Does it deliver on the goal from Phase 1?
 - Is the tone consistent — nothing feels bolted on?

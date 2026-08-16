@@ -4,9 +4,22 @@ Personal tech blog (Jekyll) with posts dating back to 2003. Topics include softw
 
 ## Writing Voice
 
-This blog has a distinct voice: opinionated, direct, conversational. Posts often start with personal anecdotes or provocative questions. The writing should feel like a senior engineer sharing hard-won insights over coffee, not a corporate whitepaper.
+Conversational, personal, approachable. Questioning and rhetorical. Direct, succinct, punchy. Playful and punny. It should read like a senior engineer sharing hard-won insights over coffee, not a corporate whitepaper.
+
+The habits that actually produce that voice:
+
+- **Open on a concrete scene, not a thesis.** A migration that went quiet, a weekend project, four agent sessions running at once. The idea arrives after the scene.
+- **First person, active, observed.** "I've watched," "I've never hired a programmer." Never "organizations have found."
+- **Link prior posts liberally**, using `{% post_url YYYY-MM-DD-slug %}`. When the prose points at one directly ("a year ago I wrote…"), the post's title is the anchor text.
+- **Quote named sources as blockquotes**, with the book or article linked. Never "industry experts say."
+- **Concede the strongest counter-argument before answering it.** Stating it fairly is what makes the answer land.
+- **Say when something didn't work.** "The Crickets Award didn't stick" is the most credible sentence in that post.
+- **Name the constructs you invent** — The Commit Cycle, The Not Doing List, The Crickets Award, V2OOO. A named idea gets quoted back; an unnamed one gets paraphrased away.
+- **Emphasize contested claims** with bold or italics, one or two per section, never on the topic sentence.
+- **End on a question or a challenge**, not a summary.
 
 Reference posts for tone:
+- `_posts/2026-08-07-recognition-is-infrastructure.md` - current voice: scene opener, blockquoted sources, honest failure, closing challenge
 - `_posts/2025-08-25-hacker-renaissance.md` - conversational, uses rhetorical questions
 - `_posts/2025-05-28-agentic-engineering.md` - direct claims, practical frameworks
 - `_posts/2025-04-28-the-most-powerful-part-of-your-product-roadmap.md` - personal experience driving insights
