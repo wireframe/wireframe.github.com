@@ -75,7 +75,7 @@ Going over almost always means one of two things, and it's worth diagnosing whic
 - **Two claims are the same claim** wearing different words. In practice this is the common case — a section that reached eight had "time-to-land is set by planning" and "planning and landing trade against each other" as separate bullets.
 - **The section is actually two sections**, or one section plus a catalog.
 
-A claim becomes roughly a paragraph of prose, so five claims is a five-paragraph section — already the long end. A post of 5 sections × 4 claims lands around 1,500–2,000 words, which is this blog's range.
+This is a budget on *distinct assertions*, not on paragraphs — five claims often land in three or four paragraphs, because adjacent claims share one.
 
 **Run a consolidation pass before drafting**, not after. Go section by section and ask of each pair of claims: could these be one sentence with a semicolon? If yes, merge. Merging in the skeleton costs one edit; merging in prose costs a rewrite.
 
@@ -112,8 +112,11 @@ If research surfaces a stronger spine for a section, or a section with no real m
 Once the skeleton is settled: `bin/draft "Post Title"` — the title becomes the filename slug, so confirm it first. Renaming later uses `git mv`.
 
 Walk the outline in order. For each section:
-1. Write prose from that section's claims, in the voice described in `CLAUDE.md` (opinionated, direct, conversational), under its header. A claim becomes a paragraph; its evidence becomes the sentences that back it; a blockquote stays a blockquote if the wording is worth showing verbatim.
-2. Show it to the user and get a read before starting the next section — voice drift compounds if it's only caught at the end.
+1. Write prose from that section's claims, in the voice described in `CLAUDE.md` (opinionated, direct, conversational), under its header. **A claim does not have to be a paragraph — it just has to land its intent inside the section.** A claim can be a clause, a sentence, or share a paragraph with the claim next to it. Giving each one its own paragraph is what produces bloat: the paragraph needs a topic sentence and a closing sentence, and both are filler. Evidence becomes the sentences that back the claim; a blockquote stays a blockquote if the wording is worth showing verbatim.
+2. **Link to the blog's own prior posts wherever the prose supports it.** Always prefer an existing post over an external source or no link at all — a claim the user already argued somewhere on this blog is a dated, public, first-hand citation, and it's the cheapest credibility the post has. Build the inventory before drafting: `for f in _posts/*.md; do printf "%s :: " "$f"; grep -m1 '^title:' "$f"; done`, then grep for the concepts the section touches. Use Jekyll's `{% post_url YYYY-MM-DD-slug %}` form — it's the convention across this blog and it breaks the build instead of silently 404ing if the target moves. Sequels link the post they follow in the opening line. **When the prose points at the prior post directly ("a year ago I wrote…", "I've argued…"), the anchor text is the post's title.** Hanging the link on a noun from the sentence reads as a term definition and hides the fact that it's the author's own prior work — the whole reason the link is there.
+3. **Read the section's paragraph openers as a list before showing it.** Damage claims and correction claims naturally start on a negation ("It reads like a demotion," "We're already bad at this," "Nobody trained you for it"), and stacking two or three in a row makes the post read as a complaint no matter how good the evidence is. Lead each paragraph with the positive assertion and let the negative land inside it — "What happened to the other 86% is already visible in the codebase" carries the same claim as "we're already bad at this" without the slump.
+4. **Images: reuse, never generate.** An image that already exists with verified attribution (a diagram from a cited source, a screenshot, a prior post's asset) earns its place. Never propose creating or generating a new one to illustrate a point — write the point instead.
+5. Show it to the user and get a read before starting the next section — voice drift compounds if it's only caught at the end.
 
 The Roam skeleton stays as the reference. Don't delete it when the prose lands.
 
@@ -154,6 +157,7 @@ Run the `writing-style` skill as the final pass. When the user is happy: `bin/pr
 | Mistake | Fix |
 |---|---|
 | Building the skeleton in the Jekyll draft file | Skeleton goes on the Roam project page; `bin/draft` runs at Phase 3 when prose starts |
+| Revising a Roam block by passing nested markdown to `update_block` | It stores the string **literally** — nesting becomes escaped `\n - ` text and the old children survive underneath, contradicting the new text. Update the parent's one line, delete stale children, then `create_block` the new ones |
 | Drafting prose before the outline is confirmed | Lock goal/theme/outline first — rewriting prose is expensive, changing an outline isn't |
 | A bone that describes the post instead of asserting something | Every top-level bullet is a sentence a reader would see. Notes get `📝 Note, not a claim:` |
 | Leading a claim with its framing ("Carried forward from section 2…") | Lead with the assertion; the connection is a child note |
@@ -162,6 +166,7 @@ Run the `writing-style` skill as the final pass. When the user is happy: `bin/pr
 | Using a framework term without checking the user's own definition | Search Roam for the term first; a conflicting personal model invalidates every claim built on it |
 | Writing jargon the author would never say out loud | Record the model as a vocabulary decision, write the plain-language concepts |
 | Going straight to public search | Check Roam first — the user's own prior thinking is the most original material available |
+| Citing an external source for a point the user already made on this blog | Link the prior post. Grep `_posts/` for the concept before reaching outward; use `{% post_url YYYY-MM-DD-slug %}` |
 | Treating a citation as verified because the link resolves | Run `verifying-claims` |
 | Trusting an infographic's citations | Verify each one; file the trail in the Appendix with the corrections. Misdated reports are the norm |
 | Deleting a superseded draft | Move it to the Appendix as salvage after redistributing its citations |
