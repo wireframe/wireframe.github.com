@@ -25,4 +25,16 @@ Agents love to build horizontally. Left alone, one writes all the backend, then 
 
 ![Wide builds wheels, then a chassis, then a car. Deep builds a skateboard, then a scooter, then a bike.](/images/2026-08-16-skateboard.png)
 
-Which makes the plan the real work product. And once a plan is good enough that work can leave without you steering it, the only question left is how many you can have in the air at once.
+Which makes the plan the real work product.
+
+## Getting More Planes in the Air
+
+A plan good enough to leave without you raises the next question: how many can you launch at once? For twenty years, developer productivity tooling aimed at making one piece of work go faster. Running many at once is a different problem.
+
+The goal is to maximize the number of sandboxes you can run in parallel — locally through git worktrees, containers and throwaway checkouts, and remotely through cloud development environments. Then keep them busy. Every engineer knows [Compiling](https://xkcd.com/303/), except now the waiting belongs to the agent, and the idle time that costs you is the gap between one finishing and you noticing. Tracking which is which is its own emerging problem, and tools like [Herdr](https://github.com/herdrdev/herdr) exist to sit on top of it, showing what is working, what is blocked, and what finished while you were looking elsewhere. None of this is free, either: every additional workstream is another context to hold, and the switching cost is real.
+
+More changes running in parallel puts pressure on the two things that gate a landing, human review and automated verification, and they go hand in hand. Start by lowering the cost of the review itself. Using agents to assist code review is becoming common and takes real load off the reviewer, and one protip matters more than the rest: make sure the reviewing model is a different model than the one that wrote the code. A model reviewing its own output shares its own blind spots and misses exactly what it was always going to miss. Running reviewer models side by side, we saw review quality improve when they differed.
+
+Then take the human out of the landings that never needed one. Classify changes by risk and route them: real blast radius goes to a person, while the trivial group — dependency bumps, documentation, test-only updates — runs the full CI/CD pipeline and self-approves. Early analysis suggests at least 30% of pull request volume can be classified that way. And none of it is safe unless production failures trace back to the change that caused them.
+
+None of that gets built by someone who is flying. The sandboxes, the routing, the verification loops — every one of them is infrastructure that somebody has to fund and build while the flights keep going.
