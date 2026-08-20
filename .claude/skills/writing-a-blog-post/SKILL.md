@@ -29,7 +29,7 @@ Confirm the title and the full outline with the user before Phase 2.
 ### Titles and headers
 - **Check the candidate title against the anti-patterns in `CLAUDE.md` before proposing it.** Titles fall into "X, Not Y" constantly, and that's anti-pattern #1. Make the claim positively.
 - **Calibrate against what's on the blog:** `for f in _posts/2025-* _posts/2026-*; do grep -m1 '^title:' "$f"; done`. House style is a declarative claim ("Recognition Is Infrastructure"), a named thing ("The Greenhouse Innovation Incubator"), or "Topic: Angle."
-- **Metaphors have to map cleanly.** "From Pilot to Control Tower" died because a pilot is a person and a tower is a building. Check that both halves are the same kind of thing — role→role, place→place, activity→activity.
+- **Keep both halves of a metaphor in the same frame.** Role→role ("From Pilot to Air Traffic Controller") or place→place ("From the Cockpit to the Tower"). Mixing frames ("From Pilot to Control Tower") reads as a category error, but the fix is to pick a frame, not to abandon the metaphor — the underlying move is the same one either way.
 - **When the user rejects a title or header, offer three or four options taking genuinely different angles.** If several rounds fail, ask what dimension is wrong rather than generating more. When the post has a controlling metaphor, **play the theme** — the winning header usually comes from inside the metaphor's own vocabulary, not from plain description.
 - **The title lives in three places that must agree:** front matter `title:`, the filename slug, and the section headers (no header should restate the title). The Roam page title should be renamed to match once confirmed.
 - **Headers frame, they don't echo.** Don't force the header phrase into the prose.
@@ -195,7 +195,7 @@ Run the `writing-style` skill as the final pass. When the user is happy: `bin/pr
 | Leaving an opening anecdote unresolved | Say whether the thing worked |
 | Letting a tightening edit swap a specific scene for a generic description | Shorter is only better if it still names the same specific things |
 | Offering one more title after the user rejects one | Three or four options, different angles. If the post has a metaphor, play the theme |
-| A metaphor whose halves are different kinds of thing | Role→role, place→place. "Pilot to Control Tower" mixes a person with a building |
+| A metaphor whose halves sit in different frames | Pick one and stay in it: role→role (pilot → controller) or place→place (cockpit → tower) |
 | Publishing colleague names, internal metrics, or company shorthand from Roam | Scrub all three; decide explicitly what's publishable from internal data |
 | Renaming a draft by creating a new file | `git mv`, then update front matter, filename, Roam page title, and any header that restated the title |
 | Running the Phase 5 review before the post is fully drafted | Phase 5 is whole-post only |
