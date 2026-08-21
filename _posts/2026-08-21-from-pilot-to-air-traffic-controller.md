@@ -1,7 +1,7 @@
 ---
 title: "From Pilot to Air Traffic Controller"
 featured_description: >
-  The job changed from flying one aircraft to sequencing the whole airspace
+  The four things an engineering leader has to build before AI throughput becomes AI quality
 tags:
 - engineering
 - ai
