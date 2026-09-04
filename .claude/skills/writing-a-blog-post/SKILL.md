@@ -6,7 +6,7 @@ description: Use when starting a new post for this blog (wireframe.github.com), 
 # Writing a Blog Post
 
 ## Overview
-Six-phase workflow: align on the outline and intent, build a claims-and-evidence skeleton **on the Roam project page**, move to a Jekyll draft and write prose, revise section by section, add the flavor back, then review the whole piece.
+Six-phase workflow: align on the outline and intent, build a skeleton of the post's statements **on the Roam project page**, move to a Jekyll draft and write prose, revise section by section, add the flavor back, then review the whole piece.
 
 The skeleton lives in Roam, not in `_drafts/`. Roam is where the research already is, where block references keep sources live, and where restructuring is cheap. The Jekyll file gets created only when the skeleton is settled and prose starts.
 
@@ -48,10 +48,9 @@ Work one section at a time. The skeleton is the artifact the user revises — no
     the controlling metaphor, confirmed title + why, vocabulary decisions
   Skeleton                (heading 2)
     <Section header>      (heading 3)
-      claim
-        evidence
-        evidence
-      claim
+      statement           (usually the author's own; most have no children)
+        evidence          (only for empirical claims, instances, prior art)
+      statement
       📝 Drafting notes for this section — not claims
   Appendix::              (heading 2)
     Research — <topic>    verification trails, rejected sources, caveats
@@ -68,8 +67,60 @@ Failures to catch, all of which look reasonable in isolation:
 
 Notes are not forbidden, they're just subordinate. Prefix inline ones `📝 Note, not a claim:` and give each section a `📝 Drafting notes` block at the end.
 
+### Most statements are the author's own, and citations are not the quality bar
+
+**The default statement is an original assertion from the author's own experience. It needs no source, and asking for one is a category error.** This blog is a practitioner writing what he has watched happen. The spine of every post is his judgment; research is a supporting cast that appears in four specific jobs and nowhere else.
+
+Sort every statement into one of these before evaluating it, because each is judged differently:
+
+| Type | Example | What it needs | What it does NOT need |
+|---|---|---|---|
+| **Original assertion** | "Teams stop taking on short-term debt when nobody believes the job will get finished." | To be true to what the author has seen, specific, and sharply worded | A citation. Ever. |
+| **Framing / definitional** | "Done is when the system's complexity is back in line with what the business needs." | Internal consistency with the rest of the post | External support |
+| **Empirical claim** | "Only one third of ideas tested at Microsoft improved their target metric." | A verified primary source | — |
+| **Prior art / counter-argument** | Roger Martin on the strategy-execution gap | Accurate attribution, fair statement of the opposing view | — |
+| **Concrete instance** | Uber built a robot to delete stale feature flags | Verification that it happened as described | — |
+
+**Research does exactly four jobs.** Backing an empirical claim. Supplying the strongest counter-argument so the post can concede it. Providing a vivid concrete instance. Finding prior art so the post can stand on it instead of accidentally reinventing it. If a research task doesn't fit one of those four, it is procrastination dressed as rigor.
+
+**Never write these about an original assertion:** "unsourced," "still assertion," "has no source at all," "that's an argument not evidence," "underdeveloped," "needs a citation before use." Every one of those judges a first-person claim by a standard that does not apply to it. The author's own experience *is* the source, and it is the most original material the post has — an outside citation for it would be strictly weaker, because it would replace something only he can say with something anyone could quote.
+
+**The right critiques of an original assertion** are different questions entirely:
+- Is it specific, or has it drifted into a category label?
+- Does it contradict another statement in the post? (This is the highest-value check — see below.)
+- Is it the author's actual view, or a generic version of it?
+- Would a reader who disagrees have a fair chance to?
+- Is it doing work the neighboring statement already does?
+
+**When prior art turns up for an original assertion, that is good news, not a demotion.** Finding that Drucker made the argument in 1967 lets the post stand on him and state a narrower, more defensible extension. Report it that way. Never frame a statement as provisional until an outsider has validated it.
+
+### Check statements against each other before checking them against the world
+
+The most valuable review pass is internal, not external. **Read each statement against its siblings and ask whether the post contradicts itself.** In practice this catches more real problems than citation-checking does, and nothing outside the post can find it for you.
+
+A worked instance: one post asserted in section 1 that "success means paying for a migration, failure means removing what you built," then asserted three sections later that "a failed experiment needs more follow-through than a successful one." Migration is the bigger job. The post refuted itself across four sections and no amount of external sourcing would have surfaced it.
+
+**Research can overturn a statement rather than support it, and that outcome is a success.** When it does, rewrite the statement to what survives and record the reversal in place — what was claimed, what the evidence actually showed, and what the corrected version is. Do not quietly delete; a silent cut gets re-derived three sessions later.
+
+### Group by job when the inventory gets big
+
+Past roughly fifteen statements, stable identifiers stop being navigation and start being noise. When the author says they're lost in their own outline, **stop presenting the numbered inventory and group the statements by the job each does in the argument** — setup, diagnosis, cost, objection, design, implication. Six groups over thirty numbers.
+
+This also surfaces a structural problem nothing else does: **evidence distributed inversely to originality.** The familiar parts of an argument are always the best-sourced, because that is what the literature covers, and the original parts are always the thinnest. A post shaped by evidence density will lead with its least interesting material. Say so directly when the grouping shows it.
+
+### Order for flow first, then apply the budget
+
+**Sequence matters: get the argument flowing in the right order before trimming it to size.** The budget is a late tightening pass, not an early constraint. Using it early produces the worst possible outcome — a statement gets shoved into the wrong section because its home section was "full," and the argument bends around an arbitrary cap.
+
+So when a section is over budget, ask in this order:
+1. Does every statement sit in the section where it does its work? A remedy sitting in the consequences section is a flow problem, not a budget problem — move it and the count often fixes itself.
+2. Is the reading order inside the section right? Assertion, then mechanism, then consequence. A vivid concrete instance is usually the closer.
+3. *Then* consolidate duplicates against the cap below.
+
+Never justify a placement with "it would put that section over budget." If the author says they aren't worried about the budget yet, they are telling you to solve flow first — do that and stop mentioning counts.
+
 ### Claim budget per section
-**Maximum 5 claims per section. No exceptions — a sixth claim is a signal, not a special case.**
+**Maximum 5 claims per section, applied as a trimming pass once the order is settled.**
 
 Going over almost always means one of two things, and it's worth diagnosing which:
 - **Two claims are the same claim** wearing different words. In practice this is the common case — a section that reached eight had "time-to-land is set by planning" and "planning and landing trade against each other" as separate bullets.
@@ -79,18 +130,20 @@ This is a budget on *distinct assertions*, not on paragraphs — five claims oft
 
 **Run a consolidation pass before drafting**, not after. Go section by section and ask of each pair of claims: could these be one sentence with a semicolon? If yes, merge. Merging in the skeleton costs one edit; merging in prose costs a rewrite.
 
-### Evidence nests under the claim it supports
-Do not keep parallel **Claims** and **Evidence** lists. Separating them means holding a claim in your head while scrolling to find what backs it, and it hides two problems the nested form makes obvious at a glance:
-- **A claim with no evidence** — fine if definitional, a gap if not.
-- **A section where evidence outweighs claims** — usually means claims are missing, not that evidence is surplus.
+### Evidence nests under the statement it supports
+Do not keep parallel **Claims** and **Evidence** lists. Separating them means holding a statement in your head while scrolling to find what backs it, and it hides a real problem the nested form makes obvious at a glance: **a section where evidence outweighs statements** usually means statements are missing, not that evidence is surplus.
+
+A statement with nothing nested under it is not thereby a gap. Check its type first — most of them are not supposed to have anything under them.
 
 ### Research, per section
 1. **Roam first** — `mcp__roam__search` / `semantic_search` / `roam_query` for the user's own prior notes and quotes. Call `get_graph_guidelines` once per graph before the first read. For any book, talk, or article the user has read, search Roam before the web; the graph holds verbatim highlights that public search often cannot surface at all.
 2. **Check for the user's own model of any framework you're about to invoke.** Before using a term like "inner loop," search Roam for it. The user may have a defined model that conflicts with the industry one — in this graph, inner loop is the SDLC (Plan, Build, Verify, Operate) and outer loop is the PDP (Align, Execute, Learn), which puts code review *inside* the inner loop where most sources put it outside. Building on the wrong definition costs several claims and a TLDR.
 3. **Public research** — WebSearch/WebFetch for third-party data, prior art, counter-arguments.
-4. **Verify every claim with `verifying-claims` before it goes in.** Aggregator link-farms, vendor blogs citing unlinked studies, links that resolve to pages not containing the claim, and real findings stated more strongly than published are all more common than invented numbers.
-5. For any anecdote from Roam, dig for the user's *own* stated reason it mattered — sibling blocks, the surrounding daily note. If the source states the reasoning, use that framing rather than a more generic one.
-6. Write the section's claims into the Roam page, with evidence as children. Quotes go in blockquote form with attribution. Link web sources inline as `[Publisher](url)` next to the claim they back.
+4. **Verify every empirical claim with `verifying-claims` before it goes in.** Aggregator link-farms, vendor blogs citing unlinked studies, links that resolve to pages not containing the claim, and real findings stated more strongly than published are all more common than invented numbers. This applies to the empirical/instance/prior-art rows of the table above, not to the author's own assertions.
+5. **Check whose voice a graph block is in before attributing it.** Roam holds meeting notes, interview transcripts and talk summaries alongside the user's own thinking, and they look identical as bullets. A line under a `Questions` heading in a hiring interview is the *candidate's* answer, not the user's view. Read the ancestors before putting words in the author's mouth — and if the idea is good but the voice is someone else's, say so rather than dropping it.
+6. **When two secondary sources disagree on a detail, the detail is wrong until a primary source settles it.** Summaries reliably corrupt the illustrative specifics — dates, names, which of two similar events it was — while getting the headline finding right. Verify the specific independently or cut it and keep the finding.
+7. For any anecdote from Roam, dig for the user's *own* stated reason it mattered — sibling blocks, the surrounding daily note. If the source states the reasoning, use that framing rather than a more generic one.
+8. Write the section's statements into the Roam page, with any evidence as children. Quotes go in blockquote form with attribution. Link web sources inline as `[Publisher](url)` next to the claim they back.
 
 ### Handling secondary sources and infographics
 Treat any shared graphic, deck, or summary as a source of **pointers, not facts**. Verify each citation independently, then file the whole verification trail under `Appendix:: → Research — <topic>` and carry only the verified findings into the skeleton. Record what was wrong, not just what was right — misdated reports and numbers that conflict with figures already in the graph are common, and the note is what stops the bad version coming back.
@@ -101,6 +154,20 @@ When the user says to file research rather than incorporate it, keep the accurac
 Restructuring is normal and the old version usually contains good sentences. **Move superseded drafts to the Appendix labeled as salvage rather than deleting them.** Redistribute their citations into the new skeleton first, so the salvage block holds writing and the skeleton holds research.
 
 **Flag rejected premises in place rather than quietly cutting them.** If a claim turns out to be wrong — especially one that contradicts the post's own evidence — mark it with what's wrong, what survives, and what has to go. A silent deletion gets re-derived three sessions later.
+
+### When the central noun fights the thesis
+If the author says a core word "makes no sense" or "throws me off," take it as a structural report, not a style preference. **Check whether the metaphor can actually perform the argument's motion.** One post was built on "every bet has a second half" — but a bet is passive after placement, the outcome happens *to* you, so the noun contradicted a thesis about what you do afterward. No amount of rewording around it would have worked.
+
+When replacing a controlling metaphor:
+- Test candidates by whether the argument's key move is *native* to them, not by which sounds better.
+- Check whether the old title conceded something the post refutes. "The other half of X" asserts two halves; if a later section argues it's one motion, the title was arguing against the post.
+- **Record an intensity budget, not just the choice.** Name where the metaphor appears — title, one plant, the section where it does argumentative work, one concession — and state that the prose says plain language everywhere else. A metaphor with no stated budget saturates the draft.
+- Log the comparison that lost and *why*, including anything the rejected option would have given up. That record stops the same debate reopening, and sometimes the lost advantage turns up later from another direction.
+
+### Deleting in Roam: check refs before clearing a section
+Superseded scaffolding (parking lots, promoted-idea wrappers) accumulates and clearing it is normal. **Before deleting any subtree, check every block in it for `refs="N"`.** Deleting a referenced block does not remove the reference — it replaces it with static text, so a claim that pointed at a live source silently becomes a copy of it.
+
+The fix is to move the referenced source block to sit under the statement it supports, delete the now-redundant transclusion wrapper, then delete the scaffolding. Preserve any commentary children by re-parenting them first.
 
 ### Vocabulary decisions
 When the user has a model they think in but won't write in, record it explicitly in **Frame and decisions**: the model, the plain-language substitutes, and any citation that uses the same words differently. Jargon the author won't say out loud should never appear in a claim.
@@ -139,7 +206,8 @@ Revision is its own phase. One section per turn, and within a section go in this
 
 **Then, per section:**
 - **Does it advance the argument, or only show receipts?** A section that adds no new idea and only demonstrates what the others argued is a catalog. Distribute its transferable parts and delete it — or merge it with the section that gives it a punchline. The format tell: a run of bolded items in a post that is otherwise prose.
-- **Is any evidence doing better work somewhere else?** Evidence sitting in a catalog is often the missing proof for an earlier claim that's currently pure assertion.
+- **Is any evidence doing better work somewhere else?** Evidence sitting in a catalog is often the proof an earlier empirical claim needed.
+- **Does any statement contradict another?** Run this before the citation pass. It is the highest-yield check in the phase and the only one no external source can do for you.
 - **Does every anecdote pay off?** If the post introduces a thing, it has to say whether the thing worked. "It didn't stick" is often the strongest material available.
 - **Verify the claims** with `verifying-claims`.
 - **Then style**, against `CLAUDE.md`'s anti-patterns and the `writing-style` skill.
@@ -180,7 +248,16 @@ Run the `writing-style` skill as the final pass. When the user is happy: `bin/pr
 | A bone that describes the post instead of asserting something | Every top-level bullet is a sentence a reader would see. Notes get `📝 Note, not a claim:` |
 | Leading a claim with its framing ("Carried forward from section 2…") | Lead with the assertion; the connection is a child note |
 | More than 5 claims in a section | Hard cap. Two claims are the same claim, or it's two sections. Consolidate in the skeleton, not in prose |
-| Parallel Claims and Evidence lists | Nest evidence under the claim it backs — it exposes unsupported claims and evidence-heavy sections at a glance |
+| Parallel Claims and Evidence lists | Nest evidence under the statement it backs — it exposes evidence-heavy sections at a glance |
+| Calling an original assertion "unsourced," "still assertion," or "underdeveloped" | Sort it by type first. The author's own experience is the source; those words apply only to empirical claims |
+| Hunting a citation for something the author observed himself | Research does four jobs only: back an empirical claim, supply a counter-argument, provide a concrete instance, find prior art. Nothing else |
+| Treating found prior art as a demotion | It's a promotion — the post stands on the source and states a narrower extension. Say so that way |
+| Checking statements against the world but never against each other | Read siblings for self-contradiction first; it catches more than citation-checking and nothing external can find it |
+| Attributing a Roam block to the author without reading its ancestors | Meeting notes and interview answers look identical to his own thinking. A line under `Questions` in an interview is the candidate's |
+| Trusting an illustrative detail two summaries disagree on | The headline finding survives; dates, names and which-event-it-was do not. Verify against a primary source or cut the detail |
+| Invoking the claim budget to justify a placement | Flow first, budget as a late trimming pass. "It would put that section over budget" is never a reason to misplace a statement |
+| Presenting a long numbered inventory to a user who says they're lost | Group by the job each statement does — setup, diagnosis, cost, objection, design, implication |
+| Deleting a Roam subtree without checking `refs` | Deleting a referenced block turns live references into static text. Move the source under its statement first |
 | Using a framework term without checking the user's own definition | Search Roam for the term first; a conflicting personal model invalidates every claim built on it |
 | Writing jargon the author would never say out loud | Record the model as a vocabulary decision, write the plain-language concepts |
 | Going straight to public search | Check Roam first — the user's own prior thinking is the most original material available |
