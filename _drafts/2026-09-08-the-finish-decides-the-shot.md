@@ -17,88 +17,70 @@ That was the disconnect. Nobody was refusing hard work. They hesitated to take o
 
 ## The Swing Doesn't End at the Ball
 
-(i think we're missing a connection between the swing analogy and product development right here.  The swing before the ball is the work to get something to production, and the hit is the "launch".  the follow-through people think of as optional.  Here would be the spot to call out why the follow-through matters and impact of trying to pull-short).
-
 Contact between a golf club and ball lasts about half a [millisecond](https://sharkclub.golf/golf_physics.html). The ball is long gone before the follow-through exists, which makes the finish look like the optional part.
 
-(this is the place to call-out the common term of "cleanup goes in the backlog")
-And look at what we named the missing part. **Cleanup.** A word for the thing you do after the real work, if there's time, and the first thing cut when there isn't. Nobody calls a mortgage payment tidying up. The debt is a loan, the finish is the repayment, and "cleanup" is the word we reach for once we've already decided not to make it.
+Product development has the same shape. Everything before contact is the work to get something into production. Contact is the launch. The follow-through is everything after: finding out whether it worked, then acting on the answer.
 
-The complexity an experiment leaves behind is supposed to be debt. Debt arrives two ways, intentional and accidental, and the accidental kind is still debt. An experiment gives you the intentional kind: priced, on the books, with a repayment date attached, if anybody bothers to write one down. (i don't understand this paragraph)
+Golfers don't finish the swing for show. Committing to the full motion is what keeps the club accelerating through impact. Plan to stop at the ball and you decelerate before you reach it. The follow-through itself is only deceleration after contact. **The [swing you intended](https://www.mytpi.com/en/articles/biomechanics/kinematic-sequence-revisited) is what shaped the strike.** The finish decides the shot before the ball is ever struck. A team that plans to stop at launch pulls up short the same way, and the experiment shrinks before it ever ships.
 
-(this section may go better after the outcomes section?)
+Look at what we call the follow-through in software. **Cleanup.** A word for the thing you do after the real work, if there's time, and the first thing cut when there isn't. "Cleanup goes in the backlog" is a sentence every engineer has said, and the backlog is where it goes to rot. Nobody calls a mortgage payment tidying up. The debt is a loan, the finish is the repayment, and "cleanup" is the word we reach for once we've already decided not to make it.
 
 ## One Swing, Two Outcomes
-
-(golf analogy, you make the shot or you don't...product development is the same way, and we miss more shots than we make)
 
 If we're right, we pay for a migration onto the new path. If we're wrong, we pay to remove what we built. Neither was on the original estimate.
 
 And we should expect to be wrong most of the time. Marty Cagan's first inconvenient truth about product is that ["at least half of our ideas are just not going to work."](https://www.svpg.com/the-inconvenient-truth-about-product/) The measured numbers run worse. Only one third of the ideas tested on Microsoft's experimentation platform improved the metric they were designed to improve, and one practitioner put [his own hit rate at a major league batting average](https://www.exp-platform.com/Documents/2015%20Online%20Controlled%20Experiments_EncyclopediaOfMLDM.pdf).
 
-Every experiment we run adds complexity until we know the answer. Two implementations of the same thing. A flag still sitting in the code. For as long as the question is open, the system is more complicated than the business needs it to be.
-
-The two cases behave nothing alike. The success case is a small, known workstream, and it gets done, because somebody in the business wants the new thing and will keep asking until the old path is gone. The failure case has nobody asking. It is also the case where the entire value of the experiment is sitting in the finish.
+The two cases behave nothing alike. The success case is a small, known workstream, and it gets done, because somebody in the business wants the new thing and will keep asking until the old path is gone. The failure case is the common one, and it has nobody asking. It is also the case where the entire value of the experiment is sitting in the finish.
 
 One plan can't cover both. The work waiting on a yes is not the work waiting on a no, and the team finds out which one it's doing the moment customers answer. Re-cutting the plan, the timeline and the scope right then, on information that arrived that morning, is a skill most teams never practice. A team that can only run the plan it wrote before it knew anything will default to the yes path, because that is the path the plan describes.
 
 A failed experiment delivers value only if somebody closes it out. Do it well and you leave behind the abstraction that makes the next experiment faster, plus what you learned about the market, the technology and the approach, distributed back into the organization instead of filed in a post-mortem nobody opens. I've called that [composting]({% post_url 2026-02-05-the-greenhouse-innovation-incubator %}).
 
-Skip it and every open experiment slows the next one: another thing to hold in your head, another question a new engineer has to ask before they can change anything. The experiment nobody closed out makes the next one slower, and the one after that slower still.
+Skip it and the complexity stays. Every experiment adds complexity until we know the answer: two implementations of the same thing, a flag still sitting in the code. For as long as the question is open, the system is more complicated than the business needs it to be.
 
-## Unfinished Work Teaches Hesitation
+## Why the Finish Goes Missing
 
-Teams get slow to take on short-term debt when nobody believes the job will get finished. Everyone has watched a follow-through go into the backlog and die there, so "we'll clean that up after" stops sounding true. Nobody refuses the work. What shows up instead is trepidation: the proposal that sits a week longer than it needed to, the spike that gets discussed in three meetings and started in none, the scope quietly trimmed so there's less to unwind later.
+I keep expecting the causes to be interesting and they never are. Planning so far ahead that the finish falls outside the horizon. Not renegotiating a timeline that stopped being true weeks ago. Both have the same root: nobody in the business is asking for the finish, so it never wins a prioritization argument on its own merits.
 
-Whether the finish happens depends on how much impact the result had, not on how much work it left behind. A big result gets a sponsor. A small one gets nobody. A study of the orbital launch industry found that organizations learn more from failure than from success, and that [the size of the failure shapes how much gets learned](https://journals.aom.org/doi/10.5465/amj.2010.51467631). The authors' advice was to [analyze small failures and near misses rather than wait for the major ones](https://www.sciencedaily.com/releases/2010/08/100823162322.htm).
-
-Small failures get cleared and forgotten. Six foam-shedding events on the shuttle's external tank preceded Columbia. The last one before the accident dented the strut ring by about four inches, was raised at the next mission's flight readiness review, and was cleared as not a safety-of-flight issue. The seventh produced [29 recommendations](https://www.nasa.gov/history/columbia-accident-investigation-board-synopsis/).
+Whether the finish happens depends on how much impact the result had, not on how much work it left behind. A big result gets a sponsor. A small one gets nobody. Small failures get cleared and forgotten. Six foam-shedding events on the shuttle's external tank preceded Columbia. The last one before the accident dented the strut ring by about four inches, was raised at the next mission's flight readiness review, and was cleared as not a safety-of-flight issue. The seventh produced [29 recommendations](https://www.nasa.gov/history/columbia-accident-investigation-board-synopsis/).
 
 Now hold that next to the standard advice about experimenting well. Amy Edmondson's four markers of intelligent failure are that it's in new territory, it's in pursuit of a goal, you've done your homework, and the failures that occur are small and not dangerous. That last one describes the lowest-impact outcome available. **So the experiments most worth running are exactly the ones nothing will ever demand a finish for.** Her markers are also all about designing the experiment. Not one of them concerns what you do once the result comes back.
 
 A small result produces no completion moment either. I've made that argument from the other end: [a team that never gets to the end of anything has nothing to celebrate, and the behavior goes extinct]({% post_url 2026-08-07-recognition-is-infrastructure %}). Tanya Reilly calls the work that holds a team together and earns nobody a promotion [glue](https://www.noidea.dog/glue). Finishing a failed experiment is glue: no feature, no demo, no line on the packet.
-
-One more cost, and it's the one I missed for years. A hedged swing returns a false answer. When the team has no confidence the follow-through will happen, they place a smaller, more timid version of the experiment, and it fails for reasons that have nothing to do with the hypothesis. An underpowered test mostly produces false negatives, what statisticians call Type II errors, and they hide: a false negative looks like a negative result rather than bad methodology. The organization files it as a failed idea, and the hypothesis it was built to test never got an answer.
-
-
-## Why the Finish Goes Missing
-
-I keep expecting the causes to be interesting and they never are. Planning so far ahead that the finish falls outside the horizon. Ducking the difficult conversation. Not escalating. Not renegotiating a timeline that stopped being true weeks ago. All four have the same root: nobody in the business is asking for the finish, so it never wins a prioritization argument on its own merits, and the backlog is where it goes to rot.
 
 The psychology is just as predictable, which is why the answer has to be design rather than encouragement. David Marquet:
 
 > This aversion to stopping the clock spills over to an aversion to complete. We are programmed to continue — continue the work, continue on to the next task.
 > — L. David Marquet, *[Leadership Is Language](https://www.penguinrandomhouse.com/books/566179/leadership-is-language-by-l-david-marquet/)*
 
-Anything that already exists defends itself. An in-flight project defends itself against its own replacement, because the new option has to beat the inertia of the old plan before anyone weighs it on its merits. A shipped feature defends itself against its own removal, which is why removing something released is harder than building it was.
-
-When *Impact Players* asked 170 managers what frustrated them most, the number three answer was having to chase employees to do the things they had already committed to do. That is a manager describing their job as professional nag.
+Anything that already exists defends itself. An in-flight project defends itself against its own replacement, and a shipped feature defends itself against its own removal, which is why removing something released is harder than building it was.
 
 One cause is personal. Barry Staw's "Knee Deep in the Big Muddy" found that people held personally responsible for a failing decision escalate their commitment to it more than people who inherited the same mess. The person who ran the experiment is the worst available judge of when to kill it, and the more of their identity is riding on the result, the worse that judgment gets.
 
-## One Motion
+## Unfinished Work Teaches Hesitation
+
+Everyone has watched a follow-through go into the backlog and stay there, so "we'll clean that up after" stops sounding true. Nobody refuses the work. What shows up instead is trepidation: the proposal that sits a week longer than it needed to, the spike that gets discussed in three meetings and started in none, the scope quietly trimmed so there's less to unwind later.
+
+The experiments that do run are slower, too. Every open experiment slows the next one: another thing to hold in your head, another question a new engineer has to ask before they can change anything. The experiment nobody closed out makes the next one slower, and the one after that slower still.
+
+One more cost, and it's the one I missed for years. A hedged swing returns a false answer. When the team has no confidence the follow-through will happen, they place a smaller, more timid version of the experiment, and it fails for reasons that have nothing to do with the hypothesis. An underpowered test mostly produces false negatives, what statisticians call Type II errors, and they hide: a false negative looks like a negative result rather than bad methodology. The organization files it as a failed idea, and the hypothesis it was built to test never got an answer.
+
+## Accelerate Through Impact
 
 There is an objection underneath all of this. Roger Martin argues that the line between strategy and execution is a fiction, and that drawing it does real damage:
 
 > if we can't draw a line in the organization above which strategy happens and below which execution does, **what is the use of the distinction between strategy and execution, between formulation and implementation? The answer is none at all.** It is a pointless distinction that in no way helps the organization.
 > — Roger Martin, *[The Execution Trap](https://hbr.org/2010/07/the-execution-trap)*
 
-If deciding and doing are one activity, there is no separate phase to plan for, and "follow-through" is a name for work that should never have been split off.
-
-He's right. And if a decision and its execution are one motion, then a decision made without its finish planned was never a whole decision.
-
-Committing to the full motion is what keeps the club accelerating through impact. Plan to stop at the ball and you decelerate before you reach it. The follow-through itself is only deceleration after contact. **The [swing you intended](https://www.mytpi.com/en/articles/biomechanics/kinematic-sequence-revisited) is what shaped the strike.** The finish decides the shot before the ball is ever struck.
-
-Drucker got here in 1967:
+He's right. If deciding and doing are one activity, there is no separate phase called follow-through, and a decision made without its finish planned was never a whole decision. Drucker got here in 1967:
 
 > Unless a decision has "degenerated into work" it is not a decision; it is at best a good intention.
 > — Peter Drucker, *[The Effective Decision](https://hbr.org/1967/01/the-effective-decision)*
 
 What Drucker doesn't cover is the unwinding. His process builds the action into the decision and then tests whether the decision was right, and it never asks what happens to the thing you built when the answer comes back no. Two years ago I wrote up the development process I run teams on, and [its third commitment is closing the loop]({% post_url 2024-04-13-the-commit-cycle %}). I had the sequence right and the weighting wrong. Closing the loop is what makes the first two commitments mean anything.
 
-## Accelerate Through Impact
-
-A proposal that can be finished answers three questions: why we're doing this, how we'll know if we're right, and what happens next either way. Most teams get partial credit on the first two. The third gets waved through. The third answer also names who calls the stop, and after Staw, that cannot be the person running the experiment.
+So a proposal that can be finished answers three questions: why we're doing this, how we'll know if we're right, and what happens next either way. Most teams get partial credit on the first two. The third gets waved through. The third answer also names who calls the stop, and after Staw, that cannot be the person running the experiment.
 
 The finish belongs in that same proposal, on that same timeline, decided while the team still wants to run the experiment. Not scheduled separately, and not "revisited later." A meta-analysis of if-then plans found that deciding in advance [raises the odds you follow through](https://cancercontrol.cancer.gov/sites/default/files/2020-06/goal_intent_attain.pdf) by a medium-to-large effect. Annie Duke's version in *Quit* points the same mechanism at exits: deciding in advance is what makes the exit survive the moment you need it. Before a rebrand, we laid out the timeline with the post-release feature flag work written into it. It was in the plan, so it happened.
 
@@ -111,9 +93,11 @@ The lever nobody reaches for is the experiment itself. Shorten the experiment, n
 
 Shorter experiments get finished, because the finish stays small enough to fit inside the plan.
 
+## The Punch Shot
+
 Sometimes you abort. The answer arrives early, or the ground shifts, and you pull up before contact. Stop there without a finish and you still get an outcome, one nobody chose: the flag still in the code, two implementations still running, a system shaped by a question that never got resolved either way. Bailing out earns nothing on its own. X, Alphabet's moonshot lab, [pays bonuses to teams that kill their own projects](https://www.ted.com/talks/astro_teller_the_unexpected_benefit_of_celebrating_failure). Cool-down weeks between cycles, where nothing is scheduled, are the same admission in friendlier clothes. Both fund the finish on a swing that never reached the ball.
 
-There is one honest exception, and the difference is that you choose it. Golfers shorten the finish deliberately: the punch shot, played with a truncated follow-through to keep the ball low under the wind. It works. It also travels shorter, and every golfer who hits one knows the result will be smaller before they swing. That is intentional debt, priced and on the books. Uncle Bob draws the line at the version nobody chose:
+There is one honest exception, and the difference is that you choose it. Golfers shorten the finish deliberately: the punch shot, played with a truncated follow-through to keep the ball low under the wind. It works. It also travels shorter, and every golfer who hits one knows the result will be smaller before they swing. Debt comes two ways, intentional and accidental. The punch shot is the intentional kind: priced, on the books, chosen before the swing. Uncle Bob draws the line at the other kind:
 
 > A mess is not a technical debt. A mess is just a mess. Technical debt decisions are made based on real project constraints. They are risky, but they can be beneficial. The decision to make a mess is never rational, is always based on laziness and unprofessionalism, and has no chance of paying off in the future. **A mess is always a loss.**
 > — Robert C. Martin, *[A Mess is not a Technical Debt](https://sites.google.com/site/unclebobconsultingllc/a-mess-is-not-a-technical-debt)*
