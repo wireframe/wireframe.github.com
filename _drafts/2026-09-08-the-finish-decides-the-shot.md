@@ -1,5 +1,7 @@
 ---
 title: "The Finish Decides the Shot"
+featured_description: >
+  Why the work after the experiment decides what the experiment was worth
 tags:
 - engineering
 - product-development
@@ -29,7 +31,7 @@ Starting the swing is the easy part. The finish is where the work is, and agents
 
 ## One Swing, Two Outcomes
 
-If we're right, we pay for a migration onto the new path. If we're wrong, we pay to remove what we built. Neither bill is optional, and neither one was on the original estimate.
+If we're right, we pay for a migration onto the new path. If we're wrong, we pay to remove what we built. Neither bill was on the original estimate.
 
 The two bills behave nothing alike. The success case is a small, known workstream, and it gets done, because somebody in the business wants the new thing and will keep asking until the old path is gone. The failure case has nobody asking. It is also the case where the entire value of the experiment is sitting in the finish.
 
@@ -37,28 +39,28 @@ Which means one plan can't cover both. The work waiting on a yes is not the work
 
 A failed experiment delivers value only if somebody closes it out. Do it well and you leave behind the abstraction that makes the next experiment faster, plus what you learned about the market, the technology and the approach, distributed back into the organization instead of filed in a post-mortem nobody opens. I've called that [composting]({% post_url 2026-02-05-the-greenhouse-innovation-incubator %}). Leave it better than you found it.
 
-Skip it and the bill still arrives, with interest. Every experiment left open is a standing tax on the next one: another path through the code, another thing to hold in your head, another question a new engineer has to ask before they can change anything. The experiment nobody closed out makes the next one slower, a slower experiment is harder to justify, and eventually nobody proposes one.
+Skip it and the bill still arrives, with interest. Every experiment left open is a standing tax on the next one: another path through the code, another thing to hold in your head, another question a new engineer has to ask before they can change anything. The experiment nobody closed out makes the next one slower, and the one after that slower still.
 
 ## Unfinished Work Teaches Hesitation
 
 Teams get slow to take on short-term debt when nobody believes the job will get finished. Everyone has watched a follow-through go into the backlog and die there, so "we'll clean that up after" stops sounding true. Nobody refuses the work. What shows up instead is trepidation: the proposal that sits a week longer than it needed to, the spike that gets discussed in three meetings and started in none, the scope quietly trimmed so there's less to unwind later.
 
-That hesitation is learned, and here is what teaches it. Whether the finish happens depends on how much impact the result had, not on how much work it left behind. Madsen and Desai studied the global orbital launch vehicle industry and found that organizations learn more from failure than from success, that knowledge from failure depreciates more slowly, and that the size of the failure decides how much gets learned at all:
+That hesitation is learned, and here is what teaches it. Whether the finish happens depends on how much impact the result had, not on how much work it left behind. A big result gets a sponsor. A small one gets nobody. Madsen and Desai studied the global orbital launch vehicle industry and found that organizations learn more from failure than from success, that knowledge from failure depreciates more slowly, and that the size of the failure decides how much gets learned at all:
 
 > We found that the knowledge gained from success was often fleeting while knowledge from failure stuck around for years.
 > — Vinit Desai, on *[Failing to Learn?](https://www.sciencedaily.com/releases/2010/08/100823162322.htm)*, Academy of Management Journal, 2010
 
-Small failures get cleared and forgotten. Six foam-shedding events on the shuttle's external tank preceded Columbia, and each one was reviewed and cleared as not a safety-of-flight issue. The seventh produced [29 recommendations](https://www.nasa.gov/history/columbia-accident-investigation-board-synopsis/). Systems don't slide gradually from working to broken. They read functional right up until the one move that takes them to failed.
+Small failures get cleared and forgotten. Six foam-shedding events on the shuttle's external tank preceded Columbia. The last one before the accident dented the strut ring by about four inches, was raised at the next mission's flight readiness review, and was cleared as not a safety-of-flight issue. The seventh produced [29 recommendations](https://www.nasa.gov/history/columbia-accident-investigation-board-synopsis/). Systems don't slide gradually from working to broken. They read functional right up until the one move that takes them to failed.
 
 Now hold that next to the standard advice about experimenting well. Amy Edmondson's four markers of intelligent failure are that it's in new territory, it's in pursuit of a goal, you've done your homework, and the failures that occur are small and not dangerous. That last one describes the lowest-impact outcome available. **So the experiments most worth running are exactly the ones nothing will ever demand a finish for.** Her markers are also all about designing the experiment. Not one of them concerns what you do once the result comes back.
 
 A small result produces no completion moment either. I've made that argument from the other end: [a team that never gets to the end of anything has nothing to celebrate, and the behavior goes extinct]({% post_url 2026-08-07-recognition-is-infrastructure %}). The reward attaches to the learning collected, never to the failure itself. Tanya Reilly named the status version of the same problem in [Being Glue](https://www.noidea.dog/glue). Finishing a failed experiment produces no feature, no demo, and no line on a promotion packet.
 
-And there is a cost I missed for years. A hedged swing returns a false answer. When the team has no confidence the follow-through will happen, they place a smaller, more timid version of the experiment, and it fails for reasons that have nothing to do with the hypothesis. Statisticians call an underpowered test a Type II error, and it is the most expensive routine mistake in experimentation because it hides: it looks like a negative result rather than bad methodology. The organization files it as a failed idea and gets a little less willing to try the next one.
+One more cost, and it's the one I missed for years. A hedged swing returns a false answer. When the team has no confidence the follow-through will happen, they place a smaller, more timid version of the experiment, and it fails for reasons that have nothing to do with the hypothesis. Statisticians call an underpowered test a Type II error, and it is the most expensive routine mistake in experimentation because it hides: it looks like a negative result rather than bad methodology. The organization files it as a failed idea, and the hypothesis it was built to test never got an answer.
 
 ## Why the Finish Goes Missing
 
-I keep expecting the causes to be interesting and they never are. Planning so far ahead that the finish falls outside the horizon. Ducking the difficult conversation. Not escalating. Not renegotiating a timeline that stopped being true weeks ago. All four have the same root: the finish has no business sponsor, so it never wins a prioritization argument on its own merits, and the backlog is where it goes to rot.
+I keep expecting the causes to be interesting and they never are. Planning so far ahead that the finish falls outside the horizon. Ducking the difficult conversation. Not escalating. Not renegotiating a timeline that stopped being true weeks ago. All four have the same root, and I've already named it: nobody in the business is asking for the finish. So it never wins a prioritization argument on its own merits, and the backlog is where it goes to rot.
 
 The psychology is just as predictable, which is why the answer has to be design rather than encouragement. David Marquet:
 
@@ -95,7 +97,7 @@ Every team already writes down what "done" means, and the finish is not in the d
 
 And look at what we named the missing part. **Cleanup.** A word for the thing you do after the real work, if there's time, and the first thing cut when there isn't. Nobody calls a mortgage payment tidying up. The debt is a loan, the finish is the repayment, and "cleanup" is the word we reach for once we've already decided not to make it.
 
-So where does the line actually fall? Engineering is a profession of creating *and* reducing complexity, and the job is keeping a system only as complicated as the business it runs. [Domain-driven design](https://www.domainlanguage.com/ddd/reference/) has been arguing a version of this for twenty years: base the design on a model of the domain, and hold the language of the code and the language of the business to the same words. Which hands you a test. When the business pivots in a way that feels like a natural extension, the architecture change should feel like a natural extension too. If a small move in the business demands a large move in the system, the system has drifted off the domain, and every experiment nobody closed out is one of the reasons it drifted. **Done is when the system's complexity is back in line with what the business actually needs**, whichever way the answer came out.
+So where does the line fall? Engineering is a profession of creating *and* reducing complexity, and the job is keeping a system only as complicated as the business it runs. [Domain-driven design](https://www.domainlanguage.com/ddd/reference/) has been arguing a version of this for twenty years: base the design on a model of the domain, and hold the language of the code and the language of the business to the same words. Which hands you a test. When the business pivots in a way that feels like a natural extension, the architecture change should feel like a natural extension too. If a small move in the business demands a large move in the system, the system has drifted off the domain, and every experiment nobody closed out is one of the reasons it drifted. **Done is when the system's complexity is back in line with what the business actually needs**, whichever way the answer came out.
 
 ## Accelerate Through Impact
 
@@ -103,7 +105,7 @@ A proposal that can be finished answers three questions: why we're doing this, h
 
 The finish belongs in that same proposal, on that same timeline, decided while the team still wants to run the experiment. Not scheduled separately, and not "revisited later." Gollwitzer and Sheeran's meta-analysis of 94 studies found that if-then plans made in advance raise goal attainment at [d = 0.65](https://cancercontrol.cancer.gov/sites/default/files/2020-06/goal_intent_attain.pdf), and the effect holds as sample sizes grow. Annie Duke's version in *Quit* points the same mechanism at exits: deciding in advance is what makes the exit survive the moment you need it. Before a rebrand, we laid out the timeline with the post-release feature flag work written into it. It was in the plan, so it happened. Anything that goes in the backlog instead is destined to never get done.
 
-Sometimes you abort. The answer arrives early, or the ground shifts, and you pull up before contact. Abort the swing and you still owe the finish, because the flag is already in the code and the second implementation is already running, and none of that unwinds because you stopped short. This is where kill fees come from. Bailing out earns nothing on its own, so some organizations pay people to stop, and what they are funding is the follow-through on a swing that never reached the ball. Cool-down periods between projects are the same admission in friendlier clothes.
+When the finish turns out to cost more than you planned, renegotiate rather than absorb. Either close it out in a way that resolves the ask permanently so it never comes back to you, or go ask for what finishing it requires. Absorbing it quietly is how it ends up in the backlog.
 
 The lever nobody reaches for is the experiment itself. Shorten the experiment, not the finish. The best argument I know for it is a ceramics class, where the teacher graded half the students on the quantity of pots produced and half on the quality of a single pot:
 
@@ -112,9 +114,9 @@ The lever nobody reaches for is the experiment itself. Shorten the experiment, n
 
 Success lives in the number of swings you take. Finish each one, and eventually one of them goes in.
 
-And when the finish turns out to cost more than you planned, renegotiate rather than absorb. Either close it out in a way that resolves the ask permanently so it never comes back to you, or go ask for what finishing it actually requires. Absorbing it quietly is how it ends up in the backlog.
+Sometimes you abort. The answer arrives early, or the ground shifts, and you pull up before contact. Stop there without a finish and you don't get nothing. You get a different outcome, and one nobody chose: the flag still in the code, two implementations still running, a system shaped by a question that never got resolved either way. This is where kill fees come from. Bailing out earns nothing on its own, so some organizations pay people to stop, and what they are funding is the finish on a swing that never reached the ball. Cool-down periods between projects are the same admission in friendlier clothes.
 
-There is one honest exception. Golfers shorten the finish deliberately: the punch shot, played with a truncated follow-through to keep the ball low under the wind. It works. It also travels shorter, and every golfer who hits one knows the result will be smaller before they swing. That is intentional debt, and intentional debt is fine. Uncle Bob draws the line at the version nobody chose:
+There is one honest exception, and the difference is that you choose it. Golfers shorten the finish deliberately: the punch shot, played with a truncated follow-through to keep the ball low under the wind. It works. It also travels shorter, and every golfer who hits one knows the result will be smaller before they swing. That is intentional debt, priced and on the books. Uncle Bob draws the line at the version nobody chose:
 
 > A mess is not a technical debt. A mess is just a mess. Technical debt decisions are made based on real project constraints. They are risky, but they can be beneficial. The decision to make a mess is never rational, is always based on laziness and unprofessionalism, and has no chance of paying off in the future. **A mess is always a loss.**
 > — Robert C. Martin, *[A Mess is not a Technical Debt](https://sites.google.com/site/unclebobconsultingllc/a-mess-is-not-a-technical-debt)*
