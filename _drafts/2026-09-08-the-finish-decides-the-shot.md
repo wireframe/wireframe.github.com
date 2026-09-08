@@ -17,17 +17,26 @@ That was the disconnect. Nobody was refusing hard work. They hesitated to take o
 
 ## The Swing Doesn't End at the Ball
 
-Contact between club and ball lasts about half a [millisecond](https://sharkclub.golf/golf_physics.html). The ball is long gone before the follow-through exists, which makes the finish look like the optional part.
+(i think we're missing a connection between the swing analogy and product development right here.  The swing before the ball is the work to get something to production, and the hit is the "launch".  the follow-through people think of as optional.  Here would be the spot to call out why the follow-through matters and impact of trying to pull-short).
 
-Every experiment we run adds complexity until we know the answer. Two implementations of the same thing. A flag still sitting in the code. For as long as the question is open, the system is more complicated than the business needs it to be.
+Contact between a golf club and ball lasts about half a [millisecond](https://sharkclub.golf/golf_physics.html). The ball is long gone before the follow-through exists, which makes the finish look like the optional part.
 
-And we should expect to be wrong most of the time. Marty Cagan's first inconvenient truth about product is that ["at least half of our ideas are just not going to work."](https://www.svpg.com/the-inconvenient-truth-about-product/) The measured numbers run worse. Only one third of the ideas tested on Microsoft's experimentation platform improved the metric they were designed to improve, and one practitioner put [his own hit rate at a major league batting average](https://www.exp-platform.com/Documents/2015%20Online%20Controlled%20Experiments_EncyclopediaOfMLDM.pdf).
+(this is the place to call-out the common term of "cleanup goes in the backlog")
+And look at what we named the missing part. **Cleanup.** A word for the thing you do after the real work, if there's time, and the first thing cut when there isn't. Nobody calls a mortgage payment tidying up. The debt is a loan, the finish is the repayment, and "cleanup" is the word we reach for once we've already decided not to make it.
 
-The complexity an experiment leaves behind is supposed to be debt. Debt arrives two ways, intentional and accidental, and the accidental kind is still debt. An experiment gives you the intentional kind: priced, on the books, with a repayment date attached, if anybody bothers to write one down.
+The complexity an experiment leaves behind is supposed to be debt. Debt arrives two ways, intentional and accidental, and the accidental kind is still debt. An experiment gives you the intentional kind: priced, on the books, with a repayment date attached, if anybody bothers to write one down. (i don't understand this paragraph)
+
+(this section may go better after the outcomes section?)
 
 ## One Swing, Two Outcomes
 
+(golf analogy, you make the shot or you don't...product development is the same way, and we miss more shots than we make)
+
 If we're right, we pay for a migration onto the new path. If we're wrong, we pay to remove what we built. Neither was on the original estimate.
+
+And we should expect to be wrong most of the time. Marty Cagan's first inconvenient truth about product is that ["at least half of our ideas are just not going to work."](https://www.svpg.com/the-inconvenient-truth-about-product/) The measured numbers run worse. Only one third of the ideas tested on Microsoft's experimentation platform improved the metric they were designed to improve, and one practitioner put [his own hit rate at a major league batting average](https://www.exp-platform.com/Documents/2015%20Online%20Controlled%20Experiments_EncyclopediaOfMLDM.pdf).
+
+Every experiment we run adds complexity until we know the answer. Two implementations of the same thing. A flag still sitting in the code. For as long as the question is open, the system is more complicated than the business needs it to be.
 
 The two cases behave nothing alike. The success case is a small, known workstream, and it gets done, because somebody in the business wants the new thing and will keep asking until the old path is gone. The failure case has nobody asking. It is also the case where the entire value of the experiment is sitting in the finish.
 
@@ -50,6 +59,7 @@ Now hold that next to the standard advice about experimenting well. Amy Edmondso
 A small result produces no completion moment either. I've made that argument from the other end: [a team that never gets to the end of anything has nothing to celebrate, and the behavior goes extinct]({% post_url 2026-08-07-recognition-is-infrastructure %}). Tanya Reilly calls the work that holds a team together and earns nobody a promotion [glue](https://www.noidea.dog/glue). Finishing a failed experiment is glue: no feature, no demo, no line on the packet.
 
 One more cost, and it's the one I missed for years. A hedged swing returns a false answer. When the team has no confidence the follow-through will happen, they place a smaller, more timid version of the experiment, and it fails for reasons that have nothing to do with the hypothesis. An underpowered test mostly produces false negatives, what statisticians call Type II errors, and they hide: a false negative looks like a negative result rather than bad methodology. The organization files it as a failed idea, and the hypothesis it was built to test never got an answer.
+
 
 ## Why the Finish Goes Missing
 
@@ -113,8 +123,6 @@ Cut the follow-through when you mean to, and price what you're giving up. Findin
 ## The Finish Position
 
 Every team already writes down what "done" means, and the finish is not in the definition. The Scrum Guide defines Done as "a formal description of the state of the Increment when it meets the quality measures required for the product," and adds that "the moment a Product Backlog item meets the Definition of Done, an [Increment is born](https://scrumguides.org/scrum-guide.html)." Quality measures on the thing built. Nothing about business outcome, nothing about removal. My own organization made the same move from the other direction when it scored verification outside the work.
-
-And look at what we named the missing part. **Cleanup.** A word for the thing you do after the real work, if there's time, and the first thing cut when there isn't. Nobody calls a mortgage payment tidying up. The debt is a loan, the finish is the repayment, and "cleanup" is the word we reach for once we've already decided not to make it.
 
 So where should done sit? Engineering is a profession of creating *and* reducing complexity, and the job is keeping a system only as complicated as the business it runs. [Domain-driven design](https://www.domainlanguage.com/ddd/reference/) has been arguing a version of this for twenty years: base the design on a model of the domain, and hold the language of the code and the language of the business to the same words. That hands you a test. When the business pivots in a way that feels like a natural extension, the architecture change should feel like a natural extension too. If a small move in the business demands a large move in the system, the system has drifted off the domain, and every experiment nobody closed out is one of the reasons it drifted. **Done is when the system's complexity is back in line with what the business actually needs**, whichever way the answer came out.
 
