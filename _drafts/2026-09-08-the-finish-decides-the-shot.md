@@ -9,13 +9,11 @@ tags:
 - innovation
 ---
 
-I woke up at 4am on the second morning of a technical strategy offsite with a splinter in my brain. We had spent months pushing on velocity and the measures had moved. Cycle time was under monthly review at the executive level. Nothing about the organization felt fast.
+I woke up at 4am on the second morning of a technical strategy offsite with a splinter in my brain. We had spent months focusing on increasing velocity and had seen measurable improvement on our cycle time.  But qualitative conversations painted a different picture. It didn't __feel__ fast, and I wasn't observing sprinting to learn from our customers. (note: does this sound tone deaf?  as a leader, not seeing sprinting may sound cold...)
 
-So I started writing down what I was seeing. We were not articulating why an investment was worth making. We had no clear answer to "how will we know if we're right, or wrong?", because we assumed we were right and then went looking for evidence to confirm it. And we were not sprinting to the point of learning.
+That's when it hit me.  We had recently made a change in our project planning to separate post-release verification from execution, so each could be measured on its own. Execution looks "faster" with two discreet units, and the intent was to separate these into two separate workstreams.  But there was an unintentional side effect.  Split them and verification becomes something you do __after__ the work. It becomes "Optional", and Optional work *never* gets done.
 
-All of it had the same cause. People hesitated to innovate and take on short-term complexity, because nobody was confident the follow-through would happen.
-
-Our own improvement plan had it in writing. One of the drivers we had listed for improving cycle time was to separate post-release verification from execution, so each could be measured on its own. Split them and verification becomes something you do after the work. Optional. Optional work never gets done.
+I was observing a hesitation to sprint when the ask incurred short-term complexity (ie: technical debt), because nobody was confident the follow-through would happen.
 
 ## The Swing Doesn't End at the Ball
 
