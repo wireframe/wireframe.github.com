@@ -9,11 +9,11 @@ tags:
 - innovation
 ---
 
-I woke up at 4am on the second morning of a technical strategy offsite with a splinter in my brain. We had spent months focusing on increasing velocity and had seen measurable improvement on our cycle time.  But qualitative conversations painted a different picture. It didn't __feel__ fast, and I wasn't observing sprinting to learn from our customers. (note: does this sound tone deaf?  as a leader, not seeing sprinting may sound cold...)
+I woke up at 4am on the second morning of a technical strategy offsite with a splinter in my brain. We had spent months pushing on velocity. Cycle time was reviewed monthly at the executive level, and it was improving month over month. Ask anyone in a hallway, though, and nothing *felt* fast. Nobody was sprinting to find out what customers thought.
 
-That's when it hit me.  We had recently made a change in our project planning to separate post-release verification from execution, so each could be measured on its own. Execution looks "faster" with two discreet units, and the intent was to separate these into two separate workstreams.  But there was an unintentional side effect.  Split them and verification becomes something you do __after__ the work. It becomes "Optional", and Optional work *never* gets done.
+Then I remembered what we had done to the plan. To measure execution on its own, we had split post-release verification into its own workstream. Two discrete units make execution look faster, and that was the point. The side effect: verification became something you do *after* the work. Optional. And **optional work never gets done**.
 
-I was observing a hesitation to sprint when the ask incurred short-term complexity (ie: technical debt), because nobody was confident the follow-through would happen.
+That was the disconnect. Nobody was refusing hard work. They hesitated to take on short-term complexity because nobody was confident the follow-through would happen.
 
 ## The Swing Doesn't End at the Ball
 
