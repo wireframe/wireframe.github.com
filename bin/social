@@ -1,0 +1,109 @@
+#!/usr/bin/env bash
+#
+# Print a published post's social copy with its live URL and copy it to the
+# clipboard, ready to paste into X and LinkedIn.
+#
+# Reads the post's `social:` front matter key. Run the sharing-on-social skill
+# to draft one.
+
+set -e
+
+# Without a UTF-8 locale both ${#var} and `wc -m` count bytes, which would score
+# an em dash as three characters against the limit and reject copy that fits.
+export LC_ALL=en_US.UTF-8
+
+X_LIMIT=280
+
+usage() {
+  echo "Usage: bin/social <path-to-post>"
+  echo "Example: bin/social _posts/2026-09-08-the-finish-decides-the-shot.md"
+  echo
+  echo "Prints the post's social copy with its live URL and character count,"
+  echo "and copies it to the clipboard. Reads the 'social:' front matter key."
+}
+
+# Folds the front matter's `social: >` block into one line, the way YAML folds a
+# `>` scalar. Reading stops at the closing fence so a `social:` line inside a
+# code fence in the post body is never mistaken for the key. A blank line inside
+# the value stays a newline so the caller can reject it rather than silently
+# dropping everything after it.
+social_value() {
+  awk '
+    /^---[[:space:]]*$/            { if (++fences == 2) exit; next }
+    fences != 1                    { next }
+    /^social:[[:space:]]*>/        { collecting = 1; next }
+    collecting && /^[[:space:]]*$/ { printf "\n"; n = 0; next }
+    collecting && !/^  /           { exit }
+    collecting                     { gsub(/^[[:space:]]+|[[:space:]]+$/, ""); printf "%s%s", (n++ ? " " : ""), $0 }
+  ' "$1"
+}
+
+case "$1" in
+  -h|--help)
+    usage
+    exit 0
+    ;;
+esac
+
+POST="${1#./}"
+POST="${POST#"$PWD/"}"
+
+if [ -z "$POST" ]; then
+  usage
+  exit 1
+fi
+
+if [ ! -f "$POST" ]; then
+  echo "Error: post not found: $POST"
+  exit 1
+fi
+
+BASE=$(basename "$POST" .md)
+
+if [[ "$POST" != _posts/* ]] || ! [[ "$BASE" =~ ^[0-9]{4}-[0-9]{2}-[0-9]{2}- ]]; then
+  echo "Error: not a published post: $POST"
+  echo "Expected _posts/YYYY-MM-DD-slug.md. A live URL only exists after bin/promote."
+  exit 1
+fi
+
+SITE_URL=$(sed -n 's/^url:[[:space:]]*//p' _config.yml)
+
+if [ -z "$SITE_URL" ]; then
+  echo "Error: no 'url:' key in _config.yml"
+  exit 1
+fi
+
+# Shape mirrors `permalink: /:year/:month/:title.html` in _config.yml.
+URL="$SITE_URL/${BASE:0:4}/${BASE:5:2}/${BASE:11}.html"
+
+TEXT=$(social_value "$POST")
+
+if [ -z "$TEXT" ]; then
+  echo "Error: no 'social:' value in $POST"
+  echo "Run the sharing-on-social skill to draft one."
+  exit 1
+fi
+
+case "$TEXT" in
+  *$'\n'*)
+    echo "Error: the 'social:' value in $POST has a blank line in it."
+    echo "Social copy is one paragraph. Remove the blank line and re-run."
+    exit 1
+    ;;
+esac
+
+BLOCK=$(printf '%s\n\n%s' "$TEXT" "$URL")
+RULE="----------------------------------------"
+
+echo "$RULE"
+echo "$BLOCK"
+echo "$RULE"
+
+if [ "${#BLOCK}" -gt "$X_LIMIT" ]; then
+  echo "Error: ${#BLOCK} characters, $(( ${#BLOCK} - X_LIMIT )) over X's $X_LIMIT limit. Not copied."
+  exit 1
+fi
+
+echo "${#BLOCK} characters (${#URL} of them the URL)"
+printf '%s' "$BLOCK" | pbcopy
+echo "Copied to clipboard."

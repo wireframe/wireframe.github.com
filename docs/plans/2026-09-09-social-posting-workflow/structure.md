@@ -10,7 +10,7 @@ Four phases. Phase 1 is the mechanical half (a `bin/` script), Phase 2 the judgm
 
 Follows house conventions from research: `#!/usr/bin/env bash`, bare `set -e`, `usage()` reachable via `-h|--help` and a missing argument, `Error: <detail>` to stdout, exit 1, no color, repo-relative paths assuming invocation from the repo root, no shared helper.
 
-URL derivation duplicates the permalink shape rather than parsing YAML — consistent with `bin/draft` and `bin/promote` each owning their own date regex, and there is no YAML-parsing or `yq` precedent in `bin/`. Prefix comes from `_config.yml:11` (`https://www.codecrate.com`), shape from `_config.yml:6` (`/:year/:month/:title.html`).
+URL derivation duplicates the permalink shape rather than parsing YAML — there is no YAML-parsing or `yq` precedent in `bin/`, and no shared helper file to put it in. Prefix comes from `_config.yml:11` (`https://www.codecrate.com`), shape from `_config.yml:6` (`/:year/:month/:title.html`).
 
 Character count is the literal assembled string per D5 — real URL length, no t.co arithmetic.
 
