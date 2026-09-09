@@ -19,7 +19,7 @@ That was the disconnect. The perceived slowness was hesitation to take on short-
 
 Contact between a golf club and ball lasts about half a [millisecond](https://sharkclub.golf/golf_physics.html). The ball is long gone before the follow-through exists, which makes the finish look like the optional part.
 
-Product development runs the same way. Everything before contact is the work to get something into production. Contact is the launch. The follow-through is everything after: finding out whether it worked, then acting on the answer.
+Product development runs the same way. Everything before contact is the work to get something into production. Contact is the launch. The follow-through is everything after: finding out whether it worked, then acting on the answer. [Two years ago I named that closing the loop, the third commitment of the cycle I run teams on]({% post_url 2024-04-13-the-commit-cycle %}). I had the sequence right and the weighting wrong.
 
 Golfers don't finish the swing for show. Committing to the full motion is what keeps the club accelerating through impact. Plan to stop at the ball and your swing slows, the trajectory at contact is altered, and the ball goes somewhere you didn't aim. **The finish decides the shot before the ball is ever struck.** A team that plans to stop at launch pulls up short the same way, and the experiment shrinks before it ever ships.
 
@@ -76,8 +76,6 @@ Most teams get partial credit on the first two and avoid the third altogether. C
 
 > Unless a decision has "degenerated into work" it is not a decision; it is at best a good intention.
 > — Peter Drucker, *[The Effective Decision](https://hbr.org/1967/01/the-effective-decision)*
-
-Two years ago I wrote that [the third commitment of my development process is closing the loop]({% post_url 2024-04-13-the-commit-cycle %}). I had the sequence right and the weighting wrong.
 
 **The finish belongs in that initial proposal, on that same timeline**, decided while the team still wants to run the experiment. Not scheduled separately, and not "revisited later." A meta-analysis of if-then plans found that deciding in advance [raises the odds you follow through](https://cancercontrol.cancer.gov/sites/default/files/2020-06/goal_intent_attain.pdf) by a medium-to-large effect. Annie Duke's version in *Quit* is kill criteria: decide what result means stop before you start, because in the moment you'll talk yourself out of it. One of our large rebrands put removal of the old branding, hidden behind a feature flag from day one, on the timeline. It was in the plan, so it happened. The split I woke up to at that offsite was the same rule broken on purpose. We pulled verification out of the plan to make cycle time easier to measure, the number improved, and [Goodhart's law](https://en.wikipedia.org/wiki/Goodhart%27s_law) collected: the measure became the target, and the finish was what we cut to hit it.
 
