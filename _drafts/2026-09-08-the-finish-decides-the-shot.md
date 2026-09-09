@@ -44,7 +44,7 @@ Skip it and the complexity stays. Every experiment adds complexity. Multiple bra
 
 ## Why the Finish Goes Missing
 
-I keep expecting the causes to be interesting and they never are. Planning so far ahead that the finish falls outside the horizon. Not renegotiating a timeline that stopped being true weeks ago. Both have the same root: **finishing is viewed as a "nice to have"**, so it never wins a prioritization argument on its own merits.
+I keep expecting the causes to be interesting and they never are. Planning so far ahead that the finish falls outside the horizon. Not renegotiating a timeline that stopped being true weeks ago. Both have the same root: finishing is viewed as a nice-to-have, so it never wins a prioritization argument on its own merits.
 
 Most experiments are small, and small results get cleared and forgotten. The standard advice about experimenting well makes this worse: keep failures small and cheap. **So the experiments most worth running are exactly the ones nothing will ever demand a finish for.**
 
@@ -72,7 +72,7 @@ An experiment must answer three questions:
 2. how we'll know if we're right, and
 3. what happens at the end, either way.
 
-Most teams get partial credit on the first two, and avoid the third altogether. A plan that stops at launch is half a decision. Drucker got here in 1967:
+Most teams get partial credit on the first two and avoid the third altogether. Call it the either-way question. A plan that stops at launch is half a decision. Drucker got here in 1967:
 
 > Unless a decision has "degenerated into work" it is not a decision; it is at best a good intention.
 > — Peter Drucker, *[The Effective Decision](https://hbr.org/1967/01/the-effective-decision)*
@@ -87,6 +87,8 @@ The lever nobody reaches for is the experiment itself. Shorten the experiment, n
 
 > Well, came grading time and a curious fact emerged: **the works of highest quality were all produced by the group being graded for quantity.** It seems that while the "quantity" group was busily churning out piles of work — and learning from their mistakes — the "quality" group had sat theorizing about perfection, and in the end had little more to show for their efforts than grandiose theories and a pile of dead clay.
 > — David Bayles and Ted Orland, *Art & Fear*
+
+The quantity group finished pots. The quality group finished a theory.
 
 Every team already writes down what "done" means, and the finish is not in the definition. The Scrum Guide defines Done as "a formal description of the state of the Increment when it meets the quality measures required for the product," and adds that "the moment a Product Backlog item meets the Definition of Done, an [Increment is born](https://scrumguides.org/scrum-guide.html)." Quality measures on the thing built. Nothing about business outcome, nothing about removal. My own organization made the same move from the other direction when it scored verification outside the work.
 
