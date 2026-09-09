@@ -19,7 +19,7 @@ That was the disconnect. The perceived slowness was hesitation to take on short-
 
 Contact between a golf club and ball lasts about half a [millisecond](https://sharkclub.golf/golf_physics.html). The ball is long gone before the follow-through exists, which makes the finish look like the optional part.
 
-Product development runs the same way. Everything before contact is the work to get something into production. Contact is the launch. The follow-through is everything after: finding out whether it worked, then acting on the answer. [Two years ago I named that closing the loop, the third commitment of the cycle I run teams on]({% post_url 2024-04-13-the-commit-cycle %}). I listed it last and treated it as the smallest of the three. It's the one that decides whether the other two were worth anything.
+Product development runs the same way. Everything before contact is the work to get something into production. Contact is the launch. The follow-through is everything after: finding out whether it worked, then acting on the answer, or ["closing the loop" in Commit Cycle terms]({% post_url 2024-04-13-the-commit-cycle %}).
 
 Golfers don't finish the swing for show. Committing to the full motion is what keeps the club accelerating through impact. Plan to stop at the ball and your swing slows, the trajectory at contact is altered, and the ball goes somewhere you didn't aim. **The finish decides the shot before the ball is ever struck.** A team that plans to stop at launch pulls up short the same way, and the experiment shrinks before it ever ships.
 
