@@ -1,5 +1,9 @@
 ---
 title: "The Finish Decides the Shot"
+social: >
+  Search your backlog for "clean up" and check the dates. Every one of
+  those is a reason your team hesitates the next time somebody proposes
+  taking on complexity.
 featured_description: >
   Why the work after the experiment decides what the experiment was worth
 tags:

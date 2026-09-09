@@ -237,7 +237,7 @@ Read the whole post start to finish:
 - Front matter: title correct, tags drawn from ones in use — `grep -rh -A6 '^tags:' _posts/*.md | grep '^- ' | sort | uniq -c | sort -rn`.
 - Colleague names, internal data, and company shorthand scrubbed. Roam is full of all three and they travel into drafts unnoticed. Internal metrics need an explicit call on what's publishable — usually the mechanism and a directional claim, never repo names, headcounts, dollar figures, ticket IDs, or customer names.
 
-Run the `writing-style` skill as the final pass. When the user is happy: `bin/promote _drafts/<file>.md [--date YYYY-MM-DD]`.
+Run the `writing-style` skill as the final pass. When the user is happy: `bin/promote _drafts/<file>.md [--date YYYY-MM-DD]`. Once it's published, the `sharing-on-social` skill drafts the social copy.
 
 ## Common Mistakes
 | Mistake | Fix |
