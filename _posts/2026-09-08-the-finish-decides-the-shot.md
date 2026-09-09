@@ -1,9 +1,9 @@
 ---
 title: "The Finish Decides the Shot"
 social: >
-  I woke up at 4am at a strategy offsite with a splinter in my brain.
-  Cycle time had improved every month. Ask anyone in a hallway and
-  nothing felt fast.
+  Search your backlog for "clean up" and check the dates. Every one of
+  those is a reason your team hesitates the next time somebody proposes
+  taking on complexity.
 featured_description: >
   Why the work after the experiment decides what the experiment was worth
 tags:
