@@ -67,6 +67,8 @@ When writing or editing blog content, actively avoid these patterns:
 
 - Use `bin/draft "Post Title"` to create new draft posts (handles date prefix and slug generation)
 - Use `bin/promote _drafts/<file>.md` to publish a draft to `_posts/` (moves with `git mv` to preserve history). Takes a real path so shell tab-completion works. Defaults the publish date to today; pass `--date YYYY-MM-DD` to override (e.g. for archival dating)
+- Once a post is published, the `sharing-on-social` skill drafts the social copy and writes it to the post's `social:` front matter key
+- Use `bin/social _posts/<file>.md` to print that copy with the post's live URL and character count, and copy it to the clipboard for X and LinkedIn. Refuses to copy anything over 280 characters
 
 ## File Structure
 
@@ -86,6 +88,18 @@ tags:
 - another-tag
 ---
 ```
+
+Two optional keys, both folded `>` scalars placed after `title:`:
+
+```yaml
+title: "Post Title"
+social: >
+  One paragraph of social copy, no blank lines. Read by bin/social.
+featured_description: >
+  One line shown on the homepage and resume, in place of Jekyll's auto excerpt.
+```
+
+`social:` holds the reusable X/LinkedIn copy and renders nowhere on the site. `featured_description:` is read by `_includes/head.html` and `_includes/featured-writings.html`.
 
 Common tags: `engineering`, `product development`, `ai`, `tools`
 
