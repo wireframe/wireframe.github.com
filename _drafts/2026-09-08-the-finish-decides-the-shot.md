@@ -67,7 +67,7 @@ One more cost, and it's the one I missed for years. **A hedged swing returns a f
 
 ## Accelerate Through Impact
 
-An experiment must answer three questions:
+**Every experiment answers three questions before it runs:**
 1. why we're doing this,
 2. how we'll know if we're right, and
 3. what happens at the end, either way.
@@ -79,19 +79,19 @@ Most teams get partial credit on the first two and avoid the third altogether. C
 
 What Drucker doesn't cover is the unwinding. His process builds the action into the decision and then tests whether the decision was right, and it never asks what happens to the thing you built when the answer comes back no. Two years ago I wrote that [the third commitment of my development process is closing the loop]({% post_url 2024-04-13-the-commit-cycle %}). I had the sequence right and the weighting wrong.
 
-The finish belongs in that initial proposal, on that same timeline, decided while the team still wants to run the experiment. Not scheduled separately, and not "revisited later." A meta-analysis of if-then plans found that deciding in advance [raises the odds you follow through](https://cancercontrol.cancer.gov/sites/default/files/2020-06/goal_intent_attain.pdf) by a medium-to-large effect. Annie Duke's version in *Quit* is kill criteria: decide what result means stop before you start, because in the moment you'll talk yourself out of it. One of our large rebrands put removal of the old branding, hidden behind a feature flag from day one, on the timeline. It was in the plan, so it happened.
+**The finish belongs in that initial proposal, on that same timeline**, decided while the team still wants to run the experiment. Not scheduled separately, and not "revisited later." A meta-analysis of if-then plans found that deciding in advance [raises the odds you follow through](https://cancercontrol.cancer.gov/sites/default/files/2020-06/goal_intent_attain.pdf) by a medium-to-large effect. Annie Duke's version in *Quit* is kill criteria: decide what result means stop before you start, because in the moment you'll talk yourself out of it. One of our large rebrands put removal of the old branding, hidden behind a feature flag from day one, on the timeline. It was in the plan, so it happened.
 
-The proposal also names who calls the stop, and it cannot be the person running the experiment. Barry Staw's "Knee Deep in the Big Muddy" found that people held personally responsible for a failing decision escalate their commitment to it more than people who inherited the same mess. The person who ran the experiment is the worst available judge of when to kill it.
+**Name the owner of the finish before the experiment starts, and don't make it the person running it.** [When ownership is unclear, the finish gets the bystander effect: everyone assumes someone else will do it, and it languishes in the backlog]({% post_url 2026-04-10-team-topology-ownership %}). The obvious owner is also the wrong one. Barry Staw's "Knee Deep in the Big Muddy" found that people held personally responsible for a failing decision escalate their commitment to it more than people who inherited the same mess. The person who ran the experiment is the worst available judge of when to kill it.
 
-When the finish turns out to cost more than you planned, renegotiate rather than absorb. Either finish it in a way that settles the question for good, or go ask for what finishing it requires. Absorbing it quietly is how it ends up in the backlog.
+When the finish turns out to cost more than you planned, **renegotiate rather than absorb.** Either finish it in a way that settles the question for good, or go ask for what finishing it requires. Absorbing it quietly is how it ends up in the backlog.
 
 Every team already writes down what "done" means, and the finish is not in the definition. The Scrum Guide defines Done as "a formal description of the state of the Increment when it meets the quality measures required for the product," and adds that "the moment a Product Backlog item meets the Definition of Done, an [Increment is born](https://scrumguides.org/scrum-guide.html)." Quality measures on the thing built. Nothing about business outcome, nothing about removal. My own organization made the same move from the other direction when it scored verification outside the work.
 
 Engineering is a profession of creating *and* reducing complexity, and the job is keeping a system only as complicated as the business it runs. **Done is when the system's complexity is back in line with what the business actually needs**, whichever way the answer came out.
 
-Go open your team's definition of done. Count how many of its lines describe the thing you built, and how many describe the state you're leaving the system in.
+**Go open your team's definition of done.** Count how many of its lines describe the thing you built, and how many describe the state you're leaving the system in.
 
-Then take more swings. The lever nobody reaches for is the experiment itself: shorten the experiment, not the finish. A short experiment gets finished, and a finished experiment is the one you learn from. The best argument I know for it comes from a ceramics class, where the teacher graded half the students on the quantity of pots produced and half on the quality of a single pot:
+Then take more swings. The lever nobody reaches for is the experiment itself: **shorten the experiment, not the finish.** A short experiment gets finished, and a finished experiment is the one you learn from. The best argument I know for it comes from a ceramics class, where the teacher graded half the students on the quantity of pots produced and half on the quality of a single pot:
 
 > Well, came grading time and a curious fact emerged: **the works of highest quality were all produced by the group being graded for quantity.** It seems that while the "quantity" group was busily churning out piles of work — and learning from their mistakes — the "quality" group had sat theorizing about perfection, and in the end had little more to show for their efforts than grandiose theories and a pile of dead clay.
 > — David Bayles and Ted Orland, *Art & Fear*
