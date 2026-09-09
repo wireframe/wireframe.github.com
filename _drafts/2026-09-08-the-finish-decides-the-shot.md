@@ -50,12 +50,12 @@ Most experiments are small, and small results get cleared and forgotten. When we
 
 A small result produces no completion moment either. I've made that argument from the other end: [a team that never gets to the end of anything has nothing to celebrate, and the behavior goes extinct]({% post_url 2026-08-07-recognition-is-infrastructure %}). Tanya Reilly calls the work that holds a team together and earns nobody a promotion [glue](https://www.noidea.dog/glue). Finishing a small failed experiment is glue: no feature, no demo, no line on the packet. Which is why it's the swing to practice. **What a team does well on small projects is what it does great on big ones.** The finish you build as a habit on experiments nobody is watching is the finish you'll have when the big one lands.
 
-The psychology is just as predictable, which is why the answer has to be design rather than encouragement. David Marquet:
+The psychology is just as predictable, so the answer has to be design rather than encouragement. David Marquet:
 
 > This aversion to stopping the clock spills over to an aversion to complete. We are programmed to continue — continue the work, continue on to the next task.
 > — L. David Marquet, *[Leadership Is Language](https://www.penguinrandomhouse.com/books/566179/leadership-is-language-by-l-david-marquet/)*
 
-Anything that already exists defends itself. An in-flight project defends itself against its own replacement, and a shipped feature defends itself against its own removal, which is why removing something released is harder than building it was.
+Anything that already exists defends itself. An in-flight project defends itself against its own replacement, and a shipped feature defends itself against its own removal. Removing something released is harder than building it was.
 
 ## Unfinished Work Teaches Hesitation
 
@@ -77,7 +77,9 @@ Most teams get partial credit on the first two and avoid the third altogether. C
 > Unless a decision has "degenerated into work" it is not a decision; it is at best a good intention.
 > — Peter Drucker, *[The Effective Decision](https://hbr.org/1967/01/the-effective-decision)*
 
-**The finish belongs in that initial proposal, on that same timeline**, decided while the team still wants to run the experiment. Not scheduled separately, and not "revisited later." A meta-analysis of if-then plans found that deciding in advance [raises the odds you follow through](https://cancercontrol.cancer.gov/sites/default/files/2020-06/goal_intent_attain.pdf) by a medium-to-large effect. Annie Duke's version in *Quit* is kill criteria: decide what result means stop before you start, because in the moment you'll talk yourself out of it. One of our large rebrands put removal of the old branding, hidden behind a feature flag from day one, on the timeline. It was in the plan, so it happened. The split I woke up to at that offsite was the same rule broken on purpose. We pulled verification out of the plan to make cycle time easier to measure, the number improved, and [Goodhart's law](https://en.wikipedia.org/wiki/Goodhart%27s_law) collected: the measure became the target, and the finish was what we cut to hit it.
+**The finish belongs in that initial proposal, on that same timeline**, decided while the team still wants to run the experiment. Not scheduled separately, and not "revisited later." A meta-analysis of if-then plans found that deciding in advance [raises the odds you follow through](https://cancercontrol.cancer.gov/sites/default/files/2020-06/goal_intent_attain.pdf) by a medium-to-large effect. Annie Duke's version in *Quit* is kill criteria: decide what result means stop before you start, because in the moment you'll talk yourself out of it.
+
+One of our large rebrands put removal of the old branding, hidden behind a feature flag from day one, on the timeline. It was in the plan, so it happened. The split I woke up to at that offsite was the same rule broken on purpose. We pulled verification out of the plan to make cycle time easier to measure, the number improved, and [Goodhart's law](https://en.wikipedia.org/wiki/Goodhart%27s_law) collected: the measure became the target, and the finish was what we cut to hit it.
 
 **Name the owner of the finish before the experiment starts, and don't make it the person running it.** [When ownership is unclear, the finish gets the bystander effect: everyone assumes someone else will do it, and it languishes in the backlog]({% post_url 2026-04-10-team-topology-ownership %}). The obvious owner is also the wrong one. Barry Staw's "Knee Deep in the Big Muddy" found that people held personally responsible for a failing decision escalate their commitment to it more than people who inherited the same mess. The person who ran the experiment is the worst available judge of when to kill it.
 
