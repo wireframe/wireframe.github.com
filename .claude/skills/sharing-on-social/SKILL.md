@@ -35,13 +35,15 @@ Offer **three candidates taking genuinely different angles**:
 
 One text per candidate, pasted identically into both platforms. No per-platform variants, no hashtags, no @-mentions, no "new post 👇".
 
-**Budget: 280 characters for the whole assembled block**, counting the URL at its literal length plus the two newlines before it. On this site a URL is 39 + slug length — 43 to 86 characters across the existing posts — so the prose gets `280 - 2 - URL`: about 235 characters behind a short slug and under 200 behind a long one. Measure against the actual post's URL rather than the midpoint. `bin/social` enforces the ceiling and refuses to copy anything over it.
+**Budget: 280 characters for the whole assembled block**, counting the URL at its literal length plus the two newlines before it. On this site a URL is 39 + slug length — 43 to 86 characters across the existing posts — so the prose gets `280 - 2 - URL`. Compute the ceiling against the actual post's URL, not the midpoint.
+
+Check every candidate against it before showing anything, and **don't put the numbers on screen.** Under the limit, candidates are interchangeable on length, so a count is a column of noise the reader has to ignore while deciding on content. If a draft comes out over, cut it down or drop it — don't show it with its overage. `bin/social` is the backstop and refuses to copy anything over the limit.
 
 ### Reading the response
 Three angles is the opening move, not the whole method. What usually comes back is a partial yes, so respond to which kind it is:
 
 - **One angle lands, the wording doesn't** ("3 is better, what else you got?") — stay inside that angle and go deeper. Mine the post for other instances of the same move; don't re-span all three angles, and don't re-offer the one they already have.
-- **Two or three land** ("6 and 7 are pretty good") — say what they have in common, because that names the thing the user is actually choosing. Then sharpen each and make the tradeoff between them explicit so the choice is about content, not preference.
+- **Two or three land** ("6 and 7 are pretty good") — say what they have in common, because that names the thing the user is actually choosing. Then sharpen each and make the tradeoff between them explicit, in terms of what each one claims — never in terms of length.
 - **All three are rejected** — the rare case. Ask what dimension is wrong: angle, length, or which part of the post it's pulling from. Don't generate three more.
 
 Recommend one, with the reason, at every round. "Any of these work" makes the user do the comparison you were supposed to do.
@@ -50,23 +52,21 @@ Drop a candidate before showing it if the voice check catches it. A draft that n
 
 ### Display format
 ```
-1. claim (165)
+1. claim
    I've never hired a programmer for how fast they type. I've hired
    plenty for how well they finish.
 
-2. scene (159)
+2. scene
    Four agent sessions running at once, six pull requests open, and
    nothing shipped that week.
 
-3. question (148)
+3. question
    What does "done" mean on your team? Merged, or working in
    production for a week?
 
 Pick 1-3, or edit one.
 ```
-The number in parentheses is the total assembled count including the URL and the two newlines before it — the number `bin/social` will report. The counts above assume a 66-character URL; recompute them against the post at hand.
-
-Compute them, don't estimate — but expect them to be close. In practice candidates for the same post land within 20 characters of each other, so the count's job is to prove nothing is over the ceiling, not to help the user choose. If one candidate is much shorter, that is usually a sign it says less, not that it is tighter.
+The label is the angle, so the user can see what is being varied. Everything on screen should be something the choice turns on.
 
 ## Voice check
 Run this on the candidates before showing them. At 280 characters most of the `writing-style` skill can't fire, so check the part that can.

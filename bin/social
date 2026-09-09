@@ -67,14 +67,42 @@ if [[ "$POST" != _posts/* ]] || ! [[ "$BASE" =~ ^[0-9]{4}-[0-9]{2}-[0-9]{2}- ]];
 fi
 
 SITE_URL=$(sed -n 's/^url:[[:space:]]*//p' _config.yml)
+PERMALINK=$(sed -n 's/^permalink:[[:space:]]*//p' _config.yml)
 
 if [ -z "$SITE_URL" ]; then
   echo "Error: no 'url:' key in _config.yml"
   exit 1
 fi
 
-# Shape mirrors `permalink: /:year/:month/:title.html` in _config.yml.
-URL="$SITE_URL/${BASE:0:4}/${BASE:5:2}/${BASE:11}.html"
+if [ -z "$PERMALINK" ]; then
+  echo "Error: no 'permalink:' key in _config.yml"
+  exit 1
+fi
+
+if [ "${PERMALINK:0:1}" != "/" ]; then
+  echo "Error: permalink '$PERMALINK' is a named Jekyll style, not a template."
+  echo "bin/social only builds URLs from a template like /:year/:month/:title.html"
+  exit 1
+fi
+
+# Substitute Jekyll's permalink tokens rather than hardcoding the shape, so a
+# change to `permalink:` in _config.yml cannot silently produce a dead URL.
+POST_PATH="$PERMALINK"
+POST_PATH="${POST_PATH//:year/${BASE:0:4}}"
+POST_PATH="${POST_PATH//:month/${BASE:5:2}}"
+POST_PATH="${POST_PATH//:day/${BASE:8:2}}"
+POST_PATH="${POST_PATH//:title/${BASE:11}}"
+POST_PATH="${POST_PATH//:slug/${BASE:11}}"
+
+case "$POST_PATH" in
+  *:*)
+    echo "Error: permalink '$PERMALINK' uses a token bin/social does not substitute."
+    echo "Handles :year, :month, :day, :title and :slug. Got: $POST_PATH"
+    exit 1
+    ;;
+esac
+
+URL="$SITE_URL$POST_PATH"
 
 TEXT=$(social_value "$POST")
 
