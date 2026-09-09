@@ -13,6 +13,8 @@ The job is getting a published post shared on X and LinkedIn. One short text, re
 - A published post's social copy needs rewriting
 - The copy already exists and just needs reprinting — that's `bin/social` alone, no skill needed
 
+If the post already has a `social:` value, run `bin/social` first and show it with its count. The question is no longer "what should this say" but "is this better than what's there", and the user can't answer that without seeing both.
+
 **Input is a path under `_posts/`.** A draft is not valid input: the live URL doesn't exist until the post is published, which is the same boundary `bin/social` enforces. If the user points at a `_drafts/` file, publish it first with `bin/promote`, or ask whether they meant a published post.
 
 ## Phase 1: Read the Post
@@ -35,7 +37,16 @@ One text per candidate, pasted identically into both platforms. No per-platform 
 
 **Budget: 280 characters for the whole assembled block**, counting the URL at its literal length plus the two newlines before it. On this site a URL is 39 + slug length — 43 to 86 characters across the existing posts — so the prose gets `280 - 2 - URL`: about 235 characters behind a short slug and under 200 behind a long one. Measure against the actual post's URL rather than the midpoint. `bin/social` enforces the ceiling and refuses to copy anything over it.
 
-If the user rejects all three, ask what dimension is wrong — angle, length, which part of the post it's pulling from — rather than generating three more.
+### Reading the response
+Three angles is the opening move, not the whole method. What usually comes back is a partial yes, so respond to which kind it is:
+
+- **One angle lands, the wording doesn't** ("3 is better, what else you got?") — stay inside that angle and go deeper. Mine the post for other instances of the same move; don't re-span all three angles, and don't re-offer the one they already have.
+- **Two or three land** ("6 and 7 are pretty good") — say what they have in common, because that names the thing the user is actually choosing. Then sharpen each and make the tradeoff between them explicit so the choice is about content, not preference.
+- **All three are rejected** — the rare case. Ask what dimension is wrong: angle, length, or which part of the post it's pulling from. Don't generate three more.
+
+Recommend one, with the reason, at every round. "Any of these work" makes the user do the comparison you were supposed to do.
+
+Drop a candidate before showing it if the voice check catches it. A draft that needed "that's not a hygiene problem, it's the reason…" was cut for negative parallelism rather than shown and explained.
 
 ### Display format
 ```
@@ -54,6 +65,8 @@ If the user rejects all three, ask what dimension is wrong — angle, length, wh
 Pick 1-3, or edit one.
 ```
 The number in parentheses is the total assembled count including the URL and the two newlines before it — the number `bin/social` will report. The counts above assume a 66-character URL; recompute them against the post at hand.
+
+Compute them, don't estimate — but expect them to be close. In practice candidates for the same post land within 20 characters of each other, so the count's job is to prove nothing is over the ceiling, not to help the user choose. If one candidate is much shorter, that is usually a sign it says less, not that it is tighter.
 
 ## Voice check
 Run this on the candidates before showing them. At 280 characters most of the `writing-style` skill can't fire, so check the part that can.
@@ -92,6 +105,8 @@ tags:
 - engineering
 ---
 ```
+
+Quotes and apostrophes inside the value need no escaping — a folded `>` scalar takes them literally, so `Search your backlog for "clean up"` round-trips through YAML unchanged.
 
 **The prose is a single paragraph.** `bin/social` folds the scalar's lines with single spaces, so line breaks in the file are wrapping, not formatting. A blank line inside the value is an error, not a paragraph break — `bin/social` refuses to run rather than dropping everything after it.
 
