@@ -38,19 +38,15 @@ Every swing's purpose is to make the shot, and **most of our shots are misses.**
 
 The follow-through for a miss and for a success are different jobs. If we're right, we pay for a migration onto the new path. If we're wrong, we pay to remove what we built, and write down what we learned. Neither outcome can be known in advance, and neither was in the original estimate.
 
-The success case gets done usually because the follow-up work get's "permission" for work to continue since it was delivering the intended value.  The failure case is the common path, and it is also the case where **the entire value of the experiment is sitting in the finish.** A failed experiment delivers value only if somebody closes it out. Do it well and you leave behind the abstraction that makes the next experiment faster, plus what you learned about the market, the technology and the approach, distributed back into the organization instead of filed in a post-mortem nobody opens. I've called that [composting]({% post_url 2026-02-05-the-greenhouse-innovation-incubator %}).
+The success case gets done because it's delivering value, so the follow-up work has permission to continue. The failure case is the common path, and it is also the case where **the entire value of the experiment is sitting in the finish.** A failed experiment delivers value only if somebody closes it out. Do it well and you leave behind the abstraction that makes the next experiment faster, plus what you learned about the market, the technology and the approach, distributed back into the organization instead of filed in a post-mortem nobody opens. I've called that [composting]({% post_url 2026-02-05-the-greenhouse-innovation-incubator %}).
 
-Skip it and the complexity stays. Every experiment adds complexity.  Multiple branches of logic, two implementations of the same thing, a flag still sitting in the code. Until the follow-through completes, the system is more complicated than the business needs it to be.
+Skip it and the complexity stays. Every experiment adds complexity. Multiple branches of logic, two implementations of the same thing, a flag still sitting in the code. Until the follow-through completes, the system is more complicated than the business needs it to be.
 
 ## Why the Finish Goes Missing
 
 I keep expecting the causes to be interesting and they never are. Planning so far ahead that the finish falls outside the horizon. Not renegotiating a timeline that stopped being true weeks ago. Both have the same root: **finishing is viewed as a "nice to have"**, so it never wins a prioritization argument on its own merits.
 
-(see above.  this is almost duplicating the above statement around why the success case gets done)
-Whether the finish ever happens usually depends on how much impact the experiment had, not on how much work is left behind. A big result gets a sponsor. A small one gets cleared and forgotten. Six foam-shedding events on the shuttle's external tank preceded Columbia. The last one before the accident dented the strut ring by about four inches, was raised at the next mission's flight readiness review, and was cleared as not a safety-of-flight issue. The seventh produced [29 recommendations](https://www.nasa.gov/history/columbia-accident-investigation-board-synopsis/). Six small results, six clearances. One big one, and the finish finally happened.
-
-(a full paragraph and it's starting with the wrong framing.  start with small projects/experiments framing -- see next paragraph -- edmondson is not helping this statement)
-The standard advice about experimenting well makes this worse. Amy Edmondson's four markers of intelligent failure are that it's in new territory, it's in pursuit of a goal, you've done your homework, and the failures that occur are small and not dangerous. That last one describes the lowest-impact outcome available. **So the experiments most worth running are exactly the ones nothing will ever demand a finish for.** Her markers are all about designing the experiment. Not one of them concerns what you do once the result comes back.
+Most experiments are small, and small results get cleared and forgotten. The standard advice about experimenting well makes this worse: keep failures small and cheap. **So the experiments most worth running are exactly the ones nothing will ever demand a finish for.**
 
 A small result produces no completion moment either. I've made that argument from the other end: [a team that never gets to the end of anything has nothing to celebrate, and the behavior goes extinct]({% post_url 2026-08-07-recognition-is-infrastructure %}). Tanya Reilly calls the work that holds a team together and earns nobody a promotion [glue](https://www.noidea.dog/glue). Finishing a small failed experiment is glue: no feature, no demo, no line on the packet. Which is exactly why it's the swing to practice. **What a team does well on small projects is what it does great on big ones.** The finish you build as a habit on experiments nobody is watching is the finish you'll have when the big one lands.
 
@@ -63,7 +59,7 @@ Anything that already exists defends itself. An in-flight project defends itself
 
 ## Unfinished Work Teaches Hesitation
 
-Everyone has watched a follow-through go into the backlog and stay there, so "we'll clean that up after" stops sounding true. Nobody refuses the work. What shows up instead is trepidation: the proposal sits a week longer than it needs to, the spike that gets discussed in three meetings and started in none, the scope quietly trimmed so there's less to unwind later.
+Everyone has watched a follow-through go into the backlog and stay there, so "we'll clean that up after" stops sounding true. Nobody refuses the work. What shows up instead is trepidation: the proposal that sits a week longer than it needs to, the spike that gets discussed in three meetings and started in none, the scope quietly trimmed so there's less to unwind later.
 
 The experiments that do run are slower, too. Every open experiment slows the next one: another thing to hold in your head, another question a new engineer has to ask before they can change anything. The experiment nobody closed out makes the next one slower, and the one after that slower still.
 
@@ -71,34 +67,26 @@ One more cost, and it's the one I missed for years. **A hedged swing returns a f
 
 ## Accelerate Through Impact
 
-An experiment must answer three questions: 
-1. why we're doing this, 
-2. how we'll know if we're right, and 
-3. what happens at the "end" either way. 
+An experiment must answer three questions:
+1. why we're doing this,
+2. how we'll know if we're right, and
+3. what happens at the end, either way.
 
-Most teams get partial credit on the first two, and avoid the third altogether.  A plan that stops at launch is half a decision. Drucker got here in 1967:
+Most teams get partial credit on the first two, and avoid the third altogether. A plan that stops at launch is half a decision. Drucker got here in 1967:
 
 > Unless a decision has "degenerated into work" it is not a decision; it is at best a good intention.
 > — Peter Drucker, *[The Effective Decision](https://hbr.org/1967/01/the-effective-decision)*
 
-What Drucker doesn't cover is the unwinding. His process builds the action into the decision and then tests whether the decision was right, and it never asks what happens to the thing you built when the answer comes back no. Two years ago I wrote that [the third commitment of my development process is closing the loop]({% post_url 2024-04-13-the-commit-cycle %}). 
+What Drucker doesn't cover is the unwinding. His process builds the action into the decision and then tests whether the decision was right, and it never asks what happens to the thing you built when the answer comes back no. Two years ago I wrote that [the third commitment of my development process is closing the loop]({% post_url 2024-04-13-the-commit-cycle %}). I had the sequence right and the weighting wrong.
 
-The finish belongs in that initial proposal, on that same timeline, decided while the team still wants to run the experiment. Not scheduled separately, and not "revisited later." A meta-analysis of if-then plans found that deciding in advance [raises the odds you follow through](https://cancercontrol.cancer.gov/sites/default/files/2020-06/goal_intent_attain.pdf) by a medium-to-large effect. Annie Duke's version in *Quit* points the same mechanism at exits: deciding in advance is what makes the exit survive the moment you need it. One of our large rebrand efforts included timeline for deprecating the old branding fork that was hidden behind a feature flag from day one.  It was in the plan, so it happened.
-(wtf is "makes the exit survive the moment you need it".  slop!)
+The finish belongs in that initial proposal, on that same timeline, decided while the team still wants to run the experiment. Not scheduled separately, and not "revisited later." A meta-analysis of if-then plans found that deciding in advance [raises the odds you follow through](https://cancercontrol.cancer.gov/sites/default/files/2020-06/goal_intent_attain.pdf) by a medium-to-large effect. Annie Duke's version in *Quit* is kill criteria: decide what result means stop before you start, because in the moment you'll talk yourself out of it. Barry Staw found the same thing from the other side. People held personally responsible for a failing decision escalate their commitment to it, so the proposal also names who calls the stop, and it cannot be the person running the experiment. One of our large rebrands put removal of the old branding, hidden behind a feature flag from day one, on the timeline. It was in the plan, so it happened.
 
 When the finish turns out to cost more than you planned, renegotiate rather than absorb. Either finish it in a way that settles the question for good, or go ask for what finishing it requires. Absorbing it quietly is how it ends up in the backlog.
 
-Don't forget to reach for the lever of shortening the experiment itself.  Shorten the experiment, not the finish. Shorter experiments lead to running more experiements, and since most experiments will fail, the more you run, the better your odds at success.  As a side note, this increased quantity also has a direct impact on increasing quality as well: 
+The lever nobody reaches for is the experiment itself. Shorten the experiment, not the finish. A short experiment gets finished, and a finished experiment is the one you learn from. The best argument I know for it is a ceramics class, where the teacher graded half the students on the quantity of pots produced and half on the quality of a single pot:
 
 > Well, came grading time and a curious fact emerged: **the works of highest quality were all produced by the group being graded for quantity.** It seems that while the "quantity" group was busily churning out piles of work — and learning from their mistakes — the "quality" group had sat theorizing about perfection, and in the end had little more to show for their efforts than grandiose theories and a pile of dead clay.
 > — David Bayles and Ted Orland, *Art & Fear*
-(this quote is awesome, but is about quality through quantity/speed.  does it really fit?)
-
-
-(aborting and bailing.  do they fit? and why two paragraphs...should be very short)
-Sometimes you abort. The answer arrives early, or the ground shifts, and you pull up before contact. Stop there without a finish and you still get an outcome, one nobody chose: the flag still in the code, two implementations still running, a system built around a question that never got resolved either way. The stop call cannot belong to the person running the experiment. Barry Staw's "Knee Deep in the Big Muddy" found that people held personally responsible for a failing decision escalate their commitment to it more than people who inherited the same mess. The person who ran the experiment is the worst available judge of when to kill it, and the more of their identity is riding on the result, the worse that judgment gets.
-
-Bailing out earns nothing on its own, either. X, Alphabet's moonshot lab, [pays bonuses to teams that kill their own projects](https://www.ted.com/talks/astro_teller_the_unexpected_benefit_of_celebrating_failure). Cool-down weeks between cycles, where nothing is scheduled, are the same admission in friendlier clothes. Both fund the finish on a swing that never reached the ball.
 
 Every team already writes down what "done" means, and the finish is not in the definition. The Scrum Guide defines Done as "a formal description of the state of the Increment when it meets the quality measures required for the product," and adds that "the moment a Product Backlog item meets the Definition of Done, an [Increment is born](https://scrumguides.org/scrum-guide.html)." Quality measures on the thing built. Nothing about business outcome, nothing about removal. My own organization made the same move from the other direction when it scored verification outside the work.
 
