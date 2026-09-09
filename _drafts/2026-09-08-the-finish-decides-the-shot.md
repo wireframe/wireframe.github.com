@@ -40,7 +40,7 @@ The follow-through for a miss and for a success are different jobs. If we're rig
 
 The success case gets done because it's delivering value, so the follow-up work has permission to continue. The failure case is the common path, and it is also the case where **the entire value of the experiment is sitting in the finish.** A failed experiment delivers value only if somebody closes it out. Do it well and you leave behind the abstraction that makes the next experiment faster, plus what you learned about the market, the technology and the approach, distributed back into the organization instead of filed in a post-mortem nobody opens. I've called that [composting]({% post_url 2026-02-05-the-greenhouse-innovation-incubator %}).
 
-Skip it and the complexity stays. Every experiment adds complexity. Multiple branches of logic, two implementations of the same thing, a flag still sitting in the code. Until the follow-through completes, the system is more complicated than the business needs it to be.
+Skip it and the experiment's complexity stays: multiple branches of logic, two implementations of the same thing, a flag still sitting in the code. Until the follow-through completes, the system is more complicated than the business needs it to be.
 
 ## Why the Finish Goes Missing
 
