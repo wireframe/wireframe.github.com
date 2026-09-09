@@ -83,11 +83,7 @@ Most teams get partial credit on the first two and avoid the third altogether. C
 
 When the finish turns out to cost more than you planned, **renegotiate rather than absorb.** Either finish it in a way that settles the question for good, or go ask for what finishing it requires. Absorbing it quietly is how it ends up in the backlog.
 
-Every team already writes down what "done" means, and the finish is not in the definition. The Scrum Guide defines Done as "a formal description of the state of the Increment when it meets the quality measures required for the product," and adds that "the moment a Product Backlog item meets the Definition of Done, an [Increment is born](https://scrumguides.org/scrum-guide.html)." Quality measures on the thing built. Nothing about business outcome, nothing about removal. My own organization made the same move from the other direction when it scored verification outside the work.
-
-Engineering is a profession of creating *and* reducing complexity, and the job is keeping a system only as complicated as the business it runs. **Done is when the system's complexity is back in line with what the business actually needs**, whichever way the answer came out.
-
-**Go open your team's definition of done.** Count how many of its lines describe the thing you built, and how many describe the state you're leaving the system in.
+Every team already writes down what "done" means, and the finish is not in the definition. The Scrum Guide defines Done as "a formal description of the state of the Increment when it meets the [quality measures required for the product](https://scrumguides.org/scrum-guide.html)." Quality measures on the thing built. Nothing about the business outcome, nothing about removal. Engineering is the profession of creating *and* reducing complexity, so **done is when the system's complexity is back in line with what the business actually needs**, whichever way the answer came out. Go open your team's definition of done and count how many of its lines describe the thing you built, and how many describe the state you're leaving the system in.
 
 Then take more swings. The lever nobody reaches for is the experiment itself: **shorten the experiment, not the finish.** A short experiment gets finished, and a finished experiment is the one you learn from. The best argument I know for it comes from a ceramics class, where the teacher graded half the students on the quantity of pots produced and half on the quality of a single pot:
 
