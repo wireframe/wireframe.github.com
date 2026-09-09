@@ -1,5 +1,9 @@
 ---
 title: "The Finish Decides the Shot"
+social: >
+  I woke up at 4am at a strategy offsite with a splinter in my brain.
+  Cycle time had improved every month. Ask anyone in a hallway and
+  nothing felt fast.
 featured_description: >
   Why the work after the experiment decides what the experiment was worth
 tags:
