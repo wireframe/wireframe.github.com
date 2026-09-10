@@ -1,5 +1,7 @@
 ---
 title: "A Hacker Renaissance"
+featured_description: >
+  Why a Saturday morning build now beats a $99-a-month SaaS subscription
 tags:
 - engineering
 - product-development

@@ -1,5 +1,7 @@
 ---
 title: "Engineering Your Remote Engineering Team"
+featured_description: >
+  Why remote culture is built from people, process, and systems, not proximity
 tags: 
   - engineering
   - remote-work
