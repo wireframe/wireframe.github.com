@@ -1,5 +1,7 @@
 ---
 title: "The Commit Cycle"
+featured_description: >
+  Why tighter feedback loops beat better ideas
 tags:
 - product-development
 - engineering
