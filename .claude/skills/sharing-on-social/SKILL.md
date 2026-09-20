@@ -86,7 +86,7 @@ Plus the blog's own voice: first person and active ("I've watched", not "organiz
 
 **Don't apply these** — they need multiple sentences or paragraphs and will misfire here: em-dash and tic counting (`:305`, `:250`, `:307`), adjacent-sentence restatement and self-contradiction (`:300`, `:309`), bolded-takeaway rules (`:299`), paragraph-closer rules (`:301`), the one-colon-per-paragraph cap (`:306`), citation-first openings (`:304`), and the before/after specific-noun count (`:308`).
 
-For the record: `writing-style` has no sentence-length rule and no short-form mode. "Vary sentence and paragraph length" is `CLAUDE.md` item 4, not the skill's, and it doesn't apply to a single short block either. That's why the applicable subset is spelled out here rather than invoking the skill wholesale.
+For the record: `writing-style` has no sentence-length rule and no short-form mode. "Vary sentence and paragraph length" is `AGENTS.md` item 4, not the skill's, and it doesn't apply to a single short block either. That's why the applicable subset is spelled out here rather than invoking the skill wholesale.
 
 ## Phase 3: Write It to Front Matter
 Read the post's existing front matter first, then edit. Front matter shapes vary across this blog (flush-left and indented tag lists, `tags:` with trailing whitespace, some posts with a blank line after the opening fence), so match what's already in the file rather than assuming a shape.
