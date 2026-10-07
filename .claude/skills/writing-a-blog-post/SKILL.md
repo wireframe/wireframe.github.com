@@ -120,9 +120,11 @@ So when a section is over budget, ask in this order:
 Never justify a placement with "it would put that section over budget." If the author says they aren't worried about the budget yet, they are telling you to solve flow first — do that and stop mentioning counts.
 
 ### Claim budget per section
-**Maximum 5 claims per section, applied as a trimming pass once the order is settled.**
+**About five distinct claims per section is the target. It is guidance for one consolidation pass, never a limit while the skeleton is still growing.**
 
-Going over almost always means one of two things, and it's worth diagnosing which:
+While material is still arriving (research, a practice the author just remembered, a source that turned up), the skeleton is supposed to get bigger. During that stretch: do not count statements, do not report counts in the chat, and do not write "section is now N statements" or "over budget" notes into the skeleton. A section at eight statements in Phase 2 is a section with material, and the only right response is to add the next one. The budget comes out exactly once, in a consolidation pass the author asks for or that opens Phase 3, after the order is settled. Flow and overlap notes are different: "this overlaps the statement in section 4" is a flow observation and belongs in the skeleton at any time.
+
+At that pass, a section well over the target almost always means one of two things, and it's worth diagnosing which:
 - **Two claims are the same claim** wearing different words. In practice this is the common case — a section that reached eight had "time-to-land is set by planning" and "planning and landing trade against each other" as separate bullets.
 - **The section is actually two sections**, or one section plus a catalog.
 
@@ -247,7 +249,8 @@ Run the `writing-style` skill as the final pass. When the user is happy: `bin/pr
 | Drafting prose before the outline is confirmed | Lock goal/theme/outline first — rewriting prose is expensive, changing an outline isn't |
 | A bone that describes the post instead of asserting something | Every top-level bullet is a sentence a reader would see. Notes get `📝 Note, not a claim:` |
 | Leading a claim with its framing ("Carried forward from section 2…") | Lead with the assertion; the connection is a child note |
-| More than 5 claims in a section | Hard cap. Two claims are the same claim, or it's two sections. Consolidate in the skeleton, not in prose |
+| Reporting statement counts, or writing "over budget" notes into the skeleton, while material is still arriving | The budget is a consolidation-pass tool. In Phase 2 a big section is material, not a problem. Add the statement and say nothing about the count |
+| Well over the target at the consolidation pass | Two claims are the same claim, or it's two sections. Merge in the skeleton, not in prose |
 | Parallel Claims and Evidence lists | Nest evidence under the statement it backs — it exposes evidence-heavy sections at a glance |
 | Calling an original assertion "unsourced," "still assertion," or "underdeveloped" | Sort it by type first. The author's own experience is the source; those words apply only to empirical claims |
 | Hunting a citation for something the author observed himself | Research does four jobs only: back an empirical claim, supply a counter-argument, provide a concrete instance, find prior art. Nothing else |
