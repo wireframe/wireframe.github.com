@@ -48,14 +48,19 @@ Work one section at a time. The skeleton is the artifact the user revises — no
     the controlling metaphor, confirmed title + why, vocabulary decisions
   Skeleton                (heading 2)
     <Section header>      (heading 3)
+      TLDR::              the section's job in one or two sentences; written first, revised last
       statement           (usually the author's own; most have no children)
         evidence          (only for empirical claims, instances, prior art)
       statement
+      📝 Rebuttals        strongest claim named, then the best objections and what each one did to the skeleton
       📝 Drafting notes for this section — not claims
   Appendix::              (heading 2)
-    Research — <topic>    verification trails, rejected sources, caveats
+    Origin                the author's pre-existing notes and source material for the post
+    Research — <topic>    only trails that more than one section footnotes, or that back no section yet
     v1 prose salvage      superseded drafts kept for their sentences
 ```
+
+**Research that belongs to one section lives in that section.** Either move it entirely under the statement it backs, or leave the source block where its entity lives (a book page, a person page) and block-ref it from the statement. Never park section-specific research in the Appendix with a prose pointer like "see the Appendix"; the author reviews sections, and a trail that is not under the statement is a trail that does not get read. The Appendix keeps three kinds of block only: the author's origin material, a trail that two or more sections footnote with `[*](((uid)))`, and research that turned up nothing a section can use yet. Verbatim passages from a book or article go on that work's page in the graph under the right chapter heading, in the `[[>]]` excerpt form, and the skeleton references them; moving a block keeps its uid, so existing references survive the move.
 
 ### Bones are claims, not commentary
 **Every top-level bullet under a section header must be a statement you want to land in the post.** If a reader would never see that sentence, it is not a bone.
@@ -101,6 +106,18 @@ The most valuable review pass is internal, not external. **Read each statement a
 A worked instance: one post asserted in section 1 that "success means paying for a migration, failure means removing what you built," then asserted three sections later that "a failed experiment needs more follow-through than a successful one." Migration is the bigger job. The post refuted itself across four sections and no amount of external sourcing would have surfaced it.
 
 **Research can overturn a statement rather than support it, and that outcome is a success.** When it does, rewrite the statement to what survives and record the reversal in place — what was claimed, what the evidence actually showed, and what the corrected version is. Do not quietly delete; a silent cut gets re-derived three sessions later.
+
+### Every section starts with a TLDR and ends with a red-team
+
+**Write the section's `TLDR::` before its first statement.** One or two sentences: what this section has to leave the reader believing, and what it hands the next section. It is the test every statement in the section is checked against — a statement that does not serve the TLDR is in the wrong section or is not a bone. Revise it last, after the statements settle, so it describes the section that exists rather than the one that was planned.
+
+**Red-team every section before research on it is called done.** A section that only accumulates supporting material gets weaker as it grows, because every claim arrives at the strength the author first said it. The pass has a fixed shape, recorded in a `📝 Rebuttals` block at the end of the section:
+
+1. **Name the strongest claim.** The one sentence a reader would quote, or the one the section exists to land. If you cannot pick it, the section has no spine yet.
+2. **List the best objections a smart skeptic would raise.** Two to four. Write each as the skeptic would say it, at full strength. Weak rebuttals are worse than none, because they make the section look tested when it is not. Look specifically for: the claim that is true of some cases stated as true of all ("every metric," "never a ship date"); the tool being blamed for a misuse ("DORA excludes discovery" when DORA never claimed to measure it); the thing the reader will do instead that the section has not addressed ("so what do I tell finance?"); and the author's own earlier statement that cuts the other way.
+3. **Record what each objection did.** Every rebuttal resolves one of four ways, and the block says which: it **narrowed** a claim (write the narrower version), it became a **concession** statement in the section, it was **dismissed** with a one-line reason, or it **moved** material to the section that can answer it. "Noted" is not a resolution.
+
+The objections that survive this pass are the ones the post concedes in prose, which is what `AGENTS.md` means by conceding the strongest counter-argument before answering it. Run the pass on the author's original assertions as well as the sourced claims; it is the one review that applies to both.
 
 ### Group by job when the inventory gets big
 
@@ -252,6 +269,12 @@ Run the `writing-style` skill as the final pass. When the user is happy: `bin/pr
 | Reporting statement counts, or writing "over budget" notes into the skeleton, while material is still arriving | The budget is a consolidation-pass tool. In Phase 2 a big section is material, not a problem. Add the statement and say nothing about the count |
 | Well over the target at the consolidation pass | Two claims are the same claim, or it's two sections. Merge in the skeleton, not in prose |
 | Parallel Claims and Evidence lists | Nest evidence under the statement it backs — it exposes evidence-heavy sections at a glance |
+| Section-specific research parked in the Appendix behind a "see the Appendix" pointer | Move it under the statement, or block-ref the source where it lives. The Appendix holds origin material, trails that several sections footnote, and dead ends only |
+| Verbatim book or article passages kept on the blog project page | They live once, on that work's page in the graph under its chapter heading in `[[>]]` form; the skeleton references them. Move rather than copy, so references survive |
+| A section with statements but no `TLDR::` | Write the TLDR first. It is what every statement is checked against, and the author's first read of the section |
+| Calling a section researched when nobody has argued against it | Run the red-team: strongest claim, the skeptic's best objections at full strength, and what each one did to the skeleton. Supporting material alone makes a section weaker as it grows |
+| A rebuttal recorded as "noted" | Every objection narrows a claim, becomes a concession, gets dismissed with a reason, or moves material. Pick one |
+| Stamping a block with the date the agent did the work ("Verified [[date]]", "Decided [[date]]", "Rebuttals, run [[date]]") | Never. Roam timestamps every block already, and each date ref drops a backlink onto the author's daily note. Write the fact and leave the when out. A date belongs in a block only when it is part of the fact (a publication date, a meeting, a deadline) |
 | Calling an original assertion "unsourced," "still assertion," or "underdeveloped" | Sort it by type first. The author's own experience is the source; those words apply only to empirical claims |
 | Hunting a citation for something the author observed himself | Research does four jobs only: back an empirical claim, supply a counter-argument, provide a concrete instance, find prior art. Nothing else |
 | Treating found prior art as a demotion | It's a promotion — the post stands on the source and states a narrower extension. Say so that way |
