@@ -15,15 +15,13 @@ We give a number anyway. Someone needs it for a roadmap, a board update, or a cu
 
 That number is wrong by more than any padding covers. Steve McConnell's [cone of uncertainty](https://www.construx.com/wp-content/uploads/2019/02/CxWhitePaper_ConeOfUncertainty.pdf) puts an estimate made at the initial-concept stage off by as much as 4x in either direction, so a six-month guess covers everything from six weeks to two years. It's a guess at a project we haven't defined yet.
 
-That **guesstimate** becomes the commitment anyway. People operate on commitments. Once a date is said out loud, the company plans around it, and the team works backwards from it, cutting whatever has to go to make the number. My own team's tenets say ["we do what we say, deliver on our commitments, and own our time"](https://build.betterup.com/extreme-ownership-at-betterup/), and a team that believes that will hit a made-up date as faithfully as a real one.
-
-Working backwards from a guess has a predictable result. Open questions get quick answers, experiments get skipped, and the team starts building before it knows what to build, because the calendar says it's time. The date gets hit, or close to it, and what ships is the first idea we had, because there was never time to find out whether it was the right one.
+That **guesstimate** becomes the commitment anyway. People operate on commitments. Once a date is said out loud, the company plans around it, and the team works backwards from it, cutting whatever has to go to make the number. Open questions get quick answers, experiments get skipped, and the team starts building before it knows what to build, because the calendar says it's time. The date gets hit, or close to it, and what ships is the first idea we had, because there was never time to find out whether it was the right one.
 
 The honest answer to "how long?" is "I'll tell you once we can see the rest of the work." Every project reaches a point where that answer becomes possible, where the big questions have answers and the remaining steps come into view. I call it **The Summit of Certainty**.
 
 ## Up One Side, Down the Other
 
-Basecamp drew the picture I use for this: work is a hill. On the uphill side, you're figuring out what to build. On the downhill side, you're building it. Every step up adds certainty, and at the top you can see the rest of the route. Here's how I drew it for my team in 2018:
+Basecamp drew the picture I use for this: work is a hill. On the uphill side, you're figuring out what to build. On the downhill side, you're building it. Every step up adds certainty, and at the top you can see the rest of the route. Here's how I drew it for my team:
 
 ![A hand-drawn hill. Climbers on the uphill side have question marks over their heads, under the label Uncertainty. One stands at the top, labeled Summit of Certainty. One walks down the other side, under the label Certainty.](/images/2026-10-14-summit-hill.png)
 
@@ -32,7 +30,7 @@ Ryan Singer wrote the hill up in *Shape Up*:
 > From this vantage point, you can see all of the steps that are left. It's even fair to estimate how long all the work will take.
 > — Ryan Singer, *[Shape Up](https://basecamp.com/shapeup/3.4-chapter-13)*
 
-The chart the estimation books use for this is McConnell's cone of uncertainty: wide at the start, narrowing smoothly toward delivery. Drawn as a smooth funnel, nothing on it tells a team when the kind of work changes. The hill has a top. (McConnell would object to the smooth version too. In his telling the cone narrows only when the team does the work to narrow it.)
+McConnell's cone of uncertainty puts numbers on the climb. An estimate gets more accurate as the unknowns get resolved, and in a new project the unknowns are the discovery questions. Answer them and the range narrows. Skip them and that 4x range never closes.
 
 The two sides feel different to walk. Uphill there's no visible trail. It works like fog of war in a strategy game: the map lifts only where you've already walked, so the climb is a series of choices about where to look next. Some switchbacks double back over ground you already covered, and some of the wandering turns out to have been the path all along. You only see that looking back. Downhill the path still winds, but it's marked, and the work is following it.
 
@@ -70,27 +68,25 @@ Discovery is unknown by definition, and a business can't run on an open-ended un
 > An appetite is completely different from an estimate. Estimates start with a design and end with a number. Appetites start with a number and end with a design.
 > — Ryan Singer, *[Shape Up](https://basecamp.com/shapeup/1.2-chapter-03)*
 
-An appetite for the climb gives both. We set the resourcing and the timeline we're willing to invest in an answer, and a date on which we decide whether to build, change course, or stop. That's the first honest answer to "how long is it going to take?": we'll spend this long finding out, and we'll tell you the rest from the top. If the team isn't over the top when the date arrives, the kill switch is built in: the money goes to a different bet. Mountaineers call that a turnaround time, the hour they start back down no matter how close the top looks, and they set it before they leave camp. (My team's tenets call the same move renegotiation: ["when the unexpected arises, we revise our plans and re-negotiate with our stakeholders."](https://build.betterup.com/extreme-ownership-at-betterup/) The decide-by date puts it on the calendar before anyone needs it.) Once the team is over the top, set the date to ship by.
+An appetite for the climb gives both. We set the resourcing and the timeline we're willing to invest in an answer, and a date on which we decide whether to build, change course, or stop. That's the first honest answer to "how long is it going to take?": we'll spend this long finding out, and we'll tell you the rest from the top. If the team isn't over the top when the date arrives, the kill switch is built in: the money goes to a different bet. Mountaineers call that a turnaround time, the hour they start back down no matter how close the top looks, and they set it before they leave camp. The date can move, but only one way: the team goes back to the people who funded the climb, shows them what it has learned, and asks for more. An appetite renegotiated in the open is still an appetite. One that quietly slips is an estimate again.
 
 The climb is worth paying for because most ideas fail. Cagan's first inconvenient truth is that "at least half of our ideas are just not going to work," [the same number I built The Commit Cycle around]({% post_url 2024-04-13-the-commit-cycle %}). The climb is where you find out which half, for the price of a prototype instead of a product.
 
 The strongest objection to funding discovery at all is that some discovery never ends in a decision. I've written about [the innovation lab that becomes a place where activity masquerades as progress]({% post_url 2026-02-05-the-greenhouse-innovation-incubator %}). The decide-by date is the difference: on that day the team commits, changes course, or stops, and the lab never has a day like that.
 
-The delivery playbook still works. It starts at the top. Past that point estimates hold, velocity means something, lead time measures the work that started after the top, and "how long is it going to take?" finally has an answer.
+The delivery playbook still works. It starts at the top. Past that point estimates hold, a ship date can be promised, velocity means something, lead time measures the work that started after the top, and "how long is it going to take?" finally has an answer.
 
 ## Go Alpine
 
-How long the climb takes depends on the project. A platform migration is clear early and arduous after: everyone knows what done looks like in the first week. A new product can spend most of its life on the climb. In 2018 I drew two versions of the curve for my team. In the worst case the climb is long and shallow, with a late turning point. In the best case it's steep and early.
+How long the hike takes depends on the project. Mountaineers call the fast way up alpine style: a small team with light packs, moving quickly, where expedition style brings a large team, fixed ropes, and stocked camps. Discovery has an alpine style too.
+
+Some projects have clarity of the work to be done early (i.e. a platform migration), and some products spend the majority of the time ascending the hill.  There are choices that influence the trajectory of that slope. In the worst case the climb is long and shallow with a late turning point. In the best case it's steep and early, because the team did its discovery up front. Skip it and the unknowns ride along to the ship date, what McConnell calls ["a Cloud that persists to the end of the project."](https://www.construx.com/wp-content/uploads/2019/02/CxWhitePaper_ConeOfUncertainty.pdf) 
 
 ![Two curves plotted over time. Worst case: a long, shallow climb with a sharp peak near the end. Best case: a steep climb to an early peak, then a long, gradual descent.](/images/2026-10-14-worst-vs-best.png)
 
-Part of the slope is a choice. McConnell says the same about the cone: ["The Cone narrows only as you make decisions that eliminate variability."](https://www.construx.com/wp-content/uploads/2019/02/CxWhitePaper_ConeOfUncertainty.pdf) Skip that work and the uncertainty becomes "a Cloud that persists to the end of the project." The work that narrows it is discovery, and how much of it a team does sets the slope. Not every part of the climb compresses, though. A team can shorten the work but not the calendar: retention shows up over weeks of real use, and a regulator answers on its own schedule. Everything else is ours to speed up.
-
-Mountaineers have a name for the fast way up. Expedition style uses a large team, fixed ropes, and stocked camps. Alpine style uses a small team with light packs, moving quickly. Discovery has an alpine style too.
-
 Start by listing the questions, then climb the hardest face first. Hal Gregersen's [question burst](https://hbr.org/2018/03/better-brainstorming) is the fastest way I know to get the list, because it bans answers until the questions are on the table. Then sort the list against Cagan's four risks: which unanswered question kills the project if the answer is no? That one gets the first prototype.
 
-Build something. Singer's diagnosis of a team stuck on the climb is that ["somebody did the uphill work with their head instead of their hands."](https://basecamp.com/shapeup/3.4-chapter-13) A working prototype answers more than a plan, and Cagan's rule of thumb in [Inspired](https://www.svpg.com/books/inspired-how-to-create-tech-products-customers-love-2nd-edition/) is that testing an idea should cost at least an order of magnitude less than building the product.
+Build something. Singer's diagnosis of a team stuck on the climb is that ["somebody did the uphill work with their head instead of their hands."](https://basecamp.com/shapeup/3.4-chapter-13) A working prototype answers more than a plan. Build it cheap, though. Cagan's rule of thumb in [Inspired](https://www.svpg.com/books/inspired-how-to-create-tech-products-customers-love-2nd-edition/) is that testing an idea should cost at least an order of magnitude less than building it, and the gap is the point: a prototype that costs as much as the product is the product, built before anyone knows it's the right one.
 
 AI is this decade's accelerator for the climb. [Every week another crazy idea turns into semi-usable software]({% post_url 2025-08-25-hacker-renaissance %}), and a prototype that takes hours answers feasibility and usability for almost nothing. It leaves value and viability exactly where they were, because no model can decide to buy your product.
 
