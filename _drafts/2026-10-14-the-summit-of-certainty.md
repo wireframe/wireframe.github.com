@@ -44,11 +44,11 @@ Discovery means carrying four questions up the hill:
 3. Can we build it?
 4. Does it work for the business?
 
-These are [Marty Cagan's four big risks](https://www.svpg.com/four-big-risks/) (value, usability, feasibility, and viability), phrased the way a team asks them on the way up. The summit is where you can answer all four. Answered doesn't mean *proven*, and I encourage being at the summit once you have ~80% of the answers, which generally aligns with [Jeff Bezo's classic guidance](https://www.aboutamazon.com/news/company-news/2016-letter-to-shareholders).
+These are [Marty Cagan's four big risks](https://www.svpg.com/four-big-risks/) (value, usability, feasibility, and viability), phrased the way a team asks them on the way up. The summit is where you can answer all four. Answered doesn't mean *proven*. I call it the summit at about 80 percent sure, which lines up with [Jeff Bezos's rule of deciding with "somewhere around 70% of the information you wish you had."](https://www.aboutamazon.com/news/company-news/2016-letter-to-shareholders)
 
-Feasibility can be answered at a whiteboard and usability in a hallway test, but value is the most unknown of the four.  Value can only be answered by real customers choosing to use the thing, on their schedule. That makes a demo a **false summit**. From below it looks like the top: the prototype works and the room applauds. But a demo has answered whether we can build it, and maybe whether people can use it. Whether customers will choose it is still open, and there's more hill behind the crest.
+Feasibility can be answered at a whiteboard and usability in a hallway test, but value is the most unknown of the four. Value can only be answered by real customers choosing to use the thing, on their schedule. That makes a demo a **false summit**. From below it looks like the top: the prototype works and the room applauds. But a demo has answered whether we can build it, and maybe whether people can use it. Whether customers will choose it is still open, and there's more hill behind the crest.
 
-Even a prototype in front of real users, which is the best value test there is and worth running as one, can lead to a misread trail: "Isn't it already done?" Reaching the top is not the end of the hike. A prototype is something you can demo. A product is something you can run the business on, and turning one into the other is the whole second half.
+Even a prototype in front of real users, which is the best value test there is and worth running as one, can lead to a misread trail marker: "Isn't it already done?" Reaching the top is not the end of the hike. A prototype is something you can demo. A product is something you can run the business on, and turning one into the other is the whole second half.
 
 ## Hidden Below the Treeline
 
@@ -63,7 +63,7 @@ Discovery is unknown by definition, and a business can't run on an open-ended un
 > An appetite is completely different from an estimate. Estimates start with a design and end with a number. Appetites start with a number and end with a design.
 > — Ryan Singer, *[Shape Up](https://basecamp.com/shapeup/1.2-chapter-03)*
 
-An appetite for the climb gives both. We set the resourcing and timeline we're willing to invest in an answer, and a **drop-dead date** on which we decide whether to build, change course, or stop. That's the first honest answer to "how long?": this long to find out, the rest from the top. If the team isn't over the top by then, the kill switch fires and the money goes to a different bet. Mountaineers call it a turnaround time, the hour they start down no matter how close the top looks. It also answers the strongest objection to funding discovery, where [the innovation lab activity masquerades as progress and never ends in a decision]({% post_url 2026-02-05-the-greenhouse-innovation-incubator %}). Every project has a day when it must commit, change course, or stop.
+An appetite for the climb gives both. We set the resourcing and timeline we're willing to invest in an answer, and a **drop-dead date** on which we decide whether to build, change course, or stop. That's the first honest answer to "how long?": this long to find out, the rest from the top. If the team isn't over the top by then, the kill switch fires and the money goes to a different bet. Mountaineers call it a turnaround time, the hour they start down no matter how close the top looks. It also answers the strongest objection to funding discovery at all: that it turns into [an innovation lab where activity masquerades as progress and nothing ever ends in a decision]({% post_url 2026-02-05-the-greenhouse-innovation-incubator %}). With a drop-dead date, every climb has a day when it must commit, change course, or stop.
 
 The delivery playbook still works. It starts at the top. Past that point estimates hold, a ship date can be promised, velocity means something, lead time measures the work that started after the top, and "how long is it going to take?" finally has an answer.
 
@@ -90,6 +90,6 @@ For your biggest project right now:
 
 1. **Stake the hill.** Ask everyone on the team to mark where it sits on the hill, then compare the marks. Basecamp has the people doing the work place the dots themselves, and the spread between them is the first thing worth talking about.
 2. **Reset your discovery appetite.** If it's still climbing, give it a budget and a date to decide by, and say both out loud to the team and to the company.
-3. **Climb light.**  List the questions, prototype the scariest one first, and leave the downhill work for the downhill.
+3. **Climb light.** List the questions, prototype the scariest one first, and leave the downhill work for the downhill.
 
 Climb before you commit.
