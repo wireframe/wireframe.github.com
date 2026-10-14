@@ -92,7 +92,7 @@ AI is this decade's accelerator for the climb. [Every week another crazy idea tu
 
 Leave the downhill work for the downhill. The hill sorts work by how clear it is, not by how important it is. Non-functional requirements, localization, error handling, accessibility, and performance all matter, all can be specified on day one, and all can wait until after the top. Localizing a feature that dies in discovery is pure waste. Security is the exception, and I never defer it.
 
-> It's better to get a few critical scopes over the top early in the project and leave the screw-tightening for late.
+> It's better to get a few critical scopes over the top early in the project and leave the screw-tightening for later.
 > — Ryan Singer, *[Shape Up](https://basecamp.com/shapeup/3.4-chapter-13)*
 
 ## Pack for the Full Hike
