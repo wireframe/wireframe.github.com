@@ -52,9 +52,9 @@ Even a prototype in front of real users, which is the best value test there is a
 
 ## Hidden Below the Treeline
 
-Most of the climb is invisible. A week of discovery produces customer interviews, a throwaway prototype, and two approaches ruled out, and none of that appears in a status report as progress. There's no upfront backlog to burn down, because nobody knows the work yet. The **discovery backlog** is a list of open questions, and answering one often adds two. A dead end only counts as progress in hindsight, once it's clear which path was the route.
+Most of the climb is invisible. A week of discovery produces customer interviews, a throwaway prototype, and two approaches ruled out, and none of it shows up in a status report. There's no upfront backlog to burn down, because nobody knows the work yet. The **discovery backlog** is a list of open questions, and answering one often adds two.
 
-Invisible work doesn't get funded. A budget line needs something to point at, and by default the climb has nothing to show until it's nearly over. That default is a choice, and most teams make it without noticing. The work still has to be tracked, so **leave breadcrumbs** as you climb: write down each question you set out to answer, what you tried, what you learned, and which paths you ruled out. That log is the climb's version of a commit history. It's how the team sees how far it has come, and how the company sees the work it's paying for.
+**Leave breadcrumbs** as you climb: write down each question you set out to answer, what you tried, what you learned, and which paths you ruled out. Those notes are the learning. The next team to climb a hill like this one starts from them instead of from the trailhead, and the rest of the company can see the trail you blazed to get up.
 
 Discovery is unknown by definition, and a business can't run on an open-ended unknown. Finance needs a number to plan around, and the team needs to know what it has to work with. Shape Up has the right word for the answer:
 
