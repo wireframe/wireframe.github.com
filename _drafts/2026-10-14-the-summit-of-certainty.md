@@ -1,8 +1,11 @@
 ---
 title: "The Summit of Certainty"
+featured_description: >
+  Discovery and delivery are two different kinds of work. How to tell which side of the hill a project is on, and how to fund the climb.
 tags:
-- product development
 - engineering
+- product-development
+- leadership
 ---
 
 ## Are We There Yet?
@@ -78,9 +81,9 @@ The delivery playbook still works. It starts at the top. Past that point estimat
 
 ## Go Alpine
 
-How long the hike takes depends on the project. Mountaineers call the fast way up alpine style: a small team with light packs, moving quickly, where expedition style brings a large team, fixed ropes, and stocked camps. Discovery has an alpine style too.
+Mountaineers call the fast way up alpine style: a small team with light packs, moving quickly, where expedition style brings a large team, fixed ropes, and stocked camps. Discovery has an alpine style too.
 
-Some projects have clarity of the work to be done early (i.e. a platform migration), and some products spend the majority of the time ascending the hill.  There are choices that influence the trajectory of that slope. In the worst case the climb is long and shallow with a late turning point. In the best case it's steep and early, because the team did its discovery up front. Skip it and the unknowns ride along to the ship date, what McConnell calls ["a Cloud that persists to the end of the project."](https://www.construx.com/wp-content/uploads/2019/02/CxWhitePaper_ConeOfUncertainty.pdf) 
+How long the hike takes depends on the project. Some are clear early (a platform migration, say), and some spend most of their life on the climb. The team's choices change the slope. In the worst case the climb is long and shallow with a late turning point. In the best case it's steep and early, because the team did its discovery up front. Skip it and the unknowns ride along to the ship date, what McConnell calls ["a Cloud that persists to the end of the project."](https://www.construx.com/wp-content/uploads/2019/02/CxWhitePaper_ConeOfUncertainty.pdf)
 
 ![Two curves plotted over time. Worst case: a long, shallow climb with a sharp peak near the end. Best case: a steep climb to an early peak, then a long, gradual descent.](/images/2026-10-14-worst-vs-best.png)
 
