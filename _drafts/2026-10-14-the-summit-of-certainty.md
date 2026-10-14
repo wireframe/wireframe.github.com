@@ -15,7 +15,7 @@ We give a number anyway. Someone needs it for a roadmap, a board update, or a cu
 
 That number is wrong by more than any padding covers. Steve McConnell's [cone of uncertainty](https://www.construx.com/wp-content/uploads/2019/02/CxWhitePaper_ConeOfUncertainty.pdf) puts an estimate made at the initial-concept stage off by as much as 4x in either direction, so a six-month guess covers everything from six weeks to two years. It's a guess at a project we haven't defined yet.
 
-That number becomes the commitment anyway. Teams that take their word seriously make this worse. I wrote ["we do what we say, deliver on our commitments, and own our time"](https://build.betterup.com/extreme-ownership-at-betterup/) into my team's engineering tenets, and a team that keeps its word will keep a guessed word too. So we back into the date. Open questions get quick answers, experiments get skipped, and the team starts building before it knows what to build, because the calendar says it's time. The date gets hit, or close to it, and what ships is the first idea we had, because there was never time to find out whether it was the right one.
+That guesstimate becomes the commitment anyway. Teams that take their word seriously make this worse. I wrote ["we do what we say, deliver on our commitments, and own our time"](https://build.betterup.com/extreme-ownership-at-betterup/) into my team's engineering tenets, and a team that prides itself on hitting dates will hit this one too, whether or not the number was ever real. So we back into the date. Open questions get quick answers, experiments get skipped, and the team starts building before it knows what to build, because the calendar says it's time. The date gets hit, or close to it, and what ships is the first idea we had, because there was never time to find out whether it was the right one.
 
 The honest answer to "how long?" is "I'll tell you once we can see the rest of the work." Every project reaches a point where that answer becomes possible, where the big questions have answers and the remaining steps come into view. I call it **The Summit of Certainty**.
 
@@ -30,7 +30,7 @@ Ryan Singer wrote the hill up in *Shape Up*:
 > From this vantage point, you can see all of the steps that are left. It's even fair to estimate how long all the work will take.
 > — Ryan Singer, *[Shape Up](https://basecamp.com/shapeup/3.4-chapter-13)*
 
-Most of us learned McConnell's chart instead, the cone of uncertainty: wide at the start, narrowing smoothly toward delivery. Drawn that way, nothing on it tells a team when the kind of work changes. The hill has a top. (McConnell would object to the smooth version too. In his telling the cone narrows only when the team does the work to narrow it.)
+The chart the estimation books use for this is McConnell's cone of uncertainty: wide at the start, narrowing smoothly toward delivery. I'd never seen it in my career until I went looking for prior art for this post, and it wouldn't have helped much if I had. Drawn as a smooth funnel, nothing on it tells a team when the kind of work changes. The hill has a top. (McConnell would object to the smooth version too. In his telling the cone narrows only when the team does the work to narrow it.)
 
 The two sides feel different to walk. Uphill there's no visible trail. It works like fog of war in a strategy game: the map lifts only where you've already walked, so the climb is a series of choices about where to look next. Some switchbacks double back over ground you already covered, and some of the wandering turns out to have been the path all along. You only see that looking back. Downhill the path still winds, but it's marked, and the work is following it.
 
@@ -53,7 +53,7 @@ Answered doesn't mean proven. My gut check for the top is 70 to 80 percent sure:
 
 Value is the most unknown of the four. Feasibility can be answered at a whiteboard and usability in a hallway test. Value can only be answered by real customers choosing to use the thing, and that answer arrives on their schedule, not ours. That makes a demo a **false summit**. From below it looks like the top: the prototype works and the room applauds. A prototype demoed to stakeholders has answered whether we can build it, and maybe whether people can use it. Whether customers will choose it is still open, and there's more hill behind the crest. A prototype is something you can demo. A product is something you can run the business on.
 
-Prototypes ship now, so the question has changed. Once a prototype is live, what I hear is "Isn't it already done?" A live prototype in front of a small group is the best value test there is, and it's worth running under that name. But reaching the top is not the end of the hike. The downhill, turning a prototype into a product, is the whole second half, and nobody has walked it yet.
+A live prototype raises a different question. Once it's in front of users, what I hear is "Isn't it already done?" A live prototype in front of a small group is the best value test there is, and it's worth running under that name. But reaching the top is not the end of the hike. The downhill, turning a prototype into a product, is the whole second half, and nobody has walked it yet.
 
 The dashboard can't tell the difference. A live prototype is committed and deployed, so it reads the same as a finished product, and the weeks of climbing behind it never showed up on any chart.
 
@@ -61,16 +61,16 @@ The dashboard can't tell the difference. A live prototype is committed and deplo
 
 Most of the climb is invisible. A week of discovery produces customer interviews, a throwaway prototype, and two approaches ruled out, and none of that appears in a status report as progress. The task list can't count it, because on the climb the list is still growing as the team learns. The commit log can't count it either: DORA's lead time starts when a change is ["committed to version control,"](https://dora.dev/guides/dora-metrics-four-keys/) so everything before the first commit sits outside the metric by definition. And a dead end only counts as progress in hindsight, once it's clear which path was the route. These are good delivery metrics. The mistake is running them as the only instruments.
 
-Invisible work doesn't get funded. A budget line needs something to point at, and the climb has nothing to show until it's nearly over.
+Invisible work doesn't get funded. A budget line needs something to point at, and by default the climb has nothing to show until it's nearly over. That default is a choice, and most teams make it without noticing. Leave breadcrumbs as you climb: write down each question you set out to answer, what you tried, what you learned, and which paths you ruled out. A discovery log is the climb's version of a commit history. It's how the team sees how far it has come, and how the company sees the work it's paying for.
 
-The fix is to fund the climb on purpose, with a budget and a date to decide by. Shape Up calls the budget an appetite:
+The funding fix is an appetite for the climb. Shape Up has the right word:
 
 > An appetite is completely different from an estimate. Estimates start with a design and end with a number. Appetites start with a number and end with a design.
 > — Ryan Singer, *[Shape Up](https://basecamp.com/shapeup/1.2-chapter-03)*
 
-Basecamp sets an appetite for building. I set one for the climb itself, and it's the first honest answer to "how long is it going to take?" We don't know how long the product will take. We do know how long we're willing to spend finding out: six weeks, two engineers, and on that date we decide whether to build, change course, or stop. The appetite tells the team what the company is willing to invest in an answer, and it tells the company when it gets one. A business can't run on open-ended discovery, and with an appetite it doesn't have to. A decide-by date is a date finance can plan on, and if the team isn't over the top when it arrives, the kill switch is already built in: the money goes to a different bet.
+Basecamp sets an appetite for building a feature. I set one for the climb itself: six weeks, two engineers, and a date on which we decide whether to build, change course, or stop. That's the first honest answer to "how long is it going to take?" We don't know how long the product will take, but we do know how long we're willing to spend finding out. The appetite tells the team what the company will invest in an answer, and it tells the company when it gets one. A business can't run on open-ended discovery, and with an appetite it doesn't have to. A decide-by date is a date finance can plan on, and if the team isn't over the top when it arrives, the kill switch is built in: the money goes to a different bet. Mountaineers call that a turnaround time, the hour they start back down no matter how close the top looks, and they set it before they leave camp.
 
-The same tenets that make a team keep a guessed date also say ["when the unexpected arises, we revise our plans and re-negotiate with our stakeholders,"](https://build.betterup.com/extreme-ownership-at-betterup/) and a decide-by date puts that renegotiation on the calendar instead of leaving it to whoever notices first. Once the team is over the top, set the date to ship by.
+The same tenets that make a team hit a made-up date also say ["when the unexpected arises, we revise our plans and re-negotiate with our stakeholders,"](https://build.betterup.com/extreme-ownership-at-betterup/) and a decide-by date puts that renegotiation on the calendar instead of leaving it to whoever notices first. Once the team is over the top, set the date to ship by.
 
 The climb is worth paying for because most ideas fail. Cagan's first inconvenient truth is that "at least half of our ideas are just not going to work," [the same number I built The Commit Cycle around]({% post_url 2024-04-13-the-commit-cycle %}). The climb is where you find out which half, for the price of a prototype instead of a product.
 
@@ -107,4 +107,4 @@ For your biggest project right now:
 2. If it's still climbing, give it a budget and a date to decide by, and say both out loud to the team and to the company.
 3. Climb light: list the questions, prototype the scariest one first, and leave the downhill work for the downhill.
 
-Mountaineers set a turnaround time before they leave camp, the hour they start back down no matter how close the top looks. A decide-by date is the same promise. Have you set one for your biggest climb?
+Climb before you commit.
