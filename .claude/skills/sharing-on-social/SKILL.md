@@ -33,6 +33,8 @@ Offer **three candidates taking genuinely different angles**:
 2. **A concrete scene** — the opening image, compressed
 3. **A question** — the thing the post leaves the reader arguing with
 
+**Test the claim candidate against the reader who hasn't read the post.** A claim only works as a hook if the reader already recognizes the situation it describes. "Most teams I've watched manage discovery with the delivery playbook" is the post's thesis and it fell flat, because most readers don't run discovery at all, so there's nothing for them to recognize or dispute. When the contested claim depends on the reader already doing the thing the post argues for, lead the claim candidate with the symptom instead (the question everyone has been asked, the meeting everyone has sat in), or let the scene carry the hook.
+
 One text per candidate, pasted identically into both platforms. No per-platform variants, no hashtags, no @-mentions, no "new post 👇".
 
 **Budget: 280 characters for the whole assembled block**, counting the URL at its literal length plus the two newlines before it. On this site a URL is 39 + slug length — 43 to 86 characters across the existing posts — so the prose gets `280 - 2 - URL`. Compute the ceiling against the actual post's URL, not the midpoint.
