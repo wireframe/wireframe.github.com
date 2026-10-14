@@ -1,5 +1,9 @@
 ---
 title: "The Summit of Certainty"
+social: >
+  "How long is it going to take?" gets asked before anyone has written a
+  line of code. For something new, the honest answer is "I'll tell you once
+  we can see the rest of the work."
 featured_description: >
   Discovery and delivery are two different kinds of work. How to tell which side of the hill a project is on, and how to fund the climb.
 tags:
