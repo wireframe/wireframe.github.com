@@ -77,7 +77,7 @@ How long the hike takes depends on the project. Some are clear early (a platform
 
 **Start by listing the questions**, then climb the hardest face first. Hal Gregersen's [question burst](https://hbr.org/2018/03/better-brainstorming) is the fastest way I know to get the list, because it bans answers until the questions are on the table. Then sort the list against Cagan's four risks: which unanswered question kills the project if the answer is no? That one gets the first prototype.
 
-**Build something**. Singer's diagnosis of a team stuck on the climb is that ["somebody did the uphill work with their head instead of their hands."](https://basecamp.com/shapeup/3.4-chapter-13) A working prototype answers more than a plan. Build it cheap, though. Cagan's rule of thumb in [Inspired](https://www.svpg.com/books/inspired-how-to-create-tech-products-customers-love-2nd-edition/) is that testing an idea should cost at least an order of magnitude less than building it, and the gap is the point: a prototype that costs as much as the product *is* the product, built before anyone knows it's the right one. AI is this decade's accelerator for the climb. [Every week another crazy idea turns into semi-usable software]({% post_url 2025-08-25-hacker-renaissance %}), and a prototype that takes hours answers feasibility and usability for almost nothing. It leaves value and viability exactly where they were, because no model can decide to buy your product.
+**Build something**. Singer's diagnosis of a team stuck on the climb is that ["somebody did the uphill work with their head instead of their hands."](https://basecamp.com/shapeup/3.4-chapter-13) A working prototype answers more than a plan. AI is this decade's accelerator for the climb. [Every week another crazy idea turns into semi-usable software]({% post_url 2025-08-25-hacker-renaissance %}), and a prototype that takes hours answers feasibility and usability for almost nothing. It leaves value and viability exactly where they were, because no model can decide to buy your product.
 
 **Leave the downhill work for the downhill**. The hill sorts work by how clear it is, not by how important it is. Non-functional requirements, localization, error handling, accessibility, and performance all matter, all can be specified on day one, and all can wait until after the top. Localizing a feature that dies in discovery is pure waste. Security is the exception, and I never defer it.
 
@@ -89,7 +89,7 @@ How long the hike takes depends on the project. Some are clear early (a platform
 For your biggest project right now:
 
 1. **Stake the hill.** Ask everyone on the team to mark where it sits on the hill, then compare the marks. Basecamp has the people doing the work place the dots themselves, and the spread between them is the first thing worth talking about.
-2. **Reset your discovery appetite.** If it's still climbing, give it a budget and a date to decide by, and say both out loud to the team and to the company.
+2. **Set your discovery appetite.** If it's still climbing, give it a budget and a date to decide by, and say both out loud to the team and to the company.
 3. **Climb light.** List the questions, prototype the scariest one first, and leave the downhill work for the downhill.
 
 Climb before you commit.
