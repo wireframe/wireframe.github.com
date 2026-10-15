@@ -6,7 +6,7 @@ tags:
 - jroller
 ---
 
-I haven't been the biggest fan of JRoller, and now they've sunk to a new low, adding spam to my RSS feed. This comes at a time when JRoller might finally be getting some good press for [breaking 10,000 users](http://www.javalobby.org/java/forums/t59326.html).
+I haven't been the biggest fan of JRoller, and now they've sunk to a new low, adding spam to my RSS feed. This comes at a time when JRoller might finally be getting some good press for [breaking 10,000 users](https://web.archive.org/web/20060217123751/http://www.javalobby.org/java/forums/t59326.html).
 
 
 
