@@ -3,6 +3,7 @@
 title: "The 3 E's of Engineering"
 tags:
 - product-development
+- culture
 ---
 
 

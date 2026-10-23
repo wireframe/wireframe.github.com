@@ -6,6 +6,7 @@ tags:
 - engineering
 - leadership
 - architecture
+- culture
 ---
 
 ## Background

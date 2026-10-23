@@ -4,6 +4,7 @@ tags:
 - leadership
 - innerwork
 - no-shame-november
+- culture
 ---
 
 A long time ago, in a company far far away...I was an early developer at a __non__-tech company supporting internal business systems.

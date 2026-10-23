@@ -3,6 +3,7 @@ title: "My Innerwork Journey With Performance Reviews"
 tags:
 - leadership
 - innerwork
+- culture
 ---
 
 A year ago, during our performance review cycle, I struggled to complete a written evaluation in less than four hours.  Every single word I wrote was agonizingly written and rewritten as it felt like I was carving into a stone tablet of each person's "Permanent Record".  This year, I had __significantly__ more direct reports, and an upcoming work trip in Amsterdam overlapping when performance reviews were due.  I was feeling stressed to put it mildly.  

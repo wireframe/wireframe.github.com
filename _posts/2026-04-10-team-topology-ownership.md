@@ -4,6 +4,7 @@ tags:
 - engineering
 - team-topology
 - leadership
+- culture
 featured_description: >
   Why ownership clarity matters more than the perfect org chart
 ---

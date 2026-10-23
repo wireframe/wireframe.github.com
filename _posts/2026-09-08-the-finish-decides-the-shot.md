@@ -11,6 +11,7 @@ tags:
 - product-development
 - leadership
 - innovation
+- culture
 ---
 
 I woke up at 4am on the second morning of a technical strategy offsite with a splinter in my brain. We had spent months pushing on velocity. Cycle time was reviewed monthly at the executive level, and it was improving month over month. Ask anyone in a hallway, though, and nothing *felt* fast. Nobody was sprinting to learn from our customers.
