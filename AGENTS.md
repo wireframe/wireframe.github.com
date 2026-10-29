@@ -10,7 +10,7 @@ The habits that actually produce that voice:
 
 - **Open on a concrete scene, not a thesis.** A migration that went quiet, a weekend project, four agent sessions running at once. The idea arrives after the scene.
 - **First person, active, observed.** "I've watched," "I've never hired a programmer." Never "organizations have found."
-- **Link prior posts liberally**, using `{% post_url YYYY-MM-DD-slug %}`. When the prose points at one directly ("a year ago I wrote…"), the post's title is the anchor text.
+- **Link prior posts liberally**, using `{% post_url YYYY-MM-DD-slug %}`. Anchor text can be a topical reference (a named construct like "The Not Doing List") and does not need to be the post's title.
 - **Quote named sources as blockquotes**, with the book or article linked. Never "industry experts say."
 - **Concede the strongest counter-argument before answering it.** Stating it fairly is what makes the answer land.
 - **Say when something didn't work.** "The Crickets Award didn't stick" is the most credible sentence in that post.
